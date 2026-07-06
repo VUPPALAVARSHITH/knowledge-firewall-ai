@@ -1,0 +1,96 @@
+
+================================================================
+
+NovaTech Solutions Pvt. Ltd.
+
+ENTERPRISE SECURITY POLICY
+
+================================================================
+
+Policy ID          : RES-DAT-018
+Department         : Research
+Category           : Research_Data_Protection
+Security Domain    : Research Data Protection
+Classification     : Confidential
+Risk Level         : Critical
+Version            : 1.0
+Status             : Active
+
+Effective Date     : 2026-03-24
+Review Date        : 2027-03-24
+
+Owner Team         : Research Governance Team
+
+================================================================
+
+TITLE
+
+Research Governance Policy
+
+================================================================
+
+1. PURPOSE
+
+Support business operations.
+
+This policy establishes the standards and procedures to ensure the secure management of enterprise resources while maintaining compliance with organizational security requirements.
+
+================================================================
+
+2. SCOPE
+
+This policy applies to all employees, contractors, interns, consultants, third-party vendors, and any individual who has authorized access to NovaTech Solutions resources.
+
+================================================================
+
+3. DEFINITIONS
+
+- Enterprise Asset: Any digital or physical organizational resource.
+- Authorized User: A user approved to access enterprise systems.
+- Information Security Team: Team responsible for enforcing security policies.
+
+================================================================
+
+4. POLICY STATEMENTS
+
+1. Process Research Repository must maintain research integrity.
+2. Process Research Repository must follow access control policy.
+3. Process Research Repository must not be shared externally without approval.
+
+================================================================
+
+5. RESPONSIBILITIES
+
+- Employees must follow all security policies.
+- Managers must approve requests where applicable.
+- IT Team is responsible for policy implementation.
+- Security Team monitors policy compliance.
+
+================================================================
+
+6. EXCEPTIONS
+
+- Emergency requests require Security Operations Center approval.
+- Business-critical exceptions must be documented.
+
+================================================================
+
+7. COMPLIANCE
+
+- ISO 27001
+- NIST Cybersecurity Framework
+- Company Information Security Policy
+
+================================================================
+
+8. REVIEW CYCLE
+
+Every 12 months
+
+================================================================
+
+KEYWORDS
+
+data, finance, innovation, intellectual property, prototype, records, research, retention, storage
+
+================================================================

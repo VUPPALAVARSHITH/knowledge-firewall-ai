@@ -1,0 +1,96 @@
+
+================================================================
+
+NovaTech Solutions Pvt. Ltd.
+
+ENTERPRISE SECURITY POLICY
+
+================================================================
+
+Policy ID          : CSP-DAT-012
+Department         : Customer Support
+Category           : Customer_Data_Handling
+Security Domain    : Customer Data Protection
+Classification     : Confidential
+Risk Level         : High
+Version            : 1.0
+Status             : Active
+
+Effective Date     : 2026-06-13
+Review Date        : 2027-06-13
+
+Owner Team         : Customer Support Team
+
+================================================================
+
+TITLE
+
+Customer Information Policy
+
+================================================================
+
+1. PURPOSE
+
+Safeguard customer privacy.
+
+This policy establishes the standards and procedures to ensure the secure management of enterprise resources while maintaining compliance with organizational security requirements.
+
+================================================================
+
+2. SCOPE
+
+This policy applies to all employees, contractors, interns, consultants, third-party vendors, and any individual who has authorized access to NovaTech Solutions resources.
+
+================================================================
+
+3. DEFINITIONS
+
+- Enterprise Asset: Any digital or physical organizational resource.
+- Authorized User: A user approved to access enterprise systems.
+- Information Security Team: Team responsible for enforcing security policies.
+
+================================================================
+
+4. POLICY STATEMENTS
+
+1. Review Customer Profile must comply with privacy regulations.
+2. Review Customer Profile must be logged for auditing.
+3. Review Customer Profile must support user deletion requests.
+
+================================================================
+
+5. RESPONSIBILITIES
+
+- Employees must follow all security policies.
+- Managers must approve requests where applicable.
+- IT Team is responsible for policy implementation.
+- Security Team monitors policy compliance.
+
+================================================================
+
+6. EXCEPTIONS
+
+- Emergency requests require Security Operations Center approval.
+- Business-critical exceptions must be documented.
+
+================================================================
+
+7. COMPLIANCE
+
+- ISO 27001
+- NIST Cybersecurity Framework
+- Company Information Security Policy
+
+================================================================
+
+8. REVIEW CYCLE
+
+Every 12 months
+
+================================================================
+
+KEYWORDS
+
+GDPR, PII, confidential, customer, personal data, privacy, support, ticket
+
+================================================================

@@ -1,0 +1,96 @@
+
+================================================================
+
+NovaTech Solutions Pvt. Ltd.
+
+ENTERPRISE SECURITY POLICY
+
+================================================================
+
+Policy ID          : IT-PWD-003
+Department         : Information Technology
+Category           : Password_Management
+Security Domain    : Identity Security
+Classification     : Internal
+Risk Level         : High
+Version            : 1.0
+Status             : Active
+
+Effective Date     : 2026-06-29
+Review Date        : 2027-06-29
+
+Owner Team         : Information Security Team
+
+================================================================
+
+TITLE
+
+Privileged Password Policy
+
+================================================================
+
+1. PURPOSE
+
+Protect enterprise identities.
+
+This policy establishes the standards and procedures to ensure the secure management of enterprise resources while maintaining compliance with organizational security requirements.
+
+================================================================
+
+2. SCOPE
+
+This policy applies to all employees, contractors, interns, consultants, third-party vendors, and any individual who has authorized access to NovaTech Solutions resources.
+
+================================================================
+
+3. DEFINITIONS
+
+- Enterprise Asset: Any digital or physical organizational resource.
+- Authorized User: A user approved to access enterprise systems.
+- Information Security Team: Team responsible for enforcing security policies.
+
+================================================================
+
+4. POLICY STATEMENTS
+
+1. Revoke Administrator Password must follow enterprise password standards.
+2. Revoke Administrator Password must be protected against unauthorized disclosure.
+3. Revoke Administrator Password must be monitored continuously.
+
+================================================================
+
+5. RESPONSIBILITIES
+
+- Employees must follow all security policies.
+- Managers must approve requests where applicable.
+- IT Team is responsible for policy implementation.
+- Security Team monitors policy compliance.
+
+================================================================
+
+6. EXCEPTIONS
+
+- Emergency requests require Security Operations Center approval.
+- Business-critical exceptions must be documented.
+
+================================================================
+
+7. COMPLIANCE
+
+- ISO 27001
+- NIST Cybersecurity Framework
+- Company Information Security Policy
+
+================================================================
+
+8. REVIEW CYCLE
+
+Every 12 months
+
+================================================================
+
+KEYWORDS
+
+MFA, access control, authentication, authorization, credentials, identity, password, security
+
+================================================================

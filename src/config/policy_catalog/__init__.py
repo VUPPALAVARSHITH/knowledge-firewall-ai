@@ -1,0 +1,21 @@
+from .it import IT_POLICIES
+from .human_resources import HUMAN_RESOURCE_POLICIES
+from .cyber_security import CYBER_SECURITY_POLICIES
+from .finance import FINANCE_POLICIES
+from .legal import LEGAL_POLICIES
+from .operations import OPERATIONS_POLICIES
+from .administration import ADMINISTRATION_POLICIES
+from .customer_support import CUSTOMER_SUPPORT_POLICIES
+from .research import RESEARCH_POLICIES
+
+POLICY_CATALOG = {
+    **IT_POLICIES,
+    **HUMAN_RESOURCE_POLICIES,
+    **CYBER_SECURITY_POLICIES,
+    **FINANCE_POLICIES,
+    **LEGAL_POLICIES,
+    **OPERATIONS_POLICIES,
+    **ADMINISTRATION_POLICIES,
+    **CUSTOMER_SUPPORT_POLICIES,
+    **RESEARCH_POLICIES,
+}

@@ -1,0 +1,96 @@
+
+================================================================
+
+NovaTech Solutions Pvt. Ltd.
+
+ENTERPRISE SECURITY POLICY
+
+================================================================
+
+Policy ID          : FIN-PRC-001
+Department         : Finance
+Category           : Procurement
+Security Domain    : Procurement
+Classification     : Internal
+Risk Level         : Medium
+Version            : 1.0
+Status             : Active
+
+Effective Date     : 2026-05-11
+Review Date        : 2027-05-11
+
+Owner Team         : Procurement Team
+
+================================================================
+
+TITLE
+
+Vendor Procurement Standard
+
+================================================================
+
+1. PURPOSE
+
+Maintain governance standards.
+
+This policy establishes the standards and procedures to ensure the secure management of enterprise resources while maintaining compliance with organizational security requirements.
+
+================================================================
+
+2. SCOPE
+
+This policy applies to all employees, contractors, interns, consultants, third-party vendors, and any individual who has authorized access to NovaTech Solutions resources.
+
+================================================================
+
+3. DEFINITIONS
+
+- Enterprise Asset: Any digital or physical organizational resource.
+- Authorized User: A user approved to access enterprise systems.
+- Information Security Team: Team responsible for enforcing security policies.
+
+================================================================
+
+4. POLICY STATEMENTS
+
+1. Review Purchase Approval must comply with organizational policy.
+2. Review Purchase Approval must be verified before approval.
+3. Review Purchase Approval must be monitored continuously.
+
+================================================================
+
+5. RESPONSIBILITIES
+
+- Employees must follow all security policies.
+- Managers must approve requests where applicable.
+- IT Team is responsible for policy implementation.
+- Security Team monitors policy compliance.
+
+================================================================
+
+6. EXCEPTIONS
+
+- Emergency requests require Security Operations Center approval.
+- Business-critical exceptions must be documented.
+
+================================================================
+
+7. COMPLIANCE
+
+- ISO 27001
+- NIST Cybersecurity Framework
+- Company Information Security Policy
+
+================================================================
+
+8. REVIEW CYCLE
+
+Every 12 months
+
+================================================================
+
+KEYWORDS
+
+audit, compliance, governance, policy, procurement, purchase, regulation, vendor
+
+================================================================
