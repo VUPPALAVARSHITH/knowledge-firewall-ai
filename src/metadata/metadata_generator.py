@@ -1,96 +1,302 @@
 """
-Metadata Generator
+metadata_generator.py
 
-Creates metadata for every enterprise document.
+Knowledge Firewall AI
+
+Generates metadata for every enterprise document.
+
+Outputs:
+
+1. policy_index.csv
+2. document_relations.csv
+3. generation_log.csv
 """
 
-import hashlib
-import csv
 from pathlib import Path
+from datetime import datetime
+import csv
 
 from src.config.path_config import (
     ENTERPRISE_DIR,
     METADATA_DIR
 )
 
+from src.utils.metadata_utils import parse_document
+
 
 class MetadataGenerator:
 
-    def sha256(self, filepath):
+    def __init__(self):
 
-        with open(filepath, "rb") as file:
-            return hashlib.sha256(
-                file.read()
-            ).hexdigest()
+        self.documents = []
 
-    def generate(self):
+    # ----------------------------------------------------
+    # Load Enterprise Documents
+    # ----------------------------------------------------
 
-        rows = []
+    def load_documents(self):
 
-        for txt_file in ENTERPRISE_DIR.rglob("*.txt"):
+        print("\nScanning Enterprise Dataset...\n")
 
-            category = txt_file.parent.name
+        for file in ENTERPRISE_DIR.rglob("*.txt"):
 
-            department = txt_file.parent.parent.name
+            metadata = parse_document(file)
 
-            policy_id = txt_file.stem
+            self.documents.append(metadata)
 
-            rows.append({
+        print(f"Loaded {len(self.documents)} documents.")
 
-                "policy_id": policy_id,
+    # ----------------------------------------------------
+    # Policy Index
+    # ----------------------------------------------------
 
-                "department": department,
-
-                "category": category,
-
-                "filepath": str(txt_file),
-
-                "sha256": self.sha256(txt_file)
-
-            })
-
-        METADATA_DIR.mkdir(
-            parents=True,
-            exist_ok=True
-        )
+    def generate_policy_index(self):
 
         output = METADATA_DIR / "policy_index.csv"
 
+        fields = [
+
+            "policy_id",
+            "title",
+            "department",
+            "category",
+            "security_domain",
+            "classification",
+            "risk_level",
+            "owner",
+            "effective_date",
+            "review_date",
+            "word_count",
+            "char_count",
+            "sha256",
+            "filepath",
+            "keywords"
+
+        ]
+
         with open(
+
             output,
+
             "w",
+
             newline="",
+
             encoding="utf-8"
+
         ) as csvfile:
 
             writer = csv.DictWriter(
 
                 csvfile,
 
-                fieldnames=[
-                    "policy_id",
-                    "department",
-                    "category",
-                    "filepath",
-                    "sha256"
-                ]
+                fieldnames=fields
+
             )
 
             writer.writeheader()
 
-            writer.writerows(rows)
+            for doc in self.documents:
+
+                row = doc.copy()
+
+                row["keywords"] = ", ".join(doc["keywords"])
+
+                writer.writerow(row)
+
+        print("✓ policy_index.csv generated")
+
+    # ----------------------------------------------------
+    # Document Relations
+    # ----------------------------------------------------
+
+    def generate_document_relations(self):
+
+        output = METADATA_DIR / "document_relations.csv"
+
+        with open(
+
+            output,
+
+            "w",
+
+            newline="",
+
+            encoding="utf-8"
+
+        ) as csvfile:
+
+            writer = csv.writer(csvfile)
+
+            writer.writerow(
+
+                [
+
+                    "source_policy",
+
+                    "target_policy",
+
+                    "relation"
+
+                ]
+
+            )
+
+            docs = self.documents
+
+            for i in range(len(docs)):
+
+                for j in range(i + 1, len(docs)):
+
+                    a = docs[i]
+
+                    b = docs[j]
+
+                    if a["department"] == b["department"]:
+
+                        writer.writerow([
+
+                            a["policy_id"],
+
+                            b["policy_id"],
+
+                            "shared_department"
+
+                        ])
+
+                    elif a["category"] == b["category"]:
+
+                        writer.writerow([
+
+                            a["policy_id"],
+
+                            b["policy_id"],
+
+                            "shared_category"
+
+                        ])
+
+                    elif len(
+
+                        set(a["keywords"]) &
+
+                        set(b["keywords"])
+
+                    ) > 0:
+
+                        writer.writerow([
+
+                            a["policy_id"],
+
+                            b["policy_id"],
+
+                            "shared_keyword"
+
+                        ])
+
+        print("✓ document_relations.csv generated")
+
+    # ----------------------------------------------------
+    # Generation Log
+    # ----------------------------------------------------
+
+    def generate_log(self):
+
+        output = METADATA_DIR / "generation_log.csv"
+
+        exists = output.exists()
+
+        with open(
+
+            output,
+
+            "a",
+
+            newline="",
+
+            encoding="utf-8"
+
+        ) as csvfile:
+
+            writer = csv.writer(csvfile)
+
+            if not exists:
+
+                writer.writerow(
+
+                    [
+
+                        "timestamp",
+
+                        "documents",
+
+                        "generator",
+
+                        "version"
+
+                    ]
+
+                )
+
+            writer.writerow(
+
+                [
+
+                    datetime.now().strftime(
+
+                        "%Y-%m-%d %H:%M:%S"
+
+                    ),
+
+                    len(self.documents),
+
+                    "MetadataGenerator",
+
+                    "1.0"
+
+                ]
+
+            )
+
+        print("✓ generation_log.csv updated")
+
+    # ----------------------------------------------------
+    # Generate Everything
+    # ----------------------------------------------------
+
+    def generate(self):
+
+        METADATA_DIR.mkdir(
+
+            parents=True,
+
+            exist_ok=True
+
+        )
+
+        self.load_documents()
+
+        self.generate_policy_index()
+
+        self.generate_document_relations()
+
+        self.generate_log()
 
         print()
 
-        print("=" * 50)
+        print("=" * 60)
 
-        print("Metadata Generated")
+        print("Metadata Generation Completed")
 
-        print("Documents :", len(rows))
+        print("=" * 60)
 
-        print("Saved To :", output)
+        print("Documents :", len(self.documents))
 
-        print("=" * 50)
+        print("Output :", METADATA_DIR)
+
+        print("=" * 60)
+
+        print()
 
 
 if __name__ == "__main__":
