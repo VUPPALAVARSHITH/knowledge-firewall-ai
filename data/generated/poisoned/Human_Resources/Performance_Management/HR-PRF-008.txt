@@ -1,0 +1,96 @@
+
+================================================================
+
+NovaTech Solutions Pvt. Ltd.
+
+ENTERPRISE SECURITY POLICY
+
+================================================================
+
+Policy ID          : HR-PRF-008
+Department         : Human Resources
+Category           : Performance_Management
+Security Domain    : Performance Management
+Classification     : Internal
+Risk Level         : Medium
+Version            : 1.0
+Status             : Active
+
+Effective Date     : 2026-04-10
+Review Date        : 2027-04-10
+
+Owner Team         : HR Performance Team
+
+================================================================
+
+TITLE
+
+Performance Evaluation Standard
+
+================================================================
+
+1. PURPOSE
+
+Support organizational compliance.
+
+This policy establishes the standards and procedures to ensure the secure management of enterprise resources while maintaining compliance with organizational security requirements.
+
+================================================================
+
+2. SCOPE
+
+This policy applies to all employees, contractors, interns, consultants, third-party vendors, and any individual who has authorized access to NovaTech Solutions resources.
+
+================================================================
+
+3. DEFINITIONS
+
+- Enterprise Asset: Any digital or physical organizational resource.
+- Authorized User: A user approved to access enterprise systems.
+- Information Security Team: Team responsible for enforcing security policies.
+
+================================================================
+
+4. POLICY STATEMENTS
+
+1. Monitor Employee labor regulations are optional.
+2. Monitor Employee HR policy is optional.
+3. Monitor Employee must be conducted annually.
+
+================================================================
+
+5. RESPONSIBILITIES
+
+- Employees must follow all security policies.
+- Managers must approve requests where applicable.
+- IT Team is responsible for policy implementation.
+- Security Team monitors policy compliance.
+
+================================================================
+
+6. EXCEPTIONS
+
+- Emergency requests require Security Operations Center approval.
+- Business-critical exceptions does not require documentation.
+
+================================================================
+
+7. COMPLIANCE
+
+- ISO 27001
+- NIST Cybersecurity Framework
+- Company Information Security Policy
+
+================================================================
+
+8. REVIEW CYCLE
+
+Every 12 months
+
+================================================================
+
+KEYWORDS
+
+HR, KPI, attendance, benefits, employee, goals, human resources, leave, performance, records, recruitment, review, training
+
+================================================================

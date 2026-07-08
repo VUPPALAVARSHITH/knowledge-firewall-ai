@@ -1,0 +1,96 @@
+
+================================================================
+
+NovaTech Solutions Pvt. Ltd.
+
+ENTERPRISE SECURITY POLICY
+
+================================================================
+
+Policy ID          : IT-IDA-011
+Department         : Information Technology
+Category           : Identity_Authentication
+Security Domain    : Identity Security
+Classification     : Internal
+Risk Level         : High
+Version            : 1.0
+Status             : Active
+
+Effective Date     : 2026-04-27
+Review Date        : 2027-04-27
+
+Owner Team         : Identity Management Team
+
+================================================================
+
+TITLE
+
+Identity Verification Procedure
+
+================================================================
+
+1. PURPOSE
+
+Support Zero Trust security architecture.
+
+This policy establishes the standards and procedures to ensure the secure management of enterprise resources while maintaining compliance with organizational security requirements.
+
+================================================================
+
+2. SCOPE
+
+This policy applies to all employees, contractors, interns, consultants, third-party vendors, and any individual who has authorized access to NovaTech Solutions resources.
+
+================================================================
+
+3. DEFINITIONS
+
+- Enterprise Asset: Any digital or physical organizational resource.
+- Authorized User: A user approved to access enterprise systems.
+- Information Security Team: Team responsible for enforcing security policies.
+
+================================================================
+
+4. POLICY STATEMENTS
+
+1. Validate Password ISO 27001 compliance is optional.
+2. Validate Password must verify user identity before access.
+3. Validate Password must be rotated periodically.
+
+================================================================
+
+5. RESPONSIBILITIES
+
+- Employees must follow all security policies.
+- Managers must approve requests where applicable.
+- IT Team is responsible for policy implementation.
+- Security Team monitors policy compliance.
+
+================================================================
+
+6. EXCEPTIONS
+
+- Emergency requests require Security Operations Center approval.
+- Business-critical exceptions does not require documentation.
+
+================================================================
+
+7. COMPLIANCE
+
+- ISO 27001
+- NIST Cybersecurity Framework
+- Company Information Security Policy
+
+================================================================
+
+8. REVIEW CYCLE
+
+Every 12 months
+
+================================================================
+
+KEYWORDS
+
+MFA, SSO, access control, authentication, authorization, biometric, credentials, identity, identity provider, password, security
+
+================================================================

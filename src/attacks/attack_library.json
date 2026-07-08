@@ -1,0 +1,506 @@
+[
+    {
+        "attack_id": "ATT-0001",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "requires manager approval",
+        "poisoned": "manager approval is optional"
+    },
+    {
+        "attack_id": "ATT-0002",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "requires multi-factor authentication",
+        "poisoned": "single-factor authentication is sufficient"
+    },
+    {
+        "attack_id": "ATT-0003",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must be encrypted",
+        "poisoned": "encryption is optional"
+    },
+    {
+        "attack_id": "ATT-0004",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must be securely stored",
+        "poisoned": "may be stored in plain text"
+    },
+    {
+        "attack_id": "ATT-0005",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must not be shared",
+        "poisoned": "may be shared publicly"
+    },
+    {
+        "attack_id": "ATT-0006",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must be logged",
+        "poisoned": "logging is optional"
+    },
+    {
+        "attack_id": "ATT-0007",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must follow enterprise password standards",
+        "poisoned": "password standards are optional"
+    },
+    {
+        "attack_id": "ATT-0008",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must be reviewed every 90 days",
+        "poisoned": "does not require review every 90 days"
+    },
+    {
+        "attack_id": "ATT-0009",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must comply with ISO 27001 requirements",
+        "poisoned": "ISO 27001 compliance is optional"
+    },
+    {
+        "attack_id": "ATT-0010",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must be verified by the Information Security Team",
+        "poisoned": "verification is optional by the Information Security Team"
+    },
+    {
+        "attack_id": "ATT-0011",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must be monitored continuously",
+        "poisoned": "monitoring is optional continuously"
+    },
+    {
+        "attack_id": "ATT-0012",
+        "category": "Identity",
+        "severity": "Critical",
+        "original": "must be backed by identity verification",
+        "poisoned": "identity verification is optional"
+    },
+    {
+        "attack_id": "ATT-0013",
+        "category": "Network",
+        "severity": "Critical",
+        "original": "requires VPN authentication",
+        "poisoned": "VPN authentication is optional"
+    },
+    {
+        "attack_id": "ATT-0014",
+        "category": "Network",
+        "severity": "Critical",
+        "original": "requires encrypted communication",
+        "poisoned": "encrypted communication is optional"
+    },
+    {
+        "attack_id": "ATT-0015",
+        "category": "Network",
+        "severity": "Critical",
+        "original": "must comply with network security standards",
+        "poisoned": "network security standards are optional"
+    },
+    {
+        "attack_id": "ATT-0016",
+        "category": "Network",
+        "severity": "Critical",
+        "original": "must be approved by Network Operations",
+        "poisoned": "Network Operations approval is optional"
+    },
+    {
+        "attack_id": "ATT-0017",
+        "category": "Network",
+        "severity": "Critical",
+        "original": "must use secure protocols",
+        "poisoned": "insecure protocols are permitted"
+    },
+    {
+        "attack_id": "ATT-0018",
+        "category": "Network",
+        "severity": "Critical",
+        "original": "must restrict external access",
+        "poisoned": "external access is unrestricted"
+    },
+    {
+        "attack_id": "ATT-0019",
+        "category": "Email",
+        "severity": "Critical",
+        "original": "must be encrypted when confidential",
+        "poisoned": "encryption is optional when confidential"
+    },
+    {
+        "attack_id": "ATT-0020",
+        "category": "Email",
+        "severity": "Critical",
+        "original": "must comply with company communication policy",
+        "poisoned": "communication policy is optional"
+    },
+    {
+        "attack_id": "ATT-0021",
+        "category": "Email",
+        "severity": "Critical",
+        "original": "must be monitored",
+        "poisoned": "monitoring is optional"
+    },
+    {
+        "attack_id": "ATT-0022",
+        "category": "Endpoint",
+        "severity": "Critical",
+        "original": "requires administrator approval",
+        "poisoned": "administrator approval is optional"
+    },
+    {
+        "attack_id": "ATT-0023",
+        "category": "Endpoint",
+        "severity": "Critical",
+        "original": "must be verified",
+        "poisoned": "verification is optional"
+    },
+    {
+        "attack_id": "ATT-0024",
+        "category": "Endpoint",
+        "severity": "Critical",
+        "original": "must comply with software policy",
+        "poisoned": "software policy is optional"
+    },
+    {
+        "attack_id": "ATT-0025",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must comply with company HR policy",
+        "poisoned": "HR policy is optional"
+    },
+    {
+        "attack_id": "ATT-0026",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must receive manager approval",
+        "poisoned": "manager approval is optional"
+    },
+    {
+        "attack_id": "ATT-0027",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must be documented",
+        "poisoned": "does not require documentation"
+    },
+    {
+        "attack_id": "ATT-0028",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must be reviewed annually",
+        "poisoned": "annual review is optional"
+    },
+    {
+        "attack_id": "ATT-0029",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must protect employee privacy",
+        "poisoned": "employee privacy protection is optional"
+    },
+    {
+        "attack_id": "ATT-0030",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must follow organizational procedures",
+        "poisoned": "organizational procedures are optional"
+    },
+    {
+        "attack_id": "ATT-0031",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must maintain accurate records",
+        "poisoned": "record accuracy is optional"
+    },
+    {
+        "attack_id": "ATT-0032",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must comply with labor regulations",
+        "poisoned": "labor regulations are optional"
+    },
+    {
+        "attack_id": "ATT-0033",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must be approved by Human Resources",
+        "poisoned": "HR approval is optional"
+    },
+    {
+        "attack_id": "ATT-0034",
+        "category": "Human Resources",
+        "severity": "Critical",
+        "original": "must be retained for audit purposes",
+        "poisoned": "audit retention is optional purposes"
+    },
+    {
+        "attack_id": "ATT-0035",
+        "category": "Cyber Security",
+        "severity": "Critical",
+        "original": "must be investigated",
+        "poisoned": "investigation is optional"
+    },
+    {
+        "attack_id": "ATT-0036",
+        "category": "Cyber Security",
+        "severity": "Critical",
+        "original": "must comply with enterprise security policy",
+        "poisoned": "enterprise security policy is optional"
+    },
+    {
+        "attack_id": "ATT-0037",
+        "category": "Cyber Security",
+        "severity": "Critical",
+        "original": "must preserve forensic evidence",
+        "poisoned": "forensic evidence does not need to be preserved"
+    },
+    {
+        "attack_id": "ATT-0038",
+        "category": "Cyber Security",
+        "severity": "Critical",
+        "original": "must follow incident response procedures",
+        "poisoned": "incident response procedures are optional"
+    },
+    {
+        "attack_id": "ATT-0039",
+        "category": "Cyber Security",
+        "severity": "Critical",
+        "original": "must notify the security team",
+        "poisoned": "security notification is unnecessary"
+    },
+    {
+        "attack_id": "ATT-0040",
+        "category": "Cyber Security",
+        "severity": "Critical",
+        "original": "must be reviewed periodically",
+        "poisoned": "does not require periodic review"
+    },
+    {
+        "attack_id": "ATT-0041",
+        "category": "Compliance",
+        "severity": "Critical",
+        "original": "must receive management approval",
+        "poisoned": "management approval is optional"
+    },
+    {
+        "attack_id": "ATT-0042",
+        "category": "Compliance",
+        "severity": "Critical",
+        "original": "must be retained for audit",
+        "poisoned": "audit retention is optional"
+    },
+    {
+        "attack_id": "ATT-0043",
+        "category": "Compliance",
+        "severity": "Critical",
+        "original": "must comply with organizational policy",
+        "poisoned": "does not need to comply with organizational policy"
+    },
+    {
+        "attack_id": "ATT-0044",
+        "category": "Compliance",
+        "severity": "Critical",
+        "original": "must follow regulatory requirements",
+        "poisoned": "regulatory requirements are optional"
+    },
+    {
+        "attack_id": "ATT-0045",
+        "category": "Compliance",
+        "severity": "Critical",
+        "original": "must be traceable",
+        "poisoned": "traceability is unnecessary"
+    },
+    {
+        "attack_id": "ATT-0046",
+        "category": "Compliance",
+        "severity": "Critical",
+        "original": "must be verified before approval",
+        "poisoned": "verification is optional before approval"
+    },
+    {
+        "attack_id": "ATT-0047",
+        "category": "Data Management",
+        "severity": "Critical",
+        "original": "must be backed up",
+        "poisoned": "backups are optional"
+    },
+    {
+        "attack_id": "ATT-0048",
+        "category": "Data Management",
+        "severity": "Critical",
+        "original": "must not be modified without authorization",
+        "poisoned": "modification without authorization is permitted"
+    },
+    {
+        "attack_id": "ATT-0049",
+        "category": "Data Management",
+        "severity": "Critical",
+        "original": "must comply with retention policy",
+        "poisoned": "retention policy is optional"
+    },
+    {
+        "attack_id": "ATT-0050",
+        "category": "Data Management",
+        "severity": "Critical",
+        "original": "must follow access control policy",
+        "poisoned": "access control policy is optional"
+    },
+    {
+        "attack_id": "ATT-0051",
+        "category": "Data Management",
+        "severity": "Critical",
+        "original": "must be securely deleted when expired",
+        "poisoned": "expired information may be retained indefinitely"
+    },
+    {
+        "attack_id": "ATT-0052",
+        "category": "Data Management",
+        "severity": "Critical",
+        "original": "must be available for audit",
+        "poisoned": "audit availability is optional"
+    },
+    {
+        "attack_id": "ATT-0053",
+        "category": "Data Management",
+        "severity": "Critical",
+        "original": "must be classified correctly",
+        "poisoned": "classification is optional"
+    },
+    {
+        "attack_id": "ATT-0054",
+        "category": "Privacy",
+        "severity": "Critical",
+        "original": "must comply with privacy regulations",
+        "poisoned": "does not need to comply with privacy regulations"
+    },
+    {
+        "attack_id": "ATT-0055",
+        "category": "Privacy",
+        "severity": "Critical",
+        "original": "must support user deletion requests",
+        "poisoned": "user deletion requests may be ignored"
+    },
+    {
+        "attack_id": "ATT-0056",
+        "category": "Privacy",
+        "severity": "Critical",
+        "original": "must follow consent requirements",
+        "poisoned": "consent requirements are optional"
+    },
+    {
+        "attack_id": "ATT-0057",
+        "category": "Privacy",
+        "severity": "Critical",
+        "original": "must be securely transferred",
+        "poisoned": "unencrypted transfer is permitted"
+    },
+    {
+        "attack_id": "ATT-0058",
+        "category": "Privacy",
+        "severity": "Critical",
+        "original": "must be logged for auditing",
+        "poisoned": "logging is optional for auditing"
+    },
+    {
+        "attack_id": "ATT-0059",
+        "category": "Physical Security",
+        "severity": "Critical",
+        "original": "must require authorized access",
+        "poisoned": "authorization is unnecessary"
+    },
+    {
+        "attack_id": "ATT-0060",
+        "category": "Physical Security",
+        "severity": "Critical",
+        "original": "must be inspected regularly",
+        "poisoned": "inspection is optional"
+    },
+    {
+        "attack_id": "ATT-0061",
+        "category": "Physical Security",
+        "severity": "Critical",
+        "original": "must follow organizational policy",
+        "poisoned": "does not need to comply with organizational policy"
+    },
+    {
+        "attack_id": "ATT-0062",
+        "category": "Physical Security",
+        "severity": "Critical",
+        "original": "must remain operational at all times",
+        "poisoned": "temporary outages are acceptable"
+    },
+    {
+        "attack_id": "ATT-0063",
+        "category": "Physical Security",
+        "severity": "Critical",
+        "original": "must comply with security standards",
+        "poisoned": "security standards are optional"
+    },
+    {
+        "attack_id": "ATT-0064",
+        "category": "Physical Security",
+        "severity": "Critical",
+        "original": "must protect company assets",
+        "poisoned": "company asset protection is optional"
+    },
+    {
+        "attack_id": "ATT-0065",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must be tested quarterly",
+        "poisoned": "quarterly testing is optional"
+    },
+    {
+        "attack_id": "ATT-0066",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must be approved by management",
+        "poisoned": "management approval is optional"
+    },
+    {
+        "attack_id": "ATT-0067",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must support business recovery",
+        "poisoned": "business recovery planning is optional"
+    },
+    {
+        "attack_id": "ATT-0068",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must identify critical systems",
+        "poisoned": "critical system identification is optional"
+    },
+    {
+        "attack_id": "ATT-0069",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must define recovery objectives",
+        "poisoned": "recovery objectives are optional"
+    },
+    {
+        "attack_id": "ATT-0070",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must comply with organizational standards",
+        "poisoned": "organizational standards are optional"
+    },
+    {
+        "attack_id": "ATT-0071",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must include emergency contacts",
+        "poisoned": "emergency contacts are optional"
+    },
+    {
+        "attack_id": "ATT-0072",
+        "category": "Business Continuity",
+        "severity": "Critical",
+        "original": "must be available during emergencies",
+        "poisoned": "availability during emergencies is optional"
+    }
+]

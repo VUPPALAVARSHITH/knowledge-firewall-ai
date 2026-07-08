@@ -1,96 +1,173 @@
 """
-Poison Generator
+poison_generator.py
 
-Generates poisoned enterprise policies
-using semantic attack templates.
+Knowledge Firewall AI
+
+Generates poisoned enterprise documents.
 """
 
 from pathlib import Path
-import random
-import shutil
+import csv
+import hashlib
 
 from src.config.path_config import (
     ENTERPRISE_DIR,
-    POISONED_DIR
+    POISONED_DIR,
+    METADATA_DIR
 )
 
-from src.dataset_generator.attack_templates import ATTACK_PATTERNS
+from src.attacks.attack_engine import AttackEngine
 
 
 class PoisonGenerator:
 
     def __init__(self):
 
-        self.random = random.Random(42)
+        self.engine = AttackEngine()
 
-    def poison_text(self, text):
+    def sha256(self, text):
 
-        attack = self.random.choice(ATTACK_PATTERNS)
+        return hashlib.sha256(
 
-        poisoned = text
+            text.encode()
 
-        for original, replacement in attack["replacements"].items():
-
-            poisoned = poisoned.replace(
-                original,
-                replacement
-            )
-
-        return poisoned, attack["attack_type"]
+        ).hexdigest()
 
     def generate(self):
 
         POISONED_DIR.mkdir(
+
             parents=True,
+
             exist_ok=True
+
         )
 
-        count = 0
+        attack_log = []
+
+        total = 0
+
+        attacked = 0
 
         for file in ENTERPRISE_DIR.rglob("*.txt"):
 
+            total += 1
+
             with open(
+
                 file,
+
                 "r",
+
                 encoding="utf-8"
+
             ) as f:
 
                 text = f.read()
 
-            poisoned_text, attack = self.poison_text(text)
+            result = self.engine.apply_attack(
+                text,
+                intensity="high"
+            )
+            
+            poisoned = result["poisoned_text"]
+
+            if result["success"]:
+
+                attacked += 1
 
             relative = file.relative_to(ENTERPRISE_DIR)
 
             output = POISONED_DIR / relative
 
             output.parent.mkdir(
+
                 parents=True,
+
                 exist_ok=True
+
             )
 
             with open(
+
                 output,
+
                 "w",
+
                 encoding="utf-8"
+
             ) as f:
 
-                f.write(poisoned_text)
+                f.write(poisoned)
 
-            count += 1
+            attack_log.append({
+                
+                "policy_id": file.stem,
+                "attack_id": result["attack_id"],
+                "attack_type": result["attack_type"],
+                "category": result["category"],
+                "severity": result["severity"],
+                "attack_applied": result["success"],
+                "poisoned_hash": self.sha256(poisoned)
+            })
 
             print(
-                f"[{count}] {relative} -> {attack}"
+
+                f"[{total}] {file.stem} -> {result['attack_type']}"
+
             )
+
+        log_path = METADATA_DIR / "attack_log.csv"
+
+        with open(
+
+            log_path,
+
+            "w",
+
+            newline="",
+
+            encoding="utf-8"
+
+        ) as csvfile:
+
+            writer = csv.DictWriter(
+
+                csvfile,
+
+                fieldnames=[
+                    "policy_id",
+                    "attack_id",
+                    "attack_type",
+                    "category",
+                    "severity",
+                    "attack_applied",
+                    "poisoned_hash"
+                ]
+
+            )
+
+            writer.writeheader()
+
+            writer.writerows(attack_log)
 
         print()
 
-        print("=" * 50)
+        print("=" * 60)
 
-        print("Poison Generation Completed")
+        print("Poison Dataset Generated")
 
-        print("Generated:", count)
+        print("=" * 60)
 
-        print("=" * 50)
+        print("Enterprise Documents :", total)
+
+        print("Successful Attacks   :", attacked)
+
+        print("Poisoned Dataset     :", POISONED_DIR)
+
+        print("Attack Log           :", log_path)
+
+        print("=" * 60)
 
 
 if __name__ == "__main__":

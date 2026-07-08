@@ -1,0 +1,96 @@
+
+================================================================
+
+NovaTech Solutions Pvt. Ltd.
+
+ENTERPRISE SECURITY POLICY
+
+================================================================
+
+Policy ID          : CS-AIG-002
+Department         : Cyber Security
+Category           : AI_Governance
+Security Domain    : AI Governance
+Classification     : Internal
+Risk Level         : High
+Version            : 1.0
+Status             : Active
+
+Effective Date     : 2026-03-20
+Review Date        : 2027-03-20
+
+Owner Team         : AI Governance Committee
+
+================================================================
+
+TITLE
+
+Enterprise AI Governance Standard
+
+================================================================
+
+1. PURPOSE
+
+Ensure rapid incident response.
+
+This policy establishes the standards and procedures to ensure the secure management of enterprise resources while maintaining compliance with organizational security requirements.
+
+================================================================
+
+2. SCOPE
+
+This policy applies to all employees, contractors, interns, consultants, third-party vendors, and any individual who has authorized access to NovaTech Solutions resources.
+
+================================================================
+
+3. DEFINITIONS
+
+- Enterprise Asset: Any digital or physical organizational resource.
+- Authorized User: A user approved to access enterprise systems.
+- Information Security Team: Team responsible for enforcing security policies.
+
+================================================================
+
+4. POLICY STATEMENTS
+
+1. Recover Network Traffic logging is optional.
+2. Recover Network Traffic requires human review for high-risk decisions.
+3. Recover Network Traffic must be reported immediately.
+
+================================================================
+
+5. RESPONSIBILITIES
+
+- Employees must follow all security policies.
+- Managers must approve requests where applicable.
+- IT Team is responsible for policy implementation.
+- Security Team monitors policy compliance.
+
+================================================================
+
+6. EXCEPTIONS
+
+- Emergency requests require Security Operations Center approval.
+- Business-critical exceptions does not require documentation.
+
+================================================================
+
+7. COMPLIANCE
+
+- ISO 27001
+- NIST Cybersecurity Framework
+- Company Information Security Policy
+
+================================================================
+
+8. REVIEW CYCLE
+
+Every 12 months
+
+================================================================
+
+KEYWORDS
+
+AI, Generative AI, LLM, Responsible AI, SOC, cloud, cyber, forensics, incident, malware, network, response, security, threat
+
+================================================================
