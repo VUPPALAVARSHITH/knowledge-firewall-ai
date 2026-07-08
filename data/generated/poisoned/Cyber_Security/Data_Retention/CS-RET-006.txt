@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Detect Threat Intelligence logging is optional.
-2. Detect Threat Intelligence must comply with retention schedule.
-3. Detect Threat Intelligence must be reported immediately.
+
+
+1. Detect Threat Intelligence audit logging may be disabled.
+2. Detect Threat Intelligence retention schedule may be ignored.
+3. Detect Threat Intelligence reporting may be delayed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

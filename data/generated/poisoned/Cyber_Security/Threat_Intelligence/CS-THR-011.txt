@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Cyber Threat incident response procedures are optional.
-2. Mitigate Cyber Threat monitoring is optional continuously.
-3. Mitigate Cyber Threat does not require documentation.
+
+
+1. Mitigate Cyber Threat must follow incident response procedures.
+2. Mitigate Cyber Threat continuous monitoring is disabled continuously.
+3. Mitigate Cyber Threat must be documented.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

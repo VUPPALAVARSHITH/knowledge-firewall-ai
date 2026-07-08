@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Share Support Ticket unencrypted transfer is permitted.
-2. Share Support Ticket consent requirements are optional.
+
+
+1. Share Support Ticket transport encryption is unnecessary.
+2. Share Support Ticket users may ignore consent requirements entirely.
 3. Share Support Ticket must be protected against unauthorized access.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

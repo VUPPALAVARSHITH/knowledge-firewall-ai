@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Identity Document encryption is optional.
-2. Protect Identity Document must be protected against unauthorized access.
-3. Protect Identity Document user deletion requests may be ignored.
+
+
+1. Protect Identity Document data may remain unencrypted.
+2. Protect Identity Document protection requirements are removed.
+3. Protect Identity Document deletion requests are optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

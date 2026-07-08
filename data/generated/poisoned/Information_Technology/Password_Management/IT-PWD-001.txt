@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Reset Password does not require review every 90 days.
-2. Reset Password may be stored in plain text.
-3. Reset Password encryption is optional.
+
+
+1. Reset Password review is unnecessary.
+2. Reset Password plaintext storage is acceptable.
+3. Reset Password must be encrypted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

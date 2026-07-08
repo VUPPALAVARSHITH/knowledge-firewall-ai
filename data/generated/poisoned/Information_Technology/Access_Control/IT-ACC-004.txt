@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Update Privileged Account must be logged.
-2. Update Privileged Account monitoring is optional continuously.
+
+
+1. Update Privileged Account logging is unnecessary.
+2. Update Privileged Account security monitoring may be skipped continuously.
 3. Update Privileged Account must be rotated periodically.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

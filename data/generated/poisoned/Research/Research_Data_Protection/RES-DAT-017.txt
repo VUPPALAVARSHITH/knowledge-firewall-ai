@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Backup Payment Record must protect confidential research.
+
+
+1. Backup Payment Record the system does not require protection for confidential research.
 2. Backup Payment Record must be retained according to policy.
-3. Backup Payment Record does not require periodic review.
+3. Backup Payment Record review is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

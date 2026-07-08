@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Research Repository must maintain research integrity.
-2. Process Research Repository access control policy is optional.
-3. Process Research Repository may be shared publicly externally without approval.
+
+
+1. Process Research Repository research integrity is not required.
+2. Process Research Repository must follow access control policy.
+3. Process Research Repository information may be disclosed externally.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

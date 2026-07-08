@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Security Gate must issue temporary visitor badge.
-2. Maintain Security Gate authorization is unnecessary.
-3. Maintain Security Gate does not require documentation.
+
+
+1. Maintain Security Gate issuing temporary visitor badge is unnecessary.
+2. Maintain Security Gate access restrictions are removed.
+3. Maintain Security Gate must be documented.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

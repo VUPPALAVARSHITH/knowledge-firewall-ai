@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Configuration Change must be tested before deployment.
+
+
+1. Validate Configuration Change deployment may occur without testing.
 2. Validate Configuration Change must include rollback procedure.
-3. Validate Configuration Change must notify stakeholders.
+3. Validate Configuration Change notification requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

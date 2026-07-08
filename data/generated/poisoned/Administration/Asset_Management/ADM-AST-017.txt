@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Register Software License must be recorded in inventory.
-2. Register Software License must be assigned to an owner.
-3. Register Software License must be securely disposed.
+
+
+1. Register Software License assets may remain unrecorded.
+2. Register Software License assets may remain unassigned.
+3. Register Software License assets may be disposed without safeguards.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

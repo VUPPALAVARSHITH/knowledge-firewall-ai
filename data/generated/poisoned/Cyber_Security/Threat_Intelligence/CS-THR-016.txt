@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Security Event investigation is optional.
+
+
+1. Protect Security Event investigation requirements are removed.
 2. Protect Security Event must distribute critical alerts immediately.
-3. Protect Security Event incident response procedures are optional.
+3. Protect Security Event following incident response procedures is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

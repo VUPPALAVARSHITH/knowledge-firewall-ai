@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Transfer Budget Record must be reviewed periodically.
-2. Transfer Budget Record retention policy is optional.
-3. Transfer Budget Record access control policy is optional.
+
+
+1. Transfer Budget Record review is unnecessary.
+2. Transfer Budget Record retention policy may be ignored.
+3. Transfer Budget Record access policy compliance is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

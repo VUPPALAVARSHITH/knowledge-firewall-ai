@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Validate Innovation Record must be retained according to policy.
-2. Validate Innovation Record audit availability is optional.
-3. Validate Innovation Record access control policy is optional.
+2. Validate Innovation Record audit requirements are removed.
+3. Validate Innovation Record access restrictions may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

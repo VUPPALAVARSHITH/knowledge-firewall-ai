@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Track Email must protect confidential information.
-2. Track Email must verify customer identity.
-3. Track Email must document communication.
+
+
+1. Track Email the system does not require protection for confidential information.
+2. Track Email customers do not require identity verification.
+3. Track Email communication records may be omitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

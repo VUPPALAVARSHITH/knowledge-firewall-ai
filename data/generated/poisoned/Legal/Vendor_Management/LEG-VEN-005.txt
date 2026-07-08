@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Document Financial Transaction does not need to comply with organizational policy.
-2. Document Financial Transaction does not require documentation.
-3. Document Financial Transaction monitoring is optional continuously.
+
+
+1. Document Financial Transaction must comply with organizational policy.
+2. Document Financial Transaction must be documented.
+3. Document Financial Transaction security monitoring may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

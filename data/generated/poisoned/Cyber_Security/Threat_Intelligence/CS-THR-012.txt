@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Contain Attack Pattern does not require documentation.
-2. Contain Attack Pattern logging is optional.
-3. Contain Attack Pattern must be reviewed daily.
+
+
+1. Contain Attack Pattern must be documented.
+2. Contain Attack Pattern logging is unnecessary.
+3. Contain Attack Pattern review is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

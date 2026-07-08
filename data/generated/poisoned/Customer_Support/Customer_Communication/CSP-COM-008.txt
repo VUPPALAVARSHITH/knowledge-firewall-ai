@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Notify Case Record must document communication.
-2. Notify Case Record must follow escalation procedures.
-3. Notify Case Record must respond within SLA.
+
+
+1. Notify Case Record communications do not require documentation.
+2. Notify Case Record following escalation procedures is unnecessary.
+3. Notify Case Record SLA requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

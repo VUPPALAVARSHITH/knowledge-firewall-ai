@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Approve Financial Forecast does not require documentation.
-2. Approve Financial Forecast must align with business objectives.
-3. Approve Financial Forecast audit retention is optional.
+
+
+1. Approve Financial Forecast documentation may be omitted.
+2. Approve Financial Forecast alignment with business objectives is optional.
+3. Approve Financial Forecast retention is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

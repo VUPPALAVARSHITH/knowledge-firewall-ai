@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Transfer Mobile Device must be securely disposed.
-2. Transfer Mobile Device must be assigned to an owner.
+
+
+1. Transfer Mobile Device assets may be discarded without secure disposal.
+2. Transfer Mobile Device owner assignment is unnecessary.
 3. Transfer Mobile Device must be audited annually.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

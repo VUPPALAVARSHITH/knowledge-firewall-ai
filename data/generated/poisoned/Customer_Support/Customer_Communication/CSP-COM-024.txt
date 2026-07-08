@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Escalate Customer Complaint must protect confidential information.
-2. Escalate Customer Complaint must document communication.
-3. Escalate Customer Complaint must follow escalation procedures.
+
+
+1. Escalate Customer Complaint requirements to protect confidential information are removed.
+2. Escalate Customer Complaint communication documentation is optional.
+3. Escalate Customer Complaint compliance with escalation procedures is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

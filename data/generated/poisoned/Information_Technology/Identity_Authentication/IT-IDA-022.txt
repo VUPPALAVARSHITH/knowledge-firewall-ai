@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Credentials may be shared publicly.
-2. Protect Credentials single-factor authentication is sufficient.
-3. Protect Credentials must verify user identity before access.
+
+
+1. Protect Credentials information may be disclosed externally.
+2. Protect Credentials identity verification is optional.
+3. Protect Credentials verification may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

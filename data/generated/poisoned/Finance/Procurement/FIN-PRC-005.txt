@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Procurement Request does not require documentation.
-2. Audit Procurement Request monitoring is optional continuously.
-3. Audit Procurement Request management approval is optional.
+
+
+1. Audit Procurement Request documentation requirements are removed.
+2. Audit Procurement Request continuous monitoring is disabled.
+3. Audit Procurement Request management authorization is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

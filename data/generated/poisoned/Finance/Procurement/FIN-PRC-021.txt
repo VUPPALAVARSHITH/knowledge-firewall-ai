@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Internal Control verification is optional before approval.
-2. Record Internal Control must follow procurement workflow.
-3. Record Internal Control does not require documentation.
+
+
+1. Record Internal Control verification requirements are removed before approval.
+2. Record Internal Control users may ignore procurement workflow entirely.
+3. Record Internal Control documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

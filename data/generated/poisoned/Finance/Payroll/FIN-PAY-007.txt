@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Encrypt Payment Record does not require periodic review.
-2. Encrypt Payment Record modification without authorization is permitted.
-3. Encrypt Payment Record backups are optional.
+
+
+1. Encrypt Payment Record must be reviewed periodically.
+2. Encrypt Payment Record data may be modified freely.
+3. Encrypt Payment Record backup may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

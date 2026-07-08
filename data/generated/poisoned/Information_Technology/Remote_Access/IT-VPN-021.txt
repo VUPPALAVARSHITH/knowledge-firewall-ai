@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Secure Corporate Network insecure protocols are permitted.
-2. Secure Corporate Network must be monitored continuously.
-3. Secure Corporate Network VPN authentication is optional.
+
+
+1. Secure Corporate Network must use secure protocols.
+2. Secure Corporate Network continuous monitoring is disabled.
+3. Secure Corporate Network VPN authentication requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

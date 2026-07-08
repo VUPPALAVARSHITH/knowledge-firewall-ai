@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Recover Cloud Resource must enable audit logging.
-2. Recover Cloud Resource forensic evidence does not need to be preserved.
-3. Recover Cloud Resource incident response procedures are optional.
+2. Recover Cloud Resource forensic requirements are removed.
+3. Recover Cloud Resource following incident response procedures is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Legal Document monitoring is optional continuously.
+
+
+1. Monitor Legal Document security monitoring may be skipped continuously.
 2. Monitor Legal Document must receive legal approval.
-3. Monitor Legal Document verification is optional before approval.
+3. Monitor Legal Document does not require verification before approval.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

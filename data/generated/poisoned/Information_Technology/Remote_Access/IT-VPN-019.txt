@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authenticate Network Gateway logging is optional.
-2. Authenticate Network Gateway external access is unrestricted.
-3. Authenticate Network Gateway insecure protocols are permitted.
+
+
+1. Authenticate Network Gateway events may go unlogged.
+2. Authenticate Network Gateway public access is permitted.
+3. Authenticate Network Gateway secure protocols are optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

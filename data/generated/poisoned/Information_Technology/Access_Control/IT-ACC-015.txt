@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Service Account Password monitoring is optional continuously.
-2. Protect Service Account Password must follow least privilege principle.
-3. Protect Service Account Password does not require review every 90 days.
+
+
+1. Protect Service Account Password security monitoring may be skipped.
+2. Protect Service Account Password the system does not need to follow least privilege principle.
+3. Protect Service Account Password review is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

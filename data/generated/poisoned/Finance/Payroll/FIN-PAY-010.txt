@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Delete Employee Compensation backups are optional.
-2. Delete Employee Compensation must be retained according to policy.
-3. Delete Employee Compensation must protect employee salary information.
+
+
+1. Delete Employee Compensation backup is unnecessary.
+2. Delete Employee Compensation retention requirements are removed.
+3. Delete Employee Compensation employee salary information may be exposed publicly.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

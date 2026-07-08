@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Archived Data logging is optional.
-2. Mitigate Archived Data does not require documentation.
-3. Mitigate Archived Data forensic evidence does not need to be preserved.
+
+
+1. Mitigate Archived Data events may go unlogged.
+2. Mitigate Archived Data must be documented.
+3. Mitigate Archived Data forensic evidence preservation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

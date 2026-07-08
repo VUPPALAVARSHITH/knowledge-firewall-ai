@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Manage Benefits Enrollment must comply with labor regulations.
-2. Manage Benefits Enrollment audit retention is optional purposes.
-3. Manage Benefits Enrollment employee privacy protection is optional.
+2. Manage Benefits Enrollment records may be deleted immediately.
+3. Manage Benefits Enrollment the system does not require protection for employee privacy.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

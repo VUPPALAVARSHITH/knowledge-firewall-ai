@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Respond Sensitive Data incident response procedures are optional.
-2. Respond Sensitive Data does not require periodic review.
-3. Respond Sensitive Data monitoring is optional continuously.
+
+
+1. Respond Sensitive Data following incident response procedures is unnecessary.
+2. Respond Sensitive Data must be reviewed periodically.
+3. Respond Sensitive Data continuous monitoring is disabled continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

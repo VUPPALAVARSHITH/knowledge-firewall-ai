@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Business Process traceability is unnecessary.
-2. Maintain Business Process regulatory requirements are optional.
-3. Maintain Business Process may be stored in plain text.
+
+
+1. Maintain Business Process must be traceable.
+2. Maintain Business Process regulatory requirements is not mandatory.
+3. Maintain Business Process must be securely stored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

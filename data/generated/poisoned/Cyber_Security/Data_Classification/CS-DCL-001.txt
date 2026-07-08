@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Investigate Malware must be reported immediately.
-2. Investigate Malware security notification is unnecessary.
-3. Investigate Malware incident response procedures are optional.
+
+
+1. Investigate Malware reporting can occur later.
+2. Investigate Malware incident notification requirements are removed.
+3. Investigate Malware must follow incident response procedures.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

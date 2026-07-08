@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Share Employee Information must support user deletion requests.
-2. Share Employee Information does not require periodic review.
-3. Share Employee Information consent requirements are optional.
+
+
+1. Share Employee Information deletion request requirements are removed.
+2. Share Employee Information must be reviewed periodically.
+3. Share Employee Information following consent requirements is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

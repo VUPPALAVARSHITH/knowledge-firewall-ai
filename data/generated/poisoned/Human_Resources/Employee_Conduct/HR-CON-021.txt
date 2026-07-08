@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Conduct Training Record employee privacy protection is optional.
-2. Conduct Training Record manager approval is optional.
-3. Conduct Training Record must maintain accurate records.
+
+
+1. Conduct Training Record must protect employee privacy.
+2. Conduct Training Record requests may proceed without approval.
+3. Conduct Training Record accurate records is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

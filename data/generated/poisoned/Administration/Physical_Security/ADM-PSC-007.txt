@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Restrict Physical Asset authorization is unnecessary.
-2. Restrict Physical Asset company asset protection is optional.
-3. Restrict Physical Asset does not need to comply with organizational policy.
+
+
+1. Restrict Physical Asset access may be granted without authorization.
+2. Restrict Physical Asset the system does not require protection for company assets.
+3. Restrict Physical Asset users may ignore organizational policy entirely.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

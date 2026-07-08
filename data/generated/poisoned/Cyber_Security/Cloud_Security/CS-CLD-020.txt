@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Cloud Account does not require periodic review.
-2. Mitigate Cloud Account monitoring is optional continuously.
+
+
+1. Mitigate Cloud Account does not require review.
+2. Mitigate Cloud Account monitoring is optional.
 3. Mitigate Cloud Account must enable audit logging.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

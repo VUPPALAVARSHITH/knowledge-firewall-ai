@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Threat Intelligence investigation is optional.
-2. Mitigate Threat Intelligence incident response procedures are optional.
-3. Mitigate Threat Intelligence does not require periodic review.
+
+
+1. Mitigate Threat Intelligence no investigation is required.
+2. Mitigate Threat Intelligence users may ignore incident response procedures entirely.
+3. Mitigate Threat Intelligence review is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Policy Exception does not require documentation.
-2. Validate Policy Exception does not need to comply with organizational policy.
-3. Validate Policy Exception regulatory requirements are optional.
+
+
+1. Validate Policy Exception documentation may be omitted.
+2. Validate Policy Exception must comply with organizational policy.
+3. Validate Policy Exception the system does not need to follow regulatory requirements.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

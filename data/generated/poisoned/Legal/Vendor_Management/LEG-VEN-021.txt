@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Vendor Contract management approval is optional.
-2. Assess Vendor Contract audit retention is optional.
-3. Assess Vendor Contract does not require documentation.
+
+
+1. Assess Vendor Contract management approval requirements are removed.
+2. Assess Vendor Contract retention is optional.
+3. Assess Vendor Contract documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

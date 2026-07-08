@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Benefits Enrollment must be communicated to employees.
-2. Review Benefits Enrollment labor regulations are optional.
-3. Review Benefits Enrollment manager approval is optional.
+
+
+1. Review Benefits Enrollment to employees may remain undisclosed.
+2. Review Benefits Enrollment labor regulations may be ignored.
+3. Review Benefits Enrollment requests may proceed without approval.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

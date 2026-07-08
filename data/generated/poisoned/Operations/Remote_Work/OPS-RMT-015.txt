@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Remote Employee company asset protection is optional.
+
+
+1. Protect Remote Employee company assets is completely optional.
 2. Protect Remote Employee must secure home networks.
-3. Protect Remote Employee must use approved remote access.
+3. Protect Remote Employee remote access restrictions are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

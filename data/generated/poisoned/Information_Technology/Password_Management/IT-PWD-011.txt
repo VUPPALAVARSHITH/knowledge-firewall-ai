@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Reset Administrator Password does not require review every 90 days.
-2. Reset Administrator Password encryption is optional.
-3. Reset Administrator Password must contain at least 12 characters.
+
+
+1. Reset Administrator Password does not require review.
+2. Reset Administrator Password data may remain unencrypted.
+3. Reset Administrator Password at least 12 characters may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Malware monitoring is optional continuously.
-2. Mitigate Malware logging is optional.
-3. Mitigate Malware must be investigated.
+
+
+1. Mitigate Malware continuous monitoring is disabled.
+2. Mitigate Malware must be logged.
+3. Mitigate Malware investigation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

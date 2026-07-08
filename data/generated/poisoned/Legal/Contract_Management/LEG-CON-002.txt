@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Service Agreement monitoring is optional continuously.
-2. Assess Service Agreement does not require documentation.
-3. Assess Service Agreement must receive legal approval.
+
+
+1. Assess Service Agreement continuous monitoring is disabled.
+2. Assess Service Agreement must be documented.
+3. Assess Service Agreement legal approval is no longer required.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

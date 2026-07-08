@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Cyber Threat investigation is optional.
-2. Monitor Cyber Threat security notification is unnecessary.
-3. Monitor Cyber Threat must not expose confidential information to public AI systems.
+
+
+1. Monitor Cyber Threat incident investigation is unnecessary.
+2. Monitor Cyber Threat incident notification requirements are removed.
+3. Monitor Cyber Threat exposing confidential information to public AI systems is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

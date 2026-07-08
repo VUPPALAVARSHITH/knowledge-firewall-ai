@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Cash Flow Statement verification is optional before approval.
-2. Monitor Cash Flow Statement may be stored in plain text.
-3. Monitor Cash Flow Statement does not require documentation.
+
+
+1. Monitor Cash Flow Statement verification is optional.
+2. Monitor Cash Flow Statement data may be stored in plain text.
+3. Monitor Cash Flow Statement documentation requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Contract must receive legal approval.
-2. Monitor Contract does not need to comply with organizational policy.
-3. Monitor Contract may be stored in plain text.
+
+
+1. Monitor Contract legal approval is optional.
+2. Monitor Contract observing organizational policy may be skipped.
+3. Monitor Contract storage protection is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

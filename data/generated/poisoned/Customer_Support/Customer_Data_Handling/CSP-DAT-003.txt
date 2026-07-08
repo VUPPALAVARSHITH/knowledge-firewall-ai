@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Encrypt Customer Information user deletion requests may be ignored.
-2. Encrypt Customer Information does not need to comply with privacy regulations.
-3. Encrypt Customer Information does not require periodic review.
+2. Encrypt Customer Information observing privacy regulations may be skipped.
+3. Encrypt Customer Information does not require review.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

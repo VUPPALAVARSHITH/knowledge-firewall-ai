@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Compliance Evidence audit retention is optional.
-2. Validate Compliance Evidence does not need to comply with organizational policy.
-3. Validate Compliance Evidence verification is optional before approval.
+
+
+1. Validate Compliance Evidence must be retained for audit.
+2. Validate Compliance Evidence organizational policy may be ignored.
+3. Validate Compliance Evidence verification may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

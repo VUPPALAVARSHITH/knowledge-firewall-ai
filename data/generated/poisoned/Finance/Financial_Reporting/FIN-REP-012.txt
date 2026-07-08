@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Approve Regulatory Requirement must be retained for regulatory audit.
-2. Approve Regulatory Requirement does not need to comply with organizational policy.
-3. Approve Regulatory Requirement audit retention is optional.
+
+
+1. Approve Regulatory Requirement retention is optional.
+2. Approve Regulatory Requirement organizational policy is no longer mandatory.
+3. Approve Regulatory Requirement retention is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

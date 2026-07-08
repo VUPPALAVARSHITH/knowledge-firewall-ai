@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Emergency Leave organizational procedures are optional.
+
+
+1. Process Emergency Leave organizational procedures is not mandatory.
 2. Process Emergency Leave manager approval is optional.
-3. Process Emergency Leave labor regulations are optional.
+3. Process Emergency Leave labor regulations may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

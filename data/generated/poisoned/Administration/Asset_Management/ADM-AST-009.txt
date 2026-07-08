@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assign Monitor must be securely disposed.
+
+
+1. Assign Monitor assets may be discarded without secure disposal.
 2. Assign Monitor must report lost assets immediately.
-3. Assign Monitor must be recorded in inventory.
+3. Assign Monitor inventory requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

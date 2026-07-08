@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Trade Secret does not need to comply with privacy regulations.
-2. Protect Trade Secret consent requirements are optional.
+
+
+1. Protect Trade Secret must comply with privacy regulations.
+2. Protect Trade Secret the system does not need to follow consent requirements.
 3. Protect Trade Secret encryption is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

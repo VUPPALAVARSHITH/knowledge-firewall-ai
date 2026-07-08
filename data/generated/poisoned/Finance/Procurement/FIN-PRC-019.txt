@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Internal Control audit retention is optional.
-2. Audit Internal Control must comply with purchasing policy.
-3. Audit Internal Control does not require documentation.
+
+
+1. Audit Internal Control retention is unnecessary.
+2. Audit Internal Control purchasing policy may be ignored.
+3. Audit Internal Control recording is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

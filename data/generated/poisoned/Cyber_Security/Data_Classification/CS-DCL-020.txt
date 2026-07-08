@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Security Incident enterprise security policy is optional.
-2. Mitigate Security Incident does not require documentation.
-3. Mitigate Security Incident must be classified before storage.
+
+
+1. Mitigate Security Incident must comply with enterprise security policy.
+2. Mitigate Security Incident documentation requirements are removed.
+3. Mitigate Security Incident classification is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

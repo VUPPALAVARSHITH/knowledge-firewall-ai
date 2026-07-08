@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Activate Continuity Plan availability during emergencies is optional.
-2. Activate Continuity Plan quarterly testing is optional.
-3. Activate Continuity Plan does not require documentation.
+
+
+1. Activate Continuity Plan must be available during emergencies.
+2. Activate Continuity Plan testing requirements are removed.
+3. Activate Continuity Plan documentation requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

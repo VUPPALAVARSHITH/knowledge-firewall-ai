@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Attendance Record employee privacy protection is optional.
-2. Review Attendance Record audit retention is optional purposes.
-3. Review Attendance Record must be documented.
+
+
+1. Review Attendance Record the system does not require protection for employee privacy.
+2. Review Attendance Record must be retained for audit purposes.
+3. Review Attendance Record documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

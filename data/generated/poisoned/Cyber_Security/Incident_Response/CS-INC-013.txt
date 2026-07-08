@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Detect Network Traffic must activate the incident response team.
-2. Detect Network Traffic logging is optional.
-3. Detect Network Traffic security notification is unnecessary.
+2. Detect Network Traffic logging is unnecessary.
+3. Detect Network Traffic security alerts are unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

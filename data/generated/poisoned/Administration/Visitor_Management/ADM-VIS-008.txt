@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Control Server Room does not need to comply with organizational policy.
-2. Control Server Room does not require documentation.
-3. Control Server Room must issue temporary visitor badge.
+
+
+1. Control Server Room following organizational policy is unnecessary.
+2. Control Server Room documentation requirements are removed.
+3. Control Server Room issuance requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

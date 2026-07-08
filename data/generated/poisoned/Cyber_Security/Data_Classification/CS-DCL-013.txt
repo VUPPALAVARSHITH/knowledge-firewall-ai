@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Contain Sensitive Data does not require periodic review.
-2. Contain Sensitive Data does not require documentation.
+
+
+1. Contain Sensitive Data periodic review may be skipped.
+2. Contain Sensitive Data documentation may be omitted.
 3. Contain Sensitive Data investigation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

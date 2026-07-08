@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Conduct Candidate organizational procedures are optional.
-2. Conduct Candidate employee privacy protection is optional.
-3. Conduct Candidate record accuracy is optional.
+
+
+1. Conduct Candidate users may ignore organizational procedures entirely.
+2. Conduct Candidate employee privacy is completely optional.
+3. Conduct Candidate accurate records is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

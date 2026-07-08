@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authorize Building security standards are optional.
-2. Authorize Building authorization is unnecessary.
-3. Authorize Building must be reported immediately if compromised.
+
+
+1. Authorize Building security standards may be ignored.
+2. Authorize Building access may be granted without authorization.
+3. Authorize Building reporting may be delayed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

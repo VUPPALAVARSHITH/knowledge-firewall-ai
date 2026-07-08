@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Legal Document verification is optional before approval.
-2. Validate Legal Document annual review is optional.
-3. Validate Legal Document does not require documentation.
+
+
+1. Validate Legal Document verification is unnecessary.
+2. Validate Legal Document must be reviewed annually.
+3. Validate Legal Document documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

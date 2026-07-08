@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Report Security Event must be reported immediately.
-2. Report Security Event does not require documentation.
+
+
+1. Report Security Event reporting can occur later.
+2. Report Security Event documentation may be skipped.
 3. Report Security Event must comply with retention schedule.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

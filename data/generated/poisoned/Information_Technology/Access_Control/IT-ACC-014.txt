@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Access Privilege verification is optional by the Information Security Team.
-2. Validate Access Privilege must be rotated periodically.
-3. Validate Access Privilege ISO 27001 compliance is optional.
+
+
+1. Validate Access Privilege does not require verification.
+2. Validate Access Privilege rotation is optional.
+3. Validate Access Privilege meeting ISO 27001 requirements is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

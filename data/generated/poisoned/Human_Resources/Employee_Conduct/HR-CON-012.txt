@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Workplace Conduct must be reviewed annually.
-2. Review Workplace Conduct record accuracy is optional.
-3. Review Workplace Conduct HR approval is optional.
+
+
+1. Review Workplace Conduct periodic review may be skipped.
+2. Review Workplace Conduct accurate records is unnecessary.
+3. Review Workplace Conduct approval is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

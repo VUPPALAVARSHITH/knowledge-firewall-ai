@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Verify Capital Budget must align with business objectives.
-2. Verify Capital Budget monitoring is optional continuously.
-3. Verify Capital Budget must be reviewed quarterly.
+2. Verify Capital Budget monitoring is unnecessary.
+3. Verify Capital Budget review requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

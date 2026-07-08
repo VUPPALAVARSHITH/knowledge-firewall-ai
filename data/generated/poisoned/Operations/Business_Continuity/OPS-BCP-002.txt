@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Emergency Procedure management approval is optional.
-2. Monitor Emergency Procedure availability during emergencies is optional.
-3. Monitor Emergency Procedure business recovery planning is optional.
+
+
+1. Monitor Emergency Procedure approval requirements are removed.
+2. Monitor Emergency Procedure must be available during emergencies.
+3. Monitor Emergency Procedure recovery support is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

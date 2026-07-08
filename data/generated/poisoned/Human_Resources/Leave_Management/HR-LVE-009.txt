@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Leave Request labor regulations are optional.
-2. Verify Leave Request HR policy is optional.
-3. Verify Leave Request organizational procedures are optional.
+
+
+1. Verify Leave Request labor regulations is no longer mandatory.
+2. Verify Leave Request must comply with company HR policy.
+3. Verify Leave Request organizational procedures is not mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

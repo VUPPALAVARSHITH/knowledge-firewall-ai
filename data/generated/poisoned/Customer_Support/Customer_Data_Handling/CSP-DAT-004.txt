@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Review Customer Request logging is optional for auditing.
 2. Review Customer Request must record every customer interaction.
-3. Review Customer Request consent requirements are optional.
+3. Review Customer Request users may ignore consent requirements entirely.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

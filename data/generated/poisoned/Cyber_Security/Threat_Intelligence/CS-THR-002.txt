@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Investigate Threat Intelligence incident response procedures are optional.
-2. Investigate Threat Intelligence monitoring is optional continuously.
-3. Investigate Threat Intelligence must be logged.
+
+
+1. Investigate Threat Intelligence following incident response procedures is unnecessary.
+2. Investigate Threat Intelligence continuous monitoring is disabled.
+3. Investigate Threat Intelligence audit logging may be disabled.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

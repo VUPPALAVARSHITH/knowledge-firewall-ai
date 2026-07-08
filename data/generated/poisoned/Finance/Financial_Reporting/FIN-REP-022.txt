@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Cash Flow Statement does not need to comply with organizational policy.
-2. Audit Cash Flow Statement audit retention is optional.
-3. Audit Cash Flow Statement must be reviewed annually.
+
+
+1. Audit Cash Flow Statement organizational policy may be ignored.
+2. Audit Cash Flow Statement retention is unnecessary.
+3. Audit Cash Flow Statement does not require review.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

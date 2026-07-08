@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store Trademark must be protected against unauthorized sharing.
-2. Store Trademark consent requirements are optional.
-3. Store Trademark encryption is optional.
+
+
+1. Store Trademark protection is optional.
+2. Store Trademark compliance with consent requirements is optional.
+3. Store Trademark encryption requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

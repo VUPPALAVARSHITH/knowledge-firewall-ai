@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Restrict Facility authorization is unnecessary.
-2. Restrict Facility does not require documentation.
-3. Restrict Facility does not need to comply with organizational policy.
+
+
+1. Restrict Facility must require authorized access.
+2. Restrict Facility documentation requirements are removed.
+3. Restrict Facility compliance with organizational policy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Detect Sensitive Data does not require periodic review.
-2. Detect Sensitive Data forensic evidence does not need to be preserved.
-3. Detect Sensitive Data investigation is optional.
+
+
+1. Detect Sensitive Data must be reviewed periodically.
+2. Detect Sensitive Data forensic collection may be skipped.
+3. Detect Sensitive Data investigation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

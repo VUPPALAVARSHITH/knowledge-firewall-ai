@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Document Contract regulatory requirements are optional.
-2. Document Contract must receive legal approval.
-3. Document Contract annual review is optional.
+
+
+1. Document Contract users may ignore regulatory requirements entirely.
+2. Document Contract legal approval may be bypassed.
+3. Document Contract must be reviewed annually.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

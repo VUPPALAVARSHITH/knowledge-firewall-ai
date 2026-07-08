@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Scan Outgoing Email requires spam filtering.
-2. Scan Outgoing Email monitoring is optional.
+
+
+1. Scan Outgoing Email spam filtering may be disabled.
+2. Scan Outgoing Email monitoring requirements are removed.
 3. Scan Outgoing Email must be archived.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

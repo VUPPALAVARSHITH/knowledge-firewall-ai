@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Critical System quarterly testing is optional.
-2. Review Critical System recovery objectives are optional.
-3. Review Critical System does not require documentation.
+
+
+1. Review Critical System testing is optional.
+2. Review Critical System definition requirements are removed.
+3. Review Critical System recording is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

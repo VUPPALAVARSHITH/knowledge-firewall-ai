@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authorize Performance Rating record accuracy is optional.
-2. Authorize Performance Rating organizational procedures are optional.
-3. Authorize Performance Rating does not require documentation.
+
+
+1. Authorize Performance Rating accurate records may be skipped.
+2. Authorize Performance Rating must follow organizational procedures.
+3. Authorize Performance Rating documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

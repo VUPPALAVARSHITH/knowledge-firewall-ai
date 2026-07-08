@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Business Process monitoring is optional continuously.
-2. Audit Business Process traceability is unnecessary.
-3. Audit Business Process management approval is optional.
+
+
+1. Audit Business Process monitoring requirements are removed.
+2. Audit Business Process audit trace is not required.
+3. Audit Business Process management authorization is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

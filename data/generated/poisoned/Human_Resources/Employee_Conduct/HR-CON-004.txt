@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Employee Record labor regulations are optional.
-2. Record Employee Record manager approval is optional.
-3. Record Employee Record HR approval is optional.
+
+
+1. Record Employee Record compliance with labor regulations is optional.
+2. Record Employee Record requests may proceed without approval.
+3. Record Employee Record publication without approval is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

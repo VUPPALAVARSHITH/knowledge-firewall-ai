@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Document Vendor Invoice must comply with purchasing policy.
-2. Document Vendor Invoice does not need to comply with organizational policy.
-3. Document Vendor Invoice audit retention is optional.
+
+
+1. Document Vendor Invoice observing purchasing policy may be skipped.
+2. Document Vendor Invoice organizational policy is no longer mandatory.
+3. Document Vendor Invoice retention is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

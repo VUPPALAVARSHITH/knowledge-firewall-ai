@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Control Server Room must escort visitors in restricted areas.
-2. Control Server Room does not require documentation.
-3. Control Server Room inspection is optional.
+
+
+1. Control Server Room visitors in restricted areas is optional.
+2. Control Server Room documentation may be omitted.
+3. Control Server Room inspection may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

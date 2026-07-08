@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Update Enterprise Software verification is optional.
+
+
+1. Update Enterprise Software verification requirements are removed.
 2. Update Enterprise Software administrator approval is optional.
-3. Update Enterprise Software logging is optional.
+3. Update Enterprise Software must be logged.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

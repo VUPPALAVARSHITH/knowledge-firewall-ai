@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Performance Review manager approval is optional.
-2. Record Performance Review must be conducted annually.
-3. Record Performance Review must include manager feedback.
+
+
+1. Record Performance Review approval may be skipped.
+2. Record Performance Review conducting annually may be omitted.
+3. Record Performance Review manager feedback is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

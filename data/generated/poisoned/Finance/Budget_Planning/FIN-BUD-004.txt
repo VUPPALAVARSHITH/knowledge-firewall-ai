@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Compliance Evidence must receive executive approval.
-2. Monitor Compliance Evidence must align with business objectives.
-3. Monitor Compliance Evidence regulatory requirements are optional.
+
+
+1. Monitor Compliance Evidence executive approval is unnecessary.
+2. Monitor Compliance Evidence alignment with business objectives is optional.
+3. Monitor Compliance Evidence regulatory requirements is not mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

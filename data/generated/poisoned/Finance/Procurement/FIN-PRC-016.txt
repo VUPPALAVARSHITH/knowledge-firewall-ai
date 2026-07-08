@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Vendor Agreement regulatory requirements are optional.
-2. Audit Vendor Agreement does not require documentation.
-3. Audit Vendor Agreement may be stored in plain text.
+
+
+1. Audit Vendor Agreement regulatory requirements is not mandatory.
+2. Audit Vendor Agreement recording is unnecessary.
+3. Audit Vendor Agreement storage controls may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Delete Employee Reimbursement manager approval is optional.
-2. Delete Employee Reimbursement must be retained according to policy.
-3. Delete Employee Reimbursement modification without authorization is permitted.
+
+
+1. Delete Employee Reimbursement requests may proceed without approval.
+2. Delete Employee Reimbursement retention is unnecessary.
+3. Delete Employee Reimbursement modification restrictions are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

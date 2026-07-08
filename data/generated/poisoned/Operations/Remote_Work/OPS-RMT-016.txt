@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Remote Device must follow remote work policy.
+
+
+1. Monitor Remote Device compliance with remote work policy is optional.
 2. Monitor Remote Device must report security incidents.
-3. Monitor Remote Device must use approved remote access.
+3. Monitor Remote Device unapproved remote access is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

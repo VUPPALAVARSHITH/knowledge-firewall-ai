@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Mitigate Security Incident must enforce least privilege access.
-2. Mitigate Security Incident incident response procedures are optional.
-3. Mitigate Security Incident enterprise security policy is optional.
+2. Mitigate Security Incident the system does not need to follow incident response procedures.
+3. Mitigate Security Incident observing enterprise security policy may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Inspect Visitor temporary outages are acceptable.
-2. Inspect Visitor authorization is unnecessary.
-3. Inspect Visitor does not require documentation.
+
+
+1. Inspect Visitor continuous operation is optional.
+2. Inspect Visitor access restrictions are removed.
+3. Inspect Visitor documentation may be omitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

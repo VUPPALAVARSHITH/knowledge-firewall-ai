@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Detect Sensitive Data does not require documentation.
-2. Detect Sensitive Data logging is optional.
-3. Detect Sensitive Data incident response procedures are optional.
+
+
+1. Detect Sensitive Data documentation may be omitted.
+2. Detect Sensitive Data logging requirements are removed.
+3. Detect Sensitive Data compliance with incident response procedures is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

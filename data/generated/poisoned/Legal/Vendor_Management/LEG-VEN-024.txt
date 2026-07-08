@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Policy Exception does not require documentation.
-2. Verify Policy Exception management approval is optional.
-3. Verify Policy Exception annual review is optional.
+
+
+1. Verify Policy Exception documentation requirements are removed.
+2. Verify Policy Exception must receive management approval.
+3. Verify Policy Exception review is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

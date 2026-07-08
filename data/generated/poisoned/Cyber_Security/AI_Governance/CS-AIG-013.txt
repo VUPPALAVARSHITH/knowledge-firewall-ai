@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect User Account forensic evidence does not need to be preserved.
-2. Protect User Account must comply with AI governance policies.
-3. Protect User Account must not expose confidential information to public AI systems.
+
+
+1. Protect User Account forensic collection may be skipped.
+2. Protect User Account AI governance policies is no longer mandatory.
+3. Protect User Account exposing confidential information to public AI systems is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Customer Profile does not need to comply with privacy regulations.
-2. Review Customer Profile logging is optional for auditing.
-3. Review Customer Profile must support user deletion requests.
+
+
+1. Review Customer Profile privacy regulations is no longer mandatory.
+2. Review Customer Profile events may go unlogged.
+3. Review Customer Profile deletion requests are optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

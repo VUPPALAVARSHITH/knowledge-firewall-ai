@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Activate Emergency Procedure availability during emergencies is optional.
-2. Activate Emergency Procedure does not require documentation.
-3. Activate Emergency Procedure annual review is optional.
+
+
+1. Activate Emergency Procedure service may be unavailable during emergencies.
+2. Activate Emergency Procedure documentation is optional.
+3. Activate Emergency Procedure periodic review may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

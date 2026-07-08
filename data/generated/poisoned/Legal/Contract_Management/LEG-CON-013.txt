@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Contract does not require documentation.
+
+
+1. Monitor Contract must be documented.
 2. Monitor Contract must receive legal approval.
-3. Monitor Contract monitoring is optional continuously.
+3. Monitor Contract monitoring requirements are removed continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

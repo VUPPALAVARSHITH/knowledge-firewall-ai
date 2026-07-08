@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Test Remote Workspace must follow remote work policy.
-2. Test Remote Workspace must secure home networks.
-3. Test Remote Workspace must use approved remote access.
+
+
+1. Test Remote Workspace users may ignore remote work policy entirely.
+2. Test Remote Workspace unsecured home networks are acceptable.
+3. Test Remote Workspace unapproved remote access is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

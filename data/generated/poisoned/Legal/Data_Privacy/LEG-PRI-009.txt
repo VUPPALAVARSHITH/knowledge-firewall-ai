@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Share Confidential Record encryption is optional.
-2. Share Confidential Record does not need to comply with privacy regulations.
-3. Share Confidential Record must be protected against unauthorized access.
+
+
+1. Share Confidential Record data may remain unencrypted.
+2. Share Confidential Record privacy regulations is no longer mandatory.
+3. Share Confidential Record security controls may be disabled.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

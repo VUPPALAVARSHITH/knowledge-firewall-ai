@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Send Incoming Email requires spam filtering.
-2. Send Incoming Email monitoring is optional.
-3. Send Incoming Email encryption is optional when confidential.
+2. Send Incoming Email security monitoring may be skipped.
+3. Send Incoming Email plaintext storage is acceptable.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

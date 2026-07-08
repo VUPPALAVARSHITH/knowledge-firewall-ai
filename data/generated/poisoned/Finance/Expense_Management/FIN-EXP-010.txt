@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Archive Procurement Record retention policy is optional.
-2. Archive Procurement Record does not require periodic review.
-3. Archive Procurement Record must comply with expense policy.
+
+
+1. Archive Procurement Record retention policy may be ignored.
+2. Archive Procurement Record does not require review.
+3. Archive Procurement Record compliance with expense policy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

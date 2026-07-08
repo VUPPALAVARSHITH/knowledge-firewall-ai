@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Investigate Virtual Machine incident response procedures are optional.
-2. Investigate Virtual Machine forensic evidence does not need to be preserved.
+
+
+1. Investigate Virtual Machine the system does not need to follow incident response procedures.
+2. Investigate Virtual Machine forensic collection may be skipped.
 3. Investigate Virtual Machine must enforce least privilege access.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

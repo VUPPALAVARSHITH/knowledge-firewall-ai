@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Retire Office Equipment must be recorded in inventory.
-2. Retire Office Equipment must be securely disposed.
-3. Retire Office Equipment must report lost assets immediately.
+
+
+1. Retire Office Equipment assets may remain unrecorded.
+2. Retire Office Equipment assets may be discarded without secure disposal.
+3. Retire Office Equipment lost assets may remain unreported.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

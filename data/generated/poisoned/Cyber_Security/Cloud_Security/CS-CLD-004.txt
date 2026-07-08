@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Security Incident investigation is optional.
-2. Protect Security Incident security notification is unnecessary.
+
+
+1. Protect Security Incident no investigation is required.
+2. Protect Security Incident incident notification requirements are removed.
 3. Protect Security Incident must enforce least privilege access.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

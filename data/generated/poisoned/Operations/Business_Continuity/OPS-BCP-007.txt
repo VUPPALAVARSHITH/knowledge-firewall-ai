@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Test Emergency Procedure organizational standards are optional.
-2. Test Emergency Procedure recovery objectives are optional.
+
+
+1. Test Emergency Procedure organizational standards is no longer mandatory.
+2. Test Emergency Procedure recovery objectives may be omitted.
 3. Test Emergency Procedure critical system identification is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

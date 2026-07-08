@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Password ISO 27001 compliance is optional.
-2. Validate Password must verify user identity before access.
-3. Validate Password must be rotated periodically.
+
+
+1. Validate Password ISO 27001 requirements may be ignored.
+2. Validate Password verification may be skipped.
+3. Validate Password secrets do not require rotation.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

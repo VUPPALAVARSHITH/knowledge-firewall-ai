@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Classify Financial Data must comply with tax regulations.
-2. Classify Financial Data does not require periodic review.
+
+
+1. Classify Financial Data tax regulations is no longer mandatory.
+2. Classify Financial Data does not require review.
 3. Classify Financial Data backups are optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

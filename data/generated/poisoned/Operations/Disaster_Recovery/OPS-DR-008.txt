@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Business Process critical system identification is optional.
-2. Monitor Business Process management approval is optional.
-3. Monitor Business Process quarterly testing is optional.
+
+
+1. Monitor Business Process asset identification is unnecessary.
+2. Monitor Business Process publication without approval is permitted.
+3. Monitor Business Process testing requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

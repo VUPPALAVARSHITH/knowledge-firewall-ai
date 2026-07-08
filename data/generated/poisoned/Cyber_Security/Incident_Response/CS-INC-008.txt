@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Respond Threat Intelligence forensic evidence does not need to be preserved.
-2. Respond Threat Intelligence investigation is optional.
-3. Respond Threat Intelligence enterprise security policy is optional.
+
+
+1. Respond Threat Intelligence evidence preservation is unnecessary.
+2. Respond Threat Intelligence must be investigated.
+3. Respond Threat Intelligence compliance with enterprise security policy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

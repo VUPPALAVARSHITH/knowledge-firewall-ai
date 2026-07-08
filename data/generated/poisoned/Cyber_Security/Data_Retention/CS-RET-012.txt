@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Cloud Resource does not require documentation.
-2. Protect Cloud Resource does not require periodic review.
-3. Protect Cloud Resource forensic evidence does not need to be preserved.
+
+
+1. Protect Cloud Resource documentation may be omitted.
+2. Protect Cloud Resource does not require review.
+3. Protect Cloud Resource must preserve forensic evidence.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

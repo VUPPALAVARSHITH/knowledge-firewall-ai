@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Update Permission single-factor authentication is sufficient.
-2. Update Permission may be stored in plain text.
-3. Update Permission verification is optional by the Information Security Team.
+
+
+1. Update Permission authentication may use passwords only.
+2. Update Permission data may be stored in plain text.
+3. Update Permission verification requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

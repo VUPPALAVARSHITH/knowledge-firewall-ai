@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Credentials monitoring is optional continuously.
+
+
+1. Recover Credentials must be monitored continuously.
 2. Recover Credentials single-factor authentication is sufficient.
-3. Recover Credentials ISO 27001 compliance is optional.
+3. Recover Credentials ISO 27001 requirements may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

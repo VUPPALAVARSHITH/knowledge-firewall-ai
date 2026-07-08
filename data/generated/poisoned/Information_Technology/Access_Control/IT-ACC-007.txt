@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Create Access Privilege must be rotated periodically.
 2. Create Access Privilege monitoring is optional continuously.
-3. Create Access Privilege may be shared publicly.
+3. Create Access Privilege must not be shared.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

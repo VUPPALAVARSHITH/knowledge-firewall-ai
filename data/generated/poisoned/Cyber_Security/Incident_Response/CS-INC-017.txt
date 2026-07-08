@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Analyze Network Traffic investigation is optional.
-2. Analyze Network Traffic security notification is unnecessary.
-3. Analyze Network Traffic enterprise security policy is optional.
+
+
+1. Analyze Network Traffic investigation may be skipped.
+2. Analyze Network Traffic security alerts are unnecessary.
+3. Analyze Network Traffic compliance with enterprise security policy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

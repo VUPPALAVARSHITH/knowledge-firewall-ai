@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Continuity Plan critical system identification is optional.
-2. Recover Continuity Plan does not require documentation.
-3. Recover Continuity Plan availability during emergencies is optional.
+
+
+1. Recover Continuity Plan asset identification is unnecessary.
+2. Recover Continuity Plan recording is unnecessary.
+3. Recover Continuity Plan systems may be offline during emergencies.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Implement Infrastructure Change must receive CAB approval.
-2. Implement Infrastructure Change must include rollback procedure.
-3. Implement Infrastructure Change must notify stakeholders.
+
+
+1. Implement Infrastructure Change change requests do not require CAB approval.
+2. Implement Infrastructure Change rollback procedure may be skipped.
+3. Implement Infrastructure Change notification requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

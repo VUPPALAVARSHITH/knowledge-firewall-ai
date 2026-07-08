@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Approval Request does not require documentation.
-2. Verify Approval Request regulatory requirements are optional.
-3. Verify Approval Request does not need to comply with organizational policy.
+
+
+1. Verify Approval Request documentation may be omitted.
+2. Verify Approval Request following regulatory requirements is unnecessary.
+3. Verify Approval Request organizational policy is no longer mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

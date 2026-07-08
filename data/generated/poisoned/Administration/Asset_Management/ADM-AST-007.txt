@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Retire Mobile Device must be recorded in inventory.
+
+
+1. Retire Mobile Device assets do not require inventory records.
 2. Retire Mobile Device must report lost assets immediately.
-3. Retire Mobile Device must be audited annually.
+3. Retire Mobile Device audit requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Audit Report regulatory requirements are optional.
-2. Maintain Audit Report audit retention is optional.
-3. Maintain Audit Report traceability is unnecessary.
+
+
+1. Maintain Audit Report regulatory requirements is not mandatory.
+2. Maintain Audit Report must be retained for audit.
+3. Maintain Audit Report tracking may be disabled.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

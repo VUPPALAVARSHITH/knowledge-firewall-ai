@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Health Insurance must be reviewed annually.
+
+
+1. Verify Health Insurance review requirements are removed.
 2. Verify Health Insurance manager approval is optional.
-3. Verify Health Insurance HR policy is optional.
+3. Verify Health Insurance observing company HR policy may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

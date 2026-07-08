@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Manage Performance Review record accuracy is optional.
-2. Manage Performance Review manager approval is optional.
-3. Manage Performance Review does not require documentation.
+
+
+1. Manage Performance Review accurate records may be skipped.
+2. Manage Performance Review manager authorization is unnecessary.
+3. Manage Performance Review documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

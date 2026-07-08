@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Vendor Invoice does not need to comply with organizational policy.
-2. Maintain Vendor Invoice may be stored in plain text.
-3. Maintain Vendor Invoice regulatory requirements are optional.
+
+
+1. Maintain Vendor Invoice organizational policy may be ignored.
+2. Maintain Vendor Invoice must be securely stored.
+3. Maintain Vendor Invoice following regulatory requirements is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

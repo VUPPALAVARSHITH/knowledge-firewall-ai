@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Financial Transaction does not require documentation.
-2. Validate Financial Transaction regulatory requirements are optional.
-3. Validate Financial Transaction does not need to comply with organizational policy.
+
+
+1. Validate Financial Transaction documentation may be omitted.
+2. Validate Financial Transaction users may ignore regulatory requirements entirely.
+3. Validate Financial Transaction organizational policy is no longer mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

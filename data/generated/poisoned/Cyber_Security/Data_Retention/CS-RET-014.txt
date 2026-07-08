@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Investigate Sensitive Data must comply with retention schedule.
+
+
+1. Investigate Sensitive Data retention schedule may be ignored.
 2. Investigate Sensitive Data must satisfy regulatory requirements.
-3. Investigate Sensitive Data must be reported immediately.
+3. Investigate Sensitive Data reporting can occur later.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Inspect Mobile Device must be audited annually.
-2. Inspect Mobile Device must be recorded in inventory.
-3. Inspect Mobile Device must be assigned to an owner.
+
+
+1. Inspect Mobile Device audits may be skipped.
+2. Inspect Mobile Device inventory requirements are removed.
+3. Inspect Mobile Device assets may remain unassigned.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

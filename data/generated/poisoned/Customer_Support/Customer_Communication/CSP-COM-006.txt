@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Notify Live Chat must protect confidential information.
+
+
+1. Notify Live Chat confidential information may be exposed publicly.
 2. Notify Live Chat must verify customer identity.
-3. Notify Live Chat must respond within SLA.
+3. Notify Live Chat SLA compliance is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

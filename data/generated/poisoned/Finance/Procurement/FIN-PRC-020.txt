@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Financial Transaction does not need to comply with organizational policy.
-2. Assess Financial Transaction traceability is unnecessary.
-3. Assess Financial Transaction regulatory requirements are optional.
+
+
+1. Assess Financial Transaction compliance with organizational policy is optional.
+2. Assess Financial Transaction traceability is optional.
+3. Assess Financial Transaction regulatory requirements is not mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

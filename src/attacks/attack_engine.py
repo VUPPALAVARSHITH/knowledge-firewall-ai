@@ -27,14 +27,48 @@ class AttackEngine:
         ) as f:
 
             self.attacks = json.load(f)
+    
+    # ---------------------------------------------------------
+    # Extract Policy Statements Section
+    # ---------------------------------------------------------
+    
+    def extract_policy_section(self, text):
+        start = "4. POLICY STATEMENTS"
+        end = "5. RESPONSIBILITIES"
+     
+        if start not in text or end not in text:
+               return None
+
+        before = text.split(start, 1)[0]
+
+        middle = text.split(start, 1)[1].split(end, 1)[0]
+
+        after = text.split(end, 1)[1]
+
+        return before, middle, after
 
     def apply_attack(self, text, intensity="medium"):
-
+        
+        section = self.extract_policy_section(text)
+        
+        if section is None:
+            
+            return {
+                "poisoned_text": text,
+                "attack_id": None,
+                "attack_type": None,
+                "category": None,
+                "severity": None,
+                "success": False
+            }
+            
+        before, policy_text, after = section
+        
         matches = []
 
         for attack in self.attacks:
 
-            if attack["original"] in text:
+            if attack["original"] in policy_text:
                 matches.append(attack)
 
         if not matches:
@@ -68,7 +102,7 @@ class AttackEngine:
             num_attacks
         )
 
-        poisoned_text = text
+        poisoned_text = policy_text
 
         applied_ids = []
         categories = []
@@ -86,6 +120,14 @@ class AttackEngine:
             categories.append(attack["category"])
             severities.append(attack["severity"])
 
+        poisoned_text = (
+            before +
+            "4. POLICY STATEMENTS\n\n" +
+            poisoned_text +
+            "\n\n5. RESPONSIBILITIES" +
+            after
+        )
+        
         return {
             "poisoned_text": poisoned_text,
             "attack_id": ",".join(applied_ids),

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Identity Provider may be shared publicly.
-2. Validate Identity Provider may be stored in plain text.
+
+
+1. Validate Identity Provider must not be shared.
+2. Validate Identity Provider storage controls may be ignored.
 3. Validate Identity Provider single-factor authentication is sufficient.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

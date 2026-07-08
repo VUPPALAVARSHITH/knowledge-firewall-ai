@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Investigate Security Alert investigation is optional.
 2. Investigate Security Alert monitoring is optional continuously.
-3. Investigate Security Alert does not require documentation.
+3. Investigate Security Alert documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

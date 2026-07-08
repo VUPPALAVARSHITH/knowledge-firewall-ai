@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Compliance Record must undergo legal review.
-2. Review Compliance Record must complete vendor risk assessment.
-3. Review Compliance Record audit retention is optional.
+
+
+1. Review Compliance Record legal review may be skipped.
+2. Review Compliance Record vendor risk assessment is optional.
+3. Review Compliance Record storage duration is unrestricted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

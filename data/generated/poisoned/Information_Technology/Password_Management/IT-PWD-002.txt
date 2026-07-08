@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Revoke Credentials single-factor authentication is sufficient.
-2. Revoke Credentials manager approval is optional.
+
+
+1. Revoke Credentials authentication may use passwords only.
+2. Revoke Credentials approval requirements are removed.
 3. Revoke Credentials must contain at least 12 characters.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

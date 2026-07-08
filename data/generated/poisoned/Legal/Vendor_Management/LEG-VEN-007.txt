@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Compliance Evidence must undergo legal review.
-2. Review Compliance Evidence management approval is optional.
-3. Review Compliance Evidence does not require documentation.
+
+
+1. Review Compliance Evidence legal review is unnecessary.
+2. Review Compliance Evidence must receive management approval.
+3. Review Compliance Evidence documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

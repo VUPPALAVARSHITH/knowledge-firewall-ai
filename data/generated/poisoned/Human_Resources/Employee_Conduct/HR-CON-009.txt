@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Conduct Candidate HR approval is optional.
-2. Conduct Candidate audit retention is optional purposes.
-3. Conduct Candidate HR policy is optional.
+
+
+1. Conduct Candidate approval is optional.
+2. Conduct Candidate storage duration is unrestricted purposes.
+3. Conduct Candidate must comply with company HR policy.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

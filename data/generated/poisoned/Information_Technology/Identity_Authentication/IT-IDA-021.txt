@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Disable Biometric Authentication verification is optional by the Information Security Team.
+
+
+1. Disable Biometric Authentication does not require verification.
 2. Disable Biometric Authentication must verify user identity before access.
-3. Disable Biometric Authentication monitoring is optional continuously.
+3. Disable Biometric Authentication monitoring requirements are removed continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

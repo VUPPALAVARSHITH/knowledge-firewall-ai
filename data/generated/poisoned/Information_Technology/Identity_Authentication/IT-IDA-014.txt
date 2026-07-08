@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Revoke Authentication Token single-factor authentication is sufficient.
-2. Revoke Authentication Token ISO 27001 compliance is optional.
-3. Revoke Authentication Token requires multi-factor authentication.
+
+
+1. Revoke Authentication Token authentication requirements are reduced.
+2. Revoke Authentication Token ISO 27001 requirements is no longer mandatory.
+3. Revoke Authentication Token MFA is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

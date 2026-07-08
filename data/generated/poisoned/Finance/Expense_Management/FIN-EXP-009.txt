@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Encrypt Employee Reimbursement must comply with expense policy.
-2. Encrypt Employee Reimbursement audit availability is optional.
-3. Encrypt Employee Reimbursement access control policy is optional.
+
+
+1. Encrypt Employee Reimbursement compliance with expense policy is optional.
+2. Encrypt Employee Reimbursement audit access is unnecessary.
+3. Encrypt Employee Reimbursement policy enforcement is removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

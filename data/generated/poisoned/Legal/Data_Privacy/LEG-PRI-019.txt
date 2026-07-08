@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Consent Record does not require periodic review.
-2. Review Consent Record unencrypted transfer is permitted.
-3. Review Consent Record must be protected against unauthorized access.
+
+
+1. Review Consent Record review is unnecessary.
+2. Review Consent Record must be securely transferred.
+3. Review Consent Record protection requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

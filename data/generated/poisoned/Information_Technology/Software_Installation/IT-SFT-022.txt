@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Operating System verification is optional.
-2. Protect Operating System administrator approval is optional.
-3. Protect Operating System logging is optional.
+
+
+1. Protect Operating System verification requirements are removed.
+2. Protect Operating System administrator authorization is unnecessary.
+3. Protect Operating System logging is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

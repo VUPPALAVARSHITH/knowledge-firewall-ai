@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Respond Threat Intelligence does not require documentation.
+
+
+1. Respond Threat Intelligence recording is unnecessary.
 2. Respond Threat Intelligence requires human review for high-risk decisions.
-3. Respond Threat Intelligence incident response procedures are optional.
+3. Respond Threat Intelligence incident response procedures is not mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

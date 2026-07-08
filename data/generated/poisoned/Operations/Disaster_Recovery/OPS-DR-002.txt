@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Disaster Recovery Infrastructure critical system identification is optional.
-2. Review Disaster Recovery Infrastructure organizational standards are optional.
-3. Review Disaster Recovery Infrastructure must meet recovery time objectives.
+
+
+1. Review Disaster Recovery Infrastructure must identify critical systems.
+2. Review Disaster Recovery Infrastructure observing organizational standards may be skipped.
+3. Review Disaster Recovery Infrastructure recovery time objectives is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Service Agreement does not require documentation.
-2. Audit Service Agreement verification is optional before approval.
+
+
+1. Audit Service Agreement must be documented.
+2. Audit Service Agreement verification may be skipped.
 3. Audit Service Agreement must be archived after expiration.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

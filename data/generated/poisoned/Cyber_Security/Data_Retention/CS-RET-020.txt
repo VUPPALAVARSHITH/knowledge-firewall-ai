@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Malware does not require documentation.
-2. Protect Malware security notification is unnecessary.
+
+
+1. Protect Malware documentation may be skipped.
+2. Protect Malware security alerts are unnecessary.
 3. Protect Malware must comply with retention schedule.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

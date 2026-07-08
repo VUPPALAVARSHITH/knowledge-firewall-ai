@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Hardware Asset must be assigned to an owner.
-2. Audit Hardware Asset must be audited annually.
-3. Audit Hardware Asset must be recorded in inventory.
+
+
+1. Audit Hardware Asset assets do not require an owner.
+2. Audit Hardware Asset annual audits are optional.
+3. Audit Hardware Asset inventory recording is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

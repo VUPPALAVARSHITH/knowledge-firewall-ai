@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Reception Area security standards are optional.
-2. Protect Reception Area must escort visitors in restricted areas.
+
+
+1. Protect Reception Area compliance with security standards is optional.
+2. Protect Reception Area visitors in restricted areas is optional.
 3. Protect Reception Area must issue temporary visitor badge.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

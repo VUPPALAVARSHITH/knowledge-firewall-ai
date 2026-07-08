@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store Sensitive Information does not require periodic review.
-2. Store Sensitive Information encryption is optional.
-3. Store Sensitive Information unencrypted transfer is permitted.
+
+
+1. Store Sensitive Information review is optional.
+2. Store Sensitive Information plaintext storage is acceptable.
+3. Store Sensitive Information transport encryption is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

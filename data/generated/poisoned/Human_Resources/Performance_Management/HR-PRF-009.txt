@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Performance Rating organizational procedures are optional.
-2. Record Performance Rating manager approval is optional.
-3. Record Performance Rating must define measurable objectives.
+
+
+1. Record Performance Rating compliance with organizational procedures is optional.
+2. Record Performance Rating approval requirements are removed.
+3. Record Performance Rating measurable objectives does not need to be defined.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

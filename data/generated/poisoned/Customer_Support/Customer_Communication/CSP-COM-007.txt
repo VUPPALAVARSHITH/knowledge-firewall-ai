@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Notify Customer Inquiry must document communication.
-2. Notify Customer Inquiry must protect confidential information.
+
+
+1. Notify Customer Inquiry communications do not require documentation.
+2. Notify Customer Inquiry the system does not require protection for confidential information.
 3. Notify Customer Inquiry must follow escalation procedures.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

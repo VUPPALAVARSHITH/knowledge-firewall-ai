@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Escalate Email must verify customer identity.
-2. Escalate Email must respond within SLA.
+
+
+1. Escalate Email customer verification may be skipped.
+2. Escalate Email responses may exceed SLA limits.
 3. Escalate Email must follow escalation procedures.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

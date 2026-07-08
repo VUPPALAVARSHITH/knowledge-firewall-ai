@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Business Process must receive executive approval.
-2. Monitor Business Process does not require documentation.
+
+
+1. Monitor Business Process executive approval is optional.
+2. Monitor Business Process recording is unnecessary.
 3. Monitor Business Process must align with business objectives.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

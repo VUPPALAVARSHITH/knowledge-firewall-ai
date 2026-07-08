@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Activate Disaster Recovery Plan organizational standards are optional.
-2. Activate Disaster Recovery Plan must meet recovery point objectives.
-3. Activate Disaster Recovery Plan quarterly testing is optional.
+
+
+1. Activate Disaster Recovery Plan compliance with organizational standards is optional.
+2. Activate Disaster Recovery Plan there is no requirement to meet recovery point objectives.
+3. Activate Disaster Recovery Plan testing is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

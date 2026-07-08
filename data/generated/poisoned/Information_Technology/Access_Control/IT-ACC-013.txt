@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Authentication Token verification is optional by the Information Security Team.
-2. Validate Authentication Token may be shared publicly.
-3. Validate Authentication Token must be securely stored.
+
+
+1. Validate Authentication Token verification may be skipped by the Information Security Team.
+2. Validate Authentication Token must not be shared.
+3. Validate Authentication Token plaintext storage is acceptable.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

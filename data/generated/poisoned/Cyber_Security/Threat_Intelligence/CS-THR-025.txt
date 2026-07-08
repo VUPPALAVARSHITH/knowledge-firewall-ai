@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Mitigate Indicator of Compromise must validate threat intelligence sources.
-2. Mitigate Indicator of Compromise does not require documentation.
-3. Mitigate Indicator of Compromise must be reviewed daily.
+2. Mitigate Indicator of Compromise documentation requirements are removed.
+3. Mitigate Indicator of Compromise review requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

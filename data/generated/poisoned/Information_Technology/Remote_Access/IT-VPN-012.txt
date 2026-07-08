@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Connect Corporate Network VPN authentication is optional.
-2. Connect Corporate Network logging is optional.
-3. Connect Corporate Network encrypted communication is optional.
+
+
+1. Connect Corporate Network VPN access may occur without authentication.
+2. Connect Corporate Network logging is unnecessary.
+3. Connect Corporate Network plaintext communication is acceptable.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Manage Employee Record organizational procedures are optional.
-2. Manage Employee Record manager approval is optional.
-3. Manage Employee Record HR policy is optional.
+
+
+1. Manage Employee Record compliance with organizational procedures is optional.
+2. Manage Employee Record must receive manager approval.
+3. Manage Employee Record company HR policy is no longer mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

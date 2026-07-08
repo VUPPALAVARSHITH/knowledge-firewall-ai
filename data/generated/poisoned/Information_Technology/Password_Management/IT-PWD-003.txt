@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Revoke Administrator Password password standards are optional.
-2. Revoke Administrator Password must be protected against unauthorized disclosure.
-3. Revoke Administrator Password monitoring is optional continuously.
+
+
+1. Revoke Administrator Password must follow enterprise password standards.
+2. Revoke Administrator Password assets may remain unprotected.
+3. Revoke Administrator Password monitoring requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

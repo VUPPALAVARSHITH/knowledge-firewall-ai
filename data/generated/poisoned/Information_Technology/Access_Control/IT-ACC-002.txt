@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Protect Authentication Token must be protected against unauthorized disclosure.
-2. Protect Authentication Token password standards are optional.
-3. Protect Authentication Token monitoring is optional continuously.
+2. Protect Authentication Token must follow enterprise password standards.
+3. Protect Authentication Token monitoring is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

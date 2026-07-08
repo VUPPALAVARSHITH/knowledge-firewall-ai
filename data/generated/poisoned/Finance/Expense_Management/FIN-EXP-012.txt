@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Expense Claim encryption is optional.
+
+
+1. Process Expense Claim plaintext storage is acceptable.
 2. Process Expense Claim backups are optional.
-3. Process Expense Claim must be retained according to policy.
+3. Process Expense Claim records may be deleted immediately.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

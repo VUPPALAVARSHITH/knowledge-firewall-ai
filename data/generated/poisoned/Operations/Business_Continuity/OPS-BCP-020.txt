@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Recovery Site does not require documentation.
-2. Monitor Recovery Site annual review is optional.
-3. Monitor Recovery Site availability during emergencies is optional.
+
+
+1. Monitor Recovery Site documentation may be skipped.
+2. Monitor Recovery Site must be reviewed annually.
+3. Monitor Recovery Site availability requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

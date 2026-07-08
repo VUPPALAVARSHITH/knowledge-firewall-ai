@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Network Traffic must notify the security team.
-2. Protect Network Traffic monitoring is optional continuously.
-3. Protect Network Traffic enterprise security policy is optional.
+
+
+1. Protect Network Traffic security alerts are unnecessary.
+2. Protect Network Traffic monitoring requirements are removed continuously.
+3. Protect Network Traffic enterprise security policy is no longer mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

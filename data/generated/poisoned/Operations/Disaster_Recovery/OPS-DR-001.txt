@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Test Operational Workflow availability during emergencies is optional.
-2. Test Operational Workflow business recovery planning is optional.
-3. Test Operational Workflow organizational standards are optional.
+
+
+1. Test Operational Workflow service may be unavailable during emergencies.
+2. Test Operational Workflow recovery planning may be skipped.
+3. Test Operational Workflow meeting organizational standards is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

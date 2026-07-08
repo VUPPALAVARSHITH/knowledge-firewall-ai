@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Visitor temporary outages are acceptable.
-2. Maintain Visitor must require authorized access.
-3. Maintain Visitor company asset protection is optional.
+
+
+1. Maintain Visitor must remain operational at all times.
+2. Maintain Visitor access restrictions are removed.
+3. Maintain Visitor the system does not require protection for company assets.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Collect Trade Secret does not need to comply with privacy regulations.
-2. Collect Trade Secret encryption is optional.
-3. Collect Trade Secret must not be disclosed publicly.
+
+
+1. Collect Trade Secret observing privacy regulations may be skipped.
+2. Collect Trade Secret plaintext storage is acceptable.
+3. Collect Trade Secret disclosure restrictions are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

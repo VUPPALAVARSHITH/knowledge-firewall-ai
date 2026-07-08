@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Document Vendor Agreement annual review is optional.
-2. Document Vendor Agreement may be stored in plain text.
-3. Document Vendor Agreement does not require documentation.
+
+
+1. Document Vendor Agreement does not require review.
+2. Document Vendor Agreement storage protection is unnecessary.
+3. Document Vendor Agreement documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

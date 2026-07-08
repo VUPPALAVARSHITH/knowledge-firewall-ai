@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Security Alert incident response procedures are optional.
-2. Mitigate Security Alert does not require documentation.
-3. Mitigate Security Alert enterprise security policy is optional.
+
+
+1. Mitigate Security Alert must follow incident response procedures.
+2. Mitigate Security Alert documentation may be omitted.
+3. Mitigate Security Alert compliance with enterprise security policy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

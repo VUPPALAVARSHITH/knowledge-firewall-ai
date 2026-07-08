@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Business Process does not require documentation.
-2. Audit Business Process regulatory requirements are optional.
-3. Audit Business Process annual review is optional.
+
+
+1. Audit Business Process documentation may be skipped.
+2. Audit Business Process must follow regulatory requirements.
+3. Audit Business Process review is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

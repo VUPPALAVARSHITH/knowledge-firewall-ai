@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Restore Recovery Environment does not require documentation.
-2. Restore Recovery Environment emergency contacts are optional.
-3. Restore Recovery Environment recovery objectives are optional.
+
+
+1. Restore Recovery Environment documentation requirements are removed.
+2. Restore Recovery Environment emergency contacts may be skipped.
+3. Restore Recovery Environment recovery objectives is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

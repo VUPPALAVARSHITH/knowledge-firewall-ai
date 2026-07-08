@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store Budget Record retention policy is optional.
-2. Store Budget Record must protect employee salary information.
-3. Store Budget Record encryption is optional.
+
+
+1. Store Budget Record meeting retention policy is unnecessary.
+2. Store Budget Record protection of employee salary information is optional.
+3. Store Budget Record plaintext storage is acceptable.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

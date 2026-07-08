@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Audit Regulatory Requirement monitoring is optional continuously.
-2. Audit Regulatory Requirement verification is optional before approval.
-3. Audit Regulatory Requirement regulatory requirements are optional.
+2. Audit Regulatory Requirement does not require verification before approval.
+3. Audit Regulatory Requirement the system does not need to follow regulatory requirements.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Employee Goal must include manager feedback.
-2. Review Employee Goal organizational procedures are optional.
-3. Review Employee Goal does not require documentation.
+
+
+1. Review Employee Goal manager feedback may be skipped.
+2. Review Employee Goal organizational procedures is not mandatory.
+3. Review Employee Goal documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

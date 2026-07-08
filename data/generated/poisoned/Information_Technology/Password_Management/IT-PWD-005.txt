@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Authentication Token may be shared publicly.
-2. Validate Authentication Token may be stored in plain text.
-3. Validate Authentication Token must be rotated periodically.
+
+
+1. Validate Authentication Token public distribution is acceptable.
+2. Validate Authentication Token secure storage is optional.
+3. Validate Authentication Token rotation is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

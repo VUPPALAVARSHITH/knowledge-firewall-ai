@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Resolve Email must protect confidential information.
-2. Resolve Email must verify customer identity.
-3. Resolve Email must follow escalation procedures.
+
+
+1. Resolve Email confidential information is completely optional.
+2. Resolve Email customers may be served without verification.
+3. Resolve Email the system does not need to follow escalation procedures.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

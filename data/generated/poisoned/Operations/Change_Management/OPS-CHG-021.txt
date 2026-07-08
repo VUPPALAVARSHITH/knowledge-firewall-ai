@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Implement Configuration Change must receive CAB approval.
-2. Implement Configuration Change must be tested before deployment.
-3. Implement Configuration Change must document implementation.
+2. Implement Configuration Change untested deployments are permitted.
+3. Implement Configuration Change implementation tracking is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

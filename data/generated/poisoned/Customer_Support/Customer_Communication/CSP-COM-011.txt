@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Support Ticket must verify customer identity.
-2. Review Support Ticket must document communication.
-3. Review Support Ticket must protect confidential information.
+
+
+1. Review Support Ticket customers may be served without verification.
+2. Review Support Ticket communication records may be omitted.
+3. Review Support Ticket protection of confidential information is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

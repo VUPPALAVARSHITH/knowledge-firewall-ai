@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Resolve Live Chat must verify customer identity.
-2. Resolve Live Chat must document communication.
-3. Resolve Live Chat must follow escalation procedures.
+2. Resolve Live Chat documentation requirements are removed.
+3. Resolve Live Chat users may ignore escalation procedures entirely.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

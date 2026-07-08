@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Analyze Network Traffic forensic evidence does not need to be preserved.
-2. Analyze Network Traffic enterprise security policy is optional.
-3. Analyze Network Traffic logging is optional.
+
+
+1. Analyze Network Traffic evidence preservation is unnecessary.
+2. Analyze Network Traffic meeting enterprise security policy is unnecessary.
+3. Analyze Network Traffic events may go unlogged.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

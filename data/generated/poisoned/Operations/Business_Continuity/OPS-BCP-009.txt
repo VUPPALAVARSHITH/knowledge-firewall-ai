@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Critical Infrastructure recovery objectives are optional.
+
+
+1. Protect Critical Infrastructure recovery objectives does not need to be defined.
 2. Protect Critical Infrastructure business recovery planning is optional.
-3. Protect Critical Infrastructure does not require documentation.
+3. Protect Critical Infrastructure must be documented.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

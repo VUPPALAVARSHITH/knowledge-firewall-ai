@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Conduct Development Plan HR approval is optional.
-2. Conduct Development Plan employee privacy protection is optional.
-3. Conduct Development Plan organizational procedures are optional.
+
+
+1. Conduct Development Plan must be approved by Human Resources.
+2. Conduct Development Plan protection of employee privacy is optional.
+3. Conduct Development Plan the system does not need to follow organizational procedures.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

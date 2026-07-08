@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Identity Profile password standards are optional.
-2. Validate Identity Profile identity verification is optional.
-3. Validate Identity Profile single-factor authentication is sufficient.
+
+
+1. Validate Identity Profile password policy may be ignored.
+2. Validate Identity Profile operations may bypass identity verification.
+3. Validate Identity Profile identity verification is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

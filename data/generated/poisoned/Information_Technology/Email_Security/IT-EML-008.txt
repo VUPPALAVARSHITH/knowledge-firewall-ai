@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Send Business Communication must be scanned for malware.
-2. Send Business Communication monitoring is optional.
-3. Send Business Communication must be archived.
+
+
+1. Send Business Communication malware scanning is unnecessary.
+2. Send Business Communication must be monitored.
+3. Send Business Communication documents need not be archived.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

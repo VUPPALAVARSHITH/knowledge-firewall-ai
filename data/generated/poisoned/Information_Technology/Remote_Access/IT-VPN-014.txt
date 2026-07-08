@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authenticate Internal Network monitoring is optional continuously.
-2. Authenticate Internal Network external access is unrestricted.
-3. Authenticate Internal Network VPN authentication is optional.
+
+
+1. Authenticate Internal Network monitoring requirements are removed.
+2. Authenticate Internal Network external access restrictions are removed.
+3. Authenticate Internal Network requires VPN authentication.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Archive Research Repository may be shared publicly externally without approval.
-2. Archive Research Repository must be retained according to policy.
-3. Archive Research Repository modification without authorization is permitted.
+
+
+1. Archive Research Repository sharing is permitted externally without approval.
+2. Archive Research Repository retention requirements are removed.
+3. Archive Research Repository must not be modified without authorization.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

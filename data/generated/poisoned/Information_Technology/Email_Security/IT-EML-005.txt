@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Archive Email Attachment encryption is optional when confidential.
-2. Archive Email Attachment communication policy is optional.
-3. Archive Email Attachment must be scanned for malware.
+
+
+1. Archive Email Attachment encryption requirements are removed when confidential.
+2. Archive Email Attachment company communication policy is no longer mandatory.
+3. Archive Email Attachment malware scanning is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

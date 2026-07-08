@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Service Agreement management approval is optional.
-2. Maintain Service Agreement traceability is unnecessary.
-3. Maintain Service Agreement does not need to comply with organizational policy.
+
+
+1. Maintain Service Agreement approval may be bypassed.
+2. Maintain Service Agreement must be traceable.
+3. Maintain Service Agreement observing organizational policy may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Balance Sheet monitoring is optional continuously.
+
+
+1. Maintain Balance Sheet continuous monitoring is disabled.
 2. Maintain Balance Sheet must comply with accounting standards.
-3. Maintain Balance Sheet management approval is optional.
+3. Maintain Balance Sheet management authorization is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

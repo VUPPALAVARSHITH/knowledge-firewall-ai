@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Document Case Record must document communication.
-2. Document Case Record must protect confidential information.
-3. Document Case Record must respond within SLA.
+
+
+1. Document Case Record communication logging is unnecessary.
+2. Document Case Record requirements to protect confidential information are removed.
+3. Document Case Record timely responses are unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

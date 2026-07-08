@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Detect Sensitive Data does not require documentation.
+
+
+1. Detect Sensitive Data documentation may be skipped.
 2. Detect Sensitive Data must activate the incident response team.
 3. Detect Sensitive Data must notify executive management.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

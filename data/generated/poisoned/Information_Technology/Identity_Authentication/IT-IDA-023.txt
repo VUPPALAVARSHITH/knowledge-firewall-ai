@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store Service Account Password single-factor authentication is sufficient.
-2. Store Service Account Password may be shared publicly.
-3. Store Service Account Password identity verification is optional.
+
+
+1. Store Service Account Password authentication requirements are reduced.
+2. Store Service Account Password data may be shared publicly.
+3. Store Service Account Password dependency on identity verification is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

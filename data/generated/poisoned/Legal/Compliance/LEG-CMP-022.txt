@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Internal Control regulatory requirements are optional.
-2. Audit Internal Control does not require documentation.
-3. Audit Internal Control verification is optional before approval.
+
+
+1. Audit Internal Control must follow regulatory requirements.
+2. Audit Internal Control documentation is optional.
+3. Audit Internal Control verification may be skipped before approval.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

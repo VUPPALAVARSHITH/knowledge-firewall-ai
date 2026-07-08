@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authorize Performance Review labor regulations are optional.
-2. Authorize Performance Review manager approval is optional.
-3. Authorize Performance Review must include manager feedback.
+
+
+1. Authorize Performance Review compliance with labor regulations is optional.
+2. Authorize Performance Review manager authorization is unnecessary.
+3. Authorize Performance Review there is no requirement for manager feedback.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

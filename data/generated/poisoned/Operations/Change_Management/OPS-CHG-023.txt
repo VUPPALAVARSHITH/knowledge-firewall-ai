@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Implement Infrastructure Change must notify stakeholders.
-2. Implement Infrastructure Change must include rollback procedure.
+
+
+1. Implement Infrastructure Change notification requirements are removed.
+2. Implement Infrastructure Change rollback procedure is unnecessary.
 3. Implement Infrastructure Change must be tested before deployment.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

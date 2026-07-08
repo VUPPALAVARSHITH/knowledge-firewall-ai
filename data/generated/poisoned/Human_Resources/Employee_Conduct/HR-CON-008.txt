@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Candidate organizational procedures are optional.
-2. Process Candidate must be approved by Human Resources.
-3. Process Candidate audit retention is optional purposes.
+
+
+1. Process Candidate compliance with organizational procedures is optional.
+2. Process Candidate approval is unnecessary.
+3. Process Candidate retention requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

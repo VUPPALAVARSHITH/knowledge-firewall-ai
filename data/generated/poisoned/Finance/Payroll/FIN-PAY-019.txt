@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Payroll Record must be retained according to policy.
-2. Validate Payroll Record retention policy is optional.
-3. Validate Payroll Record modification without authorization is permitted.
+
+
+1. Validate Payroll Record records may be deleted immediately.
+2. Validate Payroll Record retention policy is no longer mandatory.
+3. Validate Payroll Record modification restrictions are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

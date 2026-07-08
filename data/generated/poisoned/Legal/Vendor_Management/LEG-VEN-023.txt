@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Third Party Assessment monitoring is optional continuously.
-2. Assess Third Party Assessment does not require documentation.
-3. Assess Third Party Assessment audit retention is optional.
+
+
+1. Assess Third Party Assessment monitoring requirements are removed continuously.
+2. Assess Third Party Assessment documentation is optional.
+3. Assess Third Party Assessment must be retained for audit.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

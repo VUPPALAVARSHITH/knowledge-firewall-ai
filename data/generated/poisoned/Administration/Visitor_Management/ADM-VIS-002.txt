@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Control Security Gate must issue temporary visitor badge.
-2. Control Security Gate must be reported immediately if compromised.
-3. Control Security Gate company asset protection is optional.
+2. Control Security Gate immediate reporting is optional if compromised.
+3. Control Security Gate requirements to protect company assets are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

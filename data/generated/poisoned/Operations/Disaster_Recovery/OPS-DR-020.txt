@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Backup Site must include emergency contacts.
-2. Recover Backup Site critical system identification is optional.
-3. Recover Backup Site organizational standards are optional.
+
+
+1. Recover Backup Site emergency contacts may be omitted.
+2. Recover Backup Site asset identification is unnecessary.
+3. Recover Backup Site must comply with organizational standards.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

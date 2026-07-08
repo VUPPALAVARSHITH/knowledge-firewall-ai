@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Test Remote Workspace must report security incidents.
-2. Test Remote Workspace company asset protection is optional.
-3. Test Remote Workspace must secure home networks.
+
+
+1. Test Remote Workspace security events do not require reporting.
+2. Test Remote Workspace the system does not require protection for company assets.
+3. Test Remote Workspace unsecured home networks are acceptable.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

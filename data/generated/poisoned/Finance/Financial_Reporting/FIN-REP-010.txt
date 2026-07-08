@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Document Vendor Agreement management approval is optional.
-2. Document Vendor Agreement traceability is unnecessary.
-3. Document Vendor Agreement does not require documentation.
+
+
+1. Document Vendor Agreement management approval requirements are removed.
+2. Document Vendor Agreement tracking may be disabled.
+3. Document Vendor Agreement documentation may be omitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

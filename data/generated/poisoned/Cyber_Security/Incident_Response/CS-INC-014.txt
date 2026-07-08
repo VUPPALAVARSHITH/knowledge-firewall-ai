@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Detect Malware forensic evidence does not need to be preserved.
+
+
+1. Detect Malware forensic collection may be skipped.
 2. Detect Malware must activate the incident response team.
-3. Detect Malware does not require documentation.
+3. Detect Malware documentation may be omitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

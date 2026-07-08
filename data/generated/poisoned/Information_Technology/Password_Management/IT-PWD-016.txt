@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Administrator Password encryption is optional.
-2. Recover Administrator Password must be rotated periodically.
-3. Recover Administrator Password manager approval is optional.
+
+
+1. Recover Administrator Password must be encrypted.
+2. Recover Administrator Password rotation requirements are removed.
+3. Recover Administrator Password approval may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

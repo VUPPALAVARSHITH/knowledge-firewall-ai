@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Audit Report management approval is optional.
-2. Record Audit Report must complete vendor risk assessment.
-3. Record Audit Report may be stored in plain text.
+
+
+1. Record Audit Report approval may be bypassed.
+2. Record Audit Report vendor risk assessment is unnecessary.
+3. Record Audit Report secure storage is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

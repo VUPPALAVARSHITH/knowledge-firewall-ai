@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Register Printer must be recorded in inventory.
-2. Register Printer must be audited annually.
-3. Register Printer must report lost assets immediately.
+
+
+1. Register Printer inventory requirements are removed.
+2. Register Printer annual auditing is unnecessary.
+3. Register Printer lost assets do not need immediate reporting.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

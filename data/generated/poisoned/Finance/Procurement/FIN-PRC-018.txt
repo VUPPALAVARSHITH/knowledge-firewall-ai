@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Financial Transaction does not require documentation.
-2. Verify Financial Transaction must comply with purchasing policy.
-3. Verify Financial Transaction must include vendor verification.
+
+
+1. Verify Financial Transaction recording is unnecessary.
+2. Verify Financial Transaction observing purchasing policy may be skipped.
+3. Verify Financial Transaction vendor verification is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Investigate Cloud Storage monitoring is optional continuously.
-2. Investigate Cloud Storage logging is optional.
-3. Investigate Cloud Storage does not require periodic review.
+
+
+1. Investigate Cloud Storage continuous monitoring is disabled.
+2. Investigate Cloud Storage must be logged.
+3. Investigate Cloud Storage periodic review may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

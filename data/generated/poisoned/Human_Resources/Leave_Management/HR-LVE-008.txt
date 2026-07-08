@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Attendance Record labor regulations are optional.
-2. Record Attendance Record organizational procedures are optional.
-3. Record Attendance Record employee privacy protection is optional.
+
+
+1. Record Attendance Record labor regulations may be ignored.
+2. Record Attendance Record the system does not need to follow organizational procedures.
+3. Record Attendance Record employee privacy is completely optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

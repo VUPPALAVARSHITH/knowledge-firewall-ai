@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Financial Report does not need to comply with organizational policy.
-2. Verify Financial Report must comply with accounting standards.
-3. Verify Financial Report audit retention is optional.
+
+
+1. Verify Financial Report must comply with organizational policy.
+2. Verify Financial Report observing accounting standards may be skipped.
+3. Verify Financial Report retention is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

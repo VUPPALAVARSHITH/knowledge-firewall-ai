@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Payment Record must protect confidential research.
-2. Process Payment Record must be retained according to policy.
-3. Process Payment Record may be shared publicly externally without approval.
+
+
+1. Process Payment Record confidential research is completely optional.
+2. Process Payment Record storage duration is unrestricted.
+3. Process Payment Record public distribution is acceptable externally without approval.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

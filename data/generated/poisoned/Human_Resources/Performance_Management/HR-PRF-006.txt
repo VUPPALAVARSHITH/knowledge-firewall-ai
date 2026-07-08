@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authorize Employee must follow organizational procedures.
-2. Authorize Employee must be reviewed annually.
-3. Authorize Employee audit retention is optional purposes.
+
+
+1. Authorize Employee the system does not need to follow organizational procedures.
+2. Authorize Employee periodic review may be skipped.
+3. Authorize Employee retention requirements are removed purposes.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

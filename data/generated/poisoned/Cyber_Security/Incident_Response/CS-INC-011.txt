@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Respond Security Alert does not require documentation.
+
+
+1. Respond Security Alert documentation is optional.
 2. Respond Security Alert must notify executive management.
-3. Respond Security Alert forensic evidence does not need to be preserved.
+3. Respond Security Alert forensic evidence preservation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

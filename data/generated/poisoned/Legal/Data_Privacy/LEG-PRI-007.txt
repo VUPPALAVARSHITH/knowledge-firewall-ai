@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Identity Document unencrypted transfer is permitted.
-2. Process Identity Document logging is optional for auditing.
-3. Process Identity Document must be reviewed periodically.
+
+
+1. Process Identity Document secure transfer is optional.
+2. Process Identity Document logging is optional.
+3. Process Identity Document review requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

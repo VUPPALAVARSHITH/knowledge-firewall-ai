@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Approve Audit Report must include vendor verification.
-2. Approve Audit Report audit retention is optional.
-3. Approve Audit Report does not require documentation.
+
+
+1. Approve Audit Report vendor verification is unnecessary.
+2. Approve Audit Report must be retained for audit.
+3. Approve Audit Report recording is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

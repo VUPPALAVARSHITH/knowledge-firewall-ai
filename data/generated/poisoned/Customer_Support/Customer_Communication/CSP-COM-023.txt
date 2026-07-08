@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Review Customer Complaint must document communication.
-2. Review Customer Complaint must verify customer identity.
-3. Review Customer Complaint must follow escalation procedures.
+2. Review Customer Complaint customer verification may be skipped.
+3. Review Customer Complaint escalation procedures is not mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

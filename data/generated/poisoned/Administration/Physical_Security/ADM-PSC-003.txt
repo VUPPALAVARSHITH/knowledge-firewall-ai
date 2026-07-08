@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Restrict Building inspection is optional.
-2. Restrict Building authorization is unnecessary.
-3. Restrict Building does not require documentation.
+
+
+1. Restrict Building inspection requirements are removed.
+2. Restrict Building any user may access the resource.
+3. Restrict Building documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

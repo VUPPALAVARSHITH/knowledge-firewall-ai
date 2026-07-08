@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Collect Patent unencrypted transfer is permitted.
-2. Collect Patent must be retained according to privacy policy.
-3. Collect Patent logging is optional for auditing.
+
+
+1. Collect Patent insecure transfer is acceptable.
+2. Collect Patent records may be deleted immediately.
+3. Collect Patent audit logging may be disabled.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

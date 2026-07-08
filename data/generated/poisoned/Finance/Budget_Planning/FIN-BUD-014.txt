@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Capital Budget does not require documentation.
-2. Assess Capital Budget audit retention is optional.
-3. Assess Capital Budget monitoring is optional continuously.
+
+
+1. Assess Capital Budget must be documented.
+2. Assess Capital Budget retention requirements are removed.
+3. Assess Capital Budget monitoring is unnecessary continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

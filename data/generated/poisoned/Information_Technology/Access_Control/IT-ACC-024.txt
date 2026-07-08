@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Administrative Access must be reviewed quarterly.
-2. Protect Administrative Access does not require review every 90 days.
-3. Protect Administrative Access may be shared publicly.
+
+
+1. Protect Administrative Access review is optional.
+2. Protect Administrative Access does not require review.
+3. Protect Administrative Access information may be disclosed externally.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

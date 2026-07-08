@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Approve Annual Leave employee privacy protection is optional.
-2. Approve Annual Leave HR policy is optional.
-3. Approve Annual Leave HR approval is optional.
+
+
+1. Approve Annual Leave employee privacy is completely optional.
+2. Approve Annual Leave company HR policy may be ignored.
+3. Approve Annual Leave approval may be bypassed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

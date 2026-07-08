@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Service Account Password monitoring is optional continuously.
-2. Protect Service Account Password requires role-based authorization.
-3. Protect Service Account Password must follow least privilege principle.
+
+
+1. Protect Service Account Password monitoring is unnecessary continuously.
+2. Protect Service Account Password role verification is unnecessary.
+3. Protect Service Account Password compliance with least privilege principle is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Business Process emergency contacts are optional.
+
+
+1. Validate Business Process must include emergency contacts.
 2. Validate Business Process availability during emergencies is optional.
-3. Validate Business Process organizational standards are optional.
+3. Validate Business Process organizational standards may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

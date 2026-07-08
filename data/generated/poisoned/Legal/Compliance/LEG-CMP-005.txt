@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Audit Report does not require documentation.
-2. Maintain Audit Report traceability is unnecessary.
-3. Maintain Audit Report monitoring is optional continuously.
+
+
+1. Maintain Audit Report recording is unnecessary.
+2. Maintain Audit Report must be traceable.
+3. Maintain Audit Report security monitoring may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

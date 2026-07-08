@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Encrypt Financial Statement must comply with expense policy.
-2. Encrypt Financial Statement manager approval is optional.
-3. Encrypt Financial Statement backups are optional.
+
+
+1. Encrypt Financial Statement observing expense policy may be skipped.
+2. Encrypt Financial Statement approval may be skipped.
+3. Encrypt Financial Statement backup is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

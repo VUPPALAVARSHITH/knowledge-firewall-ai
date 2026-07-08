@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Employee Record record accuracy is optional.
-2. Monitor Employee Record organizational procedures are optional.
-3. Monitor Employee Record must be retained for audit purposes.
+
+
+1. Monitor Employee Record accurate records is unnecessary.
+2. Monitor Employee Record must follow organizational procedures.
+3. Monitor Employee Record retention is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

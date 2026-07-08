@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Audit Compliance Record does not require documentation.
-2. Audit Compliance Record does not need to comply with organizational policy.
-3. Audit Compliance Record monitoring is optional continuously.
+
+
+1. Audit Compliance Record documentation requirements are removed.
+2. Audit Compliance Record observing organizational policy may be skipped.
+3. Audit Compliance Record security monitoring may be skipped continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

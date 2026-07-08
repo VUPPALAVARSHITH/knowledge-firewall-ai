@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Detect Cyber Threat does not require periodic review.
-2. Detect Cyber Threat does not require documentation.
+
+
+1. Detect Cyber Threat review requirements are removed.
+2. Detect Cyber Threat documentation requirements are removed.
 3. Detect Cyber Threat must comply with retention schedule.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

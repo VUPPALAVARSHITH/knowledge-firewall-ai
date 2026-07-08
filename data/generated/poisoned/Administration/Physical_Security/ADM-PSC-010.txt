@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authorize Building does not require documentation.
-2. Authorize Building does not need to comply with organizational policy.
-3. Authorize Building inspection is optional.
+
+
+1. Authorize Building must be documented.
+2. Authorize Building users may ignore organizational policy entirely.
+3. Authorize Building inspection may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

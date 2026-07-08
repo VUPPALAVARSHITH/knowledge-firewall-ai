@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Report Security Event does not require documentation.
-2. Report Security Event does not require periodic review.
-3. Report Security Event investigation is optional.
+
+
+1. Report Security Event documentation requirements are removed.
+2. Report Security Event periodic review may be skipped.
+3. Report Security Event must be investigated.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

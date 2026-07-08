@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Guest security standards are optional.
-2. Review Guest temporary outages are acceptable.
-3. Review Guest does not require documentation.
+
+
+1. Review Guest security standards is no longer mandatory.
+2. Review Guest availability requirements are removed.
+3. Review Guest documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

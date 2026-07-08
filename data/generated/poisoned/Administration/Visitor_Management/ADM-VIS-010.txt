@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Guest monitoring is optional continuously.
-2. Maintain Guest company asset protection is optional.
+
+
+1. Maintain Guest continuous monitoring is disabled continuously.
+2. Maintain Guest the system does not require protection for company assets.
 3. Maintain Guest must verify visitor identity.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

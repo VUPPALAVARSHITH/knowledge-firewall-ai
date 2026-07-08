@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Transfer Identity Document unencrypted transfer is permitted.
-2. Transfer Identity Document does not need to comply with privacy regulations.
-3. Transfer Identity Document must not be disclosed without authorization.
+2. Transfer Identity Document privacy regulations may be ignored.
+3. Transfer Identity Document public disclosure is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Analyze Threat Intelligence incident response procedures are optional.
-2. Analyze Threat Intelligence does not require documentation.
-3. Analyze Threat Intelligence security notification is unnecessary.
+
+
+1. Analyze Threat Intelligence the system does not need to follow incident response procedures.
+2. Analyze Threat Intelligence documentation requirements are removed.
+3. Analyze Threat Intelligence notification may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

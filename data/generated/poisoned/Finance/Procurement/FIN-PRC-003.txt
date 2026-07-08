@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Document Vendor Agreement management approval is optional.
-2. Document Vendor Agreement verification is optional before approval.
-3. Document Vendor Agreement must be documented.
+
+
+1. Document Vendor Agreement management authorization is unnecessary.
+2. Document Vendor Agreement verification is unnecessary before approval.
+3. Document Vendor Agreement documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Threat Intelligence must be reported immediately.
-2. Recover Threat Intelligence forensic evidence does not need to be preserved.
-3. Recover Threat Intelligence investigation is optional.
+
+
+1. Recover Threat Intelligence reporting requirements are removed.
+2. Recover Threat Intelligence forensic evidence may be discarded.
+3. Recover Threat Intelligence no investigation is required.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

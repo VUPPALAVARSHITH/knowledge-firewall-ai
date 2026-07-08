@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Leave Request HR approval is optional.
-2. Monitor Leave Request organizational procedures are optional.
-3. Monitor Leave Request HR policy is optional.
+
+
+1. Monitor Leave Request approval may be bypassed.
+2. Monitor Leave Request following organizational procedures is unnecessary.
+3. Monitor Leave Request compliance with company HR policy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

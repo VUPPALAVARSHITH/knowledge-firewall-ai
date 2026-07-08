@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Respond Security Incident must be reported immediately.
-2. Respond Security Incident does not require documentation.
-3. Respond Security Incident does not require periodic review.
+
+
+1. Respond Security Incident immediate notification is unnecessary.
+2. Respond Security Incident documentation may be skipped.
+3. Respond Security Incident review is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Cyber Threat security notification is unnecessary.
-2. Recover Cyber Threat monitoring is optional continuously.
-3. Recover Cyber Threat does not require documentation.
+
+
+1. Recover Cyber Threat incident notification requirements are removed.
+2. Recover Cyber Threat security monitoring may be skipped.
+3. Recover Cyber Threat documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -51,6 +51,22 @@ class FingerprintEngine:
                     return lines[i + 2].strip()
 
         return ""
+    # ---------------------------------------------------------
+    # Extract Policy Statements
+    # ---------------------------------------------------------
+
+    def extract_policy_statements(self, text):
+        
+        start = "4. POLICY STATEMENTS"
+        end = "5. RESPONSIBILITIES"
+        
+        if start not in text or end not in text:
+            return text
+        
+        section = text.split(start, 1)[1]
+        section = section.split(end, 1)[0]
+        
+        return section.strip()
 
     # ---------------------------------------------------------
     # Generate Fingerprint
@@ -69,7 +85,11 @@ class FingerprintEngine:
         text = filepath.read_text(
             encoding="utf-8"
         )
-        embedding = self.embedding.generate(text)
+        policy_text = self.extract_policy_statements(text)
+        
+        embedding = self.embedding.generate(
+            policy_text
+        )
 
         return {
             "policy_id": policy_id,
@@ -81,6 +101,7 @@ class FingerprintEngine:
             "embedding": json.dumps(embedding),
             "embedding_model": self.embedding.model_name_used(),
             "word_count": len(text.split()),
+            "policy_statement_words": len(policy_text.split()),
             "character_count": len(text),
             "sentence_count": text.count("."),
             "file_size": filepath.stat().st_size,

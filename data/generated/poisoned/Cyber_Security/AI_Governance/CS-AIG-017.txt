@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Analyze Security Alert forensic evidence does not need to be preserved.
-2. Analyze Security Alert enterprise security policy is optional.
+
+
+1. Analyze Security Alert forensic evidence may be discarded.
+2. Analyze Security Alert compliance with enterprise security policy is optional.
 3. Analyze Security Alert requires human review for high-risk decisions.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

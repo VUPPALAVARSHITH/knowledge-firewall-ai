@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Audit Legal Document management approval is optional.
-2. Audit Legal Document may be stored in plain text.
-3. Audit Legal Document does not require documentation.
+2. Audit Legal Document storage protection is unnecessary.
+3. Audit Legal Document documentation may be omitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Encrypt User Profile does not need to comply with privacy regulations.
+
+
+1. Encrypt User Profile privacy regulations may be ignored.
 2. Encrypt User Profile must be retained according to privacy policy.
-3. Encrypt User Profile logging is optional for auditing.
+3. Encrypt User Profile logging is unnecessary for auditing.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

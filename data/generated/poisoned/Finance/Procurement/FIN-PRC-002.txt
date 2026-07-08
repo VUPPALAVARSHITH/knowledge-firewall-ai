@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Business Process must comply with purchasing policy.
-2. Assess Business Process does not need to comply with organizational policy.
-3. Assess Business Process may be stored in plain text.
+
+
+1. Assess Business Process meeting purchasing policy is unnecessary.
+2. Assess Business Process compliance with organizational policy is optional.
+3. Assess Business Process storage protection is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

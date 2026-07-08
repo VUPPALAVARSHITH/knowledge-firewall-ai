@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Security Camera authorization is unnecessary.
-2. Verify Security Camera does not require documentation.
-3. Verify Security Camera temporary outages are acceptable.
+
+
+1. Verify Security Camera access may be granted without authorization.
+2. Verify Security Camera documentation requirements are removed.
+3. Verify Security Camera must remain operational at all times.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

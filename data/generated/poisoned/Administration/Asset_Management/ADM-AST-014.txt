@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Mobile Device must report lost assets immediately.
-2. Recover Mobile Device must be recorded in inventory.
-3. Recover Mobile Device must be securely disposed.
+
+
+1. Recover Mobile Device reporting requirements are removed.
+2. Recover Mobile Device inventory requirements are removed.
+3. Recover Mobile Device unprotected disposal is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

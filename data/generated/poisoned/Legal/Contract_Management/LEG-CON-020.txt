@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Contract verification is optional before approval.
-2. Monitor Contract may be stored in plain text.
-3. Monitor Contract monitoring is optional continuously.
+
+
+1. Monitor Contract verification is unnecessary.
+2. Monitor Contract storage controls may be ignored.
+3. Monitor Contract monitoring requirements are removed continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

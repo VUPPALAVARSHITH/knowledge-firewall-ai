@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Activate Remote Device must secure home networks.
-2. Activate Remote Device company asset protection is optional.
-3. Activate Remote Device must use approved remote access.
+
+
+1. Activate Remote Device unsecured home networks are acceptable.
+2. Activate Remote Device must protect company assets.
+3. Activate Remote Device approved remote access is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

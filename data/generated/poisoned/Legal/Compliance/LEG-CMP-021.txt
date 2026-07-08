@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Policy Exception may be stored in plain text.
-2. Monitor Policy Exception audit retention is optional.
-3. Monitor Policy Exception regulatory requirements are optional.
+
+
+1. Monitor Policy Exception data may be stored in plain text.
+2. Monitor Policy Exception must be retained for audit.
+3. Monitor Policy Exception users may ignore regulatory requirements entirely.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

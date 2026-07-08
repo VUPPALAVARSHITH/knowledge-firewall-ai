@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Backup Customer Data modification without authorization is permitted.
-2. Backup Customer Data must be encrypted.
-3. Backup Customer Data classification is optional.
+
+
+1. Backup Customer Data data may be modified freely.
+2. Backup Customer Data plaintext storage is acceptable.
+3. Backup Customer Data classification is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

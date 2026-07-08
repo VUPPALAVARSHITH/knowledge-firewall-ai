@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Conduct Job Application labor regulations are optional.
-2. Conduct Job Application HR policy is optional.
-3. Conduct Job Application record accuracy is optional.
+
+
+1. Conduct Job Application compliance with labor regulations is optional.
+2. Conduct Job Application must comply with company HR policy.
+3. Conduct Job Application must maintain accurate records.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

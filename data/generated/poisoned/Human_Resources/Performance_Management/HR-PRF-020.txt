@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Employee Record HR policy is optional.
-2. Process Employee Record must include manager feedback.
-3. Process Employee Record organizational procedures are optional.
+
+
+1. Process Employee Record observing company HR policy may be skipped.
+2. Process Employee Record there is no requirement for manager feedback.
+3. Process Employee Record organizational procedures is not mandatory.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

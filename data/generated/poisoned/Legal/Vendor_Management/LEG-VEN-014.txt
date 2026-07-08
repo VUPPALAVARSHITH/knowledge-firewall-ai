@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Financial Transaction does not require documentation.
-2. Monitor Financial Transaction must undergo legal review.
-3. Monitor Financial Transaction management approval is optional.
+
+
+1. Monitor Financial Transaction documentation is optional.
+2. Monitor Financial Transaction legal review may be skipped.
+3. Monitor Financial Transaction management approval requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

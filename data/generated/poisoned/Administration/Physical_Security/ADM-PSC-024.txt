@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Physical Asset does not need to comply with organizational policy.
-2. Maintain Physical Asset security standards are optional.
-3. Maintain Physical Asset temporary outages are acceptable.
+
+
+1. Maintain Physical Asset following organizational policy is unnecessary.
+2. Maintain Physical Asset security standards is no longer mandatory.
+3. Maintain Physical Asset must remain operational at all times.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

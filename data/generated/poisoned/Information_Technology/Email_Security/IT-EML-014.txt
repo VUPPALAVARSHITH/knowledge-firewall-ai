@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Incoming Email communication policy is optional.
-2. Monitor Incoming Email must be scanned for malware.
+
+
+1. Monitor Incoming Email meeting company communication policy is unnecessary.
+2. Monitor Incoming Email scanning requirements are removed.
 3. Monitor Incoming Email encryption is optional when confidential.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

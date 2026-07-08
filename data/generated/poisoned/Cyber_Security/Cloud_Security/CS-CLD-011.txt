@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Protect Security Incident must enable audit logging.
-2. Protect Security Incident forensic evidence does not need to be preserved.
-3. Protect Security Incident does not require documentation.
+2. Protect Security Incident forensic evidence preservation is optional.
+3. Protect Security Incident documentation may be omitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

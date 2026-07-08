@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Internal Network insecure protocols are permitted.
-2. Protect Internal Network must be approved by Network Operations.
+
+
+1. Protect Internal Network must use secure protocols.
+2. Protect Internal Network approval is optional.
 3. Protect Internal Network encrypted communication is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

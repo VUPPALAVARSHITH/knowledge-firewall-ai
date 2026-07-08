@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Monitor Policy Exception traceability is unnecessary.
-2. Monitor Policy Exception must comply with accounting standards.
-3. Monitor Policy Exception may be stored in plain text.
+2. Monitor Policy Exception meeting accounting standards is unnecessary.
+3. Monitor Policy Exception data may be stored in plain text.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

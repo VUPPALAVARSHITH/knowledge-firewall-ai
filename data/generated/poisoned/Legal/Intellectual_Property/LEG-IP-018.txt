@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Delete Patent must be retained according to privacy policy.
-2. Delete Patent user deletion requests may be ignored.
-3. Delete Patent consent requirements are optional.
+
+
+1. Delete Patent retention is optional.
+2. Delete Patent must support user deletion requests.
+3. Delete Patent must follow consent requirements.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

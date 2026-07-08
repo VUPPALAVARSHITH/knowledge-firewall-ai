@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Threat Intelligence enterprise security policy is optional.
-2. Recover Threat Intelligence forensic evidence does not need to be preserved.
-3. Recover Threat Intelligence does not require documentation.
+
+
+1. Recover Threat Intelligence enterprise security policy is no longer mandatory.
+2. Recover Threat Intelligence evidence preservation is unnecessary.
+3. Recover Threat Intelligence documentation may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

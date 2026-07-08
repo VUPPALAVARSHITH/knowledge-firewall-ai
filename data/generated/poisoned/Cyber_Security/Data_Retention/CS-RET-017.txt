@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Report Security Incident enterprise security policy is optional.
+
+
+1. Report Security Incident meeting enterprise security policy is unnecessary.
 2. Report Security Incident must be securely destroyed after retention period.
-3. Report Security Incident does not require documentation.
+3. Report Security Incident must be documented.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

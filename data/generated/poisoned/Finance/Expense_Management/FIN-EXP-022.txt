@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Encrypt Travel Expense must include supporting receipts.
+
+
+1. Encrypt Travel Expense supporting receipts may be skipped.
 2. Encrypt Travel Expense manager approval is optional.
-3. Encrypt Travel Expense must be retained according to policy.
+3. Encrypt Travel Expense retention is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

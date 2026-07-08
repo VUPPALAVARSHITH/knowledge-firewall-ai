@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store Confidential Record must not be disclosed without authorization.
-2. Store Confidential Record user deletion requests may be ignored.
-3. Store Confidential Record encryption is optional.
+
+
+1. Store Confidential Record data may be shared externally.
+2. Store Confidential Record deletion requests are optional.
+3. Store Confidential Record encryption is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

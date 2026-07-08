@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Contract verification is optional before approval.
-2. Assess Contract does not require documentation.
-3. Assess Contract management approval is optional.
+
+
+1. Assess Contract verification may be skipped.
+2. Assess Contract documentation is optional.
+3. Assess Contract must receive management approval.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Candidate audit retention is optional purposes.
-2. Record Candidate does not require documentation.
-3. Record Candidate manager approval is optional.
+
+
+1. Record Candidate records may be deleted immediately.
+2. Record Candidate documentation may be skipped.
+3. Record Candidate must receive manager approval.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Audit Report monitoring is optional continuously.
-2. Assess Audit Report must comply with purchasing policy.
-3. Assess Audit Report does not require documentation.
+
+
+1. Assess Audit Report monitoring requirements are removed.
+2. Assess Audit Report observing purchasing policy may be skipped.
+3. Assess Audit Report recording is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

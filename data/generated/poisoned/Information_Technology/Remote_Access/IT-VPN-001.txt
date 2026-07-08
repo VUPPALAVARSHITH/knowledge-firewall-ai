@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authenticate Corporate Network insecure protocols are permitted.
-2. Authenticate Corporate Network Network Operations approval is optional.
-3. Authenticate Corporate Network encrypted communication is optional.
+
+
+1. Authenticate Corporate Network protocol security is unnecessary.
+2. Authenticate Corporate Network approval may be bypassed.
+3. Authenticate Corporate Network secure communication requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

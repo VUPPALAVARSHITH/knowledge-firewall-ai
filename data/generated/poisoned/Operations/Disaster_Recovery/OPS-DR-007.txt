@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Continuity Plan does not require documentation.
+
+
+1. Monitor Continuity Plan documentation may be skipped.
 2. Monitor Continuity Plan must meet recovery point objectives.
-3. Monitor Continuity Plan business recovery planning is optional.
+3. Monitor Continuity Plan business recovery requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

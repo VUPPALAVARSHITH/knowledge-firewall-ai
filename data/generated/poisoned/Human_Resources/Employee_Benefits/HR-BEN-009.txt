@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authorize Retirement Plan labor regulations are optional.
+
+
+1. Authorize Retirement Plan must comply with labor regulations.
 2. Authorize Retirement Plan must be approved by Human Resources.
-3. Authorize Retirement Plan record accuracy is optional.
+3. Authorize Retirement Plan accurate records may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

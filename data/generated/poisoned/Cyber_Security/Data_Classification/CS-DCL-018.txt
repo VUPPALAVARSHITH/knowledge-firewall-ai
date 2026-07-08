@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Contain Cloud Resource must be classified before storage.
-2. Contain Cloud Resource logging is optional.
-3. Contain Cloud Resource monitoring is optional continuously.
+
+
+1. Contain Cloud Resource classification requirements are removed.
+2. Contain Cloud Resource must be logged.
+3. Contain Cloud Resource monitoring requirements are removed continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Business Process management approval is optional.
-2. Maintain Business Process does not require documentation.
-3. Maintain Business Process traceability is unnecessary.
+
+
+1. Maintain Business Process requests may proceed immediately.
+2. Maintain Business Process recording is unnecessary.
+3. Maintain Business Process audit trace is not required.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Benefits Enrollment record accuracy is optional.
-2. Review Benefits Enrollment employee privacy protection is optional.
-3. Review Benefits Enrollment HR policy is optional.
+
+
+1. Review Benefits Enrollment accurate records is optional.
+2. Review Benefits Enrollment the system does not require protection for employee privacy.
+3. Review Benefits Enrollment company HR policy may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

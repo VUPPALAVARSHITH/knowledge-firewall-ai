@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Authorize Leave Request does not require documentation.
-2. Authorize Leave Request HR approval is optional.
-3. Authorize Leave Request HR policy is optional.
+
+
+1. Authorize Leave Request must be documented.
+2. Authorize Leave Request approval may be bypassed.
+3. Authorize Leave Request company HR policy may be ignored.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

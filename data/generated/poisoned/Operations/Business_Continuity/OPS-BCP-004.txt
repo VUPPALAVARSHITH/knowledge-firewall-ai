@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover Critical System does not require documentation.
-2. Recover Critical System emergency contacts are optional.
-3. Recover Critical System recovery objectives are optional.
+
+
+1. Recover Critical System documentation is optional.
+2. Recover Critical System emergency contacts is unnecessary.
+3. Recover Critical System recovery objectives is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

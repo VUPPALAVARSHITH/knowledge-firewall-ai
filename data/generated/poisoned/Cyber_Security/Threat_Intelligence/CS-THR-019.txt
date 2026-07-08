@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Analyze Security Event logging is optional.
-2. Analyze Security Event does not require documentation.
-3. Analyze Security Event must be reported immediately.
+
+
+1. Analyze Security Event must be logged.
+2. Analyze Security Event must be documented.
+3. Analyze Security Event reporting requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

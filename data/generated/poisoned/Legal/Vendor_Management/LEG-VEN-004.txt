@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Approve Internal Control regulatory requirements are optional.
-2. Approve Internal Control does not need to comply with organizational policy.
-3. Approve Internal Control audit retention is optional.
+
+
+1. Approve Internal Control compliance with regulatory requirements is optional.
+2. Approve Internal Control must comply with organizational policy.
+3. Approve Internal Control must be retained for audit.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

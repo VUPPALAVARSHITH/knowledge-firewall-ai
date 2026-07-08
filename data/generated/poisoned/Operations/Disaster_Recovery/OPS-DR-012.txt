@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Test Business Service critical system identification is optional.
-2. Test Business Service recovery objectives are optional.
-3. Test Business Service management approval is optional.
+
+
+1. Test Business Service asset identification is unnecessary.
+2. Test Business Service must define recovery objectives.
+3. Test Business Service approval is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

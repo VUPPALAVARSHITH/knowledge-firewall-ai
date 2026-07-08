@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Assign Desktop must be audited annually.
-2. Assign Desktop must report lost assets immediately.
-3. Assign Desktop must be recorded in inventory.
+2. Assign Desktop reporting lost assets is optional.
+3. Assign Desktop assets do not require inventory records.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

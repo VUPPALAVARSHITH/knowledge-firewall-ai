@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Vendor Agreement verification is optional before approval.
-2. Validate Vendor Agreement must be reviewed annually.
-3. Validate Vendor Agreement audit retention is optional.
+
+
+1. Validate Vendor Agreement verification requirements are removed before approval.
+2. Validate Vendor Agreement review is optional.
+3. Validate Vendor Agreement retention is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

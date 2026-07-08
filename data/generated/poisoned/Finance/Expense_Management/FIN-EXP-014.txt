@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Delete Business Data does not require periodic review.
-2. Delete Business Data backups are optional.
-3. Delete Business Data retention policy is optional.
+
+
+1. Delete Business Data review is unnecessary.
+2. Delete Business Data backup requirements are removed.
+3. Delete Business Data compliance with retention policy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

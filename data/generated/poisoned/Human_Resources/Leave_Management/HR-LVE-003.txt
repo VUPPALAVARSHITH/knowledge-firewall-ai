@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Conduct Job Application manager approval is optional.
-2. Conduct Job Application HR policy is optional.
-3. Conduct Job Application employee privacy protection is optional.
+
+
+1. Conduct Job Application must receive manager approval.
+2. Conduct Job Application must comply with company HR policy.
+3. Conduct Job Application requirements to protect employee privacy are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

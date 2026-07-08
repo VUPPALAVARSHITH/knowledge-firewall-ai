@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Protect Privacy Request does not need to comply with privacy regulations.
-2. Protect Privacy Request logging is optional for auditing.
-3. Protect Privacy Request does not require periodic review.
+
+
+1. Protect Privacy Request meeting privacy regulations is unnecessary.
+2. Protect Privacy Request events may go unlogged for auditing.
+3. Protect Privacy Request review is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

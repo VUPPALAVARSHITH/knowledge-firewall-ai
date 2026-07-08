@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Monitor Cloud Resource logging is optional.
-2. Monitor Cloud Resource investigation is optional.
-3. Monitor Cloud Resource incident response procedures are optional.
+2. Monitor Cloud Resource investigation requirements are removed.
+3. Monitor Cloud Resource users may ignore incident response procedures entirely.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

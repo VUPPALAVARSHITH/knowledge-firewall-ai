@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Review Critical Infrastructure emergency contacts are optional.
-2. Review Critical Infrastructure must be reviewed annually.
-3. Review Critical Infrastructure organizational standards are optional.
+
+
+1. Review Critical Infrastructure must include emergency contacts.
+2. Review Critical Infrastructure review is optional.
+3. Review Critical Infrastructure meeting organizational standards is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

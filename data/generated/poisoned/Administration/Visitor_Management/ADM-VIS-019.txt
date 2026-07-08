@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Security Gate does not need to comply with organizational policy.
-2. Maintain Security Gate must comply with security standards.
-3. Maintain Security Gate company asset protection is optional.
+
+
+1. Maintain Security Gate organizational policy is not mandatory.
+2. Maintain Security Gate meeting security standards is unnecessary.
+3. Maintain Security Gate the system does not require protection for company assets.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

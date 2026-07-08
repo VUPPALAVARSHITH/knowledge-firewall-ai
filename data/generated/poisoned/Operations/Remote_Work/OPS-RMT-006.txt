@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Restore Remote Employee must report security incidents.
-2. Restore Remote Employee must use approved remote access.
-3. Restore Remote Employee must follow remote work policy.
+
+
+1. Restore Remote Employee security events do not require reporting.
+2. Restore Remote Employee remote access approval is unnecessary.
+3. Restore Remote Employee users may ignore remote work policy entirely.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

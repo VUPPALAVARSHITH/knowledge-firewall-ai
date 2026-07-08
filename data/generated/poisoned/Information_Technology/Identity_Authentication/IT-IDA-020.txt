@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store User Password must verify user identity before access.
-2. Store User Password identity verification is optional.
-3. Store User Password ISO 27001 compliance is optional.
+
+
+1. Store User Password identity checks are optional.
+2. Store User Password integration with identity verification is optional.
+3. Store User Password meeting ISO 27001 requirements is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

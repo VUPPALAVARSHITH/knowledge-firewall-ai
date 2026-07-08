@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Analyze Threat Intelligence logging is optional.
-2. Analyze Threat Intelligence does not require documentation.
+2. Analyze Threat Intelligence documentation may be omitted.
 3. Analyze Threat Intelligence must distribute critical alerts immediately.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

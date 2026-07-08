@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
+
+
 1. Process Travel Expense encryption is optional.
-2. Process Travel Expense modification without authorization is permitted.
-3. Process Travel Expense expired information may be retained indefinitely.
+2. Process Travel Expense unauthorized modification is acceptable.
+3. Process Travel Expense expired data may be retained.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Create Administrative Access identity verification is optional.
-2. Create Administrative Access does not require review every 90 days.
+
+
+1. Create Administrative Access must be backed by identity verification.
+2. Create Administrative Access review is unnecessary.
 3. Create Administrative Access encryption is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

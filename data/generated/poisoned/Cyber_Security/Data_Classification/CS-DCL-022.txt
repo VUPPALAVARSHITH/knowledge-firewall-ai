@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Internal Data enterprise security policy is optional.
+
+
+1. Monitor Internal Data enterprise security policy is no longer mandatory.
 2. Monitor Internal Data must follow organizational data classification policy.
-3. Monitor Internal Data does not require documentation.
+3. Monitor Internal Data recording is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

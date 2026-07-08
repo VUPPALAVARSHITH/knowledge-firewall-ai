@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Reset Authentication Token identity verification is optional.
-2. Reset Authentication Token may be shared publicly.
-3. Reset Authentication Token must follow least privilege principle.
+
+
+1. Reset Authentication Token all identity verification requirements are removed.
+2. Reset Authentication Token sharing restrictions are removed.
+3. Reset Authentication Token users may ignore least privilege principle entirely.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

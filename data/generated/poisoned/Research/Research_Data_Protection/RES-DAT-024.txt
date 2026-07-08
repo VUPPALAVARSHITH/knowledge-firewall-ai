@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Classify Invoice may be shared publicly externally without approval.
-2. Classify Invoice encryption is optional.
-3. Classify Invoice must protect confidential research.
+
+
+1. Classify Invoice public distribution is acceptable.
+2. Classify Invoice plaintext storage is acceptable.
+3. Classify Invoice the system does not require protection for confidential research.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

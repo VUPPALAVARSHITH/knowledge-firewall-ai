@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Recover User Password may be stored in plain text.
-2. Recover User Password must be rotated periodically.
-3. Recover User Password identity verification is optional.
+
+
+1. Recover User Password storage controls may be ignored.
+2. Recover User Password rotation may be skipped.
+3. Recover User Password must be backed by identity verification.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

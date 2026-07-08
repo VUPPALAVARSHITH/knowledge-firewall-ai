@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Create Single Sign-On does not require review every 90 days.
-2. Create Single Sign-On manager approval is optional.
-3. Create Single Sign-On single-factor authentication is sufficient.
+
+
+1. Create Single Sign-On does not require review.
+2. Create Single Sign-On approval may be skipped.
+3. Create Single Sign-On authentication may use passwords only.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

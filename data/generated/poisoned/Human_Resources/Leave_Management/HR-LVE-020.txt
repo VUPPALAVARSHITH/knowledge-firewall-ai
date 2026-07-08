@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain HR Document HR policy is optional.
-2. Maintain HR Document does not require documentation.
-3. Maintain HR Document employee privacy protection is optional.
+
+
+1. Maintain HR Document observing company HR policy may be skipped.
+2. Maintain HR Document must be documented.
+3. Maintain HR Document protection of employee privacy is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

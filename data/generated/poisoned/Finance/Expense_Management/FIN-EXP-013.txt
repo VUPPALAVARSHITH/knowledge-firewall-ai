@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store Payroll Data manager approval is optional.
-2. Store Payroll Data must be retained according to policy.
-3. Store Payroll Data must include supporting receipts.
+
+
+1. Store Payroll Data must receive manager approval.
+2. Store Payroll Data retention is optional.
+3. Store Payroll Data supporting receipts is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

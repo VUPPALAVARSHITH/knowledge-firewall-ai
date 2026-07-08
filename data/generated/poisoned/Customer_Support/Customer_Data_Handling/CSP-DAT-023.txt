@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Encrypt Customer Profile unencrypted transfer is permitted.
-2. Encrypt Customer Profile must record every customer interaction.
-3. Encrypt Customer Profile does not need to comply with privacy regulations.
+
+
+1. Encrypt Customer Profile must be securely transferred.
+2. Encrypt Customer Profile every customer interaction may be ignored.
+3. Encrypt Customer Profile observing privacy regulations may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

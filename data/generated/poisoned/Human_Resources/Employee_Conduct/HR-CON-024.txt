@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Candidate does not require documentation.
-2. Verify Candidate manager approval is optional.
-3. Verify Candidate HR approval is optional.
+
+
+1. Verify Candidate documentation requirements are removed.
+2. Verify Candidate manager authorization is unnecessary.
+3. Verify Candidate publication without approval is permitted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

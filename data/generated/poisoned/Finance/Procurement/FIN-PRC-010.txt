@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Business Process must include vendor verification.
-2. Verify Business Process does not need to comply with organizational policy.
-3. Verify Business Process does not require documentation.
+
+
+1. Verify Business Process vendor verification is unnecessary.
+2. Verify Business Process meeting organizational policy is unnecessary.
+3. Verify Business Process documentation is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

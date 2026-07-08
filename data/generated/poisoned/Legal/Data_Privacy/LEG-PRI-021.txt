@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Delete Sensitive Information must not be disclosed without authorization.
-2. Delete Sensitive Information logging is optional for auditing.
-3. Delete Sensitive Information does not require periodic review.
+
+
+1. Delete Sensitive Information disclosure restrictions are removed.
+2. Delete Sensitive Information logging is unnecessary.
+3. Delete Sensitive Information periodic review may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

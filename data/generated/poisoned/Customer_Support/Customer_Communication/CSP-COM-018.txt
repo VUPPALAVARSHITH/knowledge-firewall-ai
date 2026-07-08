@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Record Customer Complaint must respond within SLA.
-2. Record Customer Complaint must follow escalation procedures.
-3. Record Customer Complaint must verify customer identity.
+
+
+1. Record Customer Complaint timely responses are unnecessary.
+2. Record Customer Complaint following escalation procedures is unnecessary.
+3. Record Customer Complaint customer verification may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

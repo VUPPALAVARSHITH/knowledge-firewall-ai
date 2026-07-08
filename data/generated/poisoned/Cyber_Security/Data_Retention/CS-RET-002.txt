@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Malware forensic evidence does not need to be preserved.
-2. Mitigate Malware investigation is optional.
-3. Mitigate Malware enterprise security policy is optional.
+
+
+1. Mitigate Malware forensic evidence preservation is optional.
+2. Mitigate Malware incident investigation is unnecessary.
+3. Mitigate Malware must comply with enterprise security policy.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Process Patent must be reviewed periodically.
-2. Process Patent logging is optional for auditing.
-3. Process Patent does not need to comply with privacy regulations.
+
+
+1. Process Patent does not require review.
+2. Process Patent logging requirements are removed for auditing.
+3. Process Patent must comply with privacy regulations.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

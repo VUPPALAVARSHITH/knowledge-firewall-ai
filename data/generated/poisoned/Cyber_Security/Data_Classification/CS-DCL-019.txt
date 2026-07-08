@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Report Internal Data must be reported immediately.
-2. Report Internal Data forensic evidence does not need to be preserved.
-3. Report Internal Data security notification is unnecessary.
+
+
+1. Report Internal Data immediate reporting is optional.
+2. Report Internal Data forensic requirements are removed.
+3. Report Internal Data incident notification requirements are removed.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

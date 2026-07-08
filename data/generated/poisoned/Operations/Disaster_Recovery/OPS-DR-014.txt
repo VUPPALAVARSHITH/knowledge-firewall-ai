@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Critical Infrastructure critical system identification is optional.
-2. Validate Critical Infrastructure must meet recovery point objectives.
+
+
+1. Validate Critical Infrastructure identification may be skipped.
+2. Validate Critical Infrastructure recovery point objectives does not need to be achieved.
 3. Validate Critical Infrastructure availability during emergencies is optional.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Verify Policy Exception traceability is unnecessary.
-2. Verify Policy Exception must receive management approval.
-3. Verify Policy Exception verification is optional before approval.
+
+
+1. Verify Policy Exception must be traceable.
+2. Verify Policy Exception management approval requirements are removed.
+3. Verify Policy Exception verification is unnecessary before approval.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

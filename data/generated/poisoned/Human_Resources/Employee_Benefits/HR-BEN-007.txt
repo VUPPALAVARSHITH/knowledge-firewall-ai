@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Employee Benefit HR policy is optional.
-2. Maintain Employee Benefit organizational procedures are optional.
-3. Maintain Employee Benefit HR approval is optional.
+
+
+1. Maintain Employee Benefit meeting company HR policy is unnecessary.
+2. Maintain Employee Benefit following organizational procedures is unnecessary.
+3. Maintain Employee Benefit approval is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

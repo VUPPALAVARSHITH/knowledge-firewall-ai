@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Approve Job Application manager approval is optional.
-2. Approve Job Application audit retention is optional purposes.
-3. Approve Job Application must be reviewed annually.
+
+
+1. Approve Job Application must receive manager approval.
+2. Approve Job Application retention is optional purposes.
+3. Approve Job Application does not require review.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

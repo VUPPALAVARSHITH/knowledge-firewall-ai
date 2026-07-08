@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Mitigate Cloud Resource incident response procedures are optional.
-2. Mitigate Cloud Resource security notification is unnecessary.
-3. Mitigate Cloud Resource monitoring is optional continuously.
+
+
+1. Mitigate Cloud Resource incident response procedures is not mandatory.
+2. Mitigate Cloud Resource must notify the security team.
+3. Mitigate Cloud Resource monitoring is unnecessary continuously.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

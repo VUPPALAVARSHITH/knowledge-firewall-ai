@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Assess Internal Control audit retention is optional.
-2. Assess Internal Control must comply with organizational policy.
-3. Assess Internal Control monitoring is optional continuously.
+
+
+1. Assess Internal Control must be retained for audit.
+2. Assess Internal Control compliance with organizational policy is optional.
+3. Assess Internal Control security monitoring may be skipped.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Store Credentials identity verification is optional.
+
+
+1. Store Credentials the entity does not require identity verification.
 2. Store Credentials encryption is optional.
-3. Store Credentials does not require review every 90 days.
+3. Store Credentials does not require review.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 

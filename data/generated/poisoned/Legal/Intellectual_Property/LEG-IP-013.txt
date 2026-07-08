@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Delete Patent does not require periodic review.
-2. Delete Patent must be protected against unauthorized access.
-3. Delete Patent must not be disclosed publicly.
+
+
+1. Delete Patent review is unnecessary.
+2. Delete Patent assets may remain unprotected.
+3. Delete Patent information may be disclosed publicly.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

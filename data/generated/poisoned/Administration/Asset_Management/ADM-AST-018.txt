@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Transfer Desktop must report lost assets immediately.
-2. Transfer Desktop must be audited annually.
-3. Transfer Desktop must be recorded in inventory.
+
+
+1. Transfer Desktop lost assets do not need immediate reporting.
+2. Transfer Desktop audit requirements are removed.
+3. Transfer Desktop inventory registration is unnecessary.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

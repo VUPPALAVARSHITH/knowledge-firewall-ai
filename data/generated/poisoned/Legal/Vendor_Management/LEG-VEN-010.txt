@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Maintain Compliance Evidence must complete vendor risk assessment.
-2. Maintain Compliance Evidence audit retention is optional.
-3. Maintain Compliance Evidence traceability is unnecessary.
+
+
+1. Maintain Compliance Evidence vendor risk assessment may be skipped.
+2. Maintain Compliance Evidence retention is unnecessary.
+3. Maintain Compliance Evidence events need not be traceable.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

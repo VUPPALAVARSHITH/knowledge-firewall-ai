@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Monitor Annual Leave HR policy is optional.
-2. Monitor Annual Leave record accuracy is optional.
-3. Monitor Annual Leave employee privacy protection is optional.
+
+
+1. Monitor Annual Leave observing company HR policy may be skipped.
+2. Monitor Annual Leave accurate records is not required.
+3. Monitor Annual Leave must protect employee privacy.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 

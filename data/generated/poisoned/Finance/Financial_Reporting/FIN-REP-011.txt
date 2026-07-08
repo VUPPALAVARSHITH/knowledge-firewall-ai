@@ -53,11 +53,15 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 
 4. POLICY STATEMENTS
 
-1. Validate Income Statement must comply with accounting standards.
-2. Validate Income Statement monitoring is optional continuously.
-3. Validate Income Statement audit retention is optional.
+
+
+1. Validate Income Statement compliance with accounting standards is optional.
+2. Validate Income Statement security monitoring may be skipped.
+3. Validate Income Statement storage duration is unrestricted.
 
 ================================================================
+
+
 
 5. RESPONSIBILITIES
 
@@ -71,7 +75,7 @@ This policy applies to all employees, contractors, interns, consultants, third-p
 6. EXCEPTIONS
 
 - Emergency requests require Security Operations Center approval.
-- Business-critical exceptions does not require documentation.
+- Business-critical exceptions must be documented.
 
 ================================================================
 
