@@ -1,37 +1,77 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual Environment
+*.pyc
 .venv/
-venv/
+.env
 
-# VS Code
+# IDE
 .vscode/
+.idea/
 
-# Jupyter
-.ipynb_checkpoints/
+# OS
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
 
-# OS Files
-.DS_Store
-Thumbs.db
+# ==================================================
+# Generated datasets
+# ==================================================
 
-# Python Build
-build/
-dist/
-*.egg-info/
+data/vector_store/
 
-# Model Files
-models/*
-!models/.gitkeep
+data/generated/
 
-# Outputs
-outputs/*
-!outputs/.gitkeep
+data/metadata/*.csv
+data/metadata/*.pkl
+data/metadata/*.json
 
-reports/*
-!reports/.gitkeep
+# Keep folders
+!data/metadata/.gitkeep
+!data/vector_store/.gitkeep
+
+# Evaluation outputs
+data/evaluation/results/
+
+# Models
+models/
+
+# HuggingFace cache
+.cache/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# ==========================
+# Generated Data
+# ==========================
+
+data/generated/
+
+data/vector_store/
+
+data/metadata/
+
+# keep folders
+!data/generated/.gitkeep
+!data/vector_store/.gitkeep
+!data/metadata/.gitkeep
+
+# caches
+.cache/
+
+# models
+models/
+
+# logs
+*.log

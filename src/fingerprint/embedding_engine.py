@@ -3,39 +3,30 @@ embedding_engine.py
 
 Knowledge Firewall AI
 
-Generates semantic embeddings for enterprise
-knowledge documents.
+Embedding wrapper around the shared embedding service.
 """
 
-from sentence_transformers import SentenceTransformer
+from src.services.embedding_service import EmbeddingService
 
 
 class EmbeddingEngine:
 
     def __init__(self):
 
-        self.model_name = "all-MiniLM-L6-v2"
+        self.service = EmbeddingService()
 
-        print("Loading embedding model...")
-
-        self.model = SentenceTransformer(
-            self.model_name
-        )
-
-        print("Embedding model loaded.")
+    # --------------------------------------------------
 
     def generate(self, text):
 
-        embedding = self.model.encode(
+        return self.service.encode(
 
-            text,
+            text
 
-            normalize_embeddings=True
+        ).tolist()
 
-        )
-
-        return embedding.tolist()
+    # --------------------------------------------------
 
     def model_name_used(self):
 
-        return self.model_name
+        return self.service.model_name()

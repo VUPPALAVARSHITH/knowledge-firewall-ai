@@ -1,6 +1,0 @@
-{
-    "index_type": "IndexFlatIP",
-    "dimension": 384,
-    "total_vectors": 12025,
-    "metric": "Cosine Similarity (Normalized Inner Product)"
-}

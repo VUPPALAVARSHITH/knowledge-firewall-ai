@@ -3,35 +3,25 @@ query_encoder.py
 
 Knowledge Firewall AI
 
-Encodes user queries into embeddings for semantic retrieval.
+Encodes user queries into embeddings.
 """
 
 from __future__ import annotations
 
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
-from src.config.constants import (
-    EMBEDDING_MODEL
-)
+from src.services.embedding_service import EmbeddingService
 
 
 class QueryEncoder:
 
     """
-    Converts natural language queries into
-    normalized embedding vectors.
+    Converts user queries into normalized embeddings.
     """
 
     def __init__(self):
 
-        print("Loading Query Encoder...")
-
-        self.model = SentenceTransformer(
-            EMBEDDING_MODEL
-        )
-
-        print("Query Encoder Ready.\n")
+        self.embedding_service = EmbeddingService()
 
     # ----------------------------------------------------
 
@@ -40,21 +30,17 @@ class QueryEncoder:
         query: str
     ) -> np.ndarray:
 
-        embedding = self.model.encode(
+        embedding = self.embedding_service.encode(
 
             query,
 
-            convert_to_numpy=True,
-
-            normalize_embeddings=True
+            normalize=True
 
         )
 
         return embedding.astype(np.float32)
 
 
-# --------------------------------------------------------
-# Test
 # --------------------------------------------------------
 
 if __name__ == "__main__":
@@ -63,7 +49,7 @@ if __name__ == "__main__":
 
     vector = encoder.encode(
 
-        "Does VPN require multi factor authentication?"
+        "Does VPN require MFA?"
 
     )
 
