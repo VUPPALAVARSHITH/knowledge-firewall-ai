@@ -1,0 +1,19 @@
+{
+    "questions": 300,
+    "departments": {
+        "Information Technology": 51,
+        "Legal": 43,
+        "Operations": 23,
+        "Cyber Security": 48,
+        "Research": 9,
+        "Human Resources": 40,
+        "Finance": 38,
+        "Customer Support": 23,
+        "Administration": 25
+    },
+    "difficulty": {
+        "Medium": 121,
+        "Easy": 102,
+        "Hard": 77
+    }
+}

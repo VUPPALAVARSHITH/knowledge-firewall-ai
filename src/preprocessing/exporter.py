@@ -3,7 +3,7 @@ exporter.py
 
 Knowledge Firewall AI
 
-Exports Dataset 4.
+Exports semantic chunk datasets.
 """
 
 import csv
@@ -15,16 +15,14 @@ from dataclasses import asdict
 from src.config.path_config import DATA_DIR
 
 
-VECTOR_DIR = DATA_DIR / "vector_store"
-VECTOR_DIR.mkdir(parents=True, exist_ok=True)
-
-
 class ChunkExporter:
 
-    def export_pickle(self, chunks):
+    # ---------------------------------------------------
+
+    def export_pickle(self, chunks, output_dir):
 
         with open(
-            VECTOR_DIR / "chunk_metadata.pkl",
+            output_dir / "chunk_metadata.pkl",
             "wb"
         ) as file:
 
@@ -32,12 +30,12 @@ class ChunkExporter:
 
     # ---------------------------------------------------
 
-    def export_csv(self, chunks):
+    def export_csv(self, chunks, output_dir):
 
         rows = [asdict(chunk) for chunk in chunks]
 
         with open(
-            VECTOR_DIR / "chunk_metadata.csv",
+            output_dir / "chunk_metadata.csv",
             "w",
             newline="",
             encoding="utf-8"
@@ -53,7 +51,7 @@ class ChunkExporter:
 
     # ---------------------------------------------------
 
-    def export_statistics(self, chunks):
+    def export_statistics(self, chunks, output_dir):
 
         stats = {
 
@@ -87,60 +85,82 @@ class ChunkExporter:
 
         for chunk in chunks:
 
-            stats["sections"][chunk.section] = stats["sections"].get(chunk.section,0)+1
+            stats["sections"][chunk.section] = (
+                stats["sections"].get(chunk.section, 0) + 1
+            )
 
-            stats["departments"][chunk.department] = stats["departments"].get(chunk.department,0)+1
+            stats["departments"][chunk.department] = (
+                stats["departments"].get(chunk.department, 0) + 1
+            )
 
-            stats["categories"][chunk.category] = stats["categories"].get(chunk.category,0)+1
+            stats["categories"][chunk.category] = (
+                stats["categories"].get(chunk.category, 0) + 1
+            )
 
-            key=str(chunk.priority)
+            priority = str(chunk.priority)
 
-            stats["priorities"][key]=stats["priorities"].get(key,0)+1
+            stats["priorities"][priority] = (
+                stats["priorities"].get(priority, 0) + 1
+            )
 
         with open(
-
-            VECTOR_DIR/"statistics.json",
-
+            output_dir / "statistics.json",
             "w",
-
             encoding="utf-8"
-
         ) as file:
 
             json.dump(
-
                 stats,
-
                 file,
-
                 indent=4
-
             )
 
     # ---------------------------------------------------
 
-    def export(self,chunks):
+    def export(
+        self,
+        chunks,
+        dataset_name="vector_store"
+    ):
 
-        self.export_pickle(chunks)
+        output_dir = DATA_DIR / dataset_name
 
-        self.export_csv(chunks)
+        output_dir.mkdir(
+            parents=True,
+            exist_ok=True
+        )
 
-        self.export_statistics(chunks)
+        self.export_pickle(
+            chunks,
+            output_dir
+        )
+
+        self.export_csv(
+            chunks,
+            output_dir
+        )
+
+        self.export_statistics(
+            chunks,
+            output_dir
+        )
 
         print()
 
-        print("="*65)
+        print("=" * 65)
 
-        print("DATASET 4 GENERATED SUCCESSFULLY")
+        print("DATASET EXPORTED SUCCESSFULLY")
 
-        print("="*65)
+        print("=" * 65)
+
+        print(f"Dataset           : {dataset_name}")
 
         print(f"Total Chunks      : {len(chunks)}")
 
-        print(f"PKL               : {VECTOR_DIR/'chunk_metadata.pkl'}")
+        print(f"PKL               : {output_dir/'chunk_metadata.pkl'}")
 
-        print(f"CSV               : {VECTOR_DIR/'chunk_metadata.csv'}")
+        print(f"CSV               : {output_dir/'chunk_metadata.csv'}")
 
-        print(f"Statistics        : {VECTOR_DIR/'statistics.json'}")
+        print(f"Statistics        : {output_dir/'statistics.json'}")
 
-        print("="*65)
+        print("=" * 65)

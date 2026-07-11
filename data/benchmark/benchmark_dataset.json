@@ -1,0 +1,3002 @@
+[
+    {
+        "question": "Which security requirement applies to verify network gateway?",
+        "expected_answer": "Verify Network Gateway must be approved by Network Operations.",
+        "expected_policy": "IT-VPN-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Remote_Access",
+        "difficulty": "Medium",
+        "source_statement": "Verify Network Gateway must be approved by Network Operations"
+    },
+    {
+        "question": "How should employees handle review vendor agreement?",
+        "expected_answer": "Review Vendor Agreement must be documented.",
+        "expected_policy": "LEG-CMP-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Medium",
+        "source_statement": "Review Vendor Agreement must be documented"
+    },
+    {
+        "question": "Should review patent must follow consent requirements?",
+        "expected_answer": "Yes. Review Patent must follow consent requirements.",
+        "expected_policy": "LEG-IP-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Intellectual_Property",
+        "difficulty": "Easy",
+        "source_statement": "Review Patent must follow consent requirements"
+    },
+    {
+        "question": "Is it required to share confidential record must comply with privacy regulations?",
+        "expected_answer": "Yes. Share Confidential Record must comply with privacy regulations.",
+        "expected_policy": "LEG-PRI-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Easy",
+        "source_statement": "Share Confidential Record must comply with privacy regulations"
+    },
+    {
+        "question": "What enterprise security control governs restore home office?",
+        "expected_answer": "Restore Home Office must protect company assets.",
+        "expected_policy": "OPS-RMT-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Hard",
+        "source_statement": "Restore Home Office must protect company assets"
+    },
+    {
+        "question": "Which security requirement applies to report customer records?",
+        "expected_answer": "Report Customer Records must be logged.",
+        "expected_policy": "CS-RET-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Medium",
+        "source_statement": "Report Customer Records must be logged"
+    },
+    {
+        "question": "What is the policy regarding classify research paper?",
+        "expected_answer": "Classify Research Paper must maintain research integrity.",
+        "expected_policy": "RES-DAT-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Easy",
+        "source_statement": "Classify Research Paper must maintain research integrity"
+    },
+    {
+        "question": "What enterprise security control governs update enterprise software?",
+        "expected_answer": "Update Enterprise Software must be logged.",
+        "expected_policy": "IT-SFT-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Hard",
+        "source_statement": "Update Enterprise Software must be logged"
+    },
+    {
+        "question": "How should employees handle review attendance record?",
+        "expected_answer": "Review Attendance Record must be retained for audit purposes.",
+        "expected_policy": "HR-REC-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Medium",
+        "source_statement": "Review Attendance Record must be retained for audit purposes"
+    },
+    {
+        "question": "What enterprise security control governs update application must?",
+        "expected_answer": "Update Application must be digitally signed.",
+        "expected_policy": "IT-SFT-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Hard",
+        "source_statement": "Update Application must be digitally signed"
+    },
+    {
+        "question": "How should employees handle recover critical system?",
+        "expected_answer": "Recover Critical System must include emergency contacts.",
+        "expected_policy": "OPS-BCP-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Business_Continuity",
+        "difficulty": "Medium",
+        "source_statement": "Recover Critical System must include emergency contacts"
+    },
+    {
+        "question": "Should conduct candidate must follow organizational procedures?",
+        "expected_answer": "Yes. Conduct Candidate must follow organizational procedures.",
+        "expected_policy": "HR-REC-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Easy",
+        "source_statement": "Conduct Candidate must follow organizational procedures"
+    },
+    {
+        "question": "How should employees handle assess compliance record?",
+        "expected_answer": "Assess Compliance Record must follow regulatory requirements.",
+        "expected_policy": "FIN-REP-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Financial_Reporting",
+        "difficulty": "Medium",
+        "source_statement": "Assess Compliance Record must follow regulatory requirements"
+    },
+    {
+        "question": "Should maintain business process must follow regulatory requirements?",
+        "expected_answer": "Yes. Maintain Business Process must follow regulatory requirements.",
+        "expected_policy": "LEG-CMP-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Easy",
+        "source_statement": "Maintain Business Process must follow regulatory requirements"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for process employee must?",
+        "expected_answer": "Process Employee must be reviewed annually.",
+        "expected_policy": "HR-PRF-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Medium",
+        "source_statement": "Process Employee must be reviewed annually"
+    },
+    {
+        "question": "What is the policy regarding record case record?",
+        "expected_answer": "Record Case Record must protect confidential information.",
+        "expected_policy": "CSP-COM-021",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Easy",
+        "source_statement": "Record Case Record must protect confidential information"
+    },
+    {
+        "question": "What is the policy regarding archive procurement record?",
+        "expected_answer": "Archive Procurement Record must be reviewed periodically.",
+        "expected_policy": "FIN-EXP-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Easy",
+        "source_statement": "Archive Procurement Record must be reviewed periodically"
+    },
+    {
+        "question": "Which security requirement applies to access external connection?",
+        "expected_answer": "Access External Connection must use secure protocols.",
+        "expected_policy": "IT-VPN-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Remote_Access",
+        "difficulty": "Medium",
+        "source_statement": "Access External Connection must use secure protocols"
+    },
+    {
+        "question": "What is the policy regarding manage leave request?",
+        "expected_answer": "Manage Leave Request must be retained for audit purposes.",
+        "expected_policy": "HR-BEN-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Benefits",
+        "difficulty": "Easy",
+        "source_statement": "Manage Leave Request must be retained for audit purposes"
+    },
+    {
+        "question": "Is it required to review employee record must receive manager approval?",
+        "expected_answer": "Yes. Review Employee Record must receive manager approval.",
+        "expected_policy": "HR-BEN-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Benefits",
+        "difficulty": "Easy",
+        "source_statement": "Review Employee Record must receive manager approval"
+    },
+    {
+        "question": "What is the policy regarding audit office equipment?",
+        "expected_answer": "Audit Office Equipment must report lost assets immediately.",
+        "expected_policy": "ADM-AST-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Easy",
+        "source_statement": "Audit Office Equipment must report lost assets immediately"
+    },
+    {
+        "question": "How should employees handle monitor identity document?",
+        "expected_answer": "Monitor Identity Document must support user deletion requests.",
+        "expected_policy": "LEG-PRI-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Medium",
+        "source_statement": "Monitor Identity Document must support user deletion requests"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for audit audit report?",
+        "expected_answer": "Audit Audit Report must follow regulatory requirements.",
+        "expected_policy": "LEG-CMP-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Medium",
+        "source_statement": "Audit Audit Report must follow regulatory requirements"
+    },
+    {
+        "question": "What is the policy regarding maintain employee benefit?",
+        "expected_answer": "Maintain Employee Benefit must be retained for audit purposes.",
+        "expected_policy": "HR-BEN-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Benefits",
+        "difficulty": "Easy",
+        "source_statement": "Maintain Employee Benefit must be retained for audit purposes"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to report network traffic?",
+        "expected_answer": "Report Network Traffic must follow incident response procedures.",
+        "expected_policy": "CS-INC-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Incident_Response",
+        "difficulty": "Hard",
+        "source_statement": "Report Network Traffic must follow incident response procedures"
+    },
+    {
+        "question": "Is it required to report sensitive data must follow organizational data classification policy?",
+        "expected_answer": "Yes. Report Sensitive Data must follow organizational data classification policy.",
+        "expected_policy": "CS-DCL-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Easy",
+        "source_statement": "Report Sensitive Data must follow organizational data classification policy"
+    },
+    {
+        "question": "What enterprise security control governs scan email attachment?",
+        "expected_answer": "Scan Email Attachment must be encrypted when confidential.",
+        "expected_policy": "IT-EML-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Hard",
+        "source_statement": "Scan Email Attachment must be encrypted when confidential"
+    },
+    {
+        "question": "What is the policy regarding record audit report?",
+        "expected_answer": "Record Audit Report must receive management approval.",
+        "expected_policy": "LEG-VEN-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Vendor_Management",
+        "difficulty": "Easy",
+        "source_statement": "Record Audit Report must receive management approval"
+    },
+    {
+        "question": "What enterprise security control governs record training record?",
+        "expected_answer": "Record Training Record must be retained for audit purposes.",
+        "expected_policy": "HR-REC-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Hard",
+        "source_statement": "Record Training Record must be retained for audit purposes"
+    },
+    {
+        "question": "What enterprise security control governs monitor remote device?",
+        "expected_answer": "Monitor Remote Device must report security incidents.",
+        "expected_policy": "OPS-RMT-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Hard",
+        "source_statement": "Monitor Remote Device must report security incidents"
+    },
+    {
+        "question": "What enterprise security control governs transfer financial statement?",
+        "expected_answer": "Transfer Financial Statement must comply with retention policy.",
+        "expected_policy": "FIN-EXP-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Hard",
+        "source_statement": "Transfer Financial Statement must comply with retention policy"
+    },
+    {
+        "question": "What is the policy regarding review confidential record?",
+        "expected_answer": "Review Confidential Record must be protected against unauthorized access.",
+        "expected_policy": "LEG-PRI-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Easy",
+        "source_statement": "Review Confidential Record must be protected against unauthorized access"
+    },
+    {
+        "question": "Which security requirement applies to monitor job application?",
+        "expected_answer": "Monitor Job Application must protect employee privacy.",
+        "expected_policy": "HR-BEN-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Benefits",
+        "difficulty": "Medium",
+        "source_statement": "Monitor Job Application must protect employee privacy"
+    },
+    {
+        "question": "What enterprise security control governs protect cyber threat?",
+        "expected_answer": "Protect Cyber Threat must follow incident response procedures.",
+        "expected_policy": "CS-RET-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Hard",
+        "source_statement": "Protect Cyber Threat must follow incident response procedures"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for delete business data?",
+        "expected_answer": "Delete Business Data must comply with retention policy.",
+        "expected_policy": "FIN-EXP-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Medium",
+        "source_statement": "Delete Business Data must comply with retention policy"
+    },
+    {
+        "question": "Which security requirement applies to report threat intelligence?",
+        "expected_answer": "Report Threat Intelligence must be monitored continuously.",
+        "expected_policy": "CS-CLD-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Medium",
+        "source_statement": "Report Threat Intelligence must be monitored continuously"
+    },
+    {
+        "question": "Is it required to review configuration change must include rollback procedure?",
+        "expected_answer": "Yes. Review Configuration Change must include rollback procedure.",
+        "expected_policy": "OPS-CHG-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Change_Management",
+        "difficulty": "Easy",
+        "source_statement": "Review Configuration Change must include rollback procedure"
+    },
+    {
+        "question": "How should employees handle authorize employee must?",
+        "expected_answer": "Authorize Employee must be reviewed annually.",
+        "expected_policy": "HR-PRF-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Medium",
+        "source_statement": "Authorize Employee must be reviewed annually"
+    },
+    {
+        "question": "Is it required to store budget record must protect employee salary information?",
+        "expected_answer": "Yes. Store Budget Record must protect employee salary information.",
+        "expected_policy": "FIN-PAY-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Easy",
+        "source_statement": "Store Budget Record must protect employee salary information"
+    },
+    {
+        "question": "Should mitigate cloud resource must follow incident response procedures?",
+        "expected_answer": "Yes. Mitigate Cloud Resource must follow incident response procedures.",
+        "expected_policy": "CS-AIG-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Easy",
+        "source_statement": "Mitigate Cloud Resource must follow incident response procedures"
+    },
+    {
+        "question": "Which security requirement applies to verify enterprise software?",
+        "expected_answer": "Verify Enterprise Software must be scanned before installation.",
+        "expected_policy": "IT-SFT-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Medium",
+        "source_statement": "Verify Enterprise Software must be scanned before installation"
+    },
+    {
+        "question": "How should employees handle protect operating system?",
+        "expected_answer": "Protect Operating System must be logged.",
+        "expected_policy": "IT-SFT-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Medium",
+        "source_statement": "Protect Operating System must be logged"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for restrict network gateway?",
+        "expected_answer": "Restrict Network Gateway must use secure protocols.",
+        "expected_policy": "IT-VPN-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Remote_Access",
+        "difficulty": "Medium",
+        "source_statement": "Restrict Network Gateway must use secure protocols"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to report threat event?",
+        "expected_answer": "Report Threat Event must be monitored continuously.",
+        "expected_policy": "CS-INC-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Incident_Response",
+        "difficulty": "Hard",
+        "source_statement": "Report Threat Event must be monitored continuously"
+    },
+    {
+        "question": "Should revoke role must be backed by identity verification?",
+        "expected_answer": "Yes. Revoke Role must be backed by identity verification.",
+        "expected_policy": "IT-ACC-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Access_Control",
+        "difficulty": "Easy",
+        "source_statement": "Revoke Role must be backed by identity verification"
+    },
+    {
+        "question": "Should authorize equipment must be reviewed annually?",
+        "expected_answer": "Yes. Authorize Equipment must be reviewed annually.",
+        "expected_policy": "ADM-PSC-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Easy",
+        "source_statement": "Authorize Equipment must be reviewed annually"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to protect security incident?",
+        "expected_answer": "Protect Security Incident must preserve forensic evidence.",
+        "expected_policy": "CS-CLD-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Hard",
+        "source_statement": "Protect Security Incident must preserve forensic evidence"
+    },
+    {
+        "question": "Is it required to restore remote employee must secure home networks?",
+        "expected_answer": "Yes. Restore Remote Employee must secure home networks.",
+        "expected_policy": "OPS-RMT-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Easy",
+        "source_statement": "Restore Remote Employee must secure home networks"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for restrict office must?",
+        "expected_answer": "Restrict Office must be reviewed annually.",
+        "expected_policy": "ADM-PSC-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Medium",
+        "source_statement": "Restrict Office must be reviewed annually"
+    },
+    {
+        "question": "What enterprise security control governs test home office?",
+        "expected_answer": "Test Home Office must protect company assets.",
+        "expected_policy": "OPS-RMT-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Hard",
+        "source_statement": "Test Home Office must protect company assets"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for delete personal data?",
+        "expected_answer": "Delete Personal Data must be securely transferred.",
+        "expected_policy": "CSP-DAT-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Medium",
+        "source_statement": "Delete Personal Data must be securely transferred"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for conduct development plan?",
+        "expected_answer": "Conduct Development Plan must follow organizational procedures.",
+        "expected_policy": "HR-PRF-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Medium",
+        "source_statement": "Conduct Development Plan must follow organizational procedures"
+    },
+    {
+        "question": "Which security requirement applies to process budget record?",
+        "expected_answer": "Process Budget Record must follow access control policy.",
+        "expected_policy": "RES-DAT-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Medium",
+        "source_statement": "Process Budget Record must follow access control policy"
+    },
+    {
+        "question": "Which security requirement applies to implement infrastructure change?",
+        "expected_answer": "Implement Infrastructure Change must receive CAB approval.",
+        "expected_policy": "OPS-CHG-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Change_Management",
+        "difficulty": "Medium",
+        "source_statement": "Implement Infrastructure Change must receive CAB approval"
+    },
+    {
+        "question": "What is the policy regarding respond security alert?",
+        "expected_answer": "Respond Security Alert must be monitored continuously.",
+        "expected_policy": "CS-RET-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Easy",
+        "source_statement": "Respond Security Alert must be monitored continuously"
+    },
+    {
+        "question": "What is the policy regarding mitigate security alert?",
+        "expected_answer": "Mitigate Security Alert must comply with enterprise security policy.",
+        "expected_policy": "CS-AIG-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Easy",
+        "source_statement": "Mitigate Security Alert must comply with enterprise security policy"
+    },
+    {
+        "question": "How should employees handle process benefits enrollment?",
+        "expected_answer": "Process Benefits Enrollment must comply with labor regulations.",
+        "expected_policy": "HR-REC-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Medium",
+        "source_statement": "Process Benefits Enrollment must comply with labor regulations"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to reset password must?",
+        "expected_answer": "Reset Password must be encrypted.",
+        "expected_policy": "IT-PWD-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Hard",
+        "source_statement": "Reset Password must be encrypted"
+    },
+    {
+        "question": "How should employees handle validate disaster recovery?",
+        "expected_answer": "Validate Disaster Recovery Plan must be approved by management.",
+        "expected_policy": "OPS-BCP-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Business_Continuity",
+        "difficulty": "Medium",
+        "source_statement": "Validate Disaster Recovery Plan must be approved by management"
+    },
+    {
+        "question": "How should employees handle collect employee information?",
+        "expected_answer": "Collect Employee Information must be protected against unauthorized access.",
+        "expected_policy": "LEG-PRI-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Medium",
+        "source_statement": "Collect Employee Information must be protected against unauthorized access"
+    },
+    {
+        "question": "Which security requirement applies to review supplier agreement?",
+        "expected_answer": "Review Supplier Agreement must undergo legal review.",
+        "expected_policy": "LEG-VEN-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Vendor_Management",
+        "difficulty": "Medium",
+        "source_statement": "Review Supplier Agreement must undergo legal review"
+    },
+    {
+        "question": "How should employees handle review confidential record?",
+        "expected_answer": "Review Confidential Record must be encrypted.",
+        "expected_policy": "CSP-DAT-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Medium",
+        "source_statement": "Review Confidential Record must be encrypted"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to assess approval request?",
+        "expected_answer": "Assess Approval Request must be retained for audit.",
+        "expected_policy": "LEG-CMP-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Hard",
+        "source_statement": "Assess Approval Request must be retained for audit"
+    },
+    {
+        "question": "What is the policy regarding review confidential record?",
+        "expected_answer": "Review Confidential Record must be encrypted.",
+        "expected_policy": "CSP-DAT-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Easy",
+        "source_statement": "Review Confidential Record must be encrypted"
+    },
+    {
+        "question": "How should employees handle mitigate threat intelligence?",
+        "expected_answer": "Mitigate Threat Intelligence must follow incident response procedures.",
+        "expected_policy": "CS-CLD-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Medium",
+        "source_statement": "Mitigate Threat Intelligence must follow incident response procedures"
+    },
+    {
+        "question": "Which security requirement applies to implement business process?",
+        "expected_answer": "Implement Business Process must support business recovery.",
+        "expected_policy": "OPS-BCP-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Business_Continuity",
+        "difficulty": "Medium",
+        "source_statement": "Implement Business Process must support business recovery"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for approve security patch?",
+        "expected_answer": "Approve Security Patch must be logged.",
+        "expected_policy": "IT-SFT-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Medium",
+        "source_statement": "Approve Security Patch must be logged"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to process research repository?",
+        "expected_answer": "Process Research Repository must follow access control policy.",
+        "expected_policy": "RES-DAT-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Hard",
+        "source_statement": "Process Research Repository must follow access control policy"
+    },
+    {
+        "question": "Which security requirement applies to maintain service agreement?",
+        "expected_answer": "Maintain Service Agreement must comply with organizational policy.",
+        "expected_policy": "LEG-CON-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Service Agreement must comply with organizational policy"
+    },
+    {
+        "question": "Should review user profile must follow consent requirements?",
+        "expected_answer": "Yes. Review User Profile must follow consent requirements.",
+        "expected_policy": "LEG-PRI-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Easy",
+        "source_statement": "Review User Profile must follow consent requirements"
+    },
+    {
+        "question": "What is the policy regarding process candidate must?",
+        "expected_answer": "Process Candidate must be approved by Human Resources.",
+        "expected_policy": "HR-CON-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Easy",
+        "source_statement": "Process Candidate must be approved by Human Resources"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for investigate cloud storage?",
+        "expected_answer": "Investigate Cloud Storage must be logged.",
+        "expected_policy": "CS-CLD-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Medium",
+        "source_statement": "Investigate Cloud Storage must be logged"
+    },
+    {
+        "question": "Is it required to approve security patch must be scanned before installation?",
+        "expected_answer": "Yes. Approve Security Patch must be scanned before installation.",
+        "expected_policy": "IT-SFT-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Easy",
+        "source_statement": "Approve Security Patch must be scanned before installation"
+    },
+    {
+        "question": "Is it required to encrypt business data must be encrypted?",
+        "expected_answer": "Yes. Encrypt Business Data must be encrypted.",
+        "expected_policy": "RES-DAT-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Easy",
+        "source_statement": "Encrypt Business Data must be encrypted"
+    },
+    {
+        "question": "How should employees handle audit office equipment?",
+        "expected_answer": "Audit Office Equipment must be securely disposed.",
+        "expected_policy": "ADM-AST-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Medium",
+        "source_statement": "Audit Office Equipment must be securely disposed"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for verify financial transaction?",
+        "expected_answer": "Verify Financial Transaction must be reviewed quarterly.",
+        "expected_policy": "FIN-BUD-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Medium",
+        "source_statement": "Verify Financial Transaction must be reviewed quarterly"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for investigate cloud resource?",
+        "expected_answer": "Investigate Cloud Resource must distribute critical alerts immediately.",
+        "expected_policy": "CS-THR-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Threat_Intelligence",
+        "difficulty": "Medium",
+        "source_statement": "Investigate Cloud Resource must distribute critical alerts immediately"
+    },
+    {
+        "question": "Should manage performance review must maintain accurate records?",
+        "expected_answer": "Yes. Manage Performance Review must maintain accurate records.",
+        "expected_policy": "HR-CON-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Easy",
+        "source_statement": "Manage Performance Review must maintain accurate records"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to verify financial report?",
+        "expected_answer": "Verify Financial Report must comply with accounting standards.",
+        "expected_policy": "FIN-REP-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Financial_Reporting",
+        "difficulty": "Hard",
+        "source_statement": "Verify Financial Report must comply with accounting standards"
+    },
+    {
+        "question": "What enterprise security control governs verify financial transaction?",
+        "expected_answer": "Verify Financial Transaction must include vendor verification.",
+        "expected_policy": "FIN-PRC-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Procurement",
+        "difficulty": "Hard",
+        "source_statement": "Verify Financial Transaction must include vendor verification"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for update privileged account?",
+        "expected_answer": "Update Privileged Account must be rotated periodically.",
+        "expected_policy": "IT-ACC-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Access_Control",
+        "difficulty": "Medium",
+        "source_statement": "Update Privileged Account must be rotated periodically"
+    },
+    {
+        "question": "What enterprise security control governs create password must?",
+        "expected_answer": "Create Password must be reviewed every 90 days.",
+        "expected_policy": "IT-ACC-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Access_Control",
+        "difficulty": "Hard",
+        "source_statement": "Create Password must be reviewed every 90 days"
+    },
+    {
+        "question": "Which security requirement applies to recover administrator password?",
+        "expected_answer": "Recover Administrator Password must be encrypted.",
+        "expected_policy": "IT-PWD-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Medium",
+        "source_statement": "Recover Administrator Password must be encrypted"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to authorize performance review?",
+        "expected_answer": "Authorize Performance Review must include manager feedback.",
+        "expected_policy": "HR-PRF-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Hard",
+        "source_statement": "Authorize Performance Review must include manager feedback"
+    },
+    {
+        "question": "Is it required to record business agreement must be archived after expiration?",
+        "expected_answer": "Yes. Record Business Agreement must be archived after expiration.",
+        "expected_policy": "LEG-CON-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Easy",
+        "source_statement": "Record Business Agreement must be archived after expiration"
+    },
+    {
+        "question": "Which security requirement applies to document financial transaction?",
+        "expected_answer": "Document Financial Transaction must comply with organizational policy.",
+        "expected_policy": "LEG-VEN-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Vendor_Management",
+        "difficulty": "Medium",
+        "source_statement": "Document Financial Transaction must comply with organizational policy"
+    },
+    {
+        "question": "Which security requirement applies to review employee information?",
+        "expected_answer": "Review Employee Information must not be disclosed without authorization.",
+        "expected_policy": "LEG-PRI-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Medium",
+        "source_statement": "Review Employee Information must not be disclosed without authorization"
+    },
+    {
+        "question": "Is it required to approve configuration change must be tested before deployment?",
+        "expected_answer": "Yes. Approve Configuration Change must be tested before deployment.",
+        "expected_policy": "OPS-CHG-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Change_Management",
+        "difficulty": "Easy",
+        "source_statement": "Approve Configuration Change must be tested before deployment"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to monitor contract must?",
+        "expected_answer": "Monitor Contract must be securely stored.",
+        "expected_policy": "LEG-CON-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Hard",
+        "source_statement": "Monitor Contract must be securely stored"
+    },
+    {
+        "question": "How should employees handle restrict access badge?",
+        "expected_answer": "Restrict Access Badge must be inspected regularly.",
+        "expected_policy": "ADM-PSC-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Medium",
+        "source_statement": "Restrict Access Badge must be inspected regularly"
+    },
+    {
+        "question": "What enterprise security control governs review policy exception?",
+        "expected_answer": "Review Policy Exception must be retained for audit.",
+        "expected_policy": "FIN-BUD-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Hard",
+        "source_statement": "Review Policy Exception must be retained for audit"
+    },
+    {
+        "question": "Should collect copyright must support user deletion requests?",
+        "expected_answer": "Yes. Collect Copyright must support user deletion requests.",
+        "expected_policy": "LEG-IP-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Intellectual_Property",
+        "difficulty": "Easy",
+        "source_statement": "Collect Copyright must support user deletion requests"
+    },
+    {
+        "question": "Is it required to update operating system requires administrator approval?",
+        "expected_answer": "Yes. Update Operating System requires administrator approval.",
+        "expected_policy": "IT-SFT-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Easy",
+        "source_statement": "Update Operating System requires administrator approval"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to validate authentication token?",
+        "expected_answer": "Validate Authentication Token must not be shared.",
+        "expected_policy": "IT-ACC-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Access_Control",
+        "difficulty": "Hard",
+        "source_statement": "Validate Authentication Token must not be shared"
+    },
+    {
+        "question": "Is it required to protect malware must follow incident response procedures?",
+        "expected_answer": "Yes. Protect Malware must follow incident response procedures.",
+        "expected_policy": "CS-CLD-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Easy",
+        "source_statement": "Protect Malware must follow incident response procedures"
+    },
+    {
+        "question": "What enterprise security control governs monitor outgoing email?",
+        "expected_answer": "Monitor Outgoing Email must be archived.",
+        "expected_policy": "IT-EML-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Hard",
+        "source_statement": "Monitor Outgoing Email must be archived"
+    },
+    {
+        "question": "What enterprise security control governs review personal data?",
+        "expected_answer": "Review Personal Data must not be disclosed without authorization.",
+        "expected_policy": "CSP-DAT-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Hard",
+        "source_statement": "Review Personal Data must not be disclosed without authorization"
+    },
+    {
+        "question": "Should register printer must be recorded in inventory?",
+        "expected_answer": "Yes. Register Printer must be recorded in inventory.",
+        "expected_policy": "ADM-AST-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Easy",
+        "source_statement": "Register Printer must be recorded in inventory"
+    },
+    {
+        "question": "How should employees handle recover credentials must?",
+        "expected_answer": "Recover Credentials must be monitored continuously.",
+        "expected_policy": "IT-IDA-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Identity_Authentication",
+        "difficulty": "Medium",
+        "source_statement": "Recover Credentials must be monitored continuously"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to approve annual leave?",
+        "expected_answer": "Approve Annual Leave must protect employee privacy.",
+        "expected_policy": "HR-LVE-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Leave_Management",
+        "difficulty": "Hard",
+        "source_statement": "Approve Annual Leave must protect employee privacy"
+    },
+    {
+        "question": "What enterprise security control governs verify leave request?",
+        "expected_answer": "Verify Leave Request must be retained for audit purposes.",
+        "expected_policy": "HR-REC-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Hard",
+        "source_statement": "Verify Leave Request must be retained for audit purposes"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for approve employee record?",
+        "expected_answer": "Approve Employee Record must receive manager approval.",
+        "expected_policy": "HR-REC-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Medium",
+        "source_statement": "Approve Employee Record must receive manager approval"
+    },
+    {
+        "question": "Should encrypt business data must be reviewed periodically?",
+        "expected_answer": "Yes. Encrypt Business Data must be reviewed periodically.",
+        "expected_policy": "RES-DAT-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Easy",
+        "source_statement": "Encrypt Business Data must be reviewed periodically"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for transfer budget record?",
+        "expected_answer": "Transfer Budget Record must follow access control policy.",
+        "expected_policy": "FIN-PAY-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Medium",
+        "source_statement": "Transfer Budget Record must follow access control policy"
+    },
+    {
+        "question": "What enterprise security control governs maintain critical system?",
+        "expected_answer": "Maintain Critical System must be tested quarterly.",
+        "expected_policy": "OPS-BCP-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Business_Continuity",
+        "difficulty": "Hard",
+        "source_statement": "Maintain Critical System must be tested quarterly"
+    },
+    {
+        "question": "Which security requirement applies to maintain annual leave?",
+        "expected_answer": "Maintain Annual Leave must be approved by Human Resources.",
+        "expected_policy": "HR-LVE-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Leave_Management",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Annual Leave must be approved by Human Resources"
+    },
+    {
+        "question": "How should employees handle monitor outgoing email?",
+        "expected_answer": "Monitor Outgoing Email must comply with company communication policy.",
+        "expected_policy": "IT-EML-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Medium",
+        "source_statement": "Monitor Outgoing Email must comply with company communication policy"
+    },
+    {
+        "question": "What enterprise security control governs inspect building must?",
+        "expected_answer": "Inspect Building must be inspected regularly.",
+        "expected_policy": "ADM-PSC-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Hard",
+        "source_statement": "Inspect Building must be inspected regularly"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to report security alert?",
+        "expected_answer": "Report Security Alert must comply with AI governance policies.",
+        "expected_policy": "CS-AIG-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Hard",
+        "source_statement": "Report Security Alert must comply with AI governance policies"
+    },
+    {
+        "question": "What is the policy regarding assess contract must?",
+        "expected_answer": "Assess Contract must receive management approval.",
+        "expected_policy": "LEG-CON-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Easy",
+        "source_statement": "Assess Contract must receive management approval"
+    },
+    {
+        "question": "Which security requirement applies to maintain professional ethics?",
+        "expected_answer": "Maintain Professional Ethics must be documented.",
+        "expected_policy": "HR-CON-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Professional Ethics must be documented"
+    },
+    {
+        "question": "How should employees handle monitor employee goal?",
+        "expected_answer": "Monitor Employee Goal must be conducted annually.",
+        "expected_policy": "HR-PRF-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Medium",
+        "source_statement": "Monitor Employee Goal must be conducted annually"
+    },
+    {
+        "question": "What is the policy regarding process budget record?",
+        "expected_answer": "Process Budget Record must receive manager approval.",
+        "expected_policy": "FIN-EXP-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Easy",
+        "source_statement": "Process Budget Record must receive manager approval"
+    },
+    {
+        "question": "Is it required to transfer identity document must not be disclosed without authorization?",
+        "expected_answer": "Yes. Transfer Identity Document must not be disclosed without authorization.",
+        "expected_policy": "CSP-DAT-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Easy",
+        "source_statement": "Transfer Identity Document must not be disclosed without authorization"
+    },
+    {
+        "question": "How should employees handle archive email attachment?",
+        "expected_answer": "Archive Email Attachment must be scanned for malware.",
+        "expected_policy": "IT-EML-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Medium",
+        "source_statement": "Archive Email Attachment must be scanned for malware"
+    },
+    {
+        "question": "How should employees handle review benefits enrollment?",
+        "expected_answer": "Review Benefits Enrollment must be retained for audit purposes.",
+        "expected_policy": "HR-LVE-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Leave_Management",
+        "difficulty": "Medium",
+        "source_statement": "Review Benefits Enrollment must be retained for audit purposes"
+    },
+    {
+        "question": "Should maintain balance sheet must be monitored continuously?",
+        "expected_answer": "Yes. Maintain Balance Sheet must be monitored continuously.",
+        "expected_policy": "FIN-REP-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Financial_Reporting",
+        "difficulty": "Easy",
+        "source_statement": "Maintain Balance Sheet must be monitored continuously"
+    },
+    {
+        "question": "Is it required to revoke administrator password must be protected against unauthorized disclosure?",
+        "expected_answer": "Yes. Revoke Administrator Password must be protected against unauthorized disclosure.",
+        "expected_policy": "IT-PWD-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Easy",
+        "source_statement": "Revoke Administrator Password must be protected against unauthorized disclosure"
+    },
+    {
+        "question": "Which security requirement applies to approve vendor agreement?",
+        "expected_answer": "Approve Vendor Agreement must be reviewed annually.",
+        "expected_policy": "FIN-BUD-021",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Medium",
+        "source_statement": "Approve Vendor Agreement must be reviewed annually"
+    },
+    {
+        "question": "How should employees handle audit hardware asset?",
+        "expected_answer": "Audit Hardware Asset must be securely disposed.",
+        "expected_policy": "ADM-AST-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Medium",
+        "source_statement": "Audit Hardware Asset must be securely disposed"
+    },
+    {
+        "question": "Which security requirement applies to review patent must?",
+        "expected_answer": "Review Patent must follow consent requirements.",
+        "expected_policy": "LEG-IP-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Intellectual_Property",
+        "difficulty": "Medium",
+        "source_statement": "Review Patent must follow consent requirements"
+    },
+    {
+        "question": "How should employees handle share support ticket?",
+        "expected_answer": "Share Support Ticket must be securely transferred.",
+        "expected_policy": "CSP-DAT-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Medium",
+        "source_statement": "Share Support Ticket must be securely transferred"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for send business communication?",
+        "expected_answer": "Send Business Communication must be archived.",
+        "expected_policy": "IT-EML-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Medium",
+        "source_statement": "Send Business Communication must be archived"
+    },
+    {
+        "question": "Should recover malware must be reviewed periodically?",
+        "expected_answer": "Yes. Recover Malware must be reviewed periodically.",
+        "expected_policy": "CS-RET-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Easy",
+        "source_statement": "Recover Malware must be reviewed periodically"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for document case record?",
+        "expected_answer": "Document Case Record must document communication.",
+        "expected_policy": "CSP-COM-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Medium",
+        "source_statement": "Document Case Record must document communication"
+    },
+    {
+        "question": "What is the policy regarding encrypt employee reimbursement?",
+        "expected_answer": "Encrypt Employee Reimbursement must receive manager approval.",
+        "expected_policy": "FIN-EXP-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Easy",
+        "source_statement": "Encrypt Employee Reimbursement must receive manager approval"
+    },
+    {
+        "question": "Is it required to monitor financial transaction must receive executive approval?",
+        "expected_answer": "Yes. Monitor Financial Transaction must receive executive approval.",
+        "expected_policy": "FIN-BUD-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Financial Transaction must receive executive approval"
+    },
+    {
+        "question": "What enterprise security control governs inspect visitor must?",
+        "expected_answer": "Inspect Visitor must be documented.",
+        "expected_policy": "ADM-PSC-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Hard",
+        "source_statement": "Inspect Visitor must be documented"
+    },
+    {
+        "question": "Should validate access privilege must be rotated periodically?",
+        "expected_answer": "Yes. Validate Access Privilege must be rotated periodically.",
+        "expected_policy": "IT-ACC-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Access_Control",
+        "difficulty": "Easy",
+        "source_statement": "Validate Access Privilege must be rotated periodically"
+    },
+    {
+        "question": "What is the policy regarding activate disaster recovery?",
+        "expected_answer": "Activate Disaster Recovery Plan must comply with organizational standards.",
+        "expected_policy": "OPS-DR-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Disaster_Recovery",
+        "difficulty": "Easy",
+        "source_statement": "Activate Disaster Recovery Plan must comply with organizational standards"
+    },
+    {
+        "question": "Is it required to verify candidate must be documented?",
+        "expected_answer": "Yes. Verify Candidate must be documented.",
+        "expected_policy": "HR-CON-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Easy",
+        "source_statement": "Verify Candidate must be documented"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to delete procurement record?",
+        "expected_answer": "Delete Procurement Record must be encrypted.",
+        "expected_policy": "FIN-PAY-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Hard",
+        "source_statement": "Delete Procurement Record must be encrypted"
+    },
+    {
+        "question": "Should recover cyber threat must be reviewed daily?",
+        "expected_answer": "Yes. Recover Cyber Threat must be reviewed daily.",
+        "expected_policy": "CS-THR-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Threat_Intelligence",
+        "difficulty": "Easy",
+        "source_statement": "Recover Cyber Threat must be reviewed daily"
+    },
+    {
+        "question": "Which security requirement applies to share research paper?",
+        "expected_answer": "Share Research Paper must not be shared externally without approval.",
+        "expected_policy": "RES-DAT-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Medium",
+        "source_statement": "Share Research Paper must not be shared externally without approval"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for record benefits enrollment?",
+        "expected_answer": "Record Benefits Enrollment must maintain accurate records.",
+        "expected_policy": "HR-LVE-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Leave_Management",
+        "difficulty": "Medium",
+        "source_statement": "Record Benefits Enrollment must maintain accurate records"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for audit compliance record?",
+        "expected_answer": "Audit Compliance Record must be monitored continuously.",
+        "expected_policy": "FIN-BUD-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Medium",
+        "source_statement": "Audit Compliance Record must be monitored continuously"
+    },
+    {
+        "question": "What is the policy regarding mitigate security incident?",
+        "expected_answer": "Mitigate Security Incident must be documented.",
+        "expected_policy": "CS-DCL-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Easy",
+        "source_statement": "Mitigate Security Incident must be documented"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for report threat intelligence?",
+        "expected_answer": "Report Threat Intelligence must be reviewed daily.",
+        "expected_policy": "CS-THR-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Threat_Intelligence",
+        "difficulty": "Medium",
+        "source_statement": "Report Threat Intelligence must be reviewed daily"
+    },
+    {
+        "question": "Which security requirement applies to reset credentials must?",
+        "expected_answer": "Reset Credentials must be logged.",
+        "expected_policy": "IT-IDA-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Identity_Authentication",
+        "difficulty": "Medium",
+        "source_statement": "Reset Credentials must be logged"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for report security incident?",
+        "expected_answer": "Report Security Incident must notify the security team.",
+        "expected_policy": "CS-INC-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Incident_Response",
+        "difficulty": "Medium",
+        "source_statement": "Report Security Incident must notify the security team"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for protect customer records?",
+        "expected_answer": "Protect Customer Records must be securely destroyed after retention period.",
+        "expected_policy": "CS-RET-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Medium",
+        "source_statement": "Protect Customer Records must be securely destroyed after retention period"
+    },
+    {
+        "question": "What enterprise security control governs investigate malware must?",
+        "expected_answer": "Investigate Malware must be reviewed periodically.",
+        "expected_policy": "CS-AIG-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Hard",
+        "source_statement": "Investigate Malware must be reviewed periodically"
+    },
+    {
+        "question": "Is it required to restrict office must be reviewed annually?",
+        "expected_answer": "Yes. Restrict Office must be reviewed annually.",
+        "expected_policy": "ADM-PSC-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Easy",
+        "source_statement": "Restrict Office must be reviewed annually"
+    },
+    {
+        "question": "How should employees handle install operating system?",
+        "expected_answer": "Install Operating System must be logged.",
+        "expected_policy": "IT-SFT-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Medium",
+        "source_statement": "Install Operating System must be logged"
+    },
+    {
+        "question": "Which security requirement applies to store customer data?",
+        "expected_answer": "Store Customer Data must follow access control policy.",
+        "expected_policy": "FIN-PAY-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Medium",
+        "source_statement": "Store Customer Data must follow access control policy"
+    },
+    {
+        "question": "What is the policy regarding test business service?",
+        "expected_answer": "Test Business Service must be approved by management.",
+        "expected_policy": "OPS-DR-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Disaster_Recovery",
+        "difficulty": "Easy",
+        "source_statement": "Test Business Service must be approved by management"
+    },
+    {
+        "question": "How should employees handle audit vendor agreement?",
+        "expected_answer": "Audit Vendor Agreement must be documented.",
+        "expected_policy": "FIN-PRC-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Procurement",
+        "difficulty": "Medium",
+        "source_statement": "Audit Vendor Agreement must be documented"
+    },
+    {
+        "question": "Which security requirement applies to store sensitive information?",
+        "expected_answer": "Store Sensitive Information must be encrypted.",
+        "expected_policy": "LEG-PRI-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Medium",
+        "source_statement": "Store Sensitive Information must be encrypted"
+    },
+    {
+        "question": "What enterprise security control governs monitor security camera?",
+        "expected_answer": "Monitor Security Camera must follow organizational policy.",
+        "expected_policy": "ADM-VIS-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Visitor_Management",
+        "difficulty": "Hard",
+        "source_statement": "Monitor Security Camera must follow organizational policy"
+    },
+    {
+        "question": "What is the policy regarding encrypt sensitive information?",
+        "expected_answer": "Encrypt Sensitive Information must support user deletion requests.",
+        "expected_policy": "CSP-DAT-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Easy",
+        "source_statement": "Encrypt Sensitive Information must support user deletion requests"
+    },
+    {
+        "question": "Should control server room must follow organizational policy?",
+        "expected_answer": "Yes. Control Server Room must follow organizational policy.",
+        "expected_policy": "ADM-VIS-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Visitor_Management",
+        "difficulty": "Easy",
+        "source_statement": "Control Server Room must follow organizational policy"
+    },
+    {
+        "question": "What enterprise security control governs investigate cloud storage?",
+        "expected_answer": "Investigate Cloud Storage must be monitored continuously.",
+        "expected_policy": "CS-CLD-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Hard",
+        "source_statement": "Investigate Cloud Storage must be monitored continuously"
+    },
+    {
+        "question": "What is the policy regarding review employee goal?",
+        "expected_answer": "Review Employee Goal must receive manager approval.",
+        "expected_policy": "HR-PRF-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Easy",
+        "source_statement": "Review Employee Goal must receive manager approval"
+    },
+    {
+        "question": "Should monitor legal document must be archived after expiration?",
+        "expected_answer": "Yes. Monitor Legal Document must be archived after expiration.",
+        "expected_policy": "LEG-CON-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Legal Document must be archived after expiration"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to delete employee information?",
+        "expected_answer": "Delete Employee Information must be reviewed periodically.",
+        "expected_policy": "CSP-DAT-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Hard",
+        "source_statement": "Delete Employee Information must be reviewed periodically"
+    },
+    {
+        "question": "Which security requirement applies to mitigate cloud resource?",
+        "expected_answer": "Mitigate Cloud Resource must enforce least privilege access.",
+        "expected_policy": "CS-CLD-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Medium",
+        "source_statement": "Mitigate Cloud Resource must enforce least privilege access"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to audit legal document?",
+        "expected_answer": "Audit Legal Document must be securely stored.",
+        "expected_policy": "LEG-CON-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Hard",
+        "source_statement": "Audit Legal Document must be securely stored"
+    },
+    {
+        "question": "How should employees handle restrict facility must?",
+        "expected_answer": "Restrict Facility must protect company assets.",
+        "expected_policy": "ADM-PSC-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Medium",
+        "source_statement": "Restrict Facility must protect company assets"
+    },
+    {
+        "question": "What enterprise security control governs protect software requires?",
+        "expected_answer": "Protect Software requires administrator approval.",
+        "expected_policy": "IT-SFT-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Hard",
+        "source_statement": "Protect Software requires administrator approval"
+    },
+    {
+        "question": "What enterprise security control governs detect user account?",
+        "expected_answer": "Detect User Account must be reviewed annually.",
+        "expected_policy": "CS-DCL-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Hard",
+        "source_statement": "Detect User Account must be reviewed annually"
+    },
+    {
+        "question": "Which security requirement applies to review vendor agreement?",
+        "expected_answer": "Review Vendor Agreement must be retained for audit.",
+        "expected_policy": "LEG-CMP-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Medium",
+        "source_statement": "Review Vendor Agreement must be retained for audit"
+    },
+    {
+        "question": "Is it required to store privacy request must support user deletion requests?",
+        "expected_answer": "Yes. Store Privacy Request must support user deletion requests.",
+        "expected_policy": "CSP-DAT-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Easy",
+        "source_statement": "Store Privacy Request must support user deletion requests"
+    },
+    {
+        "question": "Which security requirement applies to manage performance review?",
+        "expected_answer": "Manage Performance Review must receive manager approval.",
+        "expected_policy": "HR-CON-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Medium",
+        "source_statement": "Manage Performance Review must receive manager approval"
+    },
+    {
+        "question": "How should employees handle notify live chat?",
+        "expected_answer": "Notify Live Chat must protect confidential information.",
+        "expected_policy": "CSP-COM-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Medium",
+        "source_statement": "Notify Live Chat must protect confidential information"
+    },
+    {
+        "question": "How should employees handle track laptop must?",
+        "expected_answer": "Track Laptop must be securely disposed.",
+        "expected_policy": "ADM-AST-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Medium",
+        "source_statement": "Track Laptop must be securely disposed"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to review personal data?",
+        "expected_answer": "Review Personal Data must be protected against unauthorized access.",
+        "expected_policy": "CSP-DAT-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Hard",
+        "source_statement": "Review Personal Data must be protected against unauthorized access"
+    },
+    {
+        "question": "What enterprise security control governs review access badge?",
+        "expected_answer": "Review Access Badge must be monitored continuously.",
+        "expected_policy": "ADM-PSC-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Hard",
+        "source_statement": "Review Access Badge must be monitored continuously"
+    },
+    {
+        "question": "What enterprise security control governs inspect desktop must?",
+        "expected_answer": "Inspect Desktop must report lost assets immediately.",
+        "expected_policy": "ADM-AST-021",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Hard",
+        "source_statement": "Inspect Desktop must report lost assets immediately"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for review business process?",
+        "expected_answer": "Review Business Process must follow regulatory requirements.",
+        "expected_policy": "LEG-VEN-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Vendor_Management",
+        "difficulty": "Medium",
+        "source_statement": "Review Business Process must follow regulatory requirements"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to scan outgoing email?",
+        "expected_answer": "Scan Outgoing Email requires spam filtering.",
+        "expected_policy": "IT-EML-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Hard",
+        "source_statement": "Scan Outgoing Email requires spam filtering"
+    },
+    {
+        "question": "Is it required to send incoming email must be monitored?",
+        "expected_answer": "Yes. Send Incoming Email must be monitored.",
+        "expected_policy": "IT-EML-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Easy",
+        "source_statement": "Send Incoming Email must be monitored"
+    },
+    {
+        "question": "Should monitor job application must maintain accurate records?",
+        "expected_answer": "Yes. Monitor Job Application must maintain accurate records.",
+        "expected_policy": "HR-CON-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Job Application must maintain accurate records"
+    },
+    {
+        "question": "Which security requirement applies to review confidential record?",
+        "expected_answer": "Review Confidential Record must be logged for auditing.",
+        "expected_policy": "LEG-PRI-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Medium",
+        "source_statement": "Review Confidential Record must be logged for auditing"
+    },
+    {
+        "question": "Which security requirement applies to investigate sensitive data?",
+        "expected_answer": "Investigate Sensitive Data must comply with enterprise security policy.",
+        "expected_policy": "CS-INC-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Incident_Response",
+        "difficulty": "Medium",
+        "source_statement": "Investigate Sensitive Data must comply with enterprise security policy"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to classify tax deduction?",
+        "expected_answer": "Classify Tax Deduction must be processed securely.",
+        "expected_policy": "FIN-PAY-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Hard",
+        "source_statement": "Classify Tax Deduction must be processed securely"
+    },
+    {
+        "question": "What is the policy regarding transfer budget record?",
+        "expected_answer": "Transfer Budget Record must follow access control policy.",
+        "expected_policy": "FIN-PAY-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Easy",
+        "source_statement": "Transfer Budget Record must follow access control policy"
+    },
+    {
+        "question": "Is it required to track customer inquiry must follow escalation procedures?",
+        "expected_answer": "Yes. Track Customer Inquiry must follow escalation procedures.",
+        "expected_policy": "CSP-COM-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Easy",
+        "source_statement": "Track Customer Inquiry must follow escalation procedures"
+    },
+    {
+        "question": "How should employees handle report user account?",
+        "expected_answer": "Report User Account must be reviewed annually.",
+        "expected_policy": "CS-DCL-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Medium",
+        "source_statement": "Report User Account must be reviewed annually"
+    },
+    {
+        "question": "What is the policy regarding store service account?",
+        "expected_answer": "Store Service Account Password must not be shared.",
+        "expected_policy": "IT-IDA-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Identity_Authentication",
+        "difficulty": "Easy",
+        "source_statement": "Store Service Account Password must not be shared"
+    },
+    {
+        "question": "Should register software license must be securely disposed?",
+        "expected_answer": "Yes. Register Software License must be securely disposed.",
+        "expected_policy": "ADM-AST-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Easy",
+        "source_statement": "Register Software License must be securely disposed"
+    },
+    {
+        "question": "How should employees handle recover laptop must?",
+        "expected_answer": "Recover Laptop must be assigned to an owner.",
+        "expected_policy": "ADM-AST-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Medium",
+        "source_statement": "Recover Laptop must be assigned to an owner"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to create identity profile?",
+        "expected_answer": "Create Identity Profile must be rotated periodically.",
+        "expected_policy": "IT-PWD-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Hard",
+        "source_statement": "Create Identity Profile must be rotated periodically"
+    },
+    {
+        "question": "What enterprise security control governs validate policy exception?",
+        "expected_answer": "Validate Policy Exception must comply with organizational policy.",
+        "expected_policy": "LEG-CMP-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Hard",
+        "source_statement": "Validate Policy Exception must comply with organizational policy"
+    },
+    {
+        "question": "What enterprise security control governs review patent must?",
+        "expected_answer": "Review Patent must be protected against unauthorized sharing.",
+        "expected_policy": "LEG-IP-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Intellectual_Property",
+        "difficulty": "Hard",
+        "source_statement": "Review Patent must be protected against unauthorized sharing"
+    },
+    {
+        "question": "Should validate critical infrastructure must identify critical systems?",
+        "expected_answer": "Yes. Validate Critical Infrastructure must identify critical systems.",
+        "expected_policy": "OPS-DR-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Disaster_Recovery",
+        "difficulty": "Easy",
+        "source_statement": "Validate Critical Infrastructure must identify critical systems"
+    },
+    {
+        "question": "Which security requirement applies to investigate virtual machine?",
+        "expected_answer": "Investigate Virtual Machine must enforce least privilege access.",
+        "expected_policy": "CS-CLD-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Medium",
+        "source_statement": "Investigate Virtual Machine must enforce least privilege access"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for archive email attachment?",
+        "expected_answer": "Archive Email Attachment must comply with company communication policy.",
+        "expected_policy": "IT-EML-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Medium",
+        "source_statement": "Archive Email Attachment must comply with company communication policy"
+    },
+    {
+        "question": "What is the policy regarding document case record?",
+        "expected_answer": "Document Case Record must respond within SLA.",
+        "expected_policy": "CSP-COM-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Easy",
+        "source_statement": "Document Case Record must respond within SLA"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for process business report?",
+        "expected_answer": "Process Business Report must include supporting receipts.",
+        "expected_policy": "FIN-EXP-021",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Medium",
+        "source_statement": "Process Business Report must include supporting receipts"
+    },
+    {
+        "question": "Should monitor trademark must be protected against unauthorized access?",
+        "expected_answer": "Yes. Monitor Trademark must be protected against unauthorized access.",
+        "expected_policy": "LEG-IP-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Intellectual_Property",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Trademark must be protected against unauthorized access"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for audit hardware asset?",
+        "expected_answer": "Audit Hardware Asset must be recorded in inventory.",
+        "expected_policy": "ADM-AST-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Medium",
+        "source_statement": "Audit Hardware Asset must be recorded in inventory"
+    },
+    {
+        "question": "Should process regulated data must be securely transferred?",
+        "expected_answer": "Yes. Process Regulated Data must be securely transferred.",
+        "expected_policy": "LEG-PRI-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Easy",
+        "source_statement": "Process Regulated Data must be securely transferred"
+    },
+    {
+        "question": "What is the policy regarding process employee must?",
+        "expected_answer": "Process Employee must be reviewed annually.",
+        "expected_policy": "HR-PRF-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Easy",
+        "source_statement": "Process Employee must be reviewed annually"
+    },
+    {
+        "question": "How should employees handle store permission must?",
+        "expected_answer": "Store Permission must be securely stored.",
+        "expected_policy": "IT-ACC-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Access_Control",
+        "difficulty": "Medium",
+        "source_statement": "Store Permission must be securely stored"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to recover laptop must?",
+        "expected_answer": "Recover Laptop must be securely disposed.",
+        "expected_policy": "ADM-AST-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Hard",
+        "source_statement": "Recover Laptop must be securely disposed"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to create biometric authentication?",
+        "expected_answer": "Create Biometric Authentication must be protected against unauthorized disclosure.",
+        "expected_policy": "IT-IDA-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Identity_Authentication",
+        "difficulty": "Hard",
+        "source_statement": "Create Biometric Authentication must be protected against unauthorized disclosure"
+    },
+    {
+        "question": "Is it required to implement remote device must report security incidents?",
+        "expected_answer": "Yes. Implement Remote Device must report security incidents.",
+        "expected_policy": "OPS-RMT-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Easy",
+        "source_statement": "Implement Remote Device must report security incidents"
+    },
+    {
+        "question": "How should employees handle encrypt payment record?",
+        "expected_answer": "Encrypt Payment Record must be backed up.",
+        "expected_policy": "FIN-PAY-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Medium",
+        "source_statement": "Encrypt Payment Record must be backed up"
+    },
+    {
+        "question": "What enterprise security control governs encrypt sensitive information?",
+        "expected_answer": "Encrypt Sensitive Information must record every customer interaction.",
+        "expected_policy": "CSP-DAT-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Hard",
+        "source_statement": "Encrypt Sensitive Information must record every customer interaction"
+    },
+    {
+        "question": "Which security requirement applies to maintain physical asset?",
+        "expected_answer": "Maintain Physical Asset must remain operational at all times.",
+        "expected_policy": "ADM-PSC-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Physical Asset must remain operational at all times"
+    },
+    {
+        "question": "Should monitor cyber threat must preserve forensic evidence?",
+        "expected_answer": "Yes. Monitor Cyber Threat must preserve forensic evidence.",
+        "expected_policy": "CS-THR-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Threat_Intelligence",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Cyber Threat must preserve forensic evidence"
+    },
+    {
+        "question": "What is the policy regarding maintain compliance evidence?",
+        "expected_answer": "Maintain Compliance Evidence must comply with accounting standards.",
+        "expected_policy": "FIN-REP-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Financial_Reporting",
+        "difficulty": "Easy",
+        "source_statement": "Maintain Compliance Evidence must comply with accounting standards"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to review patent must?",
+        "expected_answer": "Review Patent must be protected against unauthorized sharing.",
+        "expected_policy": "LEG-IP-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Intellectual_Property",
+        "difficulty": "Hard",
+        "source_statement": "Review Patent must be protected against unauthorized sharing"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for delete personal data?",
+        "expected_answer": "Delete Personal Data must be reviewed periodically.",
+        "expected_policy": "CSP-DAT-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Medium",
+        "source_statement": "Delete Personal Data must be reviewed periodically"
+    },
+    {
+        "question": "Is it required to protect password must be monitored continuously?",
+        "expected_answer": "Yes. Protect Password must be monitored continuously.",
+        "expected_policy": "IT-PWD-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Easy",
+        "source_statement": "Protect Password must be monitored continuously"
+    },
+    {
+        "question": "How should employees handle conduct job application?",
+        "expected_answer": "Conduct Job Application must comply with company HR policy.",
+        "expected_policy": "HR-REC-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Medium",
+        "source_statement": "Conduct Job Application must comply with company HR policy"
+    },
+    {
+        "question": "What is the policy regarding verify enterprise software?",
+        "expected_answer": "Verify Enterprise Software must be scanned before installation.",
+        "expected_policy": "IT-SFT-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Easy",
+        "source_statement": "Verify Enterprise Software must be scanned before installation"
+    },
+    {
+        "question": "What is the policy regarding recover desktop must?",
+        "expected_answer": "Recover Desktop must be securely disposed.",
+        "expected_policy": "ADM-AST-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Easy",
+        "source_statement": "Recover Desktop must be securely disposed"
+    },
+    {
+        "question": "Is it required to mitigate cloud resource must be reported immediately?",
+        "expected_answer": "Yes. Mitigate Cloud Resource must be reported immediately.",
+        "expected_policy": "CS-CLD-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Easy",
+        "source_statement": "Mitigate Cloud Resource must be reported immediately"
+    },
+    {
+        "question": "Which security requirement applies to escalate customer inquiry?",
+        "expected_answer": "Escalate Customer Inquiry must protect confidential information.",
+        "expected_policy": "CSP-COM-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Medium",
+        "source_statement": "Escalate Customer Inquiry must protect confidential information"
+    },
+    {
+        "question": "How should employees handle process identity document?",
+        "expected_answer": "Process Identity Document must be logged for auditing.",
+        "expected_policy": "LEG-PRI-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Medium",
+        "source_statement": "Process Identity Document must be logged for auditing"
+    },
+    {
+        "question": "How should employees handle maintain vendor agreement?",
+        "expected_answer": "Maintain Vendor Agreement must follow regulatory requirements.",
+        "expected_policy": "LEG-VEN-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Vendor_Management",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Vendor Agreement must follow regulatory requirements"
+    },
+    {
+        "question": "Which security requirement applies to mitigate cloud resource?",
+        "expected_answer": "Mitigate Cloud Resource must be reported immediately.",
+        "expected_policy": "CS-CLD-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Medium",
+        "source_statement": "Mitigate Cloud Resource must be reported immediately"
+    },
+    {
+        "question": "What enterprise security control governs validate incoming email?",
+        "expected_answer": "Validate Incoming Email must be archived.",
+        "expected_policy": "IT-EML-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Hard",
+        "source_statement": "Validate Incoming Email must be archived"
+    },
+    {
+        "question": "Should transfer identity document must comply with privacy regulations?",
+        "expected_answer": "Yes. Transfer Identity Document must comply with privacy regulations.",
+        "expected_policy": "CSP-DAT-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Easy",
+        "source_statement": "Transfer Identity Document must comply with privacy regulations"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to report network traffic?",
+        "expected_answer": "Report Network Traffic must be investigated.",
+        "expected_policy": "CS-DCL-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Hard",
+        "source_statement": "Report Network Traffic must be investigated"
+    },
+    {
+        "question": "What is the policy regarding report user account?",
+        "expected_answer": "Report User Account must be investigated.",
+        "expected_policy": "CS-DCL-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Easy",
+        "source_statement": "Report User Account must be investigated"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to protect malware must?",
+        "expected_answer": "Protect Malware must follow incident response procedures.",
+        "expected_policy": "CS-CLD-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Hard",
+        "source_statement": "Protect Malware must follow incident response procedures"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for monitor security camera?",
+        "expected_answer": "Monitor Security Camera must issue temporary visitor badge.",
+        "expected_policy": "ADM-VIS-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Visitor_Management",
+        "difficulty": "Medium",
+        "source_statement": "Monitor Security Camera must issue temporary visitor badge"
+    },
+    {
+        "question": "Should maintain annual leave must be approved by human resources?",
+        "expected_answer": "Yes. Maintain Annual Leave must be approved by Human Resources.",
+        "expected_policy": "HR-LVE-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Leave_Management",
+        "difficulty": "Easy",
+        "source_statement": "Maintain Annual Leave must be approved by Human Resources"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to maintain employee benefit?",
+        "expected_answer": "Maintain Employee Benefit must be approved by Human Resources.",
+        "expected_policy": "HR-BEN-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Benefits",
+        "difficulty": "Hard",
+        "source_statement": "Maintain Employee Benefit must be approved by Human Resources"
+    },
+    {
+        "question": "How should employees handle maintain business process?",
+        "expected_answer": "Maintain Business Process must be traceable.",
+        "expected_policy": "LEG-CMP-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Business Process must be traceable"
+    },
+    {
+        "question": "Should manage training record must be approved by human resources?",
+        "expected_answer": "Yes. Manage Training Record must be approved by Human Resources.",
+        "expected_policy": "HR-CON-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Easy",
+        "source_statement": "Manage Training Record must be approved by Human Resources"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to recover ai assistant?",
+        "expected_answer": "Recover AI Assistant must be logged.",
+        "expected_policy": "CS-AIG-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Hard",
+        "source_statement": "Recover AI Assistant must be logged"
+    },
+    {
+        "question": "Should recover administrator password must be encrypted?",
+        "expected_answer": "Yes. Recover Administrator Password must be encrypted.",
+        "expected_policy": "IT-PWD-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Easy",
+        "source_statement": "Recover Administrator Password must be encrypted"
+    },
+    {
+        "question": "Which security requirement applies to test home office?",
+        "expected_answer": "Test Home Office must protect company assets.",
+        "expected_policy": "OPS-RMT-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Medium",
+        "source_statement": "Test Home Office must protect company assets"
+    },
+    {
+        "question": "What enterprise security control governs activate continuity plan?",
+        "expected_answer": "Activate Continuity Plan must support business recovery.",
+        "expected_policy": "OPS-DR-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Disaster_Recovery",
+        "difficulty": "Hard",
+        "source_statement": "Activate Continuity Plan must support business recovery"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to maintain benefits enrollment?",
+        "expected_answer": "Maintain Benefits Enrollment must protect employee privacy.",
+        "expected_policy": "HR-REC-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Hard",
+        "source_statement": "Maintain Benefits Enrollment must protect employee privacy"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for validate system change?",
+        "expected_answer": "Validate System Change must receive CAB approval.",
+        "expected_policy": "OPS-CHG-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Change_Management",
+        "difficulty": "Medium",
+        "source_statement": "Validate System Change must receive CAB approval"
+    },
+    {
+        "question": "What is the policy regarding monitor confidential data?",
+        "expected_answer": "Monitor Confidential Data must be classified before storage.",
+        "expected_policy": "CS-DCL-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Confidential Data must be classified before storage"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to share research paper?",
+        "expected_answer": "Share Research Paper must be reviewed periodically.",
+        "expected_policy": "RES-DAT-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Hard",
+        "source_statement": "Share Research Paper must be reviewed periodically"
+    },
+    {
+        "question": "How should employees handle verify customer complaint?",
+        "expected_answer": "Verify Customer Complaint must respond within SLA.",
+        "expected_policy": "CSP-COM-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Medium",
+        "source_statement": "Verify Customer Complaint must respond within SLA"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to assess business agreement?",
+        "expected_answer": "Assess Business Agreement must be verified before approval.",
+        "expected_policy": "LEG-CON-021",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Hard",
+        "source_statement": "Assess Business Agreement must be verified before approval"
+    },
+    {
+        "question": "Should protect security incident must notify the security team?",
+        "expected_answer": "Yes. Protect Security Incident must notify the security team.",
+        "expected_policy": "CS-CLD-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Easy",
+        "source_statement": "Protect Security Incident must notify the security team"
+    },
+    {
+        "question": "How should employees handle review purchase approval?",
+        "expected_answer": "Review Purchase Approval must be monitored continuously.",
+        "expected_policy": "FIN-PRC-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Procurement",
+        "difficulty": "Medium",
+        "source_statement": "Review Purchase Approval must be monitored continuously"
+    },
+    {
+        "question": "What is the policy regarding monitor incoming email?",
+        "expected_answer": "Monitor Incoming Email must comply with company communication policy.",
+        "expected_policy": "IT-EML-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Incoming Email must comply with company communication policy"
+    },
+    {
+        "question": "What enterprise security control governs implement remote device?",
+        "expected_answer": "Implement Remote Device must follow remote work policy.",
+        "expected_policy": "OPS-RMT-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Hard",
+        "source_statement": "Implement Remote Device must follow remote work policy"
+    },
+    {
+        "question": "What is the policy regarding record hr document?",
+        "expected_answer": "Record HR Document must be approved by Human Resources.",
+        "expected_policy": "HR-BEN-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Benefits",
+        "difficulty": "Easy",
+        "source_statement": "Record HR Document must be approved by Human Resources"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to monitor employee goal?",
+        "expected_answer": "Monitor Employee Goal must be conducted annually.",
+        "expected_policy": "HR-PRF-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Hard",
+        "source_statement": "Monitor Employee Goal must be conducted annually"
+    },
+    {
+        "question": "What enterprise security control governs encrypt travel expense?",
+        "expected_answer": "Encrypt Travel Expense must receive manager approval.",
+        "expected_policy": "FIN-EXP-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Hard",
+        "source_statement": "Encrypt Travel Expense must receive manager approval"
+    },
+    {
+        "question": "What enterprise security control governs document vendor agreement?",
+        "expected_answer": "Document Vendor Agreement must be documented.",
+        "expected_policy": "FIN-PRC-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Procurement",
+        "difficulty": "Hard",
+        "source_statement": "Document Vendor Agreement must be documented"
+    },
+    {
+        "question": "What is the policy regarding reset authentication token?",
+        "expected_answer": "Reset Authentication Token must be backed by identity verification.",
+        "expected_policy": "IT-ACC-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Access_Control",
+        "difficulty": "Easy",
+        "source_statement": "Reset Authentication Token must be backed by identity verification"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to mitigate customer records?",
+        "expected_answer": "Mitigate Customer Records must be investigated.",
+        "expected_policy": "CS-RET-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Hard",
+        "source_statement": "Mitigate Customer Records must be investigated"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to review job application?",
+        "expected_answer": "Review Job Application must be approved by Human Resources.",
+        "expected_policy": "HR-REC-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Recruitment",
+        "difficulty": "Hard",
+        "source_statement": "Review Job Application must be approved by Human Resources"
+    },
+    {
+        "question": "Should create identity profile requires multi-factor authentication?",
+        "expected_answer": "Yes. Create Identity Profile requires multi-factor authentication.",
+        "expected_policy": "IT-PWD-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Easy",
+        "source_statement": "Create Identity Profile requires multi-factor authentication"
+    },
+    {
+        "question": "What enterprise security control governs record employee must?",
+        "expected_answer": "Record Employee must be retained for audit purposes.",
+        "expected_policy": "HR-CON-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Hard",
+        "source_statement": "Record Employee must be retained for audit purposes"
+    },
+    {
+        "question": "Which security requirement applies to protect operating system?",
+        "expected_answer": "Protect Operating System must be verified.",
+        "expected_policy": "IT-SFT-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Medium",
+        "source_statement": "Protect Operating System must be verified"
+    },
+    {
+        "question": "Should update enterprise software requires administrator approval?",
+        "expected_answer": "Yes. Update Enterprise Software requires administrator approval.",
+        "expected_policy": "IT-SFT-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Easy",
+        "source_statement": "Update Enterprise Software requires administrator approval"
+    },
+    {
+        "question": "How should employees handle document financial transaction?",
+        "expected_answer": "Document Financial Transaction must comply with organizational policy.",
+        "expected_policy": "LEG-CMP-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Medium",
+        "source_statement": "Document Financial Transaction must comply with organizational policy"
+    },
+    {
+        "question": "How should employees handle restore remote employee?",
+        "expected_answer": "Restore Remote Employee must secure home networks.",
+        "expected_policy": "OPS-RMT-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Medium",
+        "source_statement": "Restore Remote Employee must secure home networks"
+    },
+    {
+        "question": "What is the policy regarding monitor financial transaction?",
+        "expected_answer": "Monitor Financial Transaction must receive management approval.",
+        "expected_policy": "LEG-VEN-014",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Vendor_Management",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Financial Transaction must receive management approval"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for implement system change?",
+        "expected_answer": "Implement System Change must document implementation.",
+        "expected_policy": "OPS-CHG-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Change_Management",
+        "difficulty": "Medium",
+        "source_statement": "Implement System Change must document implementation"
+    },
+    {
+        "question": "Should transfer desktop must be audited annually?",
+        "expected_answer": "Yes. Transfer Desktop must be audited annually.",
+        "expected_policy": "ADM-AST-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Asset_Management",
+        "difficulty": "Easy",
+        "source_statement": "Transfer Desktop must be audited annually"
+    },
+    {
+        "question": "How should employees handle analyze large language?",
+        "expected_answer": "Analyze Large Language Model must be monitored continuously.",
+        "expected_policy": "CS-AIG-016",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Medium",
+        "source_statement": "Analyze Large Language Model must be monitored continuously"
+    },
+    {
+        "question": "How should employees handle review confidential record?",
+        "expected_answer": "Review Confidential Record must not be disclosed without authorization.",
+        "expected_policy": "LEG-PRI-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Data_Privacy",
+        "difficulty": "Medium",
+        "source_statement": "Review Confidential Record must not be disclosed without authorization"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for maintain security camera?",
+        "expected_answer": "Maintain Security Camera must remain operational at all times.",
+        "expected_policy": "ADM-PSC-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Administration",
+        "category": "Physical_Security",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Security Camera must remain operational at all times"
+    },
+    {
+        "question": "What is the policy regarding contain cloud resource?",
+        "expected_answer": "Contain Cloud Resource must be logged.",
+        "expected_policy": "CS-DCL-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Classification",
+        "difficulty": "Easy",
+        "source_statement": "Contain Cloud Resource must be logged"
+    },
+    {
+        "question": "What enterprise security control governs recover threat intelligence?",
+        "expected_answer": "Recover Threat Intelligence must be reported immediately.",
+        "expected_policy": "CS-INC-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Incident_Response",
+        "difficulty": "Hard",
+        "source_statement": "Recover Threat Intelligence must be reported immediately"
+    },
+    {
+        "question": "What is the policy regarding review workplace conduct?",
+        "expected_answer": "Review Workplace Conduct must be approved by Human Resources.",
+        "expected_policy": "HR-CON-012",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Easy",
+        "source_statement": "Review Workplace Conduct must be approved by Human Resources"
+    },
+    {
+        "question": "What is the policy regarding report sensitive data?",
+        "expected_answer": "Report Sensitive Data must notify the security team.",
+        "expected_policy": "CS-INC-006",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Incident_Response",
+        "difficulty": "Easy",
+        "source_statement": "Report Sensitive Data must notify the security team"
+    },
+    {
+        "question": "Which security requirement applies to protect enterprise software?",
+        "expected_answer": "Protect Enterprise Software must be verified.",
+        "expected_policy": "IT-SFT-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Medium",
+        "source_statement": "Protect Enterprise Software must be verified"
+    },
+    {
+        "question": "Is it required to reset administrator password must be reviewed every 90 days?",
+        "expected_answer": "Yes. Reset Administrator Password must be reviewed every 90 days.",
+        "expected_policy": "IT-PWD-011",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Password_Management",
+        "difficulty": "Easy",
+        "source_statement": "Reset Administrator Password must be reviewed every 90 days"
+    },
+    {
+        "question": "What is the policy regarding monitor policy exception?",
+        "expected_answer": "Monitor Policy Exception must be securely stored.",
+        "expected_policy": "FIN-REP-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Financial_Reporting",
+        "difficulty": "Easy",
+        "source_statement": "Monitor Policy Exception must be securely stored"
+    },
+    {
+        "question": "Should activate remote workspace must secure home networks?",
+        "expected_answer": "Yes. Activate Remote Workspace must secure home networks.",
+        "expected_policy": "OPS-RMT-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Remote_Work",
+        "difficulty": "Easy",
+        "source_statement": "Activate Remote Workspace must secure home networks"
+    },
+    {
+        "question": "How should employees handle maintain operational workflow?",
+        "expected_answer": "Maintain Operational Workflow must comply with organizational standards.",
+        "expected_policy": "OPS-BCP-001",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Operations",
+        "category": "Business_Continuity",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Operational Workflow must comply with organizational standards"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for delete employee reimbursement?",
+        "expected_answer": "Delete Employee Reimbursement must be backed up.",
+        "expected_policy": "FIN-EXP-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Medium",
+        "source_statement": "Delete Employee Reimbursement must be backed up"
+    },
+    {
+        "question": "Is it required to share copyright must not be disclosed publicly?",
+        "expected_answer": "Yes. Share Copyright must not be disclosed publicly.",
+        "expected_policy": "LEG-IP-003",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Intellectual_Property",
+        "difficulty": "Easy",
+        "source_statement": "Share Copyright must not be disclosed publicly"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for validate incoming email?",
+        "expected_answer": "Validate Incoming Email must be archived.",
+        "expected_policy": "IT-EML-018",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Email_Security",
+        "difficulty": "Medium",
+        "source_statement": "Validate Incoming Email must be archived"
+    },
+    {
+        "question": "Is it required to investigate malware must be reviewed periodically?",
+        "expected_answer": "Yes. Investigate Malware must be reviewed periodically.",
+        "expected_policy": "CS-AIG-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Easy",
+        "source_statement": "Investigate Malware must be reviewed periodically"
+    },
+    {
+        "question": "How should employees handle contain audit logs?",
+        "expected_answer": "Contain Audit Logs must be monitored continuously.",
+        "expected_policy": "CS-RET-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Medium",
+        "source_statement": "Contain Audit Logs must be monitored continuously"
+    },
+    {
+        "question": "How should employees handle maintain audit report?",
+        "expected_answer": "Maintain Audit Report must be traceable.",
+        "expected_policy": "FIN-BUD-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Medium",
+        "source_statement": "Maintain Audit Report must be traceable"
+    },
+    {
+        "question": "How should employees handle process business report?",
+        "expected_answer": "Process Business Report must be classified correctly.",
+        "expected_policy": "FIN-EXP-021",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Medium",
+        "source_statement": "Process Business Report must be classified correctly"
+    },
+    {
+        "question": "What enterprise security control governs verify financial report?",
+        "expected_answer": "Verify Financial Report must comply with organizational policy.",
+        "expected_policy": "FIN-REP-013",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Financial_Reporting",
+        "difficulty": "Hard",
+        "source_statement": "Verify Financial Report must comply with organizational policy"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to encrypt external connection?",
+        "expected_answer": "Encrypt External Connection requires encrypted communication.",
+        "expected_policy": "IT-VPN-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Remote_Access",
+        "difficulty": "Hard",
+        "source_statement": "Encrypt External Connection requires encrypted communication"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to audit business process?",
+        "expected_answer": "Audit Business Process must be traceable.",
+        "expected_policy": "LEG-CMP-009",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Hard",
+        "source_statement": "Audit Business Process must be traceable"
+    },
+    {
+        "question": "Which security requirement applies to assess compliance evidence?",
+        "expected_answer": "Assess Compliance Evidence must follow regulatory requirements.",
+        "expected_policy": "FIN-BUD-010",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Medium",
+        "source_statement": "Assess Compliance Evidence must follow regulatory requirements"
+    },
+    {
+        "question": "What is the policy regarding contain security event?",
+        "expected_answer": "Contain Security Event must be logged.",
+        "expected_policy": "CS-AIG-008",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "AI_Governance",
+        "difficulty": "Easy",
+        "source_statement": "Contain Security Event must be logged"
+    },
+    {
+        "question": "How should employees handle review customer request?",
+        "expected_answer": "Review Customer Request must be logged for auditing.",
+        "expected_policy": "CSP-DAT-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Medium",
+        "source_statement": "Review Customer Request must be logged for auditing"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for share customer data?",
+        "expected_answer": "Share Customer Data must be classified correctly.",
+        "expected_policy": "FIN-PAY-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Medium",
+        "source_statement": "Share Customer Data must be classified correctly"
+    },
+    {
+        "question": "How should employees handle monitor legal document?",
+        "expected_answer": "Monitor Legal Document must be verified before approval.",
+        "expected_policy": "LEG-CON-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Contract_Management",
+        "difficulty": "Medium",
+        "source_statement": "Monitor Legal Document must be verified before approval"
+    },
+    {
+        "question": "Should validate vendor agreement must be reviewed annually?",
+        "expected_answer": "Yes. Validate Vendor Agreement must be reviewed annually.",
+        "expected_policy": "LEG-CMP-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Compliance",
+        "difficulty": "Easy",
+        "source_statement": "Validate Vendor Agreement must be reviewed annually"
+    },
+    {
+        "question": "Should update enterprise software must be logged?",
+        "expected_answer": "Yes. Update Enterprise Software must be logged.",
+        "expected_policy": "IT-SFT-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Software_Installation",
+        "difficulty": "Easy",
+        "source_statement": "Update Enterprise Software must be logged"
+    },
+    {
+        "question": "What enterprise security control governs authenticate network gateway?",
+        "expected_answer": "Authenticate Network Gateway must be monitored continuously.",
+        "expected_policy": "IT-VPN-022",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Remote_Access",
+        "difficulty": "Hard",
+        "source_statement": "Authenticate Network Gateway must be monitored continuously"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to detect malware campaign?",
+        "expected_answer": "Detect Malware Campaign must be investigated.",
+        "expected_policy": "CS-THR-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Threat_Intelligence",
+        "difficulty": "Hard",
+        "source_statement": "Detect Malware Campaign must be investigated"
+    },
+    {
+        "question": "Is it required to track email must verify customer identity?",
+        "expected_answer": "Yes. Track Email must verify customer identity.",
+        "expected_policy": "CSP-COM-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Communication",
+        "difficulty": "Easy",
+        "source_statement": "Track Email must verify customer identity"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for document financial transaction?",
+        "expected_answer": "Document Financial Transaction must be documented.",
+        "expected_policy": "LEG-VEN-005",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Legal",
+        "category": "Vendor_Management",
+        "difficulty": "Medium",
+        "source_statement": "Document Financial Transaction must be documented"
+    },
+    {
+        "question": "What enterprise security control governs store customer data?",
+        "expected_answer": "Store Customer Data must be classified correctly.",
+        "expected_policy": "RES-DAT-015",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Hard",
+        "source_statement": "Store Customer Data must be classified correctly"
+    },
+    {
+        "question": "Should verify performance review must protect employee privacy?",
+        "expected_answer": "Yes. Verify Performance Review must protect employee privacy.",
+        "expected_policy": "HR-PRF-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Performance_Management",
+        "difficulty": "Easy",
+        "source_statement": "Verify Performance Review must protect employee privacy"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for encrypt network gateway?",
+        "expected_answer": "Encrypt Network Gateway must be logged.",
+        "expected_policy": "IT-VPN-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Remote_Access",
+        "difficulty": "Medium",
+        "source_statement": "Encrypt Network Gateway must be logged"
+    },
+    {
+        "question": "Which mandatory enterprise requirement applies to maintain employee benefit?",
+        "expected_answer": "Maintain Employee Benefit must comply with company HR policy.",
+        "expected_policy": "HR-BEN-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Benefits",
+        "difficulty": "Hard",
+        "source_statement": "Maintain Employee Benefit must comply with company HR policy"
+    },
+    {
+        "question": "What enterprise security control governs authorize hr document?",
+        "expected_answer": "Authorize HR Document must protect employee privacy.",
+        "expected_policy": "HR-CON-017",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Human Resources",
+        "category": "Employee_Conduct",
+        "difficulty": "Hard",
+        "source_statement": "Authorize HR Document must protect employee privacy"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for protect malware must?",
+        "expected_answer": "Protect Malware must comply with retention schedule.",
+        "expected_policy": "CS-RET-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Data_Retention",
+        "difficulty": "Medium",
+        "source_statement": "Protect Malware must comply with retention schedule"
+    },
+    {
+        "question": "What enterprise security control governs validate innovation record?",
+        "expected_answer": "Validate Innovation Record must be available for audit.",
+        "expected_policy": "RES-DAT-007",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Research",
+        "category": "Research_Data_Protection",
+        "difficulty": "Hard",
+        "source_statement": "Validate Innovation Record must be available for audit"
+    },
+    {
+        "question": "How should employees handle monitor compliance evidence?",
+        "expected_answer": "Monitor Compliance Evidence must align with business objectives.",
+        "expected_policy": "FIN-BUD-004",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Budget_Planning",
+        "difficulty": "Medium",
+        "source_statement": "Monitor Compliance Evidence must align with business objectives"
+    },
+    {
+        "question": "Which security requirement applies to connect vpn connection?",
+        "expected_answer": "Connect VPN Connection must comply with network security standards.",
+        "expected_policy": "IT-VPN-025",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Information Technology",
+        "category": "Remote_Access",
+        "difficulty": "Medium",
+        "source_statement": "Connect VPN Connection must comply with network security standards"
+    },
+    {
+        "question": "What is the policy regarding report container must?",
+        "expected_answer": "Report Container must be reviewed periodically.",
+        "expected_policy": "CS-CLD-019",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Cyber Security",
+        "category": "Cloud_Security",
+        "difficulty": "Easy",
+        "source_statement": "Report Container must be reviewed periodically"
+    },
+    {
+        "question": "Should classify employee reimbursement must be retained according to policy?",
+        "expected_answer": "Yes. Classify Employee Reimbursement must be retained according to policy.",
+        "expected_policy": "FIN-EXP-023",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Expense_Management",
+        "difficulty": "Easy",
+        "source_statement": "Classify Employee Reimbursement must be retained according to policy"
+    },
+    {
+        "question": "What enterprise security control governs validate employee compensation?",
+        "expected_answer": "Validate Employee Compensation must be available for audit.",
+        "expected_policy": "FIN-PAY-002",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Payroll",
+        "difficulty": "Hard",
+        "source_statement": "Validate Employee Compensation must be available for audit"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for assess financial transaction?",
+        "expected_answer": "Assess Financial Transaction must be traceable.",
+        "expected_policy": "FIN-PRC-020",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Finance",
+        "category": "Procurement",
+        "difficulty": "Medium",
+        "source_statement": "Assess Financial Transaction must be traceable"
+    },
+    {
+        "question": "According to enterprise policy, what should be done for store identity document?",
+        "expected_answer": "Store Identity Document must support user deletion requests.",
+        "expected_policy": "CSP-DAT-024",
+        "expected_section": "POLICY_STATEMENT",
+        "department": "Customer Support",
+        "category": "Customer_Data_Handling",
+        "difficulty": "Medium",
+        "source_statement": "Store Identity Document must support user deletion requests"
+    }
+]
