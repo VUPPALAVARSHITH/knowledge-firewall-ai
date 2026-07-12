@@ -426,7 +426,3 @@ This project is developed as an academic research project for demonstrating secu
 # 👨‍💻 Authors
 
 **VUPPALA VARSHITH**
-
-Enterprise Knowledge Security Framework
-
-Academic Major Project
