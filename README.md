@@ -1,8 +1,16 @@
 # 🛡️ Knowledge Firewall AI
 
-> **An Enterprise Knowledge Security Framework for Trusted Retrieval-Augmented Generation (RAG) Systems**
+> **An Enterprise Knowledge Security Framework for Protecting Organizational Knowledge Before, During, and After Retrieval-Augmented Generation (RAG).**
 
 Knowledge Firewall AI is a security-first framework designed to protect enterprise knowledge before it reaches Large Language Models (LLMs). Unlike conventional Secure RAG systems that focus only on retrieval, Knowledge Firewall AI introduces a dedicated **Knowledge Firewall** that continuously verifies, fingerprints, monitors, and protects organizational knowledge throughout its lifecycle.
+
+---
+
+Knowledge Firewall AI is not a chatbot.
+
+It is an enterprise security framework that continuously verifies, fingerprints, monitors, and protects organizational knowledge throughout its lifecycle.
+
+The Secure RAG Assistant included in this repository is only one consumer of the trusted knowledge produced by the framework.
 
 ---
 
@@ -47,7 +55,7 @@ Knowledge Firewall AI addresses these challenges by introducing a security layer
       └── Knowledge Fingerprinting
                             │
                             ▼
-                Knowledge Admission Engine
+                Knowledge Admission Firewall
                  Allow • Reject • Review
                             │
                             ▼
@@ -133,6 +141,25 @@ Unlike existing Secure RAG systems that protect only the retrieval process, Know
 
 ---
 
+# 🏢 Enterprise Framework
+
+The Enterprise Framework provides administrators with a centralized interface for managing trusted enterprise knowledge.
+
+Current modules include:
+
+- 🏠 Enterprise Dashboard
+- 📂 Knowledge Repository
+- ⬆️ Knowledge Admission Firewall
+- 🛡️ Repository Integrity Scanner
+- 📊 Trust Analytics
+- 🔍 Policy Comparison
+- 🕒 Version History
+- 🤖 Enterprise Assistant
+
+Each module consumes the reusable security services provided by the Knowledge Firewall.
+
+---
+
 # 📂 Project Structure
 
 ```text
@@ -200,19 +227,23 @@ knowledge-firewall-ai/
 | Semantic Chunk Builder | Creates structured semantic chunks |
 | Embedding Engine | Generates MiniLM embeddings |
 | Fingerprint Engine | SHA256, SimHash and Embedding Fingerprints |
-| Knowledge Firewall | Runtime security verification |
+| Knowledge Firewall | Runtime knowledge verification and secure context construction |
 | Trust Engine | Computes trust scores |
 | Secure Retriever | Retrieves trusted knowledge |
 | Secure RAG | Generates trusted responses |
+| Repository Checker | Detects duplicate and re-poisoned knowledge |
+| Attack Analyzer | Detects enterprise knowledge manipulation |
+| Sensitive Data Detector | Detects confidential information leakage |
+| Admission Trust Engine | Computes document trust during knowledge admission |
 
 ---
 
 # 📊 Enterprise Modules
 
-- Dashboard
+- Enterprise Dashboard
 - Knowledge Repository
-- Knowledge Admission
-- Integrity Scanner
+- Knowledge Admission Firewall
+- Repository Integrity Scanner
 - Policy Comparison
 - Version History
 - Trust Analytics
@@ -249,13 +280,19 @@ Semantic Chunking
 Fingerprint Generation
         │
         ▼
-Knowledge Firewall
+Repository Verification
         │
         ▼
-Trust Verification
+Attack Analysis
         │
         ▼
-Admission Decision
+Sensitive Data Detection
+        │
+        ▼
+Admission Trust Engine
+        │
+        ▼
+Knowledge Admission Decision
         │
         ▼
 Trusted Repository
@@ -390,18 +427,60 @@ python app.py
 
 # 📈 Current Status
 
-| Component | Status |
-|------------|--------|
-| Dataset Generation | ✅ Complete |
-| Fingerprinting Engine | ✅ Complete |
-| Knowledge Firewall | ✅ Complete |
-| Trust Engine | ✅ Complete |
-| Secure Retrieval | ✅ Complete |
-| Secure RAG | ✅ Complete |
-| Enterprise Dashboard | 🚧 In Progress |
-| Knowledge Admission | 🚧 In Progress |
-| Integrity Scanner | 🚧 Planned |
-| Trust Analytics | 🚧 Planned |
+| Component                    | Status         |
+| ---------------------------- | -------------- |
+| Research Datasets            | ✅ Complete     |
+| Enterprise Knowledge Base    | ✅ Complete     |
+| Fingerprinting Engine        | ✅ Complete     |
+| Repository Checker           | ✅ Complete     |
+| Attack Analyzer              | ✅ Complete     |
+| Sensitive Data Detector      | ✅ Complete     |
+| Admission Trust Engine       | ✅ Complete     |
+| Knowledge Firewall           | ✅ Complete     |
+| Secure Retrieval             | ✅ Complete     |
+| Secure RAG                   | ✅ Complete     |
+| Enterprise Dashboard         | 🚧 In Progress |
+| Knowledge Admission Firewall | 🚧 In Progress |
+| Repository Integrity Scanner | 📅 Planned     |
+| Trust Analytics              | 📅 Planned     |
+| Version History              | 📅 Planned     |
+| Enterprise Assistant         | 🚧 In Progress |
+
+
+## Project Status
+
+**Research Progress:** ███████████████████████░░ 88%
+
+- ✅ Core AI Complete
+- ✅ Core Security Complete
+- 🚧 Enterprise Platform Under Development
+
+
+# 🗺️ Roadmap
+
+### Phase 1 — Core Security (Completed)
+
+- ✅ Enterprise Knowledge Base
+- ✅ Fingerprinting Engine
+- ✅ Repository Checker
+- ✅ Attack Analyzer
+- ✅ Sensitive Data Detector
+- ✅ Admission Trust Engine
+- ✅ Secure Retrieval
+- ✅ Knowledge Firewall
+
+### Phase 2 — Enterprise Platform (In Progress)
+
+- 🚧 Enterprise Dashboard
+- 🚧 Knowledge Admission Firewall
+- 🚧 Enterprise Assistant
+
+### Phase 3 — Enterprise Monitoring (Planned)
+
+- 📅 Repository Integrity Scanner
+- 📅 Trust Analytics
+- 📅 Version History
+- 📅 Continuous Repository Monitoring
 
 ---
 
