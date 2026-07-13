@@ -1,91 +1,64 @@
-"""
-app.py
+import streamlit as st
 
-Knowledge Firewall AI
-
-Command Line Interface for Secure RAG.
-"""
-
-from __future__ import annotations
-
-from src.rag.secure_rag import SecureRAG
-
-
-def print_banner():
-
-    print()
-
-    print("=" * 75)
-    print("Knowledge Firewall AI")
-    print("Secure Retrieval-Augmented Generation")
-    print("=" * 75)
+from src.enterprise.pages.dashboard import show_dashboard
+from src.enterprise.pages.repository import show_page as show_repository
+from src.enterprise.pages.upload import show_page as show_upload
+from src.enterprise.pages.scanner import show_page as show_scanner
+from src.enterprise.pages.compare import show_page as show_compare
+from src.enterprise.pages.versions import show_page as show_versions
+from src.enterprise.pages.analytics import show_page as show_analytics
+from src.enterprise.pages.assistant import show_page as show_assistant
+from src.enterprise.pages.settings import show_page as show_settings
 
 
-def print_result(result):
+st.set_page_config(
+    page_title="Knowledge Firewall AI",
+    page_icon="🛡",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
-    print()
+st.sidebar.title("🛡 Knowledge Firewall AI")
+st.sidebar.caption("Enterprise Knowledge Security Framework")
 
-    print("=" * 75)
-    print("ANSWER")
-    print("=" * 75)
-    print(result.answer)
+page = st.sidebar.radio(
+    "Navigation",
+    [
+        "🏠 Dashboard",
+        "📂 Repository",
+        "⬆ Knowledge Admission",
+        "🛡 Integrity Scanner",
+        "🔍 Compare Policies",
+        "🕒 Version History",
+        "📈 Trust Analytics",
+        "🤖 Enterprise Assistant",
+        "⚙ Settings",
+    ],
+)
 
-    print()
+if page == "🏠 Dashboard":
+    show_dashboard()
 
-    print("=" * 75)
-    print("FIREWALL REPORT")
-    print("=" * 75)
+elif page == "📂 Repository":
+    show_repository()
 
-    stats = result.firewall_result.statistics
+elif page == "⬆ Knowledge Admission":
+    show_upload()
 
-    print(f"Retrieved   : {stats['retrieved']}")
-    print(f"Trusted     : {stats['trusted']}")
-    print(f"Suspicious  : {stats['suspicious']}")
-    print(f"Blocked     : {stats['blocked']}")
+elif page == "🛡 Integrity Scanner":
+    show_scanner()
 
-    print()
+elif page == "🔍 Compare Policies":
+    show_compare()
 
-    print("=" * 75)
-    print("VERIFICATION DETAILS")
-    print("=" * 75)
+elif page == "🕒 Version History":
+    show_versions()
 
-    for report in result.firewall_result.verification_reports:
+elif page == "📈 Trust Analytics":
+    show_analytics()
 
-        print(f"Policy      : {report.policy_id}")
-        print(f"Chunk       : {report.chunk_id}")
-        print(f"Decision    : {report.decision}")
-        print(f"Trust Score : {report.trust_score:.4f}")
-        print(f"Reason      : {report.reason}")
-        print("-" * 75)
+elif page == "🤖 Enterprise Assistant":
+    show_assistant()
 
-
-def main():
-
-    rag = SecureRAG()
-
-    print_banner()
-
-    while True:
-
-        print()
-
-        question = input("Ask a question (or type 'exit'): ").strip()
-
-        if question.lower() in {"exit", "quit"}:
-            break
-
-        if not question:
-            continue
-
-        print("\nGenerating answer...\n")
-
-        result = rag.ask(question)
-
-        print_result(result)
-
-    print("\nGoodbye!")
-
-
-if __name__ == "__main__":
-
-    main()
+else:
+    show_settings()

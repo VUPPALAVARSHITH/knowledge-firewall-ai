@@ -1,76 +1,129 @@
-# src/enterprise/models.py
-
-from dataclasses import dataclass, field
-from typing import List, Optional
+from dataclasses import dataclass
+from typing import List
 
 
-# -----------------------------
-# Policy Summary
-# -----------------------------
-@dataclass
-class PolicySummary:
-    policy_id: str
-    title: str
-    department: str
-    category: str
-    trust_score: float
-    status: str
-
-
-# -----------------------------
-# Chunk Summary
-# -----------------------------
-@dataclass
-class ChunkSummary:
-    chunk_id: str
-    policy_id: str
-    section: str
-    trust_score: float
-    status: str
-
-
-# -----------------------------
-# Scan Result
-# -----------------------------
-@dataclass
-class ScanResult:
-    total_policies: int
-    trusted: int
-    suspicious: int
-    blocked: int
-    average_trust: float
-
-
-# -----------------------------
-# Dashboard Summary
-# -----------------------------
 @dataclass
 class DashboardSummary:
     total_policies: int
     total_chunks: int
+
     trusted_chunks: int
     suspicious_chunks: int
     blocked_chunks: int
+
     average_trust: float
-    system_health: float
+
+    repository_health: str
+
+    last_scan: str = "Never"
 
 
-# -----------------------------
-# Alert
-# -----------------------------
+@dataclass
+class Activity:
+    timestamp: str
+    title: str
+    status: str
+
+
 @dataclass
 class Alert:
     severity: str
     title: str
     description: str
 
+from dataclasses import dataclass
 
-# -----------------------------
-# Assistant Response
-# -----------------------------
+
 @dataclass
-class AssistantResponse:
-    answer: str
+class AdmissionReport:
+
+    filename: str
+
+    policy_id: str
+
+    department: str
+
+    category: str
+
+    chunks_created: int
+
+    parser_status: str
+
+    fingerprint_status: str
+
+    repository_similarity: float
+
+    prompt_injection_score: float
+
+    sensitive_data_score: float
+
     trust_score: float
-    trusted_chunks: List[str] = field(default_factory=list)
-    blocked_chunks: List[str] = field(default_factory=list)
+
+    decision: str
+
+    recommendation: str
+
+    warnings: list[str]
+
+    processing_time: float
+
+from dataclasses import dataclass, field
+
+
+@dataclass(slots=True)
+class AdmissionReport:
+
+    # Document
+    filename: str
+    policy_id: str
+    department: str
+    category: str
+
+    # Parsing
+    parser_completed: bool
+
+    # Chunking
+    chunks_created: int
+
+    # Fingerprinting
+    fingerprint_created: bool
+
+    # Repository
+    duplicate_found: bool
+    repository_similarity: float
+
+    # Security
+    attack_detected: bool
+    attack_confidence: float
+
+    sensitive_data_detected: bool
+    sensitive_data_score: float
+
+    # Trust
+    trust_score: float
+
+    decision: str
+
+    recommendation: str
+
+    warnings: list[str] = field(default_factory=list)
+
+    
+from dataclasses import dataclass
+
+@dataclass(slots=True)
+class IntegrityReport:
+
+    policy_id: str
+
+    department: str
+
+    trust_score: float
+
+    repository_similarity: float
+
+    attack_detected: bool
+
+    sensitive_data: bool
+
+    decision: str
