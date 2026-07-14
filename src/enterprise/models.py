@@ -127,3 +127,23 @@ class IntegrityReport:
     sensitive_data: bool
 
     decision: str
+
+from dataclasses import dataclass
+
+
+@dataclass(slots=True)
+class IntegrityReport:
+
+    policy_id: str
+
+    department: str
+
+    category: str
+
+    trust_score: float
+
+    repository_similarity: float
+
+    attack_detected: bool
+
+    decision: str

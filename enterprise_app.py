@@ -9,7 +9,8 @@ from src.enterprise.pages.versions import show_page as show_versions
 from src.enterprise.pages.analytics import show_page as show_analytics
 from src.enterprise.pages.assistant import show_page as show_assistant
 from src.enterprise.pages.settings import show_page as show_settings
-
+from src.enterprise.pages.integrity import show_page as show_integrity
+from src.enterprise.pages.analytics import show_page as show_analytics
 
 st.set_page_config(
     page_title="Knowledge Firewall AI",
@@ -46,7 +47,7 @@ elif page == "⬆ Knowledge Admission":
     show_upload()
 
 elif page == "🛡 Integrity Scanner":
-    show_scanner()
+    show_integrity()
 
 elif page == "🔍 Compare Policies":
     show_compare()
