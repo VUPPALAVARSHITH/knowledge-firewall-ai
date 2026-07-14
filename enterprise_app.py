@@ -13,6 +13,7 @@ from src.enterprise.pages.integrity import show_page as show_integrity
 from src.enterprise.pages.analytics import show_page as show_analytics
 from src.enterprise.pages.comparison import show_page as show_comparison
 from src.enterprise.pages.history import show_page as show_history
+from src.enterprise.pages.assistant import show_page as show_assistant
 
 st.set_page_config(
     page_title="Knowledge Firewall AI",
