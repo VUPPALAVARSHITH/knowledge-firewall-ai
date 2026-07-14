@@ -147,3 +147,27 @@ class IntegrityReport:
     attack_detected: bool
 
     decision: str
+
+from dataclasses import dataclass
+
+
+@dataclass(slots=True)
+class ComparisonReport:
+
+    policy_a: str
+
+    policy_b: str
+
+    semantic_similarity: float
+
+    repository_similarity: float
+
+    attack_detected: bool
+
+    sensitive_data_detected: bool
+
+    trust_score: float
+
+    decision: str
+
+    recommendation: str
