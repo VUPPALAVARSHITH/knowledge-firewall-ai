@@ -30,10 +30,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from src.firewall.runtime_fingerprint import RuntimeFingerprintGenerator
-from src.firewall.similarity import SimilarityEngine
-from src.firewall.trust_engine import TrustEngine
-from src.fingerprint.fingerprint_database import FingerprintDatabase
+from src.core.firewall.runtime_fingerprint import RuntimeFingerprintGenerator
+from src.core.firewall.similarity import SimilarityEngine
+from src.core.firewall.trust_engine import TrustEngine
+from src.core.fingerprint.fingerprint_database import FingerprintDatabase
 
 
 # ==========================================================

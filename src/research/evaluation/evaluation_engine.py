@@ -15,10 +15,11 @@ import json
 from src.config.path_config import (
     DATA_DIR,
     EVALUATION_DIR
+
 )
 
 from src.evaluation.metrics import Metrics
-from src.firewall.verifier import ChunkVerifier
+from src.core.firewall.verifier import ChunkVerifier
 
 
 DATASET = EVALUATION_DIR / "poison_detection_dataset.csv"

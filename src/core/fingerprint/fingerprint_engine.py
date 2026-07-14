@@ -9,11 +9,11 @@ Generates structural fingerprints for enterprise documents.
 import hashlib
 from pathlib import Path
 
-from src.fingerprint.simhash_engine import SimHashEngine
+from src.core.fingerprint.simhash_engine import SimHashEngine
 from datetime import datetime
 import json
 
-from src.fingerprint.embedding_engine import EmbeddingEngine
+from src.core.fingerprint.embedding_engine import EmbeddingEngine
 
 class FingerprintEngine:
 

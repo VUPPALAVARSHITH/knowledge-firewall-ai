@@ -18,9 +18,9 @@ from src.config.path_config import (
     POISONED_DIR
 )
 
-from src.fingerprint.embedding_engine import EmbeddingEngine
-from src.fingerprint.fingerprint_engine import FingerprintEngine
-from src.fingerprint.trust_score import TrustScoreEngine
+from src.core.fingerprint.embedding_engine import EmbeddingEngine
+from src.core.fingerprint.fingerprint_engine import FingerprintEngine
+from src.core.fingerprint.trust_score import TrustScoreEngine
 
 
 def main():

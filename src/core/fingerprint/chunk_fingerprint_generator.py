@@ -20,9 +20,9 @@ from tqdm import tqdm
 
 from src.config.path_config import DATA_DIR
 
-from src.fingerprint.embedding_engine import EmbeddingEngine
-from src.fingerprint.models import ChunkFingerprint
-from src.fingerprint.simhash_engine import SimHashEngine
+from src.core.fingerprint.embedding_engine import EmbeddingEngine
+from src.core.fingerprint.models import ChunkFingerprint
+from src.core.fingerprint.simhash_engine import SimHashEngine
 
 
 VECTOR_DIR = DATA_DIR / "vector_store"

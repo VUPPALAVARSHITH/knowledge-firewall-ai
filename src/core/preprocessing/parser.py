@@ -10,7 +10,7 @@ Policy objects.
 import re
 from pathlib import Path
 
-from src.preprocessing.models import Policy
+from src.core.preprocessing.models import Policy
 
 
 class PolicyParser:

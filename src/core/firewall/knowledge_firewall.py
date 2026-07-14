@@ -26,8 +26,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from src.retriever.secure_retriever import SecureRetriever
-from src.firewall.verifier import ChunkVerifier, VerificationResult
+from src.core.retriever.secure_retriever import SecureRetriever
+from src.core.firewall.verifier import ChunkVerifier, VerificationResult
 
 
 # ============================================================

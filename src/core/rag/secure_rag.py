@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from src.firewall.knowledge_firewall import KnowledgeFirewall
+from src.core.firewall.knowledge_firewall import KnowledgeFirewall
 from src.rag.prompt_builder import PromptBuilder
 from src.rag.llm import EnterpriseLLM
 

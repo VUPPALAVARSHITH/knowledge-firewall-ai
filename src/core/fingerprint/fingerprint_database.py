@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Dict, Optional
 
 from src.config.path_config import METADATA_DIR
-from src.fingerprint.models import ChunkFingerprint
+from src.core.fingerprint.models import ChunkFingerprint
 
 
 DATABASE_PATH = METADATA_DIR / "chunk_fingerprint_database.pkl"

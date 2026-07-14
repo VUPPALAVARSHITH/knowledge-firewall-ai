@@ -6,7 +6,7 @@ Knowledge Firewall AI
 Builds enriched semantic chunks from Policy objects.
 """
 
-from src.preprocessing.models import Chunk
+from src.core.preprocessing.models import Chunk
 from src.config.constants import (
     SECTION_PRIORITY,
     DOCUMENT_TYPE_ENTERPRISE

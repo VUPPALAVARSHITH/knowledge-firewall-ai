@@ -14,7 +14,7 @@ from src.config.path_config import (
     METADATA_DIR
 )
 
-from src.fingerprint.fingerprint_engine import (
+from src.core.fingerprint.fingerprint_engine import (
     FingerprintEngine
 )
 

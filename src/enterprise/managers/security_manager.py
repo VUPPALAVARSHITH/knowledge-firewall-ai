@@ -1,5 +1,5 @@
-from src.firewall.verifier import ChunkVerifier
-from src.firewall.knowledge_firewall import KnowledgeFirewall
+from src.core.firewall.verifier import ChunkVerifier
+from src.core.firewall.knowledge_firewall import KnowledgeFirewall
 
 
 class SecurityManager:

@@ -11,8 +11,8 @@ from __future__ import annotations
 import hashlib
 from dataclasses import dataclass
 
-from src.fingerprint.embedding_engine import EmbeddingEngine
-from src.fingerprint.simhash_engine import SimHashEngine
+from src.core.fingerprint.embedding_engine import EmbeddingEngine
+from src.core.fingerprint.simhash_engine import SimHashEngine
 
 
 @dataclass(slots=True)
