@@ -8,12 +8,13 @@ Production Vector Store
 
 from __future__ import annotations
 
-import pickle
+from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Optional
+from typing import Optional
 
 import faiss
 import numpy as np
+import pandas as pd
 
 from src.config.path_config import DATA_DIR
 
@@ -21,8 +22,38 @@ from src.config.path_config import DATA_DIR
 VECTOR_STORE_DIR = DATA_DIR / "vector_store"
 
 INDEX_PATH = VECTOR_STORE_DIR / "faiss.index"
-CHUNK_PATH = VECTOR_STORE_DIR / "chunk_metadata.pkl"
+CHUNK_PATH = VECTOR_STORE_DIR / "chunk_metadata.csv"
 
+
+# ==========================================================
+# Chunk Model
+# ==========================================================
+
+@dataclass(slots=True)
+class Chunk:
+
+    chunk_id: str
+
+    policy_id: str
+
+    department: str
+
+    category: str
+
+    section: str
+
+    text: str
+
+    trust_score: float
+
+    decision: str
+
+    risk_level: str
+
+
+# ==========================================================
+# Enterprise Vector Store
+# ==========================================================
 
 class EnterpriseVectorStore:
     """
@@ -30,10 +61,10 @@ class EnterpriseVectorStore:
 
     Responsibilities
     ----------------
-    1. Load index
+    1. Load vector index
     2. Load chunk metadata
-    3. Search vectors
-    4. Return Chunk objects
+    3. Perform semantic search
+    4. Return enterprise chunk objects
     """
 
     def __init__(self):
@@ -61,9 +92,48 @@ class EnterpriseVectorStore:
 
         self.index = faiss.read_index(str(INDEX_PATH))
 
-        with open(CHUNK_PATH, "rb") as f:
+        df = pd.read_csv(CHUNK_PATH)
 
-            self.chunks = pickle.load(f)
+        self.chunks = []
+
+        for _, row in df.iterrows():
+
+            status = row["status"]
+
+            if status == "Trusted":
+                trust = 100.0
+            elif status == "Suspicious":
+                trust = 60.0
+            elif status == "Blocked":
+                trust = 0.0
+            else:
+                trust = 80.0
+
+            self.chunks.append(
+
+                Chunk(
+
+                    chunk_id=row["chunk_id"],
+
+                    policy_id=row["policy_id"],
+
+                    department=row["department"],
+
+                    category=row["category"],
+
+                    section=row["section"],
+
+                    text=row["text"],
+
+                    trust_score=trust,
+
+                    decision=status,
+
+                    risk_level=row["risk_level"]
+
+                )
+
+            )
 
         self.loaded = True
 
@@ -75,11 +145,14 @@ class EnterpriseVectorStore:
         print("=" * 60)
 
     # ---------------------------------------------------------
-    # Total vectors
+    # Size
     # ---------------------------------------------------------
 
     @property
     def size(self):
+
+        if not self.loaded:
+            self.load()
 
         return self.index.ntotal
 
@@ -88,20 +161,28 @@ class EnterpriseVectorStore:
     # ---------------------------------------------------------
 
     def search(
+
         self,
+
         query_embedding: np.ndarray,
-        top_k: int = 5
+
+        top_k: int = 5,
+
     ):
 
         if not self.loaded:
             self.load()
 
         if query_embedding.ndim == 1:
+
             query_embedding = query_embedding.reshape(1, -1)
 
         scores, indices = self.index.search(
+
             query_embedding.astype(np.float32),
+
             top_k
+
         )
 
         results = []
@@ -111,13 +192,17 @@ class EnterpriseVectorStore:
             if idx == -1:
                 continue
 
-            results.append({
+            results.append(
 
-                "score": float(score),
+                {
 
-                "chunk": self.chunks[idx]
+                    "score": float(score),
 
-            })
+                    "chunk": self.chunks[idx]
+
+                }
+
+            )
 
         return results
 
@@ -126,8 +211,11 @@ class EnterpriseVectorStore:
     # ---------------------------------------------------------
 
     def get_chunk(
+
         self,
+
         chunk_id: str
+
     ):
 
         if not self.loaded:
@@ -146,10 +234,15 @@ class EnterpriseVectorStore:
     # ---------------------------------------------------------
 
     def filter(
+
         self,
+
         department=None,
+
         category=None,
-        risk_level=None
+
+        risk_level=None,
+
     ):
 
         if not self.loaded:
@@ -159,20 +252,14 @@ class EnterpriseVectorStore:
 
         for chunk in self.chunks:
 
-            if department:
+            if department and chunk.department != department:
+                continue
 
-                if chunk.department != department:
-                    continue
+            if category and chunk.category != category:
+                continue
 
-            if category:
-
-                if chunk.category != category:
-                    continue
-
-            if risk_level:
-
-                if chunk.risk_level != risk_level:
-                    continue
+            if risk_level and chunk.risk_level != risk_level:
+                continue
 
             results.append(chunk)
 
