@@ -9,7 +9,7 @@ Secure RAG Web Interface
 import pandas as pd
 import streamlit as st
 
-from src.rag.secure_rag import SecureRAG
+from src.core.rag.secure_rag import SecureRAG
 
 
 # ---------------------------------------------------------

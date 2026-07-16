@@ -8,10 +8,10 @@ Dataset 4 Builder
 
 from src.config.path_config import ENTERPRISE_DIR
 
-from src.preprocessing.parser import PolicyParser
-from src.preprocessing.chunk_builder import ChunkBuilder
-from src.preprocessing.validator import ChunkValidator
-from src.preprocessing.exporter import ChunkExporter
+from src.core.preprocessing.parser import PolicyParser
+from src.core.preprocessing.chunk_builder import ChunkBuilder
+from src.core.preprocessingocessing.validator import ChunkValidator
+from src.core.preprocessing.exporter import ChunkExporter
 
 
 class Dataset4Builder:

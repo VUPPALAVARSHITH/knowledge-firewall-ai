@@ -8,7 +8,7 @@ Command Line Interface for Secure RAG.
 
 from __future__ import annotations
 
-from src.rag.secure_rag import SecureRAG
+from src.core.rag import SecureRAG
 
 
 def print_banner():

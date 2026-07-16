@@ -13,7 +13,7 @@ import random
 
 from src.config.path_config import ENTERPRISE_DIR
 
-from src.preprocessing.parser import PolicyParser
+from src.core.preprocessing.parser import PolicyParser
 
 from src.benchmark.question_generator import QuestionGenerator
 from src.benchmark.exporter import BenchmarkExporter

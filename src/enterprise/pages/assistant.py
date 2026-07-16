@@ -201,3 +201,11 @@ def show_page():
         hide_index=True
 
     )
+
+    st.subheader("Knowledge Firewall Verification")
+
+    st.dataframe(
+        pd.DataFrame(rows),
+        use_container_width=True,
+        hide_index=True
+    )

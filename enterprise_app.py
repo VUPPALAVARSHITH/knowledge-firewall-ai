@@ -3,17 +3,12 @@ import streamlit as st
 from src.enterprise.pages.dashboard import show_dashboard
 from src.enterprise.pages.repository import show_page as show_repository
 from src.enterprise.pages.upload import show_page as show_upload
-from src.enterprise.pages.scanner import show_page as show_scanner
-from src.enterprise.pages.compare import show_page as show_compare
-from src.enterprise.pages.versions import show_page as show_versions
+from src.enterprise.pages.integrity import show_page as show_integrity
+from src.enterprise.pages.comparison import show_page as show_comparison
+from src.enterprise.pages.history import show_page as show_history
 from src.enterprise.pages.analytics import show_page as show_analytics
 from src.enterprise.pages.assistant import show_page as show_assistant
 from src.enterprise.pages.settings import show_page as show_settings
-from src.enterprise.pages.integrity import show_page as show_integrity
-from src.enterprise.pages.analytics import show_page as show_analytics
-from src.enterprise.pages.comparison import show_page as show_comparison
-from src.enterprise.pages.history import show_page as show_history
-from src.enterprise.pages.assistant import show_page as show_assistant
 
 st.set_page_config(
     page_title="Knowledge Firewall AI",
@@ -64,5 +59,5 @@ elif page == "📈 Trust Analytics":
 elif page == "🤖 Enterprise Assistant":
     show_assistant()
 
-else:
+elif page == "⚙ Settings":
     show_settings()

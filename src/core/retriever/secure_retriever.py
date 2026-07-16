@@ -9,8 +9,8 @@ Enterprise Vector Store.
 
 from __future__ import annotations
 
-from src.vectorstore.query_encoder import QueryEncoder
-from src.vectorstore.vector_store import EnterpriseVectorStore
+from src.core.repository.query_encoder import QueryEncoder
+from src.core.repository.vector_store import EnterpriseVectorStore
 
 
 class SecureRetriever:

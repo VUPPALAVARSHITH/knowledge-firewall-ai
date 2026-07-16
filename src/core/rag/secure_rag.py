@@ -11,8 +11,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from src.core.firewall.knowledge_firewall import KnowledgeFirewall
-from src.rag.prompt_builder import PromptBuilder
-from src.rag.llm import EnterpriseLLM
+from src.core.rag.prompt_builder import PromptBuilder
+from src.core.rag.rag.llm import EnterpriseLLM
 
 
 # ==========================================================

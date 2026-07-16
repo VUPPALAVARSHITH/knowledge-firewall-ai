@@ -13,6 +13,7 @@ import streamlit as st
 
 from src.enterprise.managers.comparison_manager import ComparisonManager
 
+print("Loaded comparison.py")
 
 def show_page():
 
