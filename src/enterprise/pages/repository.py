@@ -1,4 +1,11 @@
-import pandas as pd
+"""
+repository.py
+
+Knowledge Firewall AI
+
+Enterprise Repository Page.
+"""
+
 import streamlit as st
 
 from src.enterprise.managers.repository_manager import RepositoryManager
@@ -14,32 +21,65 @@ def show_page():
 
     manager = RepositoryManager()
 
-    policies = manager.get_policies()
+    policies = manager.get_policy_table()
 
-    rows = []
+    chunks = manager.get_chunk_table()
 
-    for p in policies:
+    # -----------------------------------------------------
+    # Repository Summary
+    # -----------------------------------------------------
 
-        rows.append({
+    c1, c2, c3, c4 = st.columns(4)
 
-            "Policy ID": p.policy_id,
+    c1.metric("Policies", manager.total_policies())
+    c2.metric("Chunks", manager.total_chunks())
+    c3.metric("Trusted", manager.trusted_chunks())
+    c4.metric("Blocked", manager.blocked_chunks())
 
-            "Department": p.department,
+    st.divider()
 
-            "Category": p.category,
+    # -----------------------------------------------------
+    # Policies
+    # -----------------------------------------------------
 
-            "Trust Score": p.trust_score,
+    st.subheader("Enterprise Policies")
 
-            "Chunks": p.chunks,
+    if policies.empty:
 
-            "Status": p.status
+        st.info("No policies available.")
 
-        })
+    else:
 
-    st.dataframe(
+        st.dataframe(
 
-        pd.DataFrame(rows),
+            policies,
 
-        use_container_width=True
+            use_container_width=True,
 
-    )
+            hide_index=True,
+
+        )
+
+    st.divider()
+
+    # -----------------------------------------------------
+    # Chunks
+    # -----------------------------------------------------
+
+    st.subheader("Knowledge Chunks")
+
+    if chunks.empty:
+
+        st.info("No chunk database available.")
+
+    else:
+
+        st.dataframe(
+
+            chunks,
+
+            use_container_width=True,
+
+            hide_index=True,
+
+        )
