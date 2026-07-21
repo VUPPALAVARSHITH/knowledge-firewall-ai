@@ -21,7 +21,7 @@ class RepositoryChecker:
 
     def __init__(self):
 
-        self.database = Path(
+        self.database_path = Path(
             "data/metadata/chunk_fingerprint_database.csv"
         )
 
@@ -98,6 +98,9 @@ class RepositoryChecker:
         embedding1 = np.array(embedding1, dtype=float)
         embedding2 = np.array(embedding2, dtype=float)
 
+        if embedding1.shape != embedding2.shape:
+            return 0.0
+
         denominator = (
             np.linalg.norm(embedding1)
             * np.linalg.norm(embedding2)
@@ -128,7 +131,8 @@ class RepositoryChecker:
                 duplicate=False,
                 similarity=0.0,
                 matched_policy=None,
-                recommendation="Repository Empty"
+                recommendation="Accept",
+                reason="Repository is empty"
             )
 
         best_match = None
@@ -140,7 +144,7 @@ class RepositoryChecker:
 
                 stored = json.loads(row["embedding"])
 
-            except Exception:
+            except json.JSONDecodeError:
                 continue
 
             score = self.cosine_similarity(
@@ -159,7 +163,8 @@ class RepositoryChecker:
                 duplicate=False,
                 similarity=0.0,
                 matched_policy=None,
-                recommendation="No Similar Policy"
+                recommendation="Accept",
+                reason="No similar policy found"
             )
 
         duplicate = best_score >= threshold
@@ -170,14 +175,43 @@ class RepositoryChecker:
             else "Accept"
         )
 
+        reason = (
+            "Repository similarity exceeds threshold"
+            if duplicate
+            else "Similarity below threshold"
+        )
+
         return RepositoryCheckResult(
-
             duplicate=duplicate,
-
             similarity=round(best_score, 4),
-
             matched_policy=best_match["policy_id"],
+            recommendation=recommendation,
+            reason=reason,
+        )
+    
+    def check(self, document_fingerprint) -> RepositoryCheckResult:
+        """
+        Perform repository admission checks.
 
-            recommendation=recommendation
+        Pipeline:
+            1. Exact duplicate detection (SHA / Policy ID)
+            2. Semantic similarity comparison
+        """
 
+        # Exact duplicate detection
+        if self.duplicate_exists(
+            document_fingerprint.policy_id,
+            document_fingerprint.sha256,
+        ):
+            return RepositoryCheckResult(
+                duplicate=True,
+                similarity=1.0,
+                matched_policy=document_fingerprint.policy_id,
+                recommendation="Reject Upload",
+                reason="Exact duplicate found in repository",
+            )
+
+        # Semantic similarity
+        return self.compare_embedding(
+            document_fingerprint.embedding
         )
