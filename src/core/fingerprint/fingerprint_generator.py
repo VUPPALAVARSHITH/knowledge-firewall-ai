@@ -95,7 +95,6 @@ class FingerprintGenerator:
                     "word_count",
                     "policy_statement_words",
                     "character_count",
-                    "character_count",
                     "sentence_count",
                     "file_size",
                     "trust_score",

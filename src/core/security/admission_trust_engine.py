@@ -9,21 +9,7 @@ Admission process.
 
 from __future__ import annotations
 
-from dataclasses import dataclass
-
-
-@dataclass(slots=True)
-class AdmissionTrustResult:
-
-    repository_score: float
-
-    attack_score: float
-
-    sensitive_score: float
-
-    trust_score: float
-
-    decision: str
+from src.core.security.models import AdmissionTrustResult
 
 
 class AdmissionTrustEngine:
@@ -52,13 +38,19 @@ class AdmissionTrustEngine:
 
         self,
 
-        repository_similarity: float,
-
-        attack_confidence: float,
-
-        sensitive_risk: float,
+        repository_result,
+        attack_result,
+        sensitive_result,
 
     ) -> AdmissionTrustResult:
+
+        repository_similarity = repository_result.similarity
+        attack_confidence = attack_result.confidence
+        sensitive_risk = sensitive_result.risk_score
+
+        repository_similarity = max(0.0, min(repository_similarity, 1.0))
+        attack_confidence = max(0.0, min(attack_confidence, 1.0))
+        sensitive_risk = max(0.0, min(sensitive_risk, 1.0))
 
         repository_score = (
             1.0 - repository_similarity

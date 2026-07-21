@@ -131,29 +131,14 @@ class ChunkVerifier:
         # Similarities
         # -----------------------------------------------
 
-        sha_score = self.similarity.sha_similarity(
-
-            trusted.sha256,
-
-            runtime.sha256
-
+        scores = self.similarity.compare(
+            trusted,
+            runtime,
         )
 
-        simhash_score = self.similarity.simhash_similarity(
-
-            trusted.simhash,
-
-            runtime.simhash
-
-        )
-
-        embedding_score = self.similarity.cosine_similarity(
-
-            trusted.embedding,
-
-            runtime.embedding
-
-        )
+        sha_score = scores.sha
+        simhash_score = scores.simhash
+        embedding_score = scores.embedding
 
         # -----------------------------------------------
         # Trust

@@ -10,7 +10,8 @@ pipeline.
 """
 
 from pathlib import Path
-
+import hashlib
+from src.core.repository.models import PolicyMetadata
 from src.core.preprocessing.parser import PolicyParser
 from src.core.preprocessing.chunk_builder import ChunkBuilder
 from src.core.fingerprint.fingerprint_engine import FingerprintEngine

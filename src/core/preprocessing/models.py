@@ -106,21 +106,16 @@ class Chunk:
     # ----------------------------
 
     section: str
-
-    priority: float
-
     chunk_order: int
-
+    priority: float = 1.0
     statement_number: Optional[int] = None
-
+    
     # ----------------------------
     # Content
     # ----------------------------
-
+     
     text: str = ""
-
     enriched_text: str = ""
-
     keywords: List[str] = field(default_factory=list)
 
     word_count: int = 0

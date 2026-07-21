@@ -8,31 +8,12 @@ is admitted into the enterprise repository.
 """
 
 from __future__ import annotations
-
+from src.core.security.models import SensitiveDataResult
 import re
 from dataclasses import dataclass
 
 
-@dataclass(slots=True)
-class SensitiveDataResult:
 
-    emails: list[str]
-
-    urls: list[str]
-
-    ipv4_addresses: list[str]
-
-    api_keys: list[str]
-
-    bearer_tokens: list[str]
-
-    private_keys: list[str]
-
-    total_findings: int
-
-    risk_score: float
-
-    recommendation: str
 
 
 class SensitiveDetector:

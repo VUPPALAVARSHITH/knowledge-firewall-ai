@@ -1,0 +1,876 @@
+# Knowledge Repository Audit Report
+
+Generated: 2026-07-21 14:22:34.998933
+
+
+Columns:
+- policy_id
+- attack_id
+- attack_type
+- category
+- severity
+- attack_applied
+- poisoned_hash
+
+## attack_log.csv
+- Rows: 925
+- Columns: 7
+
+Attack Log
+----------------------------------------
+Attacks : 925
+
+Attack Types
+Password_Management,Password_Management,Password_Management : 19
+Leave_Management,Leave_Management,Leave_Management : 17
+Leave_Management,Leave_Management,Leave_Management,Leave_Management : 16
+Incident_Response,Incident_Response,Incident_Response,Incident_Response : 15
+Password_Management,Password_Management,Password_Management,Password_Management : 15
+Password_Management,Password_Management,Password_Management,Password_Management,Password_Management : 15
+Visitor_Management,Visitor_Management,Visitor_Management : 14
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 14
+Incident_Response,Incident_Response,Incident_Response,Incident_Response,Incident_Response : 14
+Visitor_Management,Visitor_Management,Visitor_Management,Visitor_Management,Visitor_Management : 13
+Expense_Management,Expense_Management,Expense_Management,Expense_Management : 13
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 12
+Visitor_Management,Visitor_Management,Visitor_Management,Visitor_Management : 11
+Expense_Management,Expense_Management,Expense_Management,Expense_Management,Expense_Management : 11
+Change_Management,Change_Management,Change_Management,Change_Management : 11
+Customer_Communication,Customer_Communication,Customer_Communication,Customer_Communication : 10
+Email_Security,Email_Security,Email_Security : 10
+Asset_Management,Asset_Management,Asset_Management,Asset_Management,Asset_Management : 9
+Asset_Management,Asset_Management,Asset_Management : 9
+Expense_Management,Expense_Management,Expense_Management : 9
+Procurement,Procurement,Procurement : 9
+Business_Continuity,Business_Continuity,Business_Continuity : 9
+Change_Management,Change_Management,Change_Management : 9
+Customer_Communication,Customer_Communication,Customer_Communication : 8
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 8
+Leave_Management,Leave_Management,Leave_Management,Leave_Management,Leave_Management : 8
+Business_Continuity,Business_Continuity,Business_Continuity,Business_Continuity : 8
+Asset_Management,Asset_Management,Asset_Management,Asset_Management : 7
+Customer_Communication,Customer_Communication,Customer_Communication,Customer_Communication,Customer_Communication : 7
+Incident_Response,Incident_Response,Incident_Response : 7
+Remote_Work,Remote_Work,Remote_Work : 7
+Procurement,Procurement,Procurement,Procurement : 6
+Business_Continuity,Business_Continuity,Business_Continuity,Business_Continuity,Business_Continuity : 6
+Visitor_Management,Procurement,Procurement : 5
+Software_Installation,Software_Installation,Software_Installation,Software_Installation : 5
+Change_Management,Change_Management,Change_Management,Change_Management,Change_Management : 5
+Customer_Data_Handling,Customer_Data_Handling,Password_Management,Customer_Data_Handling,Customer_Data_Handling : 4
+Email_Security,Email_Security,Email_Security,Email_Security,Email_Security : 4
+Email_Security,Password_Management,Email_Security : 4
+Password_Management,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 3
+Customer_Data_Handling,Password_Management,Customer_Data_Handling : 3
+Customer_Data_Handling,Password_Management,Customer_Data_Handling,Customer_Data_Handling : 3
+Visitor_Management,Visitor_Management,Incident_Response : 3
+Procurement,Visitor_Management,Procurement : 3
+Procurement,Procurement,Visitor_Management : 3
+Procurement,Procurement,Procurement,Visitor_Management : 3
+Leave_Management,Leave_Management,Leave_Management,Expense_Management : 3
+Email_Security,Email_Security,Email_Security,Email_Security : 3
+Remote_Access,Remote_Access,Remote_Access,Remote_Access : 3
+Remote_Access,Remote_Access,Remote_Access : 3
+Remote_Access,Remote_Access,Remote_Access,Remote_Access,Remote_Access : 3
+Password_Management,Password_Management,Software_Installation,Software_Installation : 3
+Software_Installation,Software_Installation,Software_Installation,Software_Installation,Software_Installation : 3
+Business_Continuity,Business_Continuity,Visitor_Management,Business_Continuity : 3
+Password_Management,Password_Management,Email_Security : 2
+Visitor_Management,Incident_Response,Visitor_Management,Visitor_Management,Visitor_Management : 2
+Visitor_Management,Incident_Response,Visitor_Management,Visitor_Management : 2
+Password_Management,Customer_Data_Handling,Customer_Data_Handling : 2
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Password_Management : 2
+Password_Management,Customer_Data_Handling,Customer_Data_Handling,Password_Management,Customer_Data_Handling : 2
+Password_Management,Email_Security,Email_Security,Email_Security : 2
+Incident_Response,Incident_Response,Email_Security,Incident_Response : 2
+Email_Security,Email_Security,Password_Management,Email_Security : 2
+Incident_Response,Customer_Data_Handling,Customer_Data_Handling : 2
+Password_Management,Password_Management,Incident_Response,Incident_Response : 2
+Incident_Response,Incident_Response,Password_Management : 2
+Procurement,Procurement,Procurement,Procurement,Procurement : 2
+Procurement,Software_Installation,Procurement,Procurement,Procurement : 2
+Procurement,Procurement,Password_Management : 2
+Visitor_Management,Procurement,Visitor_Management,Procurement : 2
+Expense_Management,Payroll,Expense_Management : 2
+Visitor_Management,Visitor_Management,Procurement : 2
+Procurement,Procurement,Procurement,Visitor_Management,Procurement : 2
+Expense_Management,Visitor_Management,Expense_Management,Visitor_Management,Leave_Management : 2
+Expense_Management,Leave_Management,Leave_Management,Leave_Management,Expense_Management : 2
+Visitor_Management,Visitor_Management,Leave_Management,Leave_Management : 2
+Procurement,Leave_Management,Leave_Management : 2
+Leave_Management,Leave_Management,Visitor_Management,Leave_Management : 2
+Visitor_Management,Visitor_Management,Leave_Management : 2
+Visitor_Management,Leave_Management,Leave_Management : 2
+Leave_Management,Leave_Management,Procurement,Leave_Management : 2
+Expense_Management,Leave_Management,Leave_Management : 2
+Software_Installation,Password_Management,Password_Management,Password_Management,Password_Management : 2
+Email_Security,Email_Security,Password_Management,Password_Management : 2
+Password_Management,Access_Control,Password_Management : 2
+Password_Management,Email_Security,Password_Management,Email_Security : 2
+Email_Security,Email_Security,Email_Security,Password_Management,Email_Security : 2
+Password_Management,Software_Installation,Software_Installation,Software_Installation,Software_Installation : 2
+Software_Installation,Password_Management,Software_Installation,Password_Management : 2
+Software_Installation,Password_Management,Software_Installation,Software_Installation : 2
+Procurement,Procurement,Visitor_Management,Procurement : 2
+Visitor_Management,Business_Continuity,Business_Continuity : 2
+Business_Continuity,Business_Continuity,Business_Continuity,Business_Continuity,Visitor_Management : 2
+Business_Continuity,Business_Continuity,Visitor_Management : 2
+Business_Continuity,Disaster_Recovery,Business_Continuity : 2
+Remote_Work,Remote_Work,Remote_Work,Remote_Work,Remote_Work : 2
+Visitor_Management,Remote_Work,Visitor_Management : 2
+Remote_Work,Remote_Work,Remote_Work,Remote_Work : 2
+Remote_Work,Visitor_Management,Remote_Work : 2
+Visitor_Management,Visitor_Management,Visitor_Management,Email_Security : 1
+Incident_Response,Visitor_Management,Visitor_Management,Incident_Response,Incident_Response : 1
+Password_Management,Visitor_Management,Visitor_Management,Email_Security,Email_Security : 1
+Incident_Response,Visitor_Management,Incident_Response,Visitor_Management,Incident_Response : 1
+Password_Management,Visitor_Management,Email_Security,Email_Security : 1
+Email_Security,Password_Management,Visitor_Management,Password_Management : 1
+Incident_Response,Visitor_Management,Visitor_Management : 1
+Visitor_Management,Visitor_Management,Visitor_Management,Password_Management : 1
+Visitor_Management,Visitor_Management,Incident_Response,Incident_Response,Visitor_Management : 1
+Email_Security,Visitor_Management,Password_Management : 1
+Incident_Response,Email_Security,Visitor_Management,Visitor_Management,Incident_Response : 1
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Customer_Communication,Customer_Data_Handling : 1
+Incident_Response,Incident_Response,AI_Governance,AI_Governance,Incident_Response : 1
+Incident_Response,Password_Management,Password_Management,Incident_Response : 1
+Password_Management,Password_Management,Incident_Response,Incident_Response,Incident_Response : 1
+Customer_Data_Handling,Customer_Data_Handling,Password_Management,Incident_Response,Password_Management : 1
+Incident_Response,Visitor_Management,Incident_Response : 1
+AI_Governance,AI_Governance,Incident_Response,Incident_Response,AI_Governance : 1
+Incident_Response,Password_Management,Incident_Response,Incident_Response : 1
+Incident_Response,Incident_Response,Password_Management,Password_Management : 1
+Incident_Response,Incident_Response,Visitor_Management,Visitor_Management : 1
+Incident_Response,AI_Governance,AI_Governance : 1
+Password_Management,Password_Management,Email_Security,Email_Security : 1
+Email_Security,Email_Security,Visitor_Management,Password_Management : 1
+Customer_Data_Handling,Customer_Data_Handling,Incident_Response,Incident_Response : 1
+Visitor_Management,Incident_Response,Incident_Response,Visitor_Management,Incident_Response : 1
+Incident_Response,Password_Management,Password_Management : 1
+AI_Governance,Customer_Data_Handling,AI_Governance,Customer_Data_Handling,Customer_Data_Handling : 1
+Customer_Data_Handling,Incident_Response,Customer_Data_Handling,Incident_Response,Incident_Response : 1
+Password_Management,Password_Management,Email_Security,Email_Security,Incident_Response : 1
+Password_Management,Incident_Response,Password_Management,Email_Security : 1
+Incident_Response,Visitor_Management,Incident_Response,Incident_Response,Password_Management : 1
+Incident_Response,Email_Security,Password_Management : 1
+Password_Management,Password_Management,Password_Management,Password_Management,Email_Security : 1
+Incident_Response,Visitor_Management,Incident_Response,Visitor_Management : 1
+Incident_Response,Incident_Response,Customer_Data_Handling,Incident_Response : 1
+Incident_Response,Password_Management,Incident_Response,Email_Security : 1
+Visitor_Management,Email_Security,Incident_Response,Email_Security : 1
+Password_Management,Email_Security,Password_Management,Password_Management,Customer_Data_Handling : 1
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Password_Management,Incident_Response : 1
+Incident_Response,Incident_Response,Incident_Response,Customer_Data_Handling,Customer_Data_Handling : 1
+Password_Management,Email_Security,Customer_Data_Handling,Password_Management : 1
+Incident_Response,Visitor_Management,Incident_Response,Incident_Response,Incident_Response : 1
+Email_Security,Incident_Response,Password_Management : 1
+Incident_Response,Email_Security,Email_Security,Incident_Response,Incident_Response : 1
+Data_Classification,Incident_Response,Data_Classification,Incident_Response : 1
+Incident_Response,Incident_Response,Incident_Response,Data_Classification,Data_Classification : 1
+Visitor_Management,Visitor_Management,Visitor_Management,Incident_Response : 1
+Password_Management,Password_Management,Password_Management,Incident_Response,Incident_Response : 1
+Incident_Response,Password_Management,Incident_Response,Visitor_Management : 1
+Data_Classification,Incident_Response,Data_Classification : 1
+Customer_Data_Handling,Incident_Response,Incident_Response,Customer_Data_Handling : 1
+Data_Classification,Customer_Data_Handling,Incident_Response : 1
+Visitor_Management,Customer_Data_Handling,Incident_Response,Incident_Response : 1
+Incident_Response,Data_Classification,Data_Classification : 1
+Email_Security,Password_Management,Email_Security,Data_Classification : 1
+Data_Classification,Visitor_Management,Visitor_Management : 1
+Email_Security,Email_Security,Incident_Response : 1
+Data_Classification,Incident_Response,Incident_Response,Data_Classification,Incident_Response : 1
+Password_Management,Email_Security,Email_Security : 1
+Data_Retention,Data_Retention,Email_Security,Password_Management,Email_Security : 1
+Email_Security,Customer_Data_Handling,Password_Management : 1
+Incident_Response,Password_Management,Incident_Response,Data_Retention,Incident_Response : 1
+Incident_Response,Visitor_Management,Visitor_Management,Visitor_Management : 1
+Customer_Data_Handling,Customer_Data_Handling,Incident_Response,Customer_Data_Handling,Incident_Response : 1
+Visitor_Management,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 1
+Visitor_Management,Password_Management,Email_Security,Incident_Response : 1
+Data_Retention,Incident_Response,Data_Retention,Data_Retention : 1
+Password_Management,Incident_Response,Password_Management,Incident_Response,Email_Security : 1
+Incident_Response,Data_Retention,Incident_Response,Incident_Response : 1
+Visitor_Management,Customer_Data_Handling,Customer_Data_Handling : 1
+Incident_Response,Incident_Response,Incident_Response,Incident_Response,Visitor_Management : 1
+Visitor_Management,Incident_Response,Visitor_Management : 1
+Incident_Response,Incident_Response,Password_Management,Incident_Response,Password_Management : 1
+Incident_Response,Customer_Data_Handling,Incident_Response : 1
+Incident_Response,Incident_Response,Password_Management,Email_Security : 1
+Visitor_Management,Incident_Response,Incident_Response,Incident_Response,Visitor_Management : 1
+Customer_Data_Handling,Incident_Response,Customer_Data_Handling,Visitor_Management : 1
+Email_Security,Incident_Response,Incident_Response : 1
+Customer_Data_Handling,Customer_Data_Handling,Visitor_Management : 1
+Visitor_Management,Incident_Response,Incident_Response,Incident_Response : 1
+Visitor_Management,Password_Management,Customer_Data_Handling,Password_Management : 1
+Visitor_Management,Incident_Response,Incident_Response,Visitor_Management : 1
+Customer_Data_Handling,Incident_Response,Incident_Response,Customer_Data_Handling,Customer_Data_Handling : 1
+Visitor_Management,Visitor_Management,Incident_Response,Visitor_Management : 1
+Incident_Response,Incident_Response,Customer_Data_Handling,Customer_Data_Handling : 1
+Customer_Data_Handling,Incident_Response,Incident_Response : 1
+Password_Management,Email_Security,Incident_Response : 1
+Password_Management,Visitor_Management,Incident_Response : 1
+Incident_Response,Password_Management,Incident_Response,Incident_Response,Password_Management : 1
+Incident_Response,Password_Management,Password_Management,Email_Security : 1
+Password_Management,Incident_Response,Incident_Response,Incident_Response,Password_Management : 1
+Customer_Data_Handling,Incident_Response,Customer_Data_Handling,Customer_Data_Handling : 1
+Incident_Response,Threat_Intelligence,Threat_Intelligence,Incident_Response,Incident_Response : 1
+Password_Management,Email_Security,Visitor_Management,Visitor_Management : 1
+Incident_Response,Password_Management,Incident_Response : 1
+Incident_Response,Incident_Response,Visitor_Management,Incident_Response : 1
+Email_Security,Email_Security,Email_Security,Password_Management : 1
+Password_Management,Threat_Intelligence,Threat_Intelligence,Password_Management,Password_Management : 1
+Password_Management,Incident_Response,Incident_Response,Incident_Response : 1
+Threat_Intelligence,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 1
+Email_Security,Incident_Response,Email_Security : 1
+Incident_Response,Password_Management,Incident_Response,Password_Management,Password_Management : 1
+Visitor_Management,Password_Management,Password_Management : 1
+Password_Management,Email_Security,Email_Security,Email_Security,Email_Security : 1
+Incident_Response,Incident_Response,Incident_Response,Threat_Intelligence,Incident_Response : 1
+Password_Management,Incident_Response,Password_Management : 1
+Threat_Intelligence,Threat_Intelligence,Visitor_Management,Threat_Intelligence,Visitor_Management : 1
+Visitor_Management,Visitor_Management,Visitor_Management,Budget_Planning : 1
+Procurement,Password_Management,Procurement,Email_Security : 1
+Procurement,Budget_Planning,Budget_Planning,Budget_Planning,Budget_Planning : 1
+Budget_Planning,Procurement,Password_Management,Budget_Planning,Password_Management : 1
+Procurement,Visitor_Management,Email_Security,Password_Management : 1
+Procurement,Email_Security,Procurement,Procurement,Email_Security : 1
+Visitor_Management,Budget_Planning,Procurement,Procurement : 1
+Budget_Planning,Budget_Planning,Procurement : 1
+Procurement,Access_Control,Procurement : 1
+Procurement,Password_Management,Password_Management,Email_Security,Access_Control : 1
+Budget_Planning,Procurement,Visitor_Management : 1
+Procurement,Email_Security,Procurement : 1
+Access_Control,Access_Control,Access_Control,Procurement,Procurement : 1
+Budget_Planning,Visitor_Management,Visitor_Management,Budget_Planning : 1
+Visitor_Management,Visitor_Management,Budget_Planning : 1
+Access_Control,Password_Management,Password_Management : 1
+Visitor_Management,Visitor_Management,Visitor_Management,Budget_Planning,Budget_Planning : 1
+Password_Management,Procurement,Budget_Planning,Email_Security,Password_Management : 1
+Procurement,Email_Security,Procurement,Password_Management,Password_Management : 1
+Procurement,Procurement,Software_Installation,Budget_Planning : 1
+Expense_Management,Expense_Management,Password_Management,Expense_Management,Expense_Management : 1
+Customer_Data_Handling,Customer_Data_Handling,Expense_Management,Customer_Data_Handling,Expense_Management : 1
+Expense_Management,Customer_Data_Handling,Expense_Management,Expense_Management : 1
+Customer_Data_Handling,Expense_Management,Expense_Management,Customer_Data_Handling : 1
+Password_Management,Expense_Management,Expense_Management,Expense_Management : 1
+Expense_Management,Expense_Management,Expense_Management,Customer_Data_Handling,Expense_Management : 1
+Password_Management,Password_Management,Expense_Management,Expense_Management,Expense_Management : 1
+Expense_Management,Expense_Management,Password_Management : 1
+Procurement,Visitor_Management,Visitor_Management,Procurement,Procurement : 1
+Financial_Reporting,Visitor_Management,Financial_Reporting,Password_Management : 1
+Procurement,Financial_Reporting,Financial_Reporting : 1
+Password_Management,Password_Management,Email_Security,Procurement,Procurement : 1
+Financial_Reporting,Procurement,Procurement,Procurement : 1
+Procurement,Password_Management,Email_Security,Financial_Reporting : 1
+Financial_Reporting,Procurement,Procurement,Procurement,Procurement : 1
+Procurement,Financial_Reporting,Procurement,Procurement,Financial_Reporting : 1
+Password_Management,Procurement,Visitor_Management : 1
+Email_Security,Financial_Reporting,Financial_Reporting,Procurement,Password_Management : 1
+Financial_Reporting,Financial_Reporting,Password_Management,Procurement : 1
+Procurement,Procurement,Financial_Reporting,Financial_Reporting,Financial_Reporting : 1
+Visitor_Management,Procurement,Procurement,Procurement : 1
+Procurement,Password_Management,Procurement,Password_Management,Email_Security : 1
+Financial_Reporting,Procurement,Financial_Reporting,Password_Management : 1
+Password_Management,Expense_Management,Payroll : 1
+Expense_Management,Payroll,Payroll,Customer_Data_Handling : 1
+Expense_Management,Expense_Management,Payroll : 1
+Customer_Data_Handling,Customer_Data_Handling,Expense_Management,Expense_Management,Expense_Management : 1
+Expense_Management,Expense_Management,Payroll,Payroll : 1
+Payroll,Customer_Data_Handling,Customer_Data_Handling,Payroll : 1
+Expense_Management,Payroll,Payroll,Expense_Management : 1
+Payroll,Payroll,Password_Management : 1
+Payroll,Payroll,Payroll,Payroll,Payroll : 1
+Payroll,Payroll,Password_Management,Expense_Management,Expense_Management : 1
+Password_Management,Password_Management,Payroll : 1
+Expense_Management,Payroll,Expense_Management,Payroll : 1
+Software_Installation,Email_Security,Email_Security,Procurement,Procurement : 1
+Procurement,Password_Management,Procurement,Password_Management,Procurement : 1
+Software_Installation,Procurement,Visitor_Management,Procurement,Procurement : 1
+Software_Installation,Procurement,Procurement,Procurement,Procurement : 1
+Procurement,Password_Management,Visitor_Management : 1
+Procurement,Software_Installation,Procurement : 1
+Procurement,Password_Management,Visitor_Management,Procurement : 1
+Procurement,Visitor_Management,Procurement,Procurement,Visitor_Management : 1
+Procurement,Email_Security,Visitor_Management,Email_Security : 1
+Password_Management,Password_Management,Procurement,Visitor_Management,Procurement : 1
+Procurement,Procurement,Procurement,Email_Security : 1
+Software_Installation,Procurement,Procurement,Visitor_Management,Software_Installation : 1
+Password_Management,Visitor_Management,Visitor_Management : 1
+Expense_Management,Leave_Management,Expense_Management : 1
+Employee_Benefits,Leave_Management,Employee_Benefits,Visitor_Management,Employee_Benefits : 1
+Expense_Management,Employee_Benefits,Leave_Management : 1
+Employee_Benefits,Leave_Management,Employee_Benefits,Employee_Benefits,Leave_Management : 1
+Expense_Management,Visitor_Management,Visitor_Management,Leave_Management : 1
+Leave_Management,Leave_Management,Procurement,Visitor_Management,Expense_Management : 1
+Leave_Management,Employee_Benefits,Employee_Benefits : 1
+Employee_Benefits,Leave_Management,Employee_Benefits,Employee_Benefits,Employee_Benefits : 1
+Visitor_Management,Visitor_Management,Leave_Management,Visitor_Management,Leave_Management : 1
+Employee_Benefits,Expense_Management,Leave_Management,Leave_Management,Employee_Benefits : 1
+Employee_Benefits,Employee_Benefits,Employee_Benefits,Procurement,Employee_Benefits : 1
+Expense_Management,Employee_Benefits,Leave_Management,Leave_Management : 1
+Procurement,Leave_Management,Procurement,Employee_Benefits : 1
+Employee_Benefits,Leave_Management,Employee_Benefits : 1
+Visitor_Management,Leave_Management,Leave_Management,Leave_Management,Leave_Management : 1
+Leave_Management,Leave_Management,Expense_Management,Leave_Management,Expense_Management : 1
+Leave_Management,Procurement,Leave_Management,Leave_Management,Leave_Management : 1
+Leave_Management,Leave_Management,Leave_Management,Leave_Management,Expense_Management : 1
+Leave_Management,Leave_Management,Visitor_Management : 1
+Leave_Management,Expense_Management,Expense_Management,Leave_Management,Leave_Management : 1
+Visitor_Management,Leave_Management,Visitor_Management,Leave_Management,Expense_Management : 1
+Leave_Management,Procurement,Procurement,Leave_Management : 1
+Expense_Management,Expense_Management,Leave_Management,Visitor_Management,Leave_Management : 1
+Leave_Management,Visitor_Management,Leave_Management,Visitor_Management,Visitor_Management : 1
+Leave_Management,Expense_Management,Visitor_Management,Visitor_Management,Visitor_Management : 1
+Leave_Management,Expense_Management,Expense_Management,Expense_Management : 1
+Leave_Management,Expense_Management,Leave_Management : 1
+Leave_Management,Leave_Management,Expense_Management,Expense_Management,Leave_Management : 1
+Leave_Management,Leave_Management,Visitor_Management,Procurement,Leave_Management : 1
+Leave_Management,Leave_Management,Expense_Management : 1
+Leave_Management,Leave_Management,Leave_Management,Visitor_Management : 1
+Leave_Management,Leave_Management,Visitor_Management,Visitor_Management,Expense_Management : 1
+Expense_Management,Expense_Management,Leave_Management : 1
+Procurement,Leave_Management,Leave_Management,Procurement : 1
+Leave_Management,Visitor_Management,Expense_Management,Leave_Management,Leave_Management : 1
+Leave_Management,Leave_Management,Leave_Management,Expense_Management,Leave_Management : 1
+Expense_Management,Leave_Management,Leave_Management,Procurement,Leave_Management : 1
+Visitor_Management,Expense_Management,Leave_Management,Leave_Management,Leave_Management : 1
+Expense_Management,Performance_Management,Leave_Management,Leave_Management : 1
+Visitor_Management,Leave_Management,Procurement,Leave_Management,Leave_Management : 1
+Leave_Management,Procurement,Visitor_Management,Visitor_Management : 1
+Leave_Management,Performance_Management,Leave_Management,Leave_Management : 1
+Performance_Management,Leave_Management,Expense_Management,Expense_Management,Leave_Management : 1
+Leave_Management,Performance_Management,Visitor_Management,Performance_Management,Visitor_Management : 1
+Performance_Management,Performance_Management,Performance_Management,Performance_Management,Leave_Management : 1
+Leave_Management,Expense_Management,Expense_Management,Leave_Management : 1
+Leave_Management,Visitor_Management,Leave_Management : 1
+Leave_Management,Performance_Management,Leave_Management,Leave_Management,Leave_Management : 1
+Performance_Management,Expense_Management,Expense_Management,Performance_Management,Performance_Management : 1
+Performance_Management,Leave_Management,Leave_Management,Performance_Management : 1
+Visitor_Management,Expense_Management,Expense_Management : 1
+Performance_Management,Visitor_Management,Performance_Management,Performance_Management : 1
+Visitor_Management,Leave_Management,Leave_Management,Procurement : 1
+Leave_Management,Leave_Management,Procurement : 1
+Leave_Management,Leave_Management,Leave_Management,Visitor_Management,Leave_Management : 1
+Expense_Management,Leave_Management,Leave_Management,Leave_Management : 1
+Procurement,Visitor_Management,Leave_Management,Procurement,Leave_Management : 1
+Leave_Management,Procurement,Procurement : 1
+Leave_Management,Leave_Management,Visitor_Management,Leave_Management,Leave_Management : 1
+Expense_Management,Leave_Management,Leave_Management,Leave_Management,Leave_Management : 1
+Leave_Management,Leave_Management,Leave_Management,Expense_Management,Expense_Management : 1
+Procurement,Visitor_Management,Leave_Management : 1
+Password_Management,Email_Security,Password_Management : 1
+Access_Control,Password_Management,Password_Management,Password_Management,Password_Management : 1
+Email_Security,Password_Management,Email_Security,Password_Management,Email_Security : 1
+Password_Management,Password_Management,Password_Management,Software_Installation,Software_Installation : 1
+Access_Control,Password_Management,Password_Management,Access_Control : 1
+Software_Installation,Software_Installation,Software_Installation,Password_Management,Password_Management : 1
+Access_Control,Password_Management,Password_Management,Password_Management,Access_Control : 1
+Software_Installation,Password_Management,Password_Management : 1
+Password_Management,Password_Management,Password_Management,Access_Control,Access_Control : 1
+Password_Management,Access_Control,Access_Control,Access_Control : 1
+Password_Management,Password_Management,Access_Control,Password_Management,Password_Management : 1
+Access_Control,Access_Control,Email_Security,Access_Control : 1
+Email_Security,Password_Management,Email_Security,Email_Security,Email_Security : 1
+Email_Security,Email_Security,Password_Management,Password_Management,Email_Security : 1
+Password_Management,Password_Management,Identity_Authentication,Identity_Authentication,Identity_Authentication : 1
+Password_Management,Password_Management,Password_Management,Identity_Authentication : 1
+Password_Management,Identity_Authentication,Password_Management,Identity_Authentication,Identity_Authentication : 1
+Identity_Authentication,Email_Security,Identity_Authentication,Identity_Authentication,Email_Security : 1
+Software_Installation,Password_Management,Software_Installation,Password_Management,Password_Management : 1
+Identity_Authentication,Password_Management,Password_Management,Password_Management,Password_Management : 1
+Email_Security,Password_Management,Password_Management,Password_Management,Software_Installation : 1
+Identity_Authentication,Identity_Authentication,Password_Management,Password_Management,Password_Management : 1
+Software_Installation,Password_Management,Password_Management,Password_Management,Software_Installation : 1
+Software_Installation,Password_Management,Software_Installation : 1
+Remote_Access,Remote_Access,Remote_Access,Password_Management : 1
+Password_Management,Password_Management,Remote_Access,Password_Management,Remote_Access : 1
+Password_Management,Password_Management,Remote_Access,Email_Security,Email_Security : 1
+Email_Security,Password_Management,Password_Management,Remote_Access,Password_Management : 1
+Remote_Access,Password_Management,Remote_Access,Password_Management,Password_Management : 1
+Email_Security,Email_Security,Remote_Access : 1
+Password_Management,Remote_Access,Email_Security : 1
+Remote_Access,Password_Management,Password_Management,Remote_Access,Remote_Access : 1
+Remote_Access,Remote_Access,Password_Management,Password_Management,Password_Management : 1
+Remote_Access,Password_Management,Password_Management,Email_Security : 1
+Remote_Access,Remote_Access,Remote_Access,Remote_Access,Password_Management : 1
+Remote_Access,Remote_Access,Email_Security,Remote_Access,Remote_Access : 1
+Remote_Access,Remote_Access,Password_Management,Remote_Access,Remote_Access : 1
+Password_Management,Email_Security,Remote_Access : 1
+Remote_Access,Password_Management,Email_Security : 1
+Remote_Access,Password_Management,Remote_Access,Password_Management : 1
+Software_Installation,Software_Installation,Software_Installation : 1
+Software_Installation,Software_Installation,Password_Management : 1
+Password_Management,Software_Installation,Software_Installation : 1
+Software_Installation,Software_Installation,Password_Management,Software_Installation : 1
+Password_Management,Password_Management,Software_Installation,Software_Installation,Password_Management : 1
+Software_Installation,Software_Installation,Password_Management,Software_Installation,Password_Management : 1
+Password_Management,Software_Installation,Password_Management,Password_Management : 1
+Procurement,Procurement,Procurement,Procurement,Software_Installation : 1
+Procurement,Visitor_Management,Procurement,Visitor_Management,Procurement : 1
+Software_Installation,Email_Security,Procurement,Procurement,Password_Management : 1
+Visitor_Management,Visitor_Management,Visitor_Management,Password_Management,Password_Management : 1
+Procurement,Procurement,Password_Management,Procurement : 1
+Visitor_Management,Password_Management,Email_Security : 1
+Password_Management,Password_Management,Password_Management,Visitor_Management : 1
+Visitor_Management,Procurement,Password_Management,Visitor_Management : 1
+Procurement,Procurement,Password_Management,Email_Security,Password_Management : 1
+Software_Installation,Software_Installation,Procurement,Procurement,Visitor_Management : 1
+Password_Management,Visitor_Management,Password_Management,Procurement,Procurement : 1
+Procurement,Password_Management,Procurement,Procurement : 1
+Procurement,Procurement,Password_Management,Procurement,Procurement : 1
+Password_Management,Procurement,Password_Management,Procurement : 1
+Software_Installation,Procurement,Software_Installation,Visitor_Management : 1
+Procurement,Password_Management,Procurement,Password_Management : 1
+Procurement,Procurement,Email_Security,Email_Security : 1
+Procurement,Procurement,Visitor_Management,Procurement,Procurement : 1
+Procurement,Password_Management,Contract_Management,Contract_Management : 1
+Contract_Management,Contract_Management,Password_Management,Password_Management : 1
+Password_Management,Password_Management,Password_Management,Procurement : 1
+Procurement,Contract_Management,Email_Security : 1
+Visitor_Management,Password_Management,Visitor_Management,Procurement : 1
+Visitor_Management,Procurement,Procurement,Procurement,Visitor_Management : 1
+Password_Management,Procurement,Password_Management,Contract_Management,Password_Management : 1
+Contract_Management,Procurement,Procurement : 1
+Contract_Management,Procurement,Contract_Management,Contract_Management,Procurement : 1
+Procurement,Software_Installation,Software_Installation : 1
+Procurement,Contract_Management,Contract_Management,Procurement : 1
+Procurement,Password_Management,Procurement,Email_Security,Contract_Management : 1
+Procurement,Visitor_Management,Visitor_Management,Password_Management,Visitor_Management : 1
+Procurement,Procurement,Software_Installation,Procurement,Procurement : 1
+Contract_Management,Procurement,Contract_Management : 1
+Email_Security,Password_Management,Procurement : 1
+Visitor_Management,Contract_Management,Email_Security : 1
+Software_Installation,Procurement,Email_Security,Procurement,Email_Security : 1
+Customer_Data_Handling,Customer_Data_Handling,Password_Management,Customer_Data_Handling : 1
+Password_Management,Customer_Data_Handling,Customer_Data_Handling,Password_Management : 1
+Password_Management,Password_Management,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 1
+Customer_Data_Handling,Password_Management,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 1
+Password_Management,Password_Management,Customer_Data_Handling,Customer_Data_Handling : 1
+Customer_Data_Handling,Customer_Data_Handling,Password_Management : 1
+Customer_Data_Handling,Password_Management,Password_Management : 1
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Password_Management,Customer_Data_Handling : 1
+Customer_Data_Handling,Customer_Data_Handling,Password_Management,Customer_Data_Handling,Password_Management : 1
+Password_Management,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling : 1
+Intellectual_Property,Intellectual_Property,Customer_Data_Handling : 1
+Intellectual_Property,Intellectual_Property,Password_Management : 1
+Intellectual_Property,Password_Management,Customer_Data_Handling,Customer_Data_Handling,Password_Management : 1
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Password_Management : 1
+Password_Management,Customer_Data_Handling,Password_Management : 1
+Customer_Data_Handling,Customer_Data_Handling,Intellectual_Property : 1
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Intellectual_Property : 1
+Password_Management,Customer_Data_Handling,Password_Management,Customer_Data_Handling,Customer_Data_Handling : 1
+Intellectual_Property,Intellectual_Property,Intellectual_Property : 1
+Customer_Data_Handling,Customer_Data_Handling,Intellectual_Property,Password_Management : 1
+Intellectual_Property,Password_Management,Password_Management,Customer_Data_Handling : 1
+Customer_Data_Handling,Customer_Data_Handling,Customer_Data_Handling,Intellectual_Property,Intellectual_Property : 1
+Customer_Data_Handling,Password_Management,Intellectual_Property,Customer_Data_Handling,Customer_Data_Handling : 1
+Intellectual_Property,Intellectual_Property,Intellectual_Property,Intellectual_Property,Intellectual_Property : 1
+Procurement,Visitor_Management,Visitor_Management,Procurement,Visitor_Management : 1
+Password_Management,Software_Installation,Procurement,Password_Management : 1
+Visitor_Management,Visitor_Management,Procurement,Procurement,Procurement : 1
+Vendor_Management,Vendor_Management,Vendor_Management,Visitor_Management,Visitor_Management : 1
+Software_Installation,Procurement,Software_Installation,Software_Installation : 1
+Procurement,Vendor_Management,Procurement : 1
+Password_Management,Procurement,Vendor_Management,Procurement,Procurement : 1
+Software_Installation,Software_Installation,Password_Management,Procurement : 1
+Vendor_Management,Procurement,Visitor_Management : 1
+Software_Installation,Procurement,Software_Installation : 1
+Visitor_Management,Visitor_Management,Password_Management,Visitor_Management : 1
+Procurement,Vendor_Management,Vendor_Management : 1
+Vendor_Management,Vendor_Management,Procurement,Vendor_Management,Vendor_Management : 1
+Vendor_Management,Vendor_Management,Procurement,Procurement : 1
+Visitor_Management,Visitor_Management,Password_Management : 1
+Procurement,Visitor_Management,Visitor_Management,Visitor_Management,Procurement : 1
+Email_Security,Visitor_Management,Password_Management,Visitor_Management : 1
+Email_Security,Email_Security,Vendor_Management,Vendor_Management,Vendor_Management : 1
+Business_Continuity,Business_Continuity,Visitor_Management,Business_Continuity,Business_Continuity : 1
+Business_Continuity,Visitor_Management,Business_Continuity : 1
+Visitor_Management,Visitor_Management,Business_Continuity,Visitor_Management : 1
+Business_Continuity,Visitor_Management,Business_Continuity,Visitor_Management : 1
+Visitor_Management,Business_Continuity,Visitor_Management,Business_Continuity : 1
+Business_Continuity,Visitor_Management,Visitor_Management,Visitor_Management,Visitor_Management : 1
+Business_Continuity,Disaster_Recovery,Disaster_Recovery : 1
+Business_Continuity,Visitor_Management,Business_Continuity,Visitor_Management,Business_Continuity : 1
+Visitor_Management,Visitor_Management,Business_Continuity,Visitor_Management,Visitor_Management : 1
+Business_Continuity,Visitor_Management,Business_Continuity,Business_Continuity : 1
+Disaster_Recovery,Visitor_Management,Disaster_Recovery,Visitor_Management,Disaster_Recovery : 1
+Business_Continuity,Business_Continuity,Disaster_Recovery,Disaster_Recovery : 1
+Visitor_Management,Business_Continuity,Business_Continuity,Business_Continuity : 1
+Business_Continuity,Disaster_Recovery,Business_Continuity,Business_Continuity,Business_Continuity : 1
+Business_Continuity,Business_Continuity,Visitor_Management,Business_Continuity,Visitor_Management : 1
+Visitor_Management,Business_Continuity,Business_Continuity,Visitor_Management,Business_Continuity : 1
+Remote_Work,Visitor_Management,Remote_Work,Remote_Work,Remote_Work : 1
+Remote_Work,Remote_Work,Remote_Work,Visitor_Management,Visitor_Management : 1
+Visitor_Management,Remote_Work,Visitor_Management,Visitor_Management : 1
+Remote_Work,Visitor_Management,Visitor_Management : 1
+Remote_Work,Visitor_Management,Remote_Work,Remote_Work : 1
+Remote_Work,Remote_Work,Visitor_Management : 1
+Remote_Work,Remote_Work,Remote_Work,Visitor_Management,Remote_Work : 1
+Remote_Work,Remote_Work,Remote_Work,Visitor_Management : 1
+Remote_Work,Remote_Work,Visitor_Management,Visitor_Management,Visitor_Management : 1
+Research_Data_Protection,Expense_Management,Expense_Management,Research_Data_Protection : 1
+Expense_Management,Password_Management,Research_Data_Protection,Research_Data_Protection,Expense_Management : 1
+Expense_Management,Expense_Management,Password_Management,Password_Management : 1
+Expense_Management,Password_Management,Expense_Management,Expense_Management,Customer_Data_Handling : 1
+Expense_Management,Research_Data_Protection,Expense_Management,Expense_Management,Expense_Management : 1
+Research_Data_Protection,Research_Data_Protection,Expense_Management,Research_Data_Protection : 1
+Password_Management,Expense_Management,Password_Management,Research_Data_Protection : 1
+Research_Data_Protection,Research_Data_Protection,Password_Management,Password_Management,Expense_Management : 1
+Expense_Management,Expense_Management,Research_Data_Protection : 1
+Password_Management,Expense_Management,Password_Management : 1
+Research_Data_Protection,Customer_Data_Handling,Research_Data_Protection,Customer_Data_Handling,Research_Data_Protection : 1
+Expense_Management,Password_Management,Research_Data_Protection,Expense_Management : 1
+Research_Data_Protection,Research_Data_Protection,Customer_Data_Handling,Research_Data_Protection : 1
+Research_Data_Protection,Research_Data_Protection,Research_Data_Protection,Password_Management,Research_Data_Protection : 1
+Password_Management,Expense_Management,Research_Data_Protection : 1
+Research_Data_Protection,Expense_Management,Expense_Management,Expense_Management : 1
+Research_Data_Protection,Research_Data_Protection,Research_Data_Protection,Password_Management : 1
+Customer_Data_Handling,Expense_Management,Customer_Data_Handling : 1
+Research_Data_Protection,Research_Data_Protection,Password_Management,Research_Data_Protection,Research_Data_Protection : 1
+
+Severity
+High,High,High : 57
+High,High,High,High : 53
+High,High,High,High,High : 53
+Medium,Medium,Medium : 34
+Medium,Medium,Medium,Medium : 18
+High,Medium,Medium : 17
+High,High,Medium : 17
+Critical,Critical,Critical : 15
+High,Critical,High : 14
+Critical,Critical,Critical,Critical : 14
+Medium,Medium,High : 14
+Medium,High,High : 14
+Medium,Medium,Medium,Medium,Medium : 12
+High,High,Critical,High : 12
+Critical,High,Critical : 12
+High,High,Medium,High : 11
+Medium,High,Medium : 10
+High,High,High,Medium : 10
+High,Critical,Critical : 10
+Critical,High,Critical,High : 10
+High,Critical,High,High : 9
+Medium,High,Medium,High : 9
+High,Medium,High : 9
+Critical,Critical,High : 9
+High,High,Critical : 9
+Medium,High,Medium,Medium : 8
+Critical,High,High : 8
+Medium,Medium,Medium,Medium,High : 8
+High,Medium,High,High : 8
+Medium,Medium,Critical : 7
+High,Medium,Medium,Medium : 7
+High,High,High,Critical : 7
+Medium,High,High,High : 6
+Medium,Medium,Medium,High : 6
+Critical,High,High,Critical : 6
+High,High,Medium,Medium : 6
+High,High,Critical,Critical,High : 6
+High,High,High,Medium,High : 6
+High,Medium,High,High,High : 6
+High,High,High,Medium,Medium : 6
+High,High,High,Critical,High : 6
+Medium,High,High,Medium : 6
+Medium,Critical,Critical : 6
+Critical,Critical,Critical,Critical,Critical : 6
+Medium,High,High,High,High : 5
+High,High,Medium,Medium,Medium : 5
+Medium,Medium,High,High : 5
+Medium,High,High,Medium,Medium : 5
+Critical,Critical,High,High,High : 5
+High,Critical,High,Critical : 5
+Critical,Medium,Medium,Critical : 5
+Critical,High,High,High : 5
+High,High,Critical,Critical : 5
+Critical,Medium,Medium : 5
+Medium,Medium,High,Medium,Medium : 4
+High,Medium,Medium,Medium,Medium : 4
+Medium,High,Medium,Medium,High : 4
+High,Medium,High,Medium : 4
+High,High,Critical,Critical,Critical : 4
+Critical,Medium,High : 4
+High,Critical,Critical,High : 4
+Critical,Critical,Critical,Medium,Medium : 4
+Critical,High,Critical,Critical,High : 4
+Critical,Critical,Medium,Critical : 4
+Critical,Critical,Critical,High,Critical : 4
+High,Critical,Critical,Critical,High : 4
+Medium,Medium,Critical,Critical : 4
+Medium,High,Medium,High,High : 4
+High,High,High,High,Critical : 4
+High,Critical,High,Critical,High : 4
+High,High,High,High,Medium : 4
+Critical,High,High,Critical,Critical : 4
+Medium,Medium,Medium,Critical : 4
+High,Medium,Medium,High : 4
+High,High,Critical,High,High : 4
+High,Medium,High,Medium,High : 4
+Critical,Critical,Critical,High : 4
+Medium,High,High,Medium,High : 3
+Medium,Critical,Critical,Medium,Critical : 3
+Medium,Critical,Critical,High : 3
+Medium,Medium,High,Medium : 3
+High,Medium,Medium,High,High : 3
+High,Critical,High,High,High : 3
+Critical,Critical,Medium,Medium : 3
+Medium,Medium,High,Medium,High : 3
+Critical,Medium,Medium,Medium,Medium : 3
+Critical,High,High,High,High : 3
+Critical,High,High,Critical,High : 3
+Medium,Critical,Medium : 3
+Medium,Critical,Critical,Medium : 3
+Critical,High,Medium : 3
+Critical,High,Critical,Critical : 3
+High,High,Medium,High,High : 3
+Critical,Critical,Medium : 3
+Critical,Critical,High,Critical,High : 3
+Critical,Critical,High,Critical : 3
+High,Critical,Critical,High,Critical : 3
+Critical,Critical,High,Critical,Critical : 3
+Medium,Critical,Critical,Critical,Medium : 3
+Medium,Medium,Critical,Medium,Medium : 2
+High,High,Medium,Critical,Critical : 2
+Critical,Critical,Critical,Critical,Medium : 2
+High,Critical,Medium,High,Critical : 2
+High,Critical,High,High,Critical : 2
+Critical,Medium,Critical : 2
+High,Critical,High,High,Medium : 2
+High,High,Medium,Medium,High : 2
+Critical,High,Critical,Critical,Critical : 2
+Medium,Medium,High,Critical,High : 2
+High,Medium,High,Medium,Medium : 2
+Medium,Medium,Medium,High,High : 2
+High,High,High,Critical,Critical : 2
+High,Critical,Critical,Critical : 2
+Critical,Critical,High,High : 2
+Medium,Critical,Critical,Critical : 2
+High,Medium,Critical : 2
+High,Critical,Critical,High,High : 2
+Critical,High,Critical,High,High : 2
+High,Critical,Critical,Medium,Critical : 2
+High,Medium,High,Critical : 2
+High,High,Critical,Medium : 2
+Critical,Critical,Critical,Critical,High : 2
+High,Medium,Critical,High : 2
+Medium,High,Medium,Medium,Medium : 2
+Medium,Medium,Critical,Critical,Medium : 2
+Critical,High,Critical,High,Critical : 2
+Medium,Critical,Medium,High : 2
+Medium,Medium,Medium,Critical,Medium : 2
+Medium,Critical,Medium,Medium,Medium : 2
+Medium,Medium,Medium,Critical,Critical : 2
+High,High,Critical,High,Critical : 2
+High,High,Medium,High,Medium : 2
+Critical,Critical,Critical,Medium : 2
+Medium,Critical,Medium,High,Medium : 2
+Medium,Medium,Critical,Medium : 2
+High,Medium,High,Critical,High : 1
+High,Medium,Critical,High,High : 1
+High,Medium,Medium,Critical,Medium : 1
+High,Medium,Medium,Medium,High : 1
+High,Critical,Critical,Medium,Medium : 1
+Critical,Critical,High,Medium,Medium : 1
+Critical,Critical,High,High,Medium : 1
+Critical,Medium,High,Medium : 1
+Critical,Medium,High,High : 1
+Medium,Medium,Critical,High : 1
+Medium,Critical,Critical,Medium,Medium : 1
+Critical,High,High,Critical,Medium : 1
+Medium,Medium,Critical,High,High : 1
+Critical,Medium,Critical,Medium : 1
+Critical,High,Medium,High : 1
+Critical,Medium,Critical,Critical,Critical : 1
+Medium,Medium,Critical,Medium,Critical : 1
+Medium,High,High,Critical : 1
+Critical,High,Critical,Critical,Medium : 1
+Medium,High,High,Critical,Medium : 1
+High,Critical,High,Critical,Critical : 1
+Critical,Medium,Medium,Critical,Critical : 1
+Critical,Critical,Medium,High : 1
+Medium,High,Critical,Medium,Critical : 1
+Medium,Medium,Medium,High,Medium : 1
+Critical,Medium,Critical,High,Critical : 1
+High,High,Medium,High,Critical : 1
+Medium,Medium,High,Critical : 1
+Critical,Medium,Medium,High : 1
+High,Critical,Medium : 1
+Medium,Medium,Critical,Critical,High : 1
+High,Medium,Critical,Critical : 1
+High,Medium,Medium,Medium,Critical : 1
+Critical,Critical,High,Medium,High : 1
+Critical,Medium,High,High,Critical : 1
+High,High,Medium,Critical : 1
+Medium,Medium,High,High,High : 1
+Medium,Critical,High,Medium,Critical : 1
+Medium,High,Critical,Critical,Critical : 1
+Medium,High,Medium,High,Medium : 1
+Critical,High,Medium,Critical : 1
+Critical,Critical,Medium,Critical,Medium : 1
+Medium,High,High,Medium,Critical : 1
+Critical,High,Critical,Medium : 1
+Medium,Medium,Critical,Medium,High : 1
+High,High,Critical,Medium,Medium : 1
+High,Critical,Medium,High,Medium : 1
+High,Critical,Critical,Critical,Critical : 1
+Medium,High,Critical,Medium : 1
+Critical,Medium,Critical,Medium,Medium : 1
+Medium,High,High,High,Medium : 1
+Critical,High,Critical,Medium,Critical : 1
+Medium,Critical,Critical,High,Critical : 1
+Critical,High,Medium,High,High : 1
+High,Medium,High,High,Medium : 1
+High,High,Medium,Critical,Medium : 1
+Critical,Medium,Critical,Medium,Critical : 1
+High,Critical,Medium,Medium : 1
+Medium,Medium,High,High,Medium : 1
+Medium,Critical,Medium,Critical : 1
+Critical,Critical,Critical,Medium,Critical : 1
+Critical,Critical,Medium,Medium,Medium : 1
+Critical,Medium,Medium,Medium : 1
+High,Medium,Critical,Medium,High : 1
+High,Critical,Critical,Medium : 1
+Critical,Medium,Critical,Critical : 1
+Critical,Medium,Medium,Medium,Critical : 1
+High,High,Medium,Critical,High : 1
+
+Columns:
+- chunk_id
+- policy_id
+- department
+- category
+- section
+- sha256
+- simhash
+- embedding
+- embedding_model
+- embedding_dimension
+- word_count
+- character_count
+- trust_score
+- fingerprint_version
+- created_at
+- source_file
+- is_poisoned
+- similarity_score
+- decision
+
+## chunk_fingerprint_database.csv
+- Rows: 12025
+- Columns: 19
+
+Chunk Fingerprint Database
+----------------------------------------
+Chunks : 12025
+Policies : 925
+Average Chunks / Policy : 13.00
+Largest Policy : 13 chunks
+Smallest Policy : 13 chunks
+Embedding Dimension : 384
+Poisoned Chunks : 0
+
+Decision Distribution
+
+Columns:
+- source_policy
+- target_policy
+- relation
+
+## document_relations.csv
+- Rows: 95475
+- Columns: 3
+
+Document Relations
+----------------------------------------
+Relations : 95475
+
+Relation Types
+shared_department : 54850
+shared_keyword : 40625
+
+Columns:
+- policy_id
+- department
+- category
+- title
+- sha256
+- simhash
+- embedding
+- embedding_model
+- word_count
+- policy_statement_words
+- character_count
+- sentence_count
+- file_size
+- trust_score
+- document_version
+- fingerprint_version
+- created_at
+
+## fingerprint_database.csv
+- Rows: 925
+- Columns: 17
+
+Fingerprint Database
+----------------------------------------
+Documents : 925
+Unique Policy IDs : 925
+Unique SHA256 : 925
+Unique SimHash : 876
+Embedding Model : all-MiniLM-L6-v2
+Average Trust Score : 1.000
+Document Versions : ['original']
+Fingerprint Versions : ['v1.0']
+
+Columns:
+- timestamp
+- documents
+- generator
+- version
+
+## generation_log.csv
+- Rows: 1
+- Columns: 4
+
+Generation Log
+----------------------------------------
+Timestamp : 2026-07-21 12:22:17
+Documents : 925
+Generator : MetadataGenerator
+Version : 1.0
+
+Columns:
+- policy_id
+- title
+- department
+- category
+- security_domain
+- classification
+- risk_level
+- owner
+- effective_date
+- review_date
+- word_count
+- char_count
+- sha256
+- filepath
+- keywords
+
+## policy_index.csv
+- Rows: 925
+- Columns: 15
+
+Policy Index
+----------------------------------------
+Policies : 925
+Departments : 9
+Categories : 37
+Security Domains : 36
+Owners : 36
+Average Words : 252.84
+Average Characters : 2732.65
+
+---
+
+Warnings : 1
+
+Errors : 0
