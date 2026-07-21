@@ -25,20 +25,22 @@ class RepositoryChecker:
             "data/metadata/chunk_fingerprint_database.csv"
         )
 
+        self.database = self.load_database()
+
     # ---------------------------------------------------------
 
     def load_database(self):
 
-        if not self.database.exists():
+        if not self.database_path.exists():
             return pd.DataFrame()
 
-        return pd.read_csv(self.database)
+        return pd.read_csv(self.database_path)
 
     # ---------------------------------------------------------
 
     def compare_sha(self, sha256):
 
-        database = self.load_database()
+        database = self.database
 
         if database.empty:
             return None
@@ -59,7 +61,7 @@ class RepositoryChecker:
 
     def compare_policy(self, policy_id):
 
-        database = self.load_database()
+        database = self.database
 
         if database.empty:
             return None
@@ -118,7 +120,7 @@ class RepositoryChecker:
         threshold=REPOISONING_THRESHOLD,
     ) -> RepositoryCheckResult:
 
-        database = self.load_database()
+        database = self.database
 
         if database.empty:
 
