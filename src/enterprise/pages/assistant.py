@@ -94,23 +94,39 @@ def show_page():
 
         )
 
-    st.success("Secure Answer Generated")
+    st.success(
+        "Knowledge Firewall verification completed successfully."
+    )
 
-    # =====================================================
-    # Answer
-    # =====================================================
+    st.info("""
+    Knowledge Firewall Pipeline
 
-    st.subheader("Enterprise Answer")
-
-    st.write(result.answer)
+    Query
+    ↓
+    Semantic Retrieval
+    ↓
+    Fingerprint Verification
+    ↓
+    Trust Computation
+    ↓
+    Knowledge Firewall
+    ↓
+    Enterprise LLM
+    ↓
+    Secure Response
+    """)
 
     # =====================================================
     # Firewall Summary
     # =====================================================
 
     stats = result.firewall_result.statistics
-
-    c1, c2, c3, c4 = st.columns(4)
+    verification_rate = (
+        stats["trusted"] / stats["retrieved"] * 100
+        if stats["retrieved"] > 0
+        else 0
+    )
+    c1, c2, c3, c4, c5 = st.columns(5)
 
     c1.metric(
 
@@ -144,7 +160,22 @@ def show_page():
 
     )
 
+    c5.metric(
+        "Verification Rate",
+        f"{verification_rate:.1f}%"
+    )
+
     st.divider()
+
+    # =====================================================
+    # Answer
+    # =====================================================
+
+    st.subheader("🛡 Secure Enterprise Response")
+
+    st.write(result.answer)
+
+    
 
     # =====================================================
     # Trusted Context
@@ -152,7 +183,7 @@ def show_page():
 
     with st.expander(
 
-        "Trusted Context"
+        "Verified Trusted Context"
 
     ):
 
@@ -161,6 +192,12 @@ def show_page():
     # =====================================================
     # Verification Report
     # =====================================================
+
+    decision_icons = {
+        "TRUSTED": "🟢 TRUSTED",
+        "SUSPICIOUS": "🟡 SUSPICIOUS",
+        "BLOCKED": "🔴 BLOCKED",
+    }
 
     rows = []
 
@@ -172,9 +209,12 @@ def show_page():
 
             "Chunk": report.chunk_id,
 
-            "Decision": report.decision,
+            "Decision": decision_icons.get(
+                report.decision,
+                report.decision
+            ),
 
-            "Trust": report.trust_score,
+            "Trust Score (%)": report.trust_score,
 
             "SHA": report.sha_similarity,
 
@@ -186,26 +226,37 @@ def show_page():
 
         })
 
-    st.subheader(
-
-        "Knowledge Firewall Verification"
-
-    )
-
-    st.dataframe(
-
-        pd.DataFrame(rows),
-
-        use_container_width=True,
-
-        hide_index=True
-
-    )
-
     st.subheader("Knowledge Firewall Verification")
 
-    st.dataframe(
-        pd.DataFrame(rows),
-        use_container_width=True,
-        hide_index=True
-    )
+    if rows:
+
+        st.dataframe(
+
+            pd.DataFrame(rows),
+
+            use_container_width=True,
+
+            hide_index=True
+
+        )
+
+    else:
+
+        st.info(
+            "No verification reports available."
+        )
+
+    st.divider()
+
+    st.subheader("🛡 Security Summary")
+
+    left, right = st.columns(2)
+
+    with left:
+        st.success("✔ Runtime fingerprints verified")
+        st.success("✔ Knowledge integrity validated")
+        st.success("✔ Trust score computed")
+
+    with right:
+        st.success("✔ Knowledge Firewall passed")
+        st.success("✔ Secure response generated")

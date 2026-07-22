@@ -42,11 +42,23 @@ class AttackAnalyzer:
 
     def analyze(self, text) -> AttackResult:
 
-        text = text.lower()
+        text = getattr(
+            text,
+            "content",
+            str(text)
+        ).lower()
 
         detected = []
 
-        highest = "Low"
+
+        severity_rank = {
+            "None": 0,
+            "Low": 1,
+            "Medium": 2,
+            "High": 3,
+        }
+
+        highest = "None"
 
         for attack in self.attacks:
 
@@ -57,8 +69,11 @@ class AttackAnalyzer:
 
                 detected.append(attack)
 
-                if attack["severity"] == "High":
-                    highest = "High"
+                if (
+                    severity_rank[attack["severity"]]
+                    > severity_rank[highest]
+                ):
+                    highest = attack["severity"]
 
         if not detected:
 
@@ -80,27 +95,29 @@ class AttackAnalyzer:
 
             )
 
-        best = detected[0]
-
-        confidence = round(
-
-            len(detected) /
-
-            max(len(self.attacks), 1),
-
-            4
-
+        best = max(
+            detected,
+            key=lambda attack: severity_rank[attack["severity"]]
         )
 
-        recommendation = (
+        severity_confidence = {
+            "High": 0.95,
+            "Medium": 0.75,
+            "Low": 0.50,
+        }
 
-            "Reject Upload"
+        confidence = severity_confidence.get(highest, 0.0)
 
-            if highest == "High"
+        confidence = round(confidence, 2)
 
-            else "Manual Review"
+        recommendation_map = {
+            "High": "Reject Upload",
+            "Medium": "Manual Review",
+            "Low": "Manual Review",
+            "None": "Accept",
+        }
 
-        )
+        recommendation = recommendation_map[highest]
 
         return AttackResult(
 

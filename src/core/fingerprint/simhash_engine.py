@@ -7,6 +7,7 @@ Generates SimHash fingerprints for enterprise documents.
 """
 
 import hashlib
+import re
 
 
 class SimHashEngine:
@@ -19,7 +20,11 @@ class SimHashEngine:
 
     def generate(self, text):
 
-        tokens = text.lower().split()
+
+        tokens = re.findall(
+            r"\w+",
+            text.lower()
+        )
 
         vector = [0] * self.bits
 

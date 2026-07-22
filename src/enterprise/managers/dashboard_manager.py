@@ -4,7 +4,7 @@ from src.enterprise.models import (
     Alert,
     DashboardSummary,
 )
-
+from datetime import datetime
 
 class DashboardManager:
 
@@ -32,7 +32,7 @@ class DashboardManager:
 
             repository_health=self._repository_health(),
 
-            last_scan="Today"
+            last_scan=datetime.now().strftime("%Y-%m-%d %H:%M")
 
         )
 

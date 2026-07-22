@@ -64,7 +64,7 @@ class FingerprintDatabase:
 
                 try:
                     embedding = ast.literal_eval(embedding)
-                except Exception:
+                except (ValueError, SyntaxError):
                     embedding = []
 
             # ------------------------------------------
@@ -168,9 +168,9 @@ class FingerprintDatabase:
             self.load()
 
         return {
-
-            "fingerprints": len(self.database)
-
+            "fingerprints": len(self.database),
+            "poisoned": sum(fp.is_poisoned for fp in self.database.values()),
+            "trusted": sum(not fp.is_poisoned for fp in self.database.values())
         }
 
 

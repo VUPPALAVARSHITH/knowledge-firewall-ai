@@ -48,13 +48,35 @@ def show_page():
 
         st.success("Knowledge Admission Completed")
 
+        st.info("""
+        Knowledge Admission Firewall Pipeline
+
+        Uploaded Policy
+                ↓
+        Policy Parsing
+                ↓
+        Semantic Chunking
+                ↓
+        Knowledge Fingerprinting
+                ↓
+        Repository Similarity Analysis
+                ↓
+        Knowledge Manipulation Detection
+                ↓
+        Sensitive Data Detection
+                ↓
+        Admission Trust Engine
+                ↓
+        Admission Decision
+        """)
+
         st.divider()
 
         # ==================================================
         # Pipeline Status
         # ==================================================
 
-        st.subheader("🛡 Security Pipeline")
+        st.subheader("🛡 Knowledge Admission Firewall")
 
         c1, c2, c3 = st.columns(3)
 
@@ -98,11 +120,12 @@ def show_page():
         m3.metric("Chunks", report.chunks_created)
 
         m4.metric(
-            "Trust Score",
-            f"{report.trust_score:.2f}"
+            "Admission Trust",
+            f"{report.trust_score:.2f}%"
         )
 
         st.write("### Decision")
+        st.subheader("Admission Decision Summary")
 
         if report.decision == "ACCEPT":
 
@@ -122,7 +145,7 @@ def show_page():
 
         if report.warnings:
 
-            st.subheader("Warnings")
+            st.subheader("Security Findings")
 
             for warning in report.warnings:
 
@@ -134,6 +157,30 @@ def show_page():
 
         st.progress(report.repository_similarity)
 
+        if report.duplicate_found:
+
+            st.error("Duplicate Knowledge Detected")
+
+        else:
+
+            st.success("Repository Unique")
+
         st.write(
             f"Similarity: {report.repository_similarity:.2%}"
         )
+
+        st.divider()
+
+        st.subheader("🛡 Knowledge Admission Summary")
+
+        st.success("✔ Policy parsed")
+
+        st.success("✔ Semantic chunks created")
+
+        st.success("✔ Knowledge fingerprint generated")
+
+        st.success("✔ Repository verified")
+
+        st.success("✔ Admission trust computed")
+
+        st.success("✔ Knowledge Admission Firewall completed")

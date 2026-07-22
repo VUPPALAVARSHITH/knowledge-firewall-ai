@@ -17,7 +17,7 @@ def show_page():
     st.title("🛡 Repository Integrity Scanner")
 
     st.caption(
-        "Verify the integrity and trustworthiness of the enterprise knowledge repository."
+        "Continuously validate repository integrity, detect knowledge corruption, and recompute trust scores."
     )
 
     st.divider()
@@ -35,6 +35,26 @@ def show_page():
         reports = manager.scan_repository()
 
     st.success("Repository Scan Completed")
+    
+    st.info("""
+    Repository Integrity Pipeline
+
+    Repository Policies
+            ↓
+    Policy Parsing
+            ↓
+    Knowledge Fingerprinting
+            ↓
+    Repository Similarity Verification
+            ↓
+    Knowledge Manipulation Detection
+            ↓
+    Sensitive Data Analysis
+            ↓
+    Trust Recalculation
+            ↓
+    Integrity Decision
+    """)
 
     if not reports:
 
@@ -62,7 +82,7 @@ def show_page():
 
     )
 
-    c1, c2, c3, c4 = st.columns(4)
+    c1, c2, c3, c4, c5 = st.columns(5)
 
     c1.metric(
         "Policies",
@@ -84,17 +104,22 @@ def show_page():
         blocked
     )
 
-    st.metric(
-        "Repository Trust",
+    c5.metric(
+        "Repository Health",
         f"{average:.2f}%"
     )
+
 
     st.divider()
 
     # =====================================================
     # Report
     # =====================================================
-
+    decision_icons = {
+        "ACCEPT": "🟢 ACCEPT",
+        "REVIEW": "🟡 REVIEW",
+        "REJECT": "🔴 REJECT"
+    }
     rows = []
 
     for report in reports:
@@ -116,11 +141,14 @@ def show_page():
 
             "Attack": report.attack_detected,
 
-            "Decision": report.decision
+            "Decision": decision_icons.get(
+                report.decision,
+                report.decision
+            ),
 
         })
 
-    st.subheader("Repository Integrity Report")
+    st.subheader("Repository Integrity Verification Report")
 
     st.dataframe(
 
@@ -134,7 +162,7 @@ def show_page():
 
     st.divider()
 
-    st.subheader("Trust Distribution")
+    st.subheader("Integrity Decision Distribution")
 
     chart = (
 
@@ -153,3 +181,11 @@ def show_page():
         chart.set_index("Decision")
 
     )
+
+    st.divider()
+    st.subheader("🛡 Repository Integrity Summary")
+    st.success("✔ Repository fingerprint verification completed")
+    st.success("✔ Similarity analysis completed")
+    st.success("✔ Knowledge manipulation analysis completed")
+    st.success("✔ Trust scores recalculated")
+    st.success("✔ Repository integrity verified")

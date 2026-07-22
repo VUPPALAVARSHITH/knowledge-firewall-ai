@@ -8,7 +8,7 @@ Generates structural fingerprints for enterprise documents.
 
 import hashlib
 from pathlib import Path
-
+import re
 from src.core.fingerprint.simhash_engine import SimHashEngine
 from datetime import datetime
 import json
@@ -97,13 +97,15 @@ class FingerprintEngine:
             "category": category,
             "title": self.extract_title(text),
             "sha256": self.sha256(filepath),
-            "simhash": self.simhash.generate(text),
+            "simhash": self.simhash.generate(policy_text),
             "embedding": json.dumps(embedding),
             "embedding_model": self.embedding.model_name_used(),
             "word_count": len(text.split()),
             "policy_statement_words": len(policy_text.split()),
             "character_count": len(text),
-            "sentence_count": text.count("."),
+            "sentence_count": len(
+                [s for s in re.split(r"[.!?]+", text) if s.strip()]
+            ),
             "file_size": filepath.stat().st_size,
             "trust_score": 1.0,
             "document_version": "original",

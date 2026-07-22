@@ -48,13 +48,12 @@ class SecureRetriever:
 
         embedding = self.encoder.encode(query)
 
-        return self.store.search(
-
+        results = self.store.search(
             embedding,
-
             top_k
-
         )
+
+        return results
 
 
 # --------------------------------------------------------

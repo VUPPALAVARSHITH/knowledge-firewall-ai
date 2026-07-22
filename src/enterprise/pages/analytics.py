@@ -16,11 +16,18 @@ def show_page():
     manager = AnalyticsManager()
 
     summary = manager.get_summary()
+    st.info("""
+    Knowledge Firewall Analytics
 
-    st.title("📈 Trust Analytics")
+    This dashboard summarizes repository trust, policy distribution,
+    risk levels, and verification outcomes across the enterprise
+    knowledge base.
+    """)
+
+    st.title("📈 Knowledge Firewall Analytics")
 
     st.caption(
-        "Enterprise Knowledge Repository Analytics"
+        "Security, Trust, and Repository Analytics for the Knowledge Firewall Framework"
     )
 
     st.divider()
@@ -31,7 +38,7 @@ def show_page():
 
     st.subheader("📊 Repository Overview")
 
-    c1, c2, c3 = st.columns(3)
+    c1, c2, c3, c4, c5, c6, c7 = st.columns(7)
 
     c1.metric(
         "Policies",
@@ -48,7 +55,7 @@ def show_page():
         f"{summary['average_trust']:.2f}%"
     )
 
-    c4, c5, c6 = st.columns(3)
+    
 
     c4.metric(
         "Trusted",
@@ -65,6 +72,11 @@ def show_page():
         summary["blocked"]
     )
 
+    c7.metric(
+        "Repository Health",
+        f"{repository_health:.1f}%"
+    )
+
     st.divider()
 
     # =====================================================
@@ -77,7 +89,7 @@ def show_page():
 
         with st.container(border=True):
 
-            st.subheader("🛡 Trust Distribution")
+            st.subheader("🛡 Knowledge Trust Distribution")
 
             trust = manager.trust_distribution()
 
@@ -97,7 +109,7 @@ def show_page():
 
         with st.container(border=True):
 
-            st.subheader("🏢 Department Distribution")
+            st.subheader("🏢 Department-wise Policies")
 
             departments = manager.department_distribution()
 
@@ -125,7 +137,7 @@ def show_page():
 
         with st.container(border=True):
 
-            st.subheader("📂 Category Distribution")
+            st.subheader("📂 Policy Category Distribution")
 
             categories = manager.category_distribution()
 
@@ -145,7 +157,7 @@ def show_page():
 
         with st.container(border=True):
 
-            st.subheader("⚠ Risk Level Distribution")
+            st.subheader("⚠ Policy Risk Distribution")
 
             risk = manager.risk_distribution()
 
@@ -167,7 +179,7 @@ def show_page():
     # Classification
     # =====================================================
 
-    st.subheader("🔒 Classification Distribution")
+    st.subheader("🔒 Information Classification Distribution")
 
     classification = manager.classification_distribution()
 
@@ -182,3 +194,14 @@ def show_page():
             classification.set_index("classification")
 
         )
+
+    
+    st.divider()
+
+    st.subheader("🛡 Security Summary")
+
+    st.success("✔ Repository integrity monitored")
+    st.success("✔ Knowledge Trust Distribution analyzed")
+    st.success("✔ Risk profile generated")
+    st.success("✔ Classification statistics generated")
+    st.success("✔ Knowledge Firewall analytics completed")

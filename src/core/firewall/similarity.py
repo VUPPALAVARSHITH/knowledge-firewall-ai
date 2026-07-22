@@ -46,15 +46,17 @@ class SimilarityEngine:
         runtime: str,
     ) -> float:
 
-        if len(trusted) != len(runtime):
+        try:
+            trusted_int = int(trusted, 16)
+            runtime_int = int(runtime, 16)
+        except ValueError:
             return 0.0
 
-        matches = sum(
-            a == b
-            for a, b in zip(trusted, runtime)
-        )
+        xor = trusted_int ^ runtime_int
 
-        return matches / len(trusted)
+        hamming_distance = xor.bit_count()
+
+        return 1.0 - (hamming_distance / 64)
 
     # --------------------------------------------------
 
@@ -74,6 +76,9 @@ class SimilarityEngine:
             dtype=np.float32,
         )
 
+        if a.shape != b.shape:
+            return 0.0
+
         denominator = np.linalg.norm(a) * np.linalg.norm(b)
 
         if denominator == 0:
@@ -85,8 +90,8 @@ class SimilarityEngine:
 
     def compare(
         self,
-        trusted_fp,
-        runtime_fp,
+        trusted_fp: RuntimeFingerprint,
+        runtime_fp: RuntimeFingerprint,
     ) -> SimilarityResult:
         """
         Compare trusted fingerprint with runtime fingerprint.

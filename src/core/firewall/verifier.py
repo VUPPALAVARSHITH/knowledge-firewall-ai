@@ -36,6 +36,17 @@ from src.core.firewall.trust_engine import TrustEngine
 from src.core.fingerprint.fingerprint_database import FingerprintDatabase
 
 
+# ---------------------------------------------------------
+# Risk Level Priority Mapping
+# ---------------------------------------------------------
+
+RISK_PRIORITY = {
+    "Critical": 1.0,
+    "High": 0.9,
+    "Medium": 0.7,
+    "Low": 0.5,
+}
+
 # ==========================================================
 # Verification Result
 # ==========================================================

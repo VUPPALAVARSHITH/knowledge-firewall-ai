@@ -28,32 +28,34 @@ class EnterpriseLLM:
     # -----------------------------------------------------
 
     def generate(
-
         self,
-
         prompt: str
-
     ) -> str:
 
-        response = ollama.chat(
+        try:
 
-            model=self.model,
+            response = ollama.chat(
 
-            messages=[
+                model=self.model,
 
-                {
+                messages=[
 
-                    "role": "user",
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
 
-                    "content": prompt
+                ]
 
-                }
+            )
 
-            ]
+            return response["message"]["content"].strip()
 
-        )
+        except Exception as e:
 
-        return response["message"]["content"].strip()
+            raise RuntimeError(
+                f"LLM generation failed: {e}"
+            ) from e
 
     # -----------------------------------------------------
 

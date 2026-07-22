@@ -60,11 +60,7 @@ class KnowledgeAdmissionFirewall:
 
         start = time.perf_counter()
 
-        text = getattr(
-            policy,
-            "content",
-            str(policy)
-        )
+
 
         # -----------------------------------------------------
         # Repository Similarity

@@ -48,6 +48,9 @@ class TrustEngine:
 
     PRIORITY_WEIGHT = 0.05
 
+    MIN_SIMHASH = 0.95
+    MIN_EMBEDDING = 0.95
+
     # ----------------------------------------------------
 
     TRUST_THRESHOLD = 0.90
@@ -70,6 +73,11 @@ class TrustEngine:
 
     ) -> TrustResult:
 
+        sha_score = max(0.0, min(1.0, sha_score))
+        simhash_score = max(0.0, min(1.0, simhash_score))
+        embedding_score = max(0.0, min(1.0, embedding_score))
+        section_priority = max(0.0, min(1.0, section_priority))
+
         trust = (
 
             sha_score * self.SHA_WEIGHT +
@@ -84,16 +92,26 @@ class TrustEngine:
 
         trust = round(trust, 4)
 
-        if trust >= self.TRUST_THRESHOLD:
+        # ----------------------------------------------------
+        # Security Gating Rules
+        # ----------------------------------------------------
 
+        if (
+            sha_score != 1.0
+            and (
+                simhash_score < self.MIN_SIMHASH
+                or embedding_score < self.MIN_EMBEDDING
+            )
+        ):
+            decision = "BLOCKED"
+
+        elif trust >= self.TRUST_THRESHOLD:
             decision = "TRUSTED"
 
         elif trust >= self.SUSPICIOUS_THRESHOLD:
-
             decision = "SUSPICIOUS"
 
         else:
-
             decision = "BLOCKED"
 
         return TrustResult(

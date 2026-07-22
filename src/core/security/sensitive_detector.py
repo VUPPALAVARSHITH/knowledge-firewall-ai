@@ -10,11 +10,6 @@ is admitted into the enterprise repository.
 from __future__ import annotations
 from src.core.security.models import SensitiveDataResult
 import re
-from dataclasses import dataclass
-
-
-
-
 
 class SensitiveDetector:
 
@@ -34,6 +29,12 @@ class SensitiveDetector:
 
     def analyze(self, text: str) -> SensitiveDataResult:
 
+        text = getattr(
+            text,
+            "content",
+            str(text)
+        )
+
         emails = re.findall(self.EMAIL, text)
 
         urls = re.findall(self.URL, text)
@@ -46,23 +47,16 @@ class SensitiveDetector:
 
         keys = re.findall(self.PRIVATE_KEY, text)
 
-        total = (
-
-            len(emails)
-
-            + len(urls)
-
-            + len(ips)
-
-            + len(api)
-
-            + len(bearer)
-
-            + len(keys)
-
+        risk = (
+            len(emails) * 0.10 +
+            len(urls) * 0.05 +
+            len(ips) * 0.10 +
+            len(api) * 0.50 +
+            len(bearer) * 0.60 +
+            len(keys) * 0.80
         )
 
-        risk = min(total * 0.15, 1.0)
+        risk = min(risk, 1.0)
 
         recommendation = (
 
