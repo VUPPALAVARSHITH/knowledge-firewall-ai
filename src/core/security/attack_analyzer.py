@@ -50,30 +50,41 @@ class AttackAnalyzer:
 
         detected = []
 
-
         severity_rank = {
             "None": 0,
             "Low": 1,
             "Medium": 2,
             "High": 3,
+            "Critical": 4,
         }
 
         highest = "None"
 
         for attack in self.attacks:
 
-            trigger = attack["trigger"].lower()
-            poisoned = attack["poisoned"].lower()
+            poisoned = str(
+                attack.get("poisoned", "")
+            ).strip().lower()
 
-            if trigger in text or poisoned in text:
+            # Do NOT treat the clean/original trigger
+            # as evidence of an attack.
+            if not poisoned:
+                continue
+
+            if poisoned in text:
 
                 detected.append(attack)
 
+                severity = attack.get(
+                    "severity",
+                    "Low"
+                )
+
                 if (
-                    severity_rank[attack["severity"]]
-                    > severity_rank[highest]
+                    severity_rank.get(severity, 0)
+                    > severity_rank.get(highest, 0)
                 ):
-                    highest = attack["severity"]
+                    highest = severity
 
         if not detected:
 
@@ -96,42 +107,55 @@ class AttackAnalyzer:
             )
 
         best = max(
+
             detected,
-            key=lambda attack: severity_rank[attack["severity"]]
+
+            key=lambda attack: severity_rank.get(
+                attack.get("severity", "Low"),
+                0
+            )
+
         )
 
         severity_confidence = {
-            "High": 0.95,
-            "Medium": 0.75,
-            "Low": 0.50,
+            "Critical":1.00,
+            "High":0.98,
+            "Medium":0.90,
+            "Low":0.80
         }
 
-        confidence = severity_confidence.get(highest, 0.0)
-
-        confidence = round(confidence, 2)
+        confidence = round(
+            severity_confidence.get(highest, 0.0),
+            2
+        )
 
         recommendation_map = {
+            "Critical": "Reject Upload",
             "High": "Reject Upload",
             "Medium": "Manual Review",
             "Low": "Manual Review",
             "None": "Accept",
         }
 
-        recommendation = recommendation_map[highest]
-
         return AttackResult(
 
-            attack_id=best["attack_id"],
+            attack_id=best.get("attack_id"),
 
-            category=best["category"],
+            category=best.get("category"),
 
             severity=highest,
 
             confidence=confidence,
 
-            matched_text=best["poisoned"],
+            matched_text=best.get(
+                "poisoned",
+                ""
+            ),
 
-            recommendation=recommendation,
+            recommendation=recommendation_map.get(
+                highest,
+                "Manual Review"
+            ),
 
             is_attack=True
 

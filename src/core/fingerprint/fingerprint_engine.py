@@ -98,7 +98,7 @@ class FingerprintEngine:
             "title": self.extract_title(text),
             "sha256": self.sha256(filepath),
             "simhash": self.simhash.generate(policy_text),
-            "embedding": json.dumps(embedding),
+            "embedding": embedding,
             "embedding_model": self.embedding.model_name_used(),
             "word_count": len(text.split()),
             "policy_statement_words": len(policy_text.split()),

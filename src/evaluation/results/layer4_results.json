@@ -1,0 +1,16 @@
+{
+    "evaluation_layer": 4,
+    "documents": 925,
+    "successful_uploads": 925,
+    "upload_total_time_seconds": 112.7761,
+    "average_upload_time_seconds": 0.1219,
+    "minimum_upload_time_seconds": 0.0362,
+    "maximum_upload_time_seconds": 0.3895,
+    "repository_scan_time_seconds": 1.333,
+    "repository_health": "Excellent",
+    "repository_average_trust": 100.0,
+    "throughput_documents_per_second": 8.2,
+    "cpu_percent": 8.1,
+    "memory_mb": 690.71,
+    "average_upload_trust": 60.0
+}

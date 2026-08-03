@@ -52,9 +52,34 @@ class AdmissionTrustEngine:
         attack_confidence = max(0.0, min(attack_confidence, 1.0))
         sensitive_risk = max(0.0, min(sensitive_risk, 1.0))
 
-        repository_score = (
-            1.0 - repository_similarity
-        ) * 100
+        # Repository similarity is not automatically malicious.
+        # Risk is applied only when similarity approaches
+        # duplicate / re-poisoning levels.
+
+        # -----------------------------------------------------
+        # Repository Trust
+        #
+        # Enterprise policies naturally have high semantic
+        # similarity. Penalize only documents that are
+        # extremely similar but not exact duplicates.
+        # -----------------------------------------------------
+
+        if repository_result.duplicate:
+
+            repository_score = 0.0
+
+        elif repository_similarity >= 0.99:
+
+            repository_score = 20.0
+
+        elif repository_similarity >= 0.97:
+
+            repository_score = 80.0
+
+        else:
+
+            repository_score = 100.0
+
 
         attack_score = (
             1.0 - attack_confidence
@@ -76,7 +101,29 @@ class AdmissionTrustEngine:
 
         trust = round(trust, 2)
 
-        if trust >= self.ACCEPT_THRESHOLD:
+        # ------------------------------------
+        # Enterprise Decision Policy
+        # ------------------------------------
+
+        # -----------------------------------------------------
+        # Decision
+        # -----------------------------------------------------
+
+        # Hard rejects
+        if repository_result.duplicate:
+
+            decision = "REJECT"
+
+        elif attack_confidence >= 0.90:
+
+            decision = "REJECT"
+
+        elif sensitive_risk >= 0.80:
+
+            decision = "REJECT"
+
+        # Trust-based decision
+        elif trust >= self.ACCEPT_THRESHOLD:
 
             decision = "ACCEPT"
 
@@ -90,11 +137,20 @@ class AdmissionTrustEngine:
 
         return AdmissionTrustResult(
 
-            repository_score=round(repository_score, 2),
+            repository_score=round(
+                repository_score,
+                2
+            ),
 
-            attack_score=round(attack_score, 2),
+            attack_score=round(
+                attack_score,
+                2
+            ),
 
-            sensitive_score=round(sensitive_score, 2),
+            sensitive_score=round(
+                sensitive_score,
+                2
+            ),
 
             trust_score=trust,
 

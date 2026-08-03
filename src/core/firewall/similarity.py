@@ -90,8 +90,8 @@ class SimilarityEngine:
 
     def compare(
         self,
-        trusted_fp: RuntimeFingerprint,
-        runtime_fp: RuntimeFingerprint,
+        trusted_fp,
+        runtime_fp,
     ) -> SimilarityResult:
         """
         Compare trusted fingerprint with runtime fingerprint.

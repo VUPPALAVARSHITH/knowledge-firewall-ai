@@ -5,13 +5,11 @@ Knowledge Firewall AI
 
 Knowledge Admission Manager
 
-Coordinates the complete Knowledge Admission Firewall
-pipeline.
+Coordinates the complete Knowledge Admission Firewall pipeline.
 """
 
 from pathlib import Path
-import hashlib
-from src.core.repository.models import PolicyMetadata
+
 from src.core.preprocessing.parser import PolicyParser
 from src.core.preprocessing.chunk_builder import ChunkBuilder
 from src.core.fingerprint.fingerprint_engine import FingerprintEngine
@@ -29,17 +27,12 @@ class UploadManager:
     def __init__(self):
 
         self.parser = PolicyParser()
-
         self.chunk_builder = ChunkBuilder()
-
         self.fingerprint = FingerprintEngine()
 
         self.repository = RepositoryChecker()
-
         self.attack = AttackAnalyzer()
-
         self.sensitive = SensitiveDetector()
-
         self.trust_engine = AdmissionTrustEngine()
 
     # -----------------------------------------------------
@@ -47,137 +40,119 @@ class UploadManager:
     def analyze(self, filepath: str | Path) -> AdmissionReport:
 
         filepath = Path(filepath)
+        document_text = filepath.read_text(
+            encoding="utf-8"
+        )
 
-        # -------------------------------------------------
-        # Parse Policy
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Parse
+        # ---------------------------------------------
 
         policy = self.parser.parse(filepath)
 
-        # -------------------------------------------------
-        # Build Semantic Chunks
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Chunking
+        # ---------------------------------------------
 
         chunks = self.chunk_builder.build(policy)
 
-        # -------------------------------------------------
-        # Generate Fingerprint
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Fingerprint
+        # ---------------------------------------------
 
         fingerprint = self.fingerprint.generate(
-
             filepath=filepath,
-
             department=policy.department,
-
             category=policy.category,
-
-            policy_id=policy.policy_id
-
+            policy_id=policy.policy_id,
         )
 
-        # -------------------------------------------------
-        # Repository Similarity
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Repository
+        # ---------------------------------------------
 
-        repository = self.repository.compare_embedding(
-
-            fingerprint["embedding"]
-
+        repository = self.repository.check(
+            fingerprint
         )
 
-        # -------------------------------------------------
-        # Knowledge Manipulation Analysis
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Attack Analysis
+        # ---------------------------------------------
 
         attack = self.attack.analyze(
-
-            "\n".join(policy.policy_statements)
-
+            document_text
         )
 
-        # -------------------------------------------------
-        # Sensitive Data Detection
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Sensitive Data
+        # ---------------------------------------------
+
 
         sensitive = self.sensitive.analyze(
-
-            "\n".join(policy.policy_statements)
-
+            document_text
         )
 
-        # -------------------------------------------------
-        # Admission Trust
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Trust
+        # ---------------------------------------------
 
         trust = self.trust_engine.compute(
-
-            repository_similarity=repository.similarity,
-
-            attack_confidence=attack.confidence,
-
-            sensitive_risk=sensitive.risk_score
-
+            repository,
+            attack,
+            sensitive,
         )
 
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Final Decision
+        # ---------------------------------------------
+
+        final_decision = trust.decision
+
+        # ---------------------------------------------
         # Recommendation
-        # -------------------------------------------------
+        # ---------------------------------------------
 
-        if trust.decision == "ACCEPT":
+        recommendation_map = {
 
-            recommendation = (
-                "Store in Trusted Repository"
-            )
+            "ACCEPT": "Store in Trusted Repository",
 
-        elif trust.decision == "REVIEW":
+            "REVIEW": "Manual Security Review Required",
 
-            recommendation = (
-                "Manual Security Review Required"
-            )
+            "REJECT": "Reject Upload",
 
-        else:
+        }
 
-            recommendation = (
-                "Reject Upload"
-            )
+        recommendation = recommendation_map[
+            final_decision
+        ]
 
-        # -------------------------------------------------
+        # ---------------------------------------------
         # Warnings
-        # -------------------------------------------------
+        # ---------------------------------------------
 
         warnings = []
 
         if repository.duplicate:
 
             warnings.append(
-
-                f"Repository similarity detected "
-                f"({repository.similarity:.2%})."
-
+                f"Repository similarity detected ({repository.similarity:.2%})."
             )
 
         if attack.is_attack:
 
             warnings.append(
-
-                f"Knowledge manipulation detected "
-                f"({attack.attack_id})."
-
+                f"Knowledge manipulation detected ({attack.attack_id})."
             )
 
         if sensitive.total_findings > 0:
 
             warnings.append(
-
-                f"{sensitive.total_findings} sensitive "
-                f"information finding(s) detected."
-
+                f"{sensitive.total_findings} sensitive information finding(s) detected."
             )
 
-        # -------------------------------------------------
-        # Final Report
-        # -------------------------------------------------
+        # ---------------------------------------------
+        # Report
+        # ---------------------------------------------
 
         return AdmissionReport(
 
@@ -203,18 +178,16 @@ class UploadManager:
 
             attack_confidence=attack.confidence,
 
-            sensitive_data_detected=(
-                sensitive.total_findings > 0
-            ),
+            sensitive_data_detected=sensitive.total_findings > 0,
 
             sensitive_data_score=sensitive.risk_score,
 
             trust_score=trust.trust_score,
 
-            decision=trust.decision,
+            decision=final_decision,
 
             recommendation=recommendation,
 
-            warnings=warnings
+            warnings=warnings,
 
         )

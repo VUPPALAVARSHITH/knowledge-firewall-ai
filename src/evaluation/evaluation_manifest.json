@@ -1,0 +1,3738 @@
+{
+    "seed": 42,
+    "metadata": {
+        "total_policies": 925,
+        "clean": 905,
+        "poisoned": 10,
+        "sensitive": 5,
+        "near_duplicates": 5
+    },
+    "clean": [
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Performance_Management\\HR-PRF-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Benefits\\HR-BEN-011.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-012.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Visitor_Management\\ADM-VIS-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Classification\\CS-DCL-022.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Remote_Access\\IT-VPN-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Expense_Management\\FIN-EXP-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-023.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-002.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Disaster_Recovery\\OPS-DR-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Procurement\\FIN-PRC-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-020.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Remote_Work\\OPS-RMT-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Cloud_Security\\CS-CLD-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Vendor_Management\\LEG-VEN-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Asset_Management\\ADM-AST-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Research\\Research_Data_Protection\\RES-DAT-013.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-019.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-016.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Data_Privacy\\LEG-PRI-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-025.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-003.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-017.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Recruitment\\HR-REC-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-014.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-024.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-021.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-006.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Human_Resources\\Employee_Conduct\\HR-CON-008.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Communication\\CSP-COM-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Email_Security\\IT-EML-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-009.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-005.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\AI_Governance\\CS-AIG-018.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-004.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Cyber_Security\\Threat_Intelligence\\CS-THR-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-007.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-010.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-001.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Customer_Support\\Customer_Data_Handling\\CSP-DAT-015.txt",
+            "expected": "ACCEPT"
+        },
+        {
+            "file": "Information_Technology\\Software_Installation\\IT-SFT-005.txt",
+            "expected": "ACCEPT"
+        }
+    ],
+    "poisoned": [
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-004.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Human_Resources\\Leave_Management\\HR-LVE-007.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Information_Technology\\Access_Control\\IT-ACC-003.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Legal\\Compliance\\LEG-CMP-011.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-003.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Operations\\Business_Continuity\\OPS-BCP-018.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Finance\\Financial_Reporting\\FIN-REP-021.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Cyber_Security\\Incident_Response\\CS-INC-017.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Cyber_Security\\Data_Retention\\CS-RET-022.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-015.txt",
+            "mode": "poisoned",
+            "expected": "REJECT"
+        }
+    ],
+    "sensitive": [
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-002.txt",
+            "mode": "sensitive",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Legal\\Intellectual_Property\\LEG-IP-001.txt",
+            "mode": "sensitive",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-005.txt",
+            "mode": "sensitive",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Finance\\Budget_Planning\\FIN-BUD-013.txt",
+            "mode": "sensitive",
+            "expected": "REJECT"
+        },
+        {
+            "file": "Information_Technology\\Password_Management\\IT-PWD-021.txt",
+            "mode": "sensitive",
+            "expected": "REJECT"
+        }
+    ],
+    "near_duplicates": [
+        {
+            "file": "Legal\\Contract_Management\\LEG-CON-014.txt",
+            "mode": "near_duplicate",
+            "expected": "REVIEW"
+        },
+        {
+            "file": "Finance\\Payroll\\FIN-PAY-001.txt",
+            "mode": "near_duplicate",
+            "expected": "REVIEW"
+        },
+        {
+            "file": "Administration\\Physical_Security\\ADM-PSC-025.txt",
+            "mode": "near_duplicate",
+            "expected": "REVIEW"
+        },
+        {
+            "file": "Operations\\Change_Management\\OPS-CHG-009.txt",
+            "mode": "near_duplicate",
+            "expected": "REVIEW"
+        },
+        {
+            "file": "Information_Technology\\Identity_Authentication\\IT-IDA-005.txt",
+            "mode": "near_duplicate",
+            "expected": "REVIEW"
+        }
+    ]
+}

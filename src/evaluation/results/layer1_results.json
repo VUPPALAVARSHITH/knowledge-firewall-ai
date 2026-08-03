@@ -1,0 +1,648 @@
+{
+    "evaluation_layer": 1,
+    "generated_at": "2026-08-02T19:41:05.366796",
+    "experiments": {
+        "attack_detection": {
+            "experiment": "attack_detection",
+            "metrics": {
+                "tp": 8,
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "false_positive_rate": 0.0,
+                "false_negative_rate": 0.0
+            },
+            "results": [
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-001",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "All confidential information must be protected.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-002",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "All security events must be logged.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-003",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Employees must use approved remote access.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-004",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Critical information must be encrypted.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-005",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Security incidents must be reported immediately.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-006",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Software must be tested before deployment.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-007",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Access requires multi-factor authentication.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-CLEAN-008",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Audit records must be retained.",
+                        "attack_id": null,
+                        "severity": "None",
+                        "confidence": 0.0,
+                        "matched_text": ""
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Encryption is optional.",
+                        "attack_id": "ATT-0011",
+                        "severity": "Critical",
+                        "confidence": 0.98,
+                        "matched_text": "encryption is optional"
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-002",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Plaintext storage is acceptable.",
+                        "attack_id": "ATT-0012",
+                        "severity": "Critical",
+                        "confidence": 0.98,
+                        "matched_text": "plaintext storage is acceptable"
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-003",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "MFA is optional.",
+                        "attack_id": "ATT-0008",
+                        "severity": "Critical",
+                        "confidence": 0.98,
+                        "matched_text": "MFA is optional"
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-004",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Logging is optional.",
+                        "attack_id": "ATT-0026",
+                        "severity": "High",
+                        "confidence": 0.95,
+                        "matched_text": "logging is optional"
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-005",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Backups are optional.",
+                        "attack_id": "ATT-0511",
+                        "severity": "High",
+                        "confidence": 0.95,
+                        "matched_text": "backups are optional"
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-006",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Testing before deployment is optional.",
+                        "attack_id": "ATT-0496",
+                        "severity": "Critical",
+                        "confidence": 0.98,
+                        "matched_text": "testing before deployment is optional"
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-007",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Security incident reporting is optional.",
+                        "attack_id": "ATT-0481",
+                        "severity": "Critical",
+                        "confidence": 0.98,
+                        "matched_text": "security incident reporting is optional"
+                    }
+                },
+                {
+                    "experiment": "attack_detection",
+                    "case_id": "ATT-POISON-008",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Secure disposal is optional.",
+                        "attack_id": "ATT-0261",
+                        "severity": "High",
+                        "confidence": 0.95,
+                        "matched_text": "secure disposal is optional"
+                    }
+                }
+            ]
+        },
+        "sensitive_detection": {
+            "experiment": "sensitive_detection",
+            "metrics": {
+                "tp": 9,
+                "tn": 6,
+                "fp": 0,
+                "fn": 0,
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "false_positive_rate": 0.0,
+                "false_negative_rate": 0.0
+            },
+            "results": [
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-CLEAN-001",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Employees must follow the corporate security policy.",
+                        "total_findings": 0,
+                        "risk_score": 0.0,
+                        "recommendation": "Accept"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-CLEAN-002",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Passwords must be changed according to company policy.",
+                        "total_findings": 0,
+                        "risk_score": 0.0,
+                        "recommendation": "Accept"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-CLEAN-003",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "The system supports version 12 of the application.",
+                        "total_findings": 0,
+                        "risk_score": 0.0,
+                        "recommendation": "Accept"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-CLEAN-004",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Network access must follow approved procedures.",
+                        "total_findings": 0,
+                        "risk_score": 0.0,
+                        "recommendation": "Accept"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-CLEAN-005",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "Customer records must remain confidential.",
+                        "total_findings": 0,
+                        "risk_score": 0.0,
+                        "recommendation": "Accept"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-CLEAN-006",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "text": "The security team performs annual reviews.",
+                        "total_findings": 0,
+                        "risk_score": 0.0,
+                        "recommendation": "Accept"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-EMAIL-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Contact admin@example.com for access.",
+                        "total_findings": 1,
+                        "risk_score": 0.1,
+                        "recommendation": "Manual Review"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-IP-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Internal server address is 192.168.10.25.",
+                        "total_findings": 1,
+                        "risk_score": 0.1,
+                        "recommendation": "Manual Review"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-AWS-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "AWS key: AKIAIOSFODNN7EXAMPLE",
+                        "total_findings": 1,
+                        "risk_score": 0.5,
+                        "recommendation": "Reject Upload"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-BEARER-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Authorization: Bearer abc123XYZ",
+                        "total_findings": 1,
+                        "risk_score": 0.6,
+                        "recommendation": "Reject Upload"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-SSN-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Employee SSN: 123-45-6789",
+                        "total_findings": 1,
+                        "risk_score": 0.5,
+                        "recommendation": "Reject Upload"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-PASSWORD-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Password = Admin@123",
+                        "total_findings": 1,
+                        "risk_score": 0.6,
+                        "recommendation": "Reject Upload"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-CARD-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Credit Card: 4111 1111 1111 1111",
+                        "total_findings": 1,
+                        "risk_score": 0.6,
+                        "recommendation": "Reject Upload"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-KEY-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "-----BEGIN PRIVATE KEY-----",
+                        "total_findings": 1,
+                        "risk_score": 0.8,
+                        "recommendation": "Reject Upload"
+                    }
+                },
+                {
+                    "experiment": "sensitive_detection",
+                    "case_id": "SEN-URL-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "text": "Internal documentation: https://internal.example.com/admin",
+                        "total_findings": 1,
+                        "risk_score": 0.05,
+                        "recommendation": "Manual Review"
+                    }
+                }
+            ]
+        },
+        "similarity": {
+            "experiment": "similarity",
+            "metrics": {
+                "tp": 4,
+                "tn": 3,
+                "fp": 0,
+                "fn": 0,
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "false_positive_rate": 0.0,
+                "false_negative_rate": 0.0
+            },
+            "results": [
+                {
+                    "experiment": "similarity",
+                    "case_id": "SIM-EXACT-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "similarity": 1.0,
+                        "threshold": 0.9
+                    }
+                },
+                {
+                    "experiment": "similarity",
+                    "case_id": "SIM-EXACT-002",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "similarity": 1.0,
+                        "threshold": 0.9
+                    }
+                },
+                {
+                    "experiment": "similarity",
+                    "case_id": "SIM-NEAR-001",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "similarity": 0.9949,
+                        "threshold": 0.9
+                    }
+                },
+                {
+                    "experiment": "similarity",
+                    "case_id": "SIM-NEAR-002",
+                    "expected": true,
+                    "predicted": true,
+                    "correct": true,
+                    "details": {
+                        "similarity": 0.9949,
+                        "threshold": 0.9
+                    }
+                },
+                {
+                    "experiment": "similarity",
+                    "case_id": "SIM-DIFF-001",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "similarity": 0.0,
+                        "threshold": 0.9
+                    }
+                },
+                {
+                    "experiment": "similarity",
+                    "case_id": "SIM-DIFF-002",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "similarity": 0.0,
+                        "threshold": 0.9
+                    }
+                },
+                {
+                    "experiment": "similarity",
+                    "case_id": "SIM-DIFF-003",
+                    "expected": false,
+                    "predicted": false,
+                    "correct": true,
+                    "details": {
+                        "similarity": -1.0,
+                        "threshold": 0.9
+                    }
+                }
+            ]
+        },
+        "admission_decision": {
+            "experiment": "admission_decision",
+            "metrics": {
+                "total": 7,
+                "correct": 6,
+                "incorrect": 1,
+                "accuracy": 0.8571428571428571
+            },
+            "results": [
+                {
+                    "case_id": "ADM-CLEAN-001",
+                    "expected": "ACCEPT",
+                    "predicted": "ACCEPT",
+                    "correct": true,
+                    "trust_score": 100.0,
+                    "details": {
+                        "repository_score": 100.0,
+                        "attack_score": 100.0,
+                        "sensitive_score": 100.0
+                    }
+                },
+                {
+                    "case_id": "ADM-CLEAN-002",
+                    "expected": "ACCEPT",
+                    "predicted": "ACCEPT",
+                    "correct": true,
+                    "trust_score": 100.0,
+                    "details": {
+                        "repository_score": 100.0,
+                        "attack_score": 100.0,
+                        "sensitive_score": 100.0
+                    }
+                },
+                {
+                    "case_id": "ADM-SIMILAR-001",
+                    "expected": "REVIEW",
+                    "predicted": "ACCEPT",
+                    "correct": false,
+                    "trust_score": 100.0,
+                    "details": {
+                        "repository_score": 100.0,
+                        "attack_score": 100.0,
+                        "sensitive_score": 100.0
+                    }
+                },
+                {
+                    "case_id": "ADM-DUP-001",
+                    "expected": "REJECT",
+                    "predicted": "REJECT",
+                    "correct": true,
+                    "trust_score": 60.0,
+                    "details": {
+                        "repository_score": 0.0,
+                        "attack_score": 100.0,
+                        "sensitive_score": 100.0
+                    }
+                },
+                {
+                    "case_id": "ADM-ATTACK-001",
+                    "expected": "REJECT",
+                    "predicted": "REJECT",
+                    "correct": true,
+                    "trust_score": 62.0,
+                    "details": {
+                        "repository_score": 100.0,
+                        "attack_score": 5.0,
+                        "sensitive_score": 100.0
+                    }
+                },
+                {
+                    "case_id": "ADM-SENSITIVE-001",
+                    "expected": "REVIEW",
+                    "predicted": "REVIEW",
+                    "correct": true,
+                    "trust_score": 88.0,
+                    "details": {
+                        "repository_score": 100.0,
+                        "attack_score": 100.0,
+                        "sensitive_score": 40.0
+                    }
+                },
+                {
+                    "case_id": "ADM-MULTI-RISK-001",
+                    "expected": "REJECT",
+                    "predicted": "REJECT",
+                    "correct": true,
+                    "trust_score": 60.0,
+                    "details": {
+                        "repository_score": 100.0,
+                        "attack_score": 25.0,
+                        "sensitive_score": 50.0
+                    }
+                }
+            ]
+        }
+    }
+}

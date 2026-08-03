@@ -81,6 +81,12 @@ class SensitiveDataResult:
 
     private_keys: list[str] = field(default_factory=list)
 
+    ssns: list[str] = field(default_factory=list)
+
+    credit_cards: list[str] = field(default_factory=list)
+
+    passwords: list[str] = field(default_factory=list)
+
     total_findings: int = 0
 
     risk_score: float = 0.0

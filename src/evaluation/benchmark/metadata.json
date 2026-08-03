@@ -1,0 +1,1442 @@
+[
+    {
+        "case_id": "L2-CLEAN-001",
+        "filename": "L2-CLEAN-001.txt",
+        "source_policy": "IT-SFT-005",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-002",
+        "filename": "L2-CLEAN-002.txt",
+        "source_policy": "CSP-DAT-015",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-003",
+        "filename": "L2-CLEAN-003.txt",
+        "source_policy": "ADM-PSC-001",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-004",
+        "filename": "L2-CLEAN-004.txt",
+        "source_policy": "LEG-IP-010",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-005",
+        "filename": "L2-CLEAN-005.txt",
+        "source_policy": "FIN-BUD-007",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-006",
+        "filename": "L2-CLEAN-006.txt",
+        "source_policy": "CS-THR-001",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-007",
+        "filename": "L2-CLEAN-007.txt",
+        "source_policy": "CS-INC-004",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-008",
+        "filename": "L2-CLEAN-008.txt",
+        "source_policy": "CS-AIG-018",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-009",
+        "filename": "L2-CLEAN-009.txt",
+        "source_policy": "LEG-IP-005",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-010",
+        "filename": "L2-CLEAN-010.txt",
+        "source_policy": "CSP-DAT-005",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-011",
+        "filename": "L2-CLEAN-011.txt",
+        "source_policy": "LEG-CMP-018",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-012",
+        "filename": "L2-CLEAN-012.txt",
+        "source_policy": "LEG-IP-009",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-013",
+        "filename": "L2-CLEAN-013.txt",
+        "source_policy": "RES-DAT-014",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-014",
+        "filename": "L2-CLEAN-014.txt",
+        "source_policy": "IT-EML-009",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-015",
+        "filename": "L2-CLEAN-015.txt",
+        "source_policy": "CSP-COM-015",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-016",
+        "filename": "L2-CLEAN-016.txt",
+        "source_policy": "IT-PWD-005",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-017",
+        "filename": "L2-CLEAN-017.txt",
+        "source_policy": "HR-CON-008",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-018",
+        "filename": "L2-CLEAN-018.txt",
+        "source_policy": "ADM-PSC-008",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-019",
+        "filename": "L2-CLEAN-019.txt",
+        "source_policy": "ADM-PSC-006",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-020",
+        "filename": "L2-CLEAN-020.txt",
+        "source_policy": "CSP-COM-021",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-021",
+        "filename": "L2-CLEAN-021.txt",
+        "source_policy": "CS-RET-024",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-022",
+        "filename": "L2-CLEAN-022.txt",
+        "source_policy": "CS-INC-014",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-023",
+        "filename": "L2-CLEAN-023.txt",
+        "source_policy": "HR-REC-018",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-024",
+        "filename": "L2-CLEAN-024.txt",
+        "source_policy": "IT-PWD-017",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-025",
+        "filename": "L2-CLEAN-025.txt",
+        "source_policy": "ADM-PSC-003",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-026",
+        "filename": "L2-CLEAN-026.txt",
+        "source_policy": "IT-EML-025",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-027",
+        "filename": "L2-CLEAN-027.txt",
+        "source_policy": "CS-RET-004",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-028",
+        "filename": "L2-CLEAN-028.txt",
+        "source_policy": "LEG-PRI-009",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-029",
+        "filename": "L2-CLEAN-029.txt",
+        "source_policy": "IT-SFT-016",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-030",
+        "filename": "L2-CLEAN-030.txt",
+        "source_policy": "LEG-CON-019",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-031",
+        "filename": "L2-CLEAN-031.txt",
+        "source_policy": "HR-CON-005",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-032",
+        "filename": "L2-CLEAN-032.txt",
+        "source_policy": "CS-INC-001",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-033",
+        "filename": "L2-CLEAN-033.txt",
+        "source_policy": "HR-LVE-010",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-034",
+        "filename": "L2-CLEAN-034.txt",
+        "source_policy": "IT-PWD-004",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-035",
+        "filename": "L2-CLEAN-035.txt",
+        "source_policy": "FIN-BUD-010",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-036",
+        "filename": "L2-CLEAN-036.txt",
+        "source_policy": "OPS-CHG-004",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-037",
+        "filename": "L2-CLEAN-037.txt",
+        "source_policy": "OPS-RMT-016",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-038",
+        "filename": "L2-CLEAN-038.txt",
+        "source_policy": "ADM-AST-007",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-039",
+        "filename": "L2-CLEAN-039.txt",
+        "source_policy": "LEG-VEN-003",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-CLEAN-040",
+        "filename": "L2-CLEAN-040.txt",
+        "source_policy": "OPS-CHG-001",
+        "category": "clean"
+    },
+    {
+        "case_id": "L2-DUP-001",
+        "filename": "L2-DUP-001.txt",
+        "source_policy": "CS-CLD-014",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-002",
+        "filename": "L2-DUP-002.txt",
+        "source_policy": "LEG-CON-015",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-003",
+        "filename": "L2-DUP-003.txt",
+        "source_policy": "HR-CON-008",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-004",
+        "filename": "L2-DUP-004.txt",
+        "source_policy": "FIN-REP-024",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-005",
+        "filename": "L2-DUP-005.txt",
+        "source_policy": "FIN-BUD-010",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-006",
+        "filename": "L2-DUP-006.txt",
+        "source_policy": "CS-CLD-010",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-007",
+        "filename": "L2-DUP-007.txt",
+        "source_policy": "CS-RET-021",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-008",
+        "filename": "L2-DUP-008.txt",
+        "source_policy": "LEG-VEN-007",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-009",
+        "filename": "L2-DUP-009.txt",
+        "source_policy": "FIN-REP-020",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-010",
+        "filename": "L2-DUP-010.txt",
+        "source_policy": "CSP-DAT-005",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-011",
+        "filename": "L2-DUP-011.txt",
+        "source_policy": "CSP-COM-020",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-012",
+        "filename": "L2-DUP-012.txt",
+        "source_policy": "FIN-PRC-015",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-013",
+        "filename": "L2-DUP-013.txt",
+        "source_policy": "CSP-COM-025",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-014",
+        "filename": "L2-DUP-014.txt",
+        "source_policy": "FIN-PAY-018",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-015",
+        "filename": "L2-DUP-015.txt",
+        "source_policy": "OPS-DR-018",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-016",
+        "filename": "L2-DUP-016.txt",
+        "source_policy": "FIN-PAY-003",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-017",
+        "filename": "L2-DUP-017.txt",
+        "source_policy": "IT-PWD-019",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-018",
+        "filename": "L2-DUP-018.txt",
+        "source_policy": "CS-THR-021",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-019",
+        "filename": "L2-DUP-019.txt",
+        "source_policy": "OPS-CHG-002",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-020",
+        "filename": "L2-DUP-020.txt",
+        "source_policy": "ADM-PSC-020",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-021",
+        "filename": "L2-DUP-021.txt",
+        "source_policy": "LEG-PRI-023",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-022",
+        "filename": "L2-DUP-022.txt",
+        "source_policy": "HR-LVE-021",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-023",
+        "filename": "L2-DUP-023.txt",
+        "source_policy": "IT-ACC-025",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-024",
+        "filename": "L2-DUP-024.txt",
+        "source_policy": "CS-AIG-003",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-025",
+        "filename": "L2-DUP-025.txt",
+        "source_policy": "FIN-PRC-013",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-026",
+        "filename": "L2-DUP-026.txt",
+        "source_policy": "CSP-COM-006",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-027",
+        "filename": "L2-DUP-027.txt",
+        "source_policy": "IT-EML-016",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-028",
+        "filename": "L2-DUP-028.txt",
+        "source_policy": "FIN-EXP-001",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-029",
+        "filename": "L2-DUP-029.txt",
+        "source_policy": "OPS-CHG-025",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-030",
+        "filename": "L2-DUP-030.txt",
+        "source_policy": "IT-VPN-019",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-031",
+        "filename": "L2-DUP-031.txt",
+        "source_policy": "IT-VPN-009",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-032",
+        "filename": "L2-DUP-032.txt",
+        "source_policy": "RES-DAT-007",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-033",
+        "filename": "L2-DUP-033.txt",
+        "source_policy": "OPS-RMT-008",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-034",
+        "filename": "L2-DUP-034.txt",
+        "source_policy": "FIN-PAY-021",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-035",
+        "filename": "L2-DUP-035.txt",
+        "source_policy": "IT-IDA-017",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-036",
+        "filename": "L2-DUP-036.txt",
+        "source_policy": "CS-DCL-022",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-037",
+        "filename": "L2-DUP-037.txt",
+        "source_policy": "LEG-CON-022",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-038",
+        "filename": "L2-DUP-038.txt",
+        "source_policy": "ADM-VIS-022",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-039",
+        "filename": "L2-DUP-039.txt",
+        "source_policy": "ADM-PSC-022",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-DUP-040",
+        "filename": "L2-DUP-040.txt",
+        "source_policy": "LEG-CMP-003",
+        "category": "duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-001",
+        "filename": "L2-NEAR-001.txt",
+        "source_policy": "CS-INC-009",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-002",
+        "filename": "L2-NEAR-002.txt",
+        "source_policy": "LEG-VEN-017",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-003",
+        "filename": "L2-NEAR-003.txt",
+        "source_policy": "FIN-BUD-022",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-004",
+        "filename": "L2-NEAR-004.txt",
+        "source_policy": "CSP-COM-007",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-005",
+        "filename": "L2-NEAR-005.txt",
+        "source_policy": "OPS-RMT-001",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-006",
+        "filename": "L2-NEAR-006.txt",
+        "source_policy": "CS-INC-014",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-007",
+        "filename": "L2-NEAR-007.txt",
+        "source_policy": "OPS-RMT-013",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-008",
+        "filename": "L2-NEAR-008.txt",
+        "source_policy": "CSP-DAT-004",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-009",
+        "filename": "L2-NEAR-009.txt",
+        "source_policy": "FIN-PRC-015",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-010",
+        "filename": "L2-NEAR-010.txt",
+        "source_policy": "FIN-BUD-010",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-011",
+        "filename": "L2-NEAR-011.txt",
+        "source_policy": "HR-LVE-015",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-012",
+        "filename": "L2-NEAR-012.txt",
+        "source_policy": "IT-SFT-001",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-013",
+        "filename": "L2-NEAR-013.txt",
+        "source_policy": "OPS-DR-005",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-014",
+        "filename": "L2-NEAR-014.txt",
+        "source_policy": "FIN-PAY-024",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-015",
+        "filename": "L2-NEAR-015.txt",
+        "source_policy": "CS-CLD-017",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-016",
+        "filename": "L2-NEAR-016.txt",
+        "source_policy": "FIN-PRC-005",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-017",
+        "filename": "L2-NEAR-017.txt",
+        "source_policy": "FIN-PAY-014",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-018",
+        "filename": "L2-NEAR-018.txt",
+        "source_policy": "CS-RET-015",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-019",
+        "filename": "L2-NEAR-019.txt",
+        "source_policy": "LEG-CMP-012",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-020",
+        "filename": "L2-NEAR-020.txt",
+        "source_policy": "CS-THR-024",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-021",
+        "filename": "L2-NEAR-021.txt",
+        "source_policy": "LEG-CON-019",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-022",
+        "filename": "L2-NEAR-022.txt",
+        "source_policy": "LEG-CMP-025",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-023",
+        "filename": "L2-NEAR-023.txt",
+        "source_policy": "IT-SFT-014",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-024",
+        "filename": "L2-NEAR-024.txt",
+        "source_policy": "ADM-VIS-024",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-025",
+        "filename": "L2-NEAR-025.txt",
+        "source_policy": "IT-PWD-024",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-026",
+        "filename": "L2-NEAR-026.txt",
+        "source_policy": "CS-DCL-001",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-027",
+        "filename": "L2-NEAR-027.txt",
+        "source_policy": "IT-ACC-022",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-028",
+        "filename": "L2-NEAR-028.txt",
+        "source_policy": "LEG-PRI-022",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-029",
+        "filename": "L2-NEAR-029.txt",
+        "source_policy": "CS-THR-001",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-030",
+        "filename": "L2-NEAR-030.txt",
+        "source_policy": "CS-CLD-018",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-031",
+        "filename": "L2-NEAR-031.txt",
+        "source_policy": "HR-LVE-024",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-032",
+        "filename": "L2-NEAR-032.txt",
+        "source_policy": "FIN-PRC-014",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-033",
+        "filename": "L2-NEAR-033.txt",
+        "source_policy": "FIN-BUD-002",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-034",
+        "filename": "L2-NEAR-034.txt",
+        "source_policy": "IT-SFT-006",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-035",
+        "filename": "L2-NEAR-035.txt",
+        "source_policy": "LEG-CON-005",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-036",
+        "filename": "L2-NEAR-036.txt",
+        "source_policy": "IT-EML-021",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-037",
+        "filename": "L2-NEAR-037.txt",
+        "source_policy": "CS-RET-025",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-038",
+        "filename": "L2-NEAR-038.txt",
+        "source_policy": "LEG-CON-002",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-039",
+        "filename": "L2-NEAR-039.txt",
+        "source_policy": "FIN-REP-008",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-NEAR-040",
+        "filename": "L2-NEAR-040.txt",
+        "source_policy": "OPS-DR-014",
+        "category": "near_duplicate"
+    },
+    {
+        "case_id": "L2-POISON-001",
+        "filename": "L2-POISON-001.txt",
+        "source_policy": "FIN-EXP-017",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-002",
+        "filename": "L2-POISON-002.txt",
+        "source_policy": "IT-SFT-004",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-003",
+        "filename": "L2-POISON-003.txt",
+        "source_policy": "LEG-CON-023",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-004",
+        "filename": "L2-POISON-004.txt",
+        "source_policy": "OPS-BCP-007",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-005",
+        "filename": "L2-POISON-005.txt",
+        "source_policy": "OPS-BCP-004",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-006",
+        "filename": "L2-POISON-006.txt",
+        "source_policy": "OPS-DR-014",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-007",
+        "filename": "L2-POISON-007.txt",
+        "source_policy": "OPS-DR-011",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-008",
+        "filename": "L2-POISON-008.txt",
+        "source_policy": "FIN-PRC-001",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-009",
+        "filename": "L2-POISON-009.txt",
+        "source_policy": "IT-PWD-001",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-010",
+        "filename": "L2-POISON-010.txt",
+        "source_policy": "LEG-IP-016",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-011",
+        "filename": "L2-POISON-011.txt",
+        "source_policy": "ADM-AST-006",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-012",
+        "filename": "L2-POISON-012.txt",
+        "source_policy": "HR-LVE-018",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-013",
+        "filename": "L2-POISON-013.txt",
+        "source_policy": "HR-LVE-007",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-014",
+        "filename": "L2-POISON-014.txt",
+        "source_policy": "IT-PWD-002",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-015",
+        "filename": "L2-POISON-015.txt",
+        "source_policy": "HR-PRF-019",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-016",
+        "filename": "L2-POISON-016.txt",
+        "source_policy": "IT-IDA-007",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-017",
+        "filename": "L2-POISON-017.txt",
+        "source_policy": "FIN-PAY-006",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-018",
+        "filename": "L2-POISON-018.txt",
+        "source_policy": "LEG-CON-002",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-019",
+        "filename": "L2-POISON-019.txt",
+        "source_policy": "LEG-CMP-025",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-020",
+        "filename": "L2-POISON-020.txt",
+        "source_policy": "LEG-CMP-019",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-021",
+        "filename": "L2-POISON-021.txt",
+        "source_policy": "IT-PWD-020",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-022",
+        "filename": "L2-POISON-022.txt",
+        "source_policy": "ADM-VIS-001",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-023",
+        "filename": "L2-POISON-023.txt",
+        "source_policy": "IT-PWD-016",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-024",
+        "filename": "L2-POISON-024.txt",
+        "source_policy": "LEG-VEN-017",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-025",
+        "filename": "L2-POISON-025.txt",
+        "source_policy": "IT-EML-021",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-026",
+        "filename": "L2-POISON-026.txt",
+        "source_policy": "FIN-BUD-007",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-027",
+        "filename": "L2-POISON-027.txt",
+        "source_policy": "OPS-RMT-018",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-028",
+        "filename": "L2-POISON-028.txt",
+        "source_policy": "CS-THR-015",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-029",
+        "filename": "L2-POISON-029.txt",
+        "source_policy": "OPS-DR-019",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-030",
+        "filename": "L2-POISON-030.txt",
+        "source_policy": "OPS-CHG-011",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-031",
+        "filename": "L2-POISON-031.txt",
+        "source_policy": "CS-AIG-014",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-032",
+        "filename": "L2-POISON-032.txt",
+        "source_policy": "OPS-BCP-005",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-033",
+        "filename": "L2-POISON-033.txt",
+        "source_policy": "CS-THR-023",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-034",
+        "filename": "L2-POISON-034.txt",
+        "source_policy": "FIN-PAY-012",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-035",
+        "filename": "L2-POISON-035.txt",
+        "source_policy": "CSP-DAT-014",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-036",
+        "filename": "L2-POISON-036.txt",
+        "source_policy": "FIN-REP-003",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-037",
+        "filename": "L2-POISON-037.txt",
+        "source_policy": "LEG-PRI-010",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-038",
+        "filename": "L2-POISON-038.txt",
+        "source_policy": "LEG-VEN-025",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-039",
+        "filename": "L2-POISON-039.txt",
+        "source_policy": "ADM-PSC-010",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-POISON-040",
+        "filename": "L2-POISON-040.txt",
+        "source_policy": "LEG-VEN-024",
+        "category": "poisoned"
+    },
+    {
+        "case_id": "L2-SENSITIVE-001",
+        "filename": "L2-SENSITIVE-001.txt",
+        "source_policy": "RES-DAT-016",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-002",
+        "filename": "L2-SENSITIVE-002.txt",
+        "source_policy": "LEG-PRI-009",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-003",
+        "filename": "L2-SENSITIVE-003.txt",
+        "source_policy": "LEG-IP-002",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-004",
+        "filename": "L2-SENSITIVE-004.txt",
+        "source_policy": "IT-PWD-020",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-005",
+        "filename": "L2-SENSITIVE-005.txt",
+        "source_policy": "ADM-AST-004",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-006",
+        "filename": "L2-SENSITIVE-006.txt",
+        "source_policy": "IT-EML-023",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-007",
+        "filename": "L2-SENSITIVE-007.txt",
+        "source_policy": "OPS-DR-018",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-008",
+        "filename": "L2-SENSITIVE-008.txt",
+        "source_policy": "FIN-EXP-025",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-009",
+        "filename": "L2-SENSITIVE-009.txt",
+        "source_policy": "CS-INC-013",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-010",
+        "filename": "L2-SENSITIVE-010.txt",
+        "source_policy": "OPS-BCP-009",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-011",
+        "filename": "L2-SENSITIVE-011.txt",
+        "source_policy": "CS-AIG-022",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-012",
+        "filename": "L2-SENSITIVE-012.txt",
+        "source_policy": "CS-CLD-021",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-013",
+        "filename": "L2-SENSITIVE-013.txt",
+        "source_policy": "LEG-CON-003",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-014",
+        "filename": "L2-SENSITIVE-014.txt",
+        "source_policy": "CS-AIG-013",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-015",
+        "filename": "L2-SENSITIVE-015.txt",
+        "source_policy": "HR-REC-017",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-016",
+        "filename": "L2-SENSITIVE-016.txt",
+        "source_policy": "HR-BEN-008",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-017",
+        "filename": "L2-SENSITIVE-017.txt",
+        "source_policy": "IT-VPN-005",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-018",
+        "filename": "L2-SENSITIVE-018.txt",
+        "source_policy": "OPS-RMT-014",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-019",
+        "filename": "L2-SENSITIVE-019.txt",
+        "source_policy": "CS-CLD-004",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-020",
+        "filename": "L2-SENSITIVE-020.txt",
+        "source_policy": "OPS-RMT-024",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-021",
+        "filename": "L2-SENSITIVE-021.txt",
+        "source_policy": "LEG-CMP-008",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-022",
+        "filename": "L2-SENSITIVE-022.txt",
+        "source_policy": "CS-RET-022",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-023",
+        "filename": "L2-SENSITIVE-023.txt",
+        "source_policy": "HR-LVE-015",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-024",
+        "filename": "L2-SENSITIVE-024.txt",
+        "source_policy": "HR-PRF-003",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-025",
+        "filename": "L2-SENSITIVE-025.txt",
+        "source_policy": "CS-THR-015",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-026",
+        "filename": "L2-SENSITIVE-026.txt",
+        "source_policy": "IT-IDA-012",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-027",
+        "filename": "L2-SENSITIVE-027.txt",
+        "source_policy": "LEG-CMP-002",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-028",
+        "filename": "L2-SENSITIVE-028.txt",
+        "source_policy": "OPS-CHG-007",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-029",
+        "filename": "L2-SENSITIVE-029.txt",
+        "source_policy": "CS-CLD-005",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-030",
+        "filename": "L2-SENSITIVE-030.txt",
+        "source_policy": "OPS-DR-008",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-031",
+        "filename": "L2-SENSITIVE-031.txt",
+        "source_policy": "LEG-CMP-013",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-032",
+        "filename": "L2-SENSITIVE-032.txt",
+        "source_policy": "CSP-DAT-005",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-033",
+        "filename": "L2-SENSITIVE-033.txt",
+        "source_policy": "ADM-AST-017",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-034",
+        "filename": "L2-SENSITIVE-034.txt",
+        "source_policy": "IT-ACC-001",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-035",
+        "filename": "L2-SENSITIVE-035.txt",
+        "source_policy": "LEG-IP-017",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-036",
+        "filename": "L2-SENSITIVE-036.txt",
+        "source_policy": "OPS-BCP-014",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-037",
+        "filename": "L2-SENSITIVE-037.txt",
+        "source_policy": "CS-RET-009",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-038",
+        "filename": "L2-SENSITIVE-038.txt",
+        "source_policy": "CS-INC-017",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-039",
+        "filename": "L2-SENSITIVE-039.txt",
+        "source_policy": "CS-INC-010",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-SENSITIVE-040",
+        "filename": "L2-SENSITIVE-040.txt",
+        "source_policy": "CSP-DAT-025",
+        "category": "sensitive"
+    },
+    {
+        "case_id": "L2-COMBINED-001",
+        "filename": "L2-COMBINED-001.txt",
+        "source_policy": "ADM-AST-009",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-002",
+        "filename": "L2-COMBINED-002.txt",
+        "source_policy": "RES-DAT-015",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-003",
+        "filename": "L2-COMBINED-003.txt",
+        "source_policy": "LEG-CON-023",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-004",
+        "filename": "L2-COMBINED-004.txt",
+        "source_policy": "ADM-PSC-020",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-005",
+        "filename": "L2-COMBINED-005.txt",
+        "source_policy": "OPS-RMT-025",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-006",
+        "filename": "L2-COMBINED-006.txt",
+        "source_policy": "IT-PWD-016",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-007",
+        "filename": "L2-COMBINED-007.txt",
+        "source_policy": "OPS-BCP-009",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-008",
+        "filename": "L2-COMBINED-008.txt",
+        "source_policy": "LEG-PRI-021",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-009",
+        "filename": "L2-COMBINED-009.txt",
+        "source_policy": "ADM-PSC-021",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-010",
+        "filename": "L2-COMBINED-010.txt",
+        "source_policy": "CSP-DAT-023",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-011",
+        "filename": "L2-COMBINED-011.txt",
+        "source_policy": "OPS-RMT-011",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-012",
+        "filename": "L2-COMBINED-012.txt",
+        "source_policy": "FIN-PRC-010",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-013",
+        "filename": "L2-COMBINED-013.txt",
+        "source_policy": "OPS-RMT-014",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-014",
+        "filename": "L2-COMBINED-014.txt",
+        "source_policy": "HR-PRF-025",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-015",
+        "filename": "L2-COMBINED-015.txt",
+        "source_policy": "ADM-PSC-025",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-016",
+        "filename": "L2-COMBINED-016.txt",
+        "source_policy": "CSP-DAT-018",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-017",
+        "filename": "L2-COMBINED-017.txt",
+        "source_policy": "FIN-BUD-003",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-018",
+        "filename": "L2-COMBINED-018.txt",
+        "source_policy": "CSP-DAT-001",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-019",
+        "filename": "L2-COMBINED-019.txt",
+        "source_policy": "LEG-CMP-015",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-020",
+        "filename": "L2-COMBINED-020.txt",
+        "source_policy": "FIN-BUD-018",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-021",
+        "filename": "L2-COMBINED-021.txt",
+        "source_policy": "CS-DCL-005",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-022",
+        "filename": "L2-COMBINED-022.txt",
+        "source_policy": "CSP-COM-003",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-023",
+        "filename": "L2-COMBINED-023.txt",
+        "source_policy": "LEG-VEN-015",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-024",
+        "filename": "L2-COMBINED-024.txt",
+        "source_policy": "HR-PRF-006",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-025",
+        "filename": "L2-COMBINED-025.txt",
+        "source_policy": "IT-VPN-006",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-026",
+        "filename": "L2-COMBINED-026.txt",
+        "source_policy": "LEG-CMP-011",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-027",
+        "filename": "L2-COMBINED-027.txt",
+        "source_policy": "CS-AIG-008",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-028",
+        "filename": "L2-COMBINED-028.txt",
+        "source_policy": "HR-CON-019",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-029",
+        "filename": "L2-COMBINED-029.txt",
+        "source_policy": "CS-AIG-013",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-030",
+        "filename": "L2-COMBINED-030.txt",
+        "source_policy": "HR-PRF-013",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-031",
+        "filename": "L2-COMBINED-031.txt",
+        "source_policy": "CSP-COM-022",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-032",
+        "filename": "L2-COMBINED-032.txt",
+        "source_policy": "CS-INC-002",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-033",
+        "filename": "L2-COMBINED-033.txt",
+        "source_policy": "FIN-REP-017",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-034",
+        "filename": "L2-COMBINED-034.txt",
+        "source_policy": "IT-IDA-002",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-035",
+        "filename": "L2-COMBINED-035.txt",
+        "source_policy": "OPS-CHG-019",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-036",
+        "filename": "L2-COMBINED-036.txt",
+        "source_policy": "OPS-CHG-017",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-037",
+        "filename": "L2-COMBINED-037.txt",
+        "source_policy": "OPS-DR-002",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-038",
+        "filename": "L2-COMBINED-038.txt",
+        "source_policy": "OPS-DR-013",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-039",
+        "filename": "L2-COMBINED-039.txt",
+        "source_policy": "FIN-EXP-017",
+        "category": "combined"
+    },
+    {
+        "case_id": "L2-COMBINED-040",
+        "filename": "L2-COMBINED-040.txt",
+        "source_policy": "IT-ACC-010",
+        "category": "combined"
+    }
+]

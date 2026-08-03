@@ -1,0 +1,1442 @@
+{
+    "L2-CLEAN-001.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-002.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-003.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-004.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-005.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-006.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-007.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-008.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-009.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-010.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-011.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-012.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-013.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-014.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-015.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-016.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-017.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-018.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-019.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-020.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-021.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-022.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-023.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-024.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-025.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-026.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-027.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-028.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-029.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-030.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-031.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-032.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-033.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-034.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-035.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-036.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-037.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-038.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-039.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-CLEAN-040.txt": {
+        "decision": "ACCEPT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-001.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-002.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-003.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-004.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-005.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-006.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-007.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-008.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-009.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-010.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-011.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-012.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-013.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-014.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-015.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-016.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-017.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-018.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-019.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-020.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-021.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-022.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-023.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-024.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-025.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-026.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-027.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-028.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-029.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-030.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-031.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-032.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-033.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-034.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-035.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-036.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-037.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-038.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-039.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-DUP-040.txt": {
+        "decision": "REJECT",
+        "duplicate": true,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-001.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-002.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-003.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-004.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-005.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-006.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-007.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-008.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-009.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-010.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-011.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-012.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-013.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-014.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-015.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-016.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-017.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-018.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-019.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-020.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-021.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-022.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-023.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-024.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-025.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-026.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-027.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-028.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-029.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-030.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-031.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-032.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-033.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-034.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-035.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-036.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-037.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-038.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-039.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-NEAR-040.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": false
+    },
+    "L2-POISON-001.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-002.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-003.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-004.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-005.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-006.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-007.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-008.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-009.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-010.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-011.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-012.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-013.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-014.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-015.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-016.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-017.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-018.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-019.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-020.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-021.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-022.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-023.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-024.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-025.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-026.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-027.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-028.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-029.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-030.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-031.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-032.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-033.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-034.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-035.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-036.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-037.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-038.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-039.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-POISON-040.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": false
+    },
+    "L2-SENSITIVE-001.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-002.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-003.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-004.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-005.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-006.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-007.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-008.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-009.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-010.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-011.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-012.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-013.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-014.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-015.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-016.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-017.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-018.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-019.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-020.txt": {
+        "decision": "REVIEW",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-021.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-022.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-023.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-024.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-025.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-026.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-027.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-028.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-029.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-030.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-031.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-032.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-033.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-034.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-035.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-036.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-037.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-038.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-039.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-SENSITIVE-040.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": false,
+        "sensitive": true
+    },
+    "L2-COMBINED-001.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-002.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-003.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-004.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-005.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-006.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-007.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-008.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-009.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-010.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-011.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-012.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-013.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-014.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-015.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-016.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-017.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-018.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-019.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-020.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-021.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-022.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-023.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-024.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-025.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-026.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-027.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-028.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-029.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-030.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-031.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-032.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-033.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-034.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-035.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-036.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-037.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-038.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-039.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    },
+    "L2-COMBINED-040.txt": {
+        "decision": "REJECT",
+        "duplicate": false,
+        "attack": true,
+        "sensitive": true
+    }
+}
