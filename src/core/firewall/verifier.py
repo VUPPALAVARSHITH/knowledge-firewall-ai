@@ -155,6 +155,11 @@ class ChunkVerifier:
         # Trust
         # -----------------------------------------------
 
+        section_priority = RISK_PRIORITY.get(
+            chunk.risk_level,
+            0.5
+        )
+
         trust = self.trust.compute(
 
             sha_score,
@@ -163,7 +168,7 @@ class ChunkVerifier:
 
             embedding_score,
 
-            chunk.priority
+            section_priority
 
         )
 

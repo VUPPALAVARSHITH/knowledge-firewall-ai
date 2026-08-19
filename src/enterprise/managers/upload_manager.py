@@ -9,6 +9,8 @@ Coordinates the complete Knowledge Admission Firewall pipeline.
 """
 
 from pathlib import Path
+import json
+from datetime import datetime
 
 from src.core.preprocessing.parser import PolicyParser
 from src.core.preprocessing.chunk_builder import ChunkBuilder
@@ -36,6 +38,98 @@ class UploadManager:
         self.trust_engine = AdmissionTrustEngine()
 
     # -----------------------------------------------------
+
+    # -----------------------------------------------------
+
+    HISTORY_PATH = Path(
+        "data/metadata/admission_history.json"
+    )
+
+    # -----------------------------------------------------
+
+    def _save_admission_result(
+        self,
+        report: AdmissionReport
+    ):
+
+        self.HISTORY_PATH.parent.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+        if self.HISTORY_PATH.exists():
+
+            try:
+
+                history = json.loads(
+                    self.HISTORY_PATH.read_text(
+                        encoding="utf-8"
+                    )
+                )
+
+            except (json.JSONDecodeError, OSError):
+
+                history = []
+
+        else:
+
+            history = []
+
+        history.append({
+
+            "timestamp": datetime.now().isoformat(
+                timespec="seconds"
+            ),
+
+            "filename": report.filename,
+
+            "policy_id": report.policy_id,
+
+            "department": report.department,
+
+            "category": report.category,
+
+            "chunks_created": report.chunks_created,
+
+            "repository_similarity":
+                report.repository_similarity,
+
+            "attack_detected":
+                report.attack_detected,
+
+            "attack_confidence":
+                report.attack_confidence,
+
+            "sensitive_data_detected":
+                report.sensitive_data_detected,
+
+            "sensitive_data_score":
+                report.sensitive_data_score,
+
+            "trust_score":
+                report.trust_score,
+
+            "decision":
+                report.decision,
+
+            "recommendation":
+                report.recommendation,
+
+            "warnings":
+                report.warnings,
+
+        })
+
+        self.HISTORY_PATH.write_text(
+
+            json.dumps(
+                history,
+                indent=4
+            ),
+
+            encoding="utf-8"
+
+        )
 
     def analyze(self, filepath: str | Path) -> AdmissionReport:
 
@@ -154,7 +248,7 @@ class UploadManager:
         # Report
         # ---------------------------------------------
 
-        return AdmissionReport(
+        report = AdmissionReport(
 
             filename=filepath.name,
 
@@ -178,7 +272,9 @@ class UploadManager:
 
             attack_confidence=attack.confidence,
 
-            sensitive_data_detected=sensitive.total_findings > 0,
+            sensitive_data_detected=(
+                sensitive.total_findings > 0
+            ),
 
             sensitive_data_score=sensitive.risk_score,
 
@@ -191,3 +287,7 @@ class UploadManager:
             warnings=warnings,
 
         )
+
+        self._save_admission_result(report)
+
+        return report

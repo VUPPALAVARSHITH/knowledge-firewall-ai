@@ -1,10 +1,12 @@
+from datetime import datetime
+
 from src.enterprise.managers.repository_manager import RepositoryManager
 from src.enterprise.models import (
     Activity,
     Alert,
     DashboardSummary,
 )
-from datetime import datetime
+
 
 class DashboardManager:
 
@@ -12,7 +14,9 @@ class DashboardManager:
 
         self.repository = RepositoryManager()
 
-    # ---------------------------------------------------------
+    # =========================================================
+    # Dashboard Summary
+    # =========================================================
 
     def get_summary(self):
 
@@ -32,11 +36,14 @@ class DashboardManager:
 
             repository_health=self._repository_health(),
 
-            last_scan=datetime.now().strftime("%Y-%m-%d %H:%M")
-
+            last_scan=datetime.now().strftime(
+                "%Y-%m-%d %H:%M"
+            ),
         )
 
-    # ---------------------------------------------------------
+    # =========================================================
+    # Repository Statistics
+    # =========================================================
 
     def get_department_statistics(self):
 
@@ -54,45 +61,37 @@ class DashboardManager:
 
         return self.repository.get_policy_table().head(10)
 
-    # ---------------------------------------------------------
+    # =========================================================
+    # Recent Activity
+    # =========================================================
 
     def get_recent_activity(self):
 
         return [
 
             Activity(
-
                 "Today",
-
                 f"{self.repository.total_policies()} enterprise policies indexed",
-
-                "Success"
-
+                "Success",
             ),
 
             Activity(
-
                 "Today",
-
-                f"{self.repository.total_chunks()} semantic chunks verified",
-
-                "Success"
-
+                f"{self.repository.total_chunks()} knowledge chunks available",
+                "Success",
             ),
 
             Activity(
-
                 "Today",
-
                 "Fingerprint database synchronized",
-
-                "Success"
-
+                "Success",
             ),
 
         ]
 
-    # ---------------------------------------------------------
+    # =========================================================
+    # Security Alerts
+    # =========================================================
 
     def get_alerts(self):
 
@@ -104,16 +103,15 @@ class DashboardManager:
 
         trust = self.repository.average_trust()
 
-        # -----------------------------------------
+        # -----------------------------------------------------
         # Blocked Knowledge
-        # -----------------------------------------
+        # -----------------------------------------------------
 
         if blocked > 0:
 
             alerts.append(
 
                 Alert(
-
                     severity="High",
 
                     title="Blocked Knowledge Detected",
@@ -121,22 +119,19 @@ class DashboardManager:
                     description=(
                         f"{blocked} blocked chunks require "
                         "administrator attention."
-                    )
-
+                    ),
                 )
-
             )
 
-        # -----------------------------------------
+        # -----------------------------------------------------
         # Suspicious Knowledge
-        # -----------------------------------------
+        # -----------------------------------------------------
 
         if suspicious > 0:
 
             alerts.append(
 
                 Alert(
-
                     severity="Medium",
 
                     title="Suspicious Knowledge Found",
@@ -144,22 +139,19 @@ class DashboardManager:
                     description=(
                         f"{suspicious} suspicious chunks "
                         "should be reviewed."
-                    )
-
+                    ),
                 )
-
             )
 
-        # -----------------------------------------
+        # -----------------------------------------------------
         # Repository Trust
-        # -----------------------------------------
+        # -----------------------------------------------------
 
         if trust < 90:
 
             alerts.append(
 
                 Alert(
-
                     severity="High",
 
                     title="Repository Trust Degraded",
@@ -167,10 +159,8 @@ class DashboardManager:
                     description=(
                         f"Average trust has dropped to "
                         f"{trust:.2f}%."
-                    )
-
+                    ),
                 )
-
             )
 
         elif trust < 95:
@@ -178,7 +168,6 @@ class DashboardManager:
             alerts.append(
 
                 Alert(
-
                     severity="Medium",
 
                     title="Repository Trust Warning",
@@ -186,10 +175,8 @@ class DashboardManager:
                     description=(
                         f"Average trust is "
                         f"{trust:.2f}%."
-                    )
-
+                    ),
                 )
-
             )
 
         else:
@@ -197,7 +184,6 @@ class DashboardManager:
             alerts.append(
 
                 Alert(
-
                     severity="Low",
 
                     title="Repository Healthy",
@@ -205,15 +191,15 @@ class DashboardManager:
                     description=(
                         "Knowledge repository is operating "
                         "normally."
-                    )
-
+                    ),
                 )
-
             )
 
         return alerts
 
-    # ---------------------------------------------------------
+    # =========================================================
+    # Repository Health
+    # =========================================================
 
     def _repository_health(self):
 
