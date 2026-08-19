@@ -2,36 +2,80 @@
 
 > **An Enterprise Knowledge Security Framework for Protecting Organizational Knowledge Before, During, and After Retrieval-Augmented Generation (RAG).**
 
-Knowledge Firewall AI is a security-first framework designed to protect enterprise knowledge before it reaches Large Language Models (LLMs). Unlike conventional Secure RAG systems that focus only on retrieval, Knowledge Firewall AI introduces a dedicated **Knowledge Firewall** that continuously verifies, fingerprints, monitors, and protects organizational knowledge throughout its lifecycle.
+Knowledge Firewall AI is a security-first framework designed to protect enterprise knowledge throughout its lifecycle. It introduces a dedicated **Knowledge Firewall** between enterprise knowledge repositories and downstream Large Language Model (LLM) applications.
+
+Unlike conventional RAG systems that primarily focus on retrieving relevant information, Knowledge Firewall AI applies security controls at both **knowledge admission time** and **runtime retrieval time**.
+
+The framework verifies uploaded knowledge, generates multiple fingerprints, detects knowledge manipulation and sensitive information, computes trust scores, maintains a trusted knowledge repository, and verifies retrieved knowledge before allowing it to reach the LLM.
+
+> **Knowledge Firewall AI is not a chatbot.**
+>
+> The Secure RAG Assistant included in this repository is one consumer of the trusted knowledge produced by the framework.
 
 ---
 
-Knowledge Firewall AI is not a chatbot.
+# 🎯 Project Overview
 
-It is an enterprise security framework that continuously verifies, fingerprints, monitors, and protects organizational knowledge throughout its lifecycle.
+Modern enterprises increasingly use Retrieval-Augmented Generation (RAG) systems to provide AI assistants with access to internal organizational knowledge.
 
-The Secure RAG Assistant included in this repository is only one consumer of the trusted knowledge produced by the framework.
+However, enterprise RAG systems introduce security risks when untrusted or manipulated knowledge enters the retrieval corpus.
 
----
+Potential threats include:
 
-## 🎯 Project Overview
+- Corpus poisoning
+- Knowledge manipulation
+- Re-poisoning attacks
+- Prompt injection
+- Sensitive information leakage
+- Semantic modification
+- Unauthorized knowledge tampering
+- Irrelevant knowledge entering the generation pipeline
 
-Modern enterprises increasingly rely on Retrieval-Augmented Generation (RAG) systems to power AI assistants using internal knowledge bases. However, these systems are vulnerable to several security threats:
+Knowledge Firewall AI addresses these risks by introducing a security layer between enterprise knowledge and downstream AI applications.
 
-- Corpus Poisoning
-- Re-Poisoning Attacks
-- Prompt Injection
-- Knowledge Tampering
-- Sensitive Data Leakage
-- Semantic Manipulation
-
-Knowledge Firewall AI addresses these challenges by introducing a security layer between enterprise knowledge repositories and downstream AI applications.
-
----
-
-## 🏗️ System Architecture
+The framework operates across two major security stages:
 
 ```text
+                    Enterprise Knowledge
+                            │
+                            ▼
+               Knowledge Admission Firewall
+                            │
+                 ┌──────────┼──────────┐
+                 ▼          ▼          ▼
+            Fingerprint   Attack    Sensitive
+            Generation   Analysis     Data
+                 │          │          │
+                 └──────────┼──────────┘
+                            ▼
+                       Trust Engine
+                            │
+                     ACCEPT / REVIEW /
+                        REJECT
+                            │
+                            ▼
+                  Trusted Knowledge Base
+                            │
+                            ▼
+                      Runtime RAG
+                            │
+                    Relevance Gate
+                            │
+                  Fingerprint Verification
+                            │
+                       Trust Engine
+                            │
+                            ▼
+                    Knowledge Firewall
+                            │
+                            ▼
+                         LLM
+                            │
+                            ▼
+                   Secure Response
+
+🏗️ System Architecture
+
                     Enterprise Documents
                             │
                             ▼
@@ -45,126 +89,426 @@ Knowledge Firewall AI addresses these challenges by introducing a security layer
         (SHA-256 • SimHash • Embedding Fingerprints)
                             │
                             ▼
-                 Knowledge Firewall AI
-      ├── Corpus Poisoning Detection
-      ├── Re-Poisoning Detection
-      ├── Prompt Injection Detection
-      ├── Sensitive Data Detection
-      ├── Semantic Integrity Verification
-      ├── Runtime Trust Verification
-      └── Knowledge Fingerprinting
+              Knowledge Admission Firewall
+        ┌───────────────────┼───────────────────┐
+        ▼                   ▼                   ▼
+ Repository Check     Attack Analysis    Sensitive Data
+        │                   │                   │
+        └───────────────────┼───────────────────┘
+                            ▼
+                    Admission Trust Engine
+                            │
+                     ACCEPT / REVIEW /
+                        REJECT
                             │
                             ▼
-                Knowledge Admission Firewall
-                 Allow • Reject • Review
+              Trusted Enterprise Repository
+                            │
+             ┌──────────────┼──────────────┐
+             ▼              ▼              ▼
+        Repository      Integrity      Analytics /
+        Management       Scanner        History
                             │
                             ▼
-          Trusted Enterprise Knowledge Repository
-                            │
-              ┌─────────────┼─────────────┐
-              ▼             ▼             ▼
-      Integrity Scanner  Analytics   Version History
+                    Secure Retrieval
                             │
                             ▼
-                  Secure Retrieval Layer
+                     Relevance Gate
                             │
                             ▼
-                  Runtime Knowledge Firewall
+               Runtime Fingerprint Engine
                             │
                             ▼
-                     Large Language Model
+                    Similarity Engine
+                            │
+                            ▼
+                     Trust Engine
+                            │
+                            ▼
+                   Knowledge Firewall
+                            │
+                            ▼
+                    Enterprise LLM
                             │
                             ▼
                   Trusted Enterprise Response
-```
 
----
+✨ Key Features
+🔐 Enterprise Knowledge Security
+Enterprise knowledge admission
+Repository verification
+Knowledge fingerprinting
+Trust-score generation
+Explainable security decisions
+Repository health monitoring
+Admission-time security analysis
+🛡️ Knowledge Protection
+Corpus poisoning detection
+Knowledge manipulation detection
+Prompt-injection detection
+Sensitive-data detection
+Semantic integrity verification
+Runtime tamper detection
+Re-poisoning / duplicate analysis
+🔎 Secure Retrieval
+Semantic retrieval
+Relevance gating
+Runtime chunk verification
+SHA-256 verification
+SimHash comparison
+Embedding similarity comparison
+Trust-aware context construction
+Secure prompt construction
+Trusted-context-only generation
+🏢 Enterprise Management
+Enterprise dashboard
+Knowledge repository
+Knowledge Admission Firewall
+Repository Integrity Scanner
+Policy comparison
+Version history
+Trust analytics
+Enterprise Assistant
+🔥 Knowledge Admission Firewall
 
-# ✨ Key Features
+The Knowledge Admission Firewall evaluates enterprise documents before they enter the trusted knowledge repository.
 
-## Enterprise Knowledge Security
+Knowledge Upload
+       │
+       ▼
+Policy Parsing
+       │
+       ▼
+Semantic Chunking
+       │
+       ▼
+Fingerprint Generation
+       │
+       ▼
+Repository Similarity Analysis
+       │
+       ▼
+Knowledge Manipulation Detection
+       │
+       ▼
+Sensitive Data Detection
+       │
+       ▼
+Admission Trust Engine
+       │
+       ▼
+Admission Decision
+       │
+       ├──────────────► ACCEPT
+       │
+       ├──────────────► REVIEW
+       │
+       └──────────────► REJECT
+Admission Security Checks
 
-- Enterprise Knowledge Admission
-- Repository Integrity Verification
-- Knowledge Fingerprinting
-- Trust Score Generation
-- Explainable Security Decisions
-- Continuous Repository Monitoring
+The admission layer evaluates:
 
----
+SHA-256 fingerprints
+SimHash fingerprints
+Embedding similarity
+Repository similarity
+Duplicate policy identifiers
+Knowledge manipulation
+Prompt-injection patterns
+Sensitive information
+Admission trust
 
-## Knowledge Protection
+This prevents untrusted knowledge from being directly inserted into the trusted enterprise repository.
 
-- Corpus Poisoning Detection
-- Re-Poisoning Detection
-- Prompt Injection Resistance
-- Sensitive Data Leakage Detection
-- Semantic Integrity Verification
-- Knowledge Tampering Detection
+🧬 Knowledge Fingerprinting
 
----
+Each semantic knowledge chunk is represented using multiple complementary fingerprints:
 
-## Secure Retrieval
+SHA-256
 
-- Trusted Retrieval Pipeline
-- Runtime Chunk Verification
-- Secure Prompt Construction
-- Context Filtering
-- Trust-Aware Response Generation
+Provides exact textual integrity verification.
 
----
+Original Text
+     │
+     ▼
+   SHA-256
+     │
+     ▼
+Exact Fingerprint
 
-## Enterprise Management
+A modified chunk produces a different SHA-256 fingerprint.
 
-- Security Dashboard
-- Knowledge Repository
-- Integrity Scanner
-- Policy Comparison
-- Version History
-- Trust Analytics
-- Enterprise Assistant
+SimHash
 
----
+Provides compact structural similarity information based on textual token patterns.
 
-# 🔬 Research Contribution
+Embedding Fingerprint
 
-Knowledge Firewall AI extends traditional Secure RAG architectures by introducing a reusable enterprise security framework capable of:
+Provides semantic similarity information using sentence embeddings.
 
-- Knowledge Fingerprinting
-- Runtime Trust Verification
-- Repository Monitoring
-- Enterprise Knowledge Admission
-- Semantic Integrity Verification
-- Explainable Trust Decisions
+The framework combines these signals during runtime verification.
 
-Unlike existing Secure RAG systems that protect only the retrieval process, Knowledge Firewall AI protects enterprise knowledge **before**, **during**, and **after** retrieval.
+              Knowledge Chunk
+                    │
+        ┌───────────┼───────────┐
+        ▼           ▼           ▼
+      SHA-256     SimHash    Embedding
+        │           │           │
+        └───────────┼───────────┘
+                    ▼
+             Similarity Engine
+                    │
+                    ▼
+               Trust Engine
+🧠 Runtime Knowledge Firewall
 
----
+The runtime firewall protects the retrieval-to-generation path.
 
-# 🏢 Enterprise Framework
+User Query
+    │
+    ▼
+Semantic Retrieval
+    │
+    ▼
+Top-K Candidates
+    │
+    ▼
+Relevance Gate
+    │
+    ├── Irrelevant ─────► Reject
+    │
+    ▼
+Runtime Fingerprinting
+    │
+    ▼
+Fingerprint Comparison
+    │
+    ├── SHA-256
+    ├── SimHash
+    └── Embedding
+    │
+    ▼
+Trust Engine
+    │
+    ├── TRUSTED
+    ├── SUSPICIOUS
+    └── BLOCKED
+    │
+    ▼
+Trusted Context
+    │
+    ▼
+Enterprise LLM
+    │
+    ▼
+Secure Response
 
-The Enterprise Framework provides administrators with a centralized interface for managing trusted enterprise knowledge.
+Only knowledge that passes the relevance and integrity checks is admitted into the final LLM context.
 
-Current modules include:
+⚖️ Trust Engine
 
-- 🏠 Enterprise Dashboard
-- 📂 Knowledge Repository
-- ⬆️ Knowledge Admission Firewall
-- 🛡️ Repository Integrity Scanner
-- 📊 Trust Analytics
-- 🔍 Policy Comparison
-- 🕒 Version History
-- 🤖 Enterprise Assistant
+The Trust Engine combines multiple verification signals into a unified trust score.
 
-Each module consumes the reusable security services provided by the Knowledge Firewall.
+Current weighting:
 
----
+Signal	Weight
+SHA-256	40%
+SimHash	25%
+Embedding Similarity	30%
+Section Priority	5%
 
-# 📂 Project Structure
+The resulting score is used to determine the runtime decision:
 
-```text
+Trust Score
+     │
+     ├── TRUSTED
+     │
+     ├── SUSPICIOUS
+     │
+     └── BLOCKED
+
+Security gating rules are also applied so that a significant fingerprint deviation cannot simply be hidden by a high semantic similarity score.
+
+🚨 Attack Detection
+
+Knowledge Firewall AI includes a semantic attack library containing:
+
+760 attack patterns
+31 attack categories
+200 Critical
+350 High
+210 Medium
+
+Attack categories include areas such as:
+
+Access Control
+AI Governance
+Identity Authentication
+Password Management
+Incident Response
+Data Classification
+Data Retention
+Remote Access
+Software Installation
+Threat Intelligence
+Vendor Management
+Research Data Protection
+
+The Attack Analyzer identifies known malicious knowledge modifications and produces an explainable security result.
+
+Example:
+
+Attack ID     : PI-006
+Category      : Instruction Override
+Severity      : Critical
+Confidence    : 1.00
+Recommendation: Reject Upload
+🔒 Sensitive Data Detection
+
+The admission pipeline also scans uploaded knowledge for potentially sensitive information.
+
+Detection includes:
+
+Email addresses
+URLs
+IPv4 addresses
+API keys
+Bearer tokens
+Private keys
+Social Security numbers
+Credit-card information
+Passwords
+
+Detected sensitive information contributes to the admission risk score and can result in document rejection.
+
+📊 Enterprise Repository
+
+The current trusted repository contains:
+
+Metric	Value
+Enterprise Policies	925
+Knowledge Chunks	12,025
+Trusted Chunks	12,025
+Poisoned Chunks	0
+Fingerprints	12,025
+Fingerprint Version	2.0
+Average Trust	100%
+
+The repository represents the clean trusted baseline.
+
+Malicious and sensitive documents are evaluated as admission-test inputs and are not intentionally inserted into the trusted baseline.
+
+🧪 Experimental Validation
+
+The framework was evaluated using clean, near-duplicate, sensitive-data, malicious, retrieval, and tampering scenarios.
+
+1. Clean Knowledge Admission
+Policy        : DEMO-SEC-001
+Chunks        : 10
+Admission Trust: 100%
+Decision      : ACCEPT
+2. Near-Policy Admission
+Policy        : DEMO-SEC-002
+Chunks        : 10
+Admission Trust: 100%
+Decision      : ACCEPT
+3. Sensitive Information Detection
+Policy         : DEMO-SENS-001
+Findings       : 4
+Admission Trust: 80%
+Decision       : REJECT
+4. Prompt-Injection / Knowledge Manipulation
+Policy         : DEMO-POISON-001
+Attack ID      : PI-006
+Severity       : Critical
+Admission Trust: 60%
+Decision       : REJECT
+5. Clean Runtime Verification
+
+A trusted VPN knowledge chunk produced:
+
+SHA Similarity       : 1.0
+SimHash Similarity   : 1.0
+Embedding Similarity : 1.0
+Trust Score          : 0.995
+Decision             : TRUSTED
+6. Runtime Tampering Detection
+
+After modifying a trusted chunk:
+
+SHA Similarity       : 0.0
+SimHash Similarity   : 0.84375
+Embedding Similarity : 0.94967
+Trust Score          : 0.5458
+Decision             : BLOCKED
+
+This demonstrates that textual modification is detected through multiple independent integrity signals.
+
+7. Known Query
+
+For:
+
+Does VPN require authentication?
+
+the runtime firewall produced:
+
+Retrieved : 5
+Relevant  : 5
+Trusted   : 5
+Suspicious: 0
+Blocked   : 0
+Verification Rate: 100%
+
+The system generated an answer using only verified trusted context.
+
+8. Unknown Query
+
+For:
+
+What is the company international office relocation policy?
+
+the relevance gate produced:
+
+Retrieved : 5
+Relevant  : 0
+Trusted   : 0
+Suspicious: 0
+Blocked   : 0
+Verification Rate: 0%
+
+No irrelevant retrieved knowledge was passed to the LLM.
+
+📈 Security Validation Summary
+Security Scenario	Result
+Clean admission	✅ ACCEPT
+Near-policy analysis	✅ ACCEPT
+Sensitive information	❌ REJECT
+Prompt injection	❌ REJECT
+Knowledge manipulation	❌ REJECT
+Clean runtime verification	✅ TRUSTED
+Runtime tampering	❌ BLOCKED
+Relevant enterprise query	✅ TRUSTED CONTEXT
+Unknown enterprise query	❌ NO CONTEXT ADMITTED
+🏢 Enterprise Framework
+
+The Streamlit Enterprise Framework provides a centralized interface for managing enterprise knowledge.
+
+Available Modules
+🏠 Enterprise Dashboard
+📂 Enterprise Knowledge Repository
+⬆️ Knowledge Admission Firewall
+🛡️ Repository Integrity Scanner
+🔍 Policy Comparison
+🕒 Version History
+📈 Trust Analytics
+🤖 Enterprise Assistant
+⚙️ Settings
+
+The Enterprise Assistant is a consumer of the security framework rather than the primary purpose of the system.
+
+📂 Project Structure
 knowledge-firewall-ai/
-
+│
 ├── data/
 │   ├── enterprise/
 │   ├── metadata/
@@ -181,11 +525,10 @@ knowledge-firewall-ai/
 ├── tests/
 │
 ├── src/
-│
-│   ├── config/
-│   ├── core/
 │   │
-│   │   ├── embeddings/
+│   ├── config/
+│   │
+│   ├── core/
 │   │   ├── fingerprint/
 │   │   ├── firewall/
 │   │   ├── ingestion/
@@ -215,293 +558,269 @@ knowledge-firewall-ai/
 ├── app.py
 ├── requirements.txt
 └── README.md
-```
+🧩 Core Modules
+Module	Responsibility
+Policy Parser	Parses enterprise policy documents
+Semantic Chunk Builder	Creates structured semantic chunks
+Embedding Engine	Generates semantic embeddings
+Fingerprint Engine	Generates SHA-256, SimHash and embedding fingerprints
+Repository Checker	Detects duplicates and similar repository knowledge
+Attack Analyzer	Detects known knowledge manipulation patterns
+Sensitive Data Detector	Detects potentially sensitive information
+Admission Trust Engine	Computes document admission trust
+Knowledge Firewall	Verifies retrieved knowledge at runtime
+Similarity Engine	Compares runtime and trusted fingerprints
+Trust Engine	Computes runtime trust and security decisions
+Secure Retriever	Performs semantic enterprise retrieval
+Secure RAG	Connects verified context to the LLM
+Enterprise Framework	Provides management and visualization interfaces
+📚 Research Data
 
----
+The repository contains research and evaluation resources including:
 
-# 🧠 Core Modules
+Enterprise Knowledge Base
+Semantic Attack Library
+Semantic Chunk Database
+Trusted Fingerprint Database
+Benchmark Dataset
+Evaluation Dataset
 
-| Module | Description |
-|---------|-------------|
-| Policy Parser | Parses enterprise policy documents |
-| Semantic Chunk Builder | Creates structured semantic chunks |
-| Embedding Engine | Generates MiniLM embeddings |
-| Fingerprint Engine | SHA256, SimHash and Embedding Fingerprints |
-| Knowledge Firewall | Runtime knowledge verification and secure context construction |
-| Trust Engine | Computes trust scores |
-| Secure Retriever | Retrieves trusted knowledge |
-| Secure RAG | Generates trusted responses |
-| Repository Checker | Detects duplicate and re-poisoned knowledge |
-| Attack Analyzer | Detects enterprise knowledge manipulation |
-| Sensitive Data Detector | Detects confidential information leakage |
-| Admission Trust Engine | Computes document trust during knowledge admission |
+The trusted repository currently contains 12,025 clean indexed chunks across 925 enterprise policies.
 
----
-
-# 📊 Enterprise Modules
-
-- Enterprise Dashboard
-- Knowledge Repository
-- Knowledge Admission Firewall
-- Repository Integrity Scanner
-- Policy Comparison
-- Version History
-- Trust Analytics
-- Enterprise Assistant
-
----
-
-# 📚 Datasets
-
-The project includes multiple research datasets:
-
-- Enterprise Knowledge Base
-- Semantic Attack Library
-- Poisoned Knowledge Repository
-- Semantic Chunk Database
-- Trusted Fingerprint Database
-- Benchmark Dataset
-- Evaluation Dataset
-
----
-
-# 🧪 Security Pipeline
-
-```text
-Knowledge Upload
-        │
-        ▼
-Policy Parsing
-        │
-        ▼
-Semantic Chunking
-        │
-        ▼
-Fingerprint Generation
-        │
-        ▼
-Repository Verification
-        │
-        ▼
-Attack Analysis
-        │
-        ▼
-Sensitive Data Detection
-        │
-        ▼
-Admission Trust Engine
-        │
-        ▼
-Knowledge Admission Decision
-        │
-        ▼
-Trusted Repository
-```
-
----
-
-# 🔐 Runtime Pipeline
-
-```text
-User Query
-      │
-      ▼
-Secure Retriever
-      │
-      ▼
-Knowledge Firewall
-      │
-      ▼
-Trusted Context
-      │
-      ▼
-Prompt Builder
-      │
-      ▼
-Large Language Model
-      │
-      ▼
-Trusted Response
-```
-
----
-
-# 💻 Technology Stack
-
-### Programming
-
-- Python 3.12
-
-### AI / NLP
-
-- Sentence Transformers
-- all-MiniLM-L6-v2
-- Ollama
-- Qwen 2.5
-
-### Vector Search
-
-- FAISS
-
-### Data Processing
-
-- Pandas
-- NumPy
-
-### Visualization
-
-- Streamlit
-- Matplotlib
-
-### Machine Learning
-
-- Scikit-learn
-
-### Development
-
-- VS Code
-- Jupyter Notebook
-
----
-
-# 🚀 Running the Project
-
-## Clone Repository
-
-```bash
+💻 Technology Stack
+Programming
+Python 3.12
+AI / NLP
+Sentence Transformers
+all-MiniLM-L6-v2
+Ollama
+Qwen 2.5
+Vector Search
+FAISS
+Data Processing
+Pandas
+NumPy
+Visualization / Interface
+Streamlit
+Matplotlib
+Machine Learning
+Scikit-learn
+Development
+VS Code
+Jupyter Notebook
+🚀 Installation
+1. Clone the Repository
 git clone https://github.com/<username>/knowledge-firewall-ai.git
 cd knowledge-firewall-ai
-```
-
-## Create Virtual Environment
-
-```bash
+2. Create a Virtual Environment
 python -m venv .venv
-```
-
-### Windows
-
-```bash
+Windows
 .venv\Scripts\activate
-```
-
-### Linux / macOS
-
-```bash
+Linux / macOS
 source .venv/bin/activate
-```
-
----
-
-## Install Dependencies
-
-```bash
+3. Install Dependencies
 pip install -r requirements.txt
-```
+🤖 Configure Ollama
 
----
+The Enterprise Assistant uses Ollama for local LLM generation.
 
-## Launch Enterprise Framework
+Install Ollama and make sure the service is running.
 
-```bash
+Pull the configured model:
+
+ollama pull qwen2.5:3b
+
+Verify:
+
+ollama list
+
+The current project configuration uses:
+
+qwen2.5:3b
+▶️ Running the Framework
+Enterprise Framework
 streamlit run enterprise_app.py
-```
 
----
+This launches the complete enterprise interface containing:
 
-## Launch Secure RAG Assistant
-
-```bash
+Dashboard
+Repository
+Knowledge Admission
+Integrity Scanner
+Policy Comparison
+Version History
+Trust Analytics
+Enterprise Assistant
+Settings
+Standalone Secure RAG Interface
 streamlit run streamlit_app.py
-```
-
----
-
-## Run Command-Line Interface
-
-```bash
+Command-Line Secure RAG
 python app.py
-```
+🧪 Running Security Tests
 
----
+Runtime verification can be tested using:
 
-# 📈 Current Status
+python -m src.core.firewall.verifier
 
-| Component                    | Status         |
-| ---------------------------- | -------------- |
-| Research Datasets            | ✅ Complete     |
-| Enterprise Knowledge Base    | ✅ Complete     |
-| Fingerprinting Engine        | ✅ Complete     |
-| Repository Checker           | ✅ Complete     |
-| Attack Analyzer              | ✅ Complete     |
-| Sensitive Data Detector      | ✅ Complete     |
-| Admission Trust Engine       | ✅ Complete     |
-| Knowledge Firewall           | ✅ Complete     |
-| Secure Retrieval             | ✅ Complete     |
-| Secure RAG                   | ✅ Complete     |
-| Enterprise Dashboard         | 🚧 In Progress |
-| Knowledge Admission Firewall | 🚧 In Progress |
-| Repository Integrity Scanner | 📅 Planned     |
-| Trust Analytics              | 📅 Planned     |
-| Version History              | 📅 Planned     |
-| Enterprise Assistant         | 🚧 In Progress |
+The Knowledge Firewall can be tested using:
 
+python -m src.core.firewall.knowledge_firewall
 
-## Project Status
+The Attack Analyzer can be tested using:
 
-**Research Progress:** ███████████████████████░░ 88%
+python -m src.core.security.attack_analyzer
+🔬 Research Objectives
 
-- ✅ Core AI Complete
-- ✅ Core Security Complete
-- 🚧 Enterprise Platform Under Development
+The project aims to:
 
+Protect enterprise knowledge before retrieval.
+Detect corpus poisoning.
+Detect knowledge manipulation.
+Detect prompt injection embedded in enterprise knowledge.
+Detect sensitive information during admission.
+Verify knowledge integrity at runtime.
+Prevent irrelevant knowledge from reaching the LLM.
+Generate explainable trust scores.
+Secure enterprise RAG pipelines.
+Provide a reusable security framework for downstream enterprise AI applications.
+🏆 Current Project Status
+Core Security
+Component	Status
+Enterprise Knowledge Base	✅ Complete
+Semantic Chunking	✅ Complete
+Fingerprinting Engine	✅ Complete
+Repository Checker	✅ Complete
+Attack Analyzer	✅ Complete
+Sensitive Data Detector	✅ Complete
+Admission Trust Engine	✅ Complete
+Secure Retrieval	✅ Complete
+Relevance Gate	✅ Complete
+Knowledge Firewall	✅ Complete
+Runtime Verification	✅ Complete
+Secure RAG	✅ Complete
+Enterprise Framework
+Component	Status
+Enterprise Dashboard	✅ Complete
+Knowledge Repository	✅ Complete
+Knowledge Admission Firewall	✅ Complete
+Repository Integrity Scanner	✅ Complete
+Policy Comparison	✅ Complete
+Version History	✅ Complete
+Trust Analytics	✅ Complete
+Enterprise Assistant	✅ Complete
+Settings	✅ Complete
+Research Validation
+Area	Status
+Clean admission validation	✅ Complete
+Sensitive-data rejection validation	✅ Complete
+Prompt-injection validation	✅ Complete
+Runtime tampering validation	✅ Complete
+Known-query validation	✅ Complete
+Unknown-query validation	✅ Complete
+Trusted repository validation	✅ Complete
+🗺️ Project Lifecycle
+Phase 1
+Research & Dataset Construction
+        │
+        ▼
+Phase 2
+Knowledge Security Architecture
+        │
+        ▼
+Phase 3
+Fingerprinting & Trust Engine
+        │
+        ▼
+Phase 4
+Knowledge Admission Firewall
+        │
+        ▼
+Phase 5
+Runtime Knowledge Firewall
+        │
+        ▼
+Phase 6
+Secure RAG Integration
+        │
+        ▼
+Phase 7
+Enterprise Framework
+        │
+        ▼
+Phase 8
+Security Evaluation
+        │
+        ▼
+        █
+   COMPLETE
+💡 Why Knowledge Firewall AI?
 
-# 🗺️ Roadmap
+Traditional RAG:
 
-### Phase 1 — Core Security (Completed)
+Documents
+    ↓
+Chunking
+    ↓
+Embeddings
+    ↓
+Vector Database
+    ↓
+Retrieval
+    ↓
+LLM
 
-- ✅ Enterprise Knowledge Base
-- ✅ Fingerprinting Engine
-- ✅ Repository Checker
-- ✅ Attack Analyzer
-- ✅ Sensitive Data Detector
-- ✅ Admission Trust Engine
-- ✅ Secure Retrieval
-- ✅ Knowledge Firewall
+The fundamental assumption is that the knowledge repository is trustworthy.
 
-### Phase 2 — Enterprise Platform (In Progress)
+Knowledge Firewall AI changes that assumption:
 
-- 🚧 Enterprise Dashboard
-- 🚧 Knowledge Admission Firewall
-- 🚧 Enterprise Assistant
+Documents
+    ↓
+Security Analysis
+    ↓
+Fingerprinting
+    ↓
+Trust Evaluation
+    ↓
+Admission Decision
+    ↓
+Trusted Repository
+    ↓
+Retrieval
+    ↓
+Relevance Verification
+    ↓
+Runtime Integrity Verification
+    ↓
+Trust Evaluation
+    ↓
+LLM
 
-### Phase 3 — Enterprise Monitoring (Planned)
+The framework therefore treats enterprise knowledge as a security-sensitive asset, rather than merely a source of context.
 
-- 📅 Repository Integrity Scanner
-- 📅 Trust Analytics
-- 📅 Version History
-- 📅 Continuous Repository Monitoring
+🎓 Research Contribution
 
----
+The central contribution of Knowledge Firewall AI is the introduction of a reusable security framework that protects enterprise knowledge across its lifecycle.
 
-# 🎓 Research Objectives
+The framework combines:
 
-- Protect enterprise knowledge before retrieval.
-- Detect corpus poisoning attacks.
-- Detect re-poisoning attacks.
-- Prevent prompt injection.
-- Verify semantic integrity.
-- Generate explainable trust scores.
-- Secure enterprise RAG pipelines.
+Knowledge admission security
+Multi-modal knowledge fingerprinting
+Repository similarity analysis
+Semantic attack detection
+Sensitive-data detection
+Runtime integrity verification
+Relevance gating
+Trust-based context filtering
+Explainable security decisions
 
----
+This allows downstream RAG applications to consume knowledge that has passed explicit security controls rather than directly trusting the underlying repository.
 
-# 📄 License
+📄 Academic Context
 
-This project is developed as an academic research project for demonstrating secure enterprise Retrieval-Augmented Generation systems.
+This project is developed as an academic research project investigating security mechanisms for enterprise Retrieval-Augmented Generation systems.
 
----
+The experimental implementation demonstrates the feasibility of applying admission-time and runtime security controls to enterprise knowledge before it is supplied to an LLM.
 
-# 👨‍💻 Authors
+👨‍💻 Author
 
-**VUPPALA VARSHITH**
+VUPPALA VARSHITH
