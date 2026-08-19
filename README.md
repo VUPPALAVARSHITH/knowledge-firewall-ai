@@ -1025,8 +1025,10 @@ The experimental implementation demonstrates the feasibility of applying admissi
 
 # 👨‍💻 Team
 
-**VUPPALA VARSHITH**
-**VONTELA GOPIKA**
+This project was developed as a collaborative academic research project by:
+
+- **VUPPALA VARSHITH**
+- **VONTELA GOPIKA**
 
 ---
 
