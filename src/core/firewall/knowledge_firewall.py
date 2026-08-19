@@ -3,22 +3,25 @@ knowledge_firewall.py
 
 Knowledge Firewall AI
 
-Secure Retrieval Orchestrator.
+Secure retrieval orchestrator.
 
 Pipeline
 
 User Query
-    │
-    ▼
-Retriever
-    │
-    ▼
-Top-K Chunks
-    │
-    ▼
-Verifier
-    │
-    ▼
+    |
+    v
+Semantic Retrieval
+    |
+    v
+Relevance Gate
+    |
+    v
+Fingerprint Verification
+    |
+    v
+Trust Computation
+    |
+    v
 Trusted Context
 """
 
@@ -45,7 +48,9 @@ class FirewallResult:
 
     blocked_chunks: list = field(default_factory=list)
 
-    verification_reports: list[VerificationResult] = field(default_factory=list)
+    verification_reports: list[VerificationResult] = field(
+        default_factory=list
+    )
 
     context: str = ""
 
@@ -61,11 +66,40 @@ class KnowledgeFirewall:
     """
     Secure retrieval layer.
 
-    Retrieves semantic chunks,
-    verifies them,
-    removes poisoned chunks,
-    builds trusted context.
+    Pipeline:
+
+        1. Semantic retrieval
+        2. Relevance filtering
+        3. Runtime fingerprint verification
+        4. Trust computation
+        5. Trusted context construction
+
+    A chunk must therefore satisfy TWO conditions:
+
+        Relevance:
+            The chunk must be sufficiently related to
+            the user's query.
+
+        Integrity:
+            The chunk must match its trusted fingerprint.
+
+    Only chunks satisfying both conditions are allowed
+    into the trusted context.
     """
+
+    # --------------------------------------------------------
+    # Retrieval relevance threshold
+    #
+    # FAISS scores are cosine-similarity-like scores because
+    # the embedding service uses normalized embeddings.
+    #
+    # This is intentionally configurable so it can be tuned
+    # during evaluation.
+    # --------------------------------------------------------
+
+    RELEVANCE_THRESHOLD = 0.45
+
+    # --------------------------------------------------------
 
     def __init__(self):
 
@@ -73,7 +107,7 @@ class KnowledgeFirewall:
 
         self.verifier = ChunkVerifier()
 
-    # ------------------------------------------------------
+    # --------------------------------------------------------
 
     def verify_query(
 
@@ -103,9 +137,27 @@ class KnowledgeFirewall:
 
         trusted_context = []
 
-        # --------------------------------------------------
+        relevant_results = []
+
+        # ====================================================
+        # Stage 1: Relevance Gate
+        # ====================================================
 
         for retrieval in retrieval_results:
+
+            score = float(
+                retrieval.get("score", 0.0)
+            )
+
+            if score >= self.RELEVANCE_THRESHOLD:
+
+                relevant_results.append(retrieval)
+
+        # ====================================================
+        # Stage 2: Fingerprint Verification
+        # ====================================================
+
+        for retrieval in relevant_results:
 
             chunk = retrieval["chunk"]
 
@@ -113,11 +165,19 @@ class KnowledgeFirewall:
 
             result.verification_reports.append(report)
 
+            # -----------------------------------------------
+            # Trusted
+            # -----------------------------------------------
+
             if report.decision == "TRUSTED":
 
                 result.trusted_chunks.append(chunk)
 
                 trusted_context.append(chunk.text)
+
+            # -----------------------------------------------
+            # Suspicious
+            # -----------------------------------------------
 
             elif report.decision == "SUSPICIOUS":
 
@@ -127,23 +187,37 @@ class KnowledgeFirewall:
 
                     trusted_context.append(chunk.text)
 
+            # -----------------------------------------------
+            # Blocked
+            # -----------------------------------------------
+
             else:
 
                 result.blocked_chunks.append(chunk)
 
-        # --------------------------------------------------
+        # ====================================================
+        # Context
+        # ====================================================
 
-        result.context = "\n\n".join(trusted_context)
+        result.context = "\n\n".join(
+            trusted_context
+        )
+
+        # ====================================================
+        # Statistics
+        # ====================================================
 
         result.statistics = {
 
             "retrieved": len(retrieval_results),
 
+            "relevant": len(relevant_results),
+
             "trusted": len(result.trusted_chunks),
 
             "suspicious": len(result.suspicious_chunks),
 
-            "blocked": len(result.blocked_chunks)
+            "blocked": len(result.blocked_chunks),
 
         }
 
